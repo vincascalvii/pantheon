@@ -56,7 +56,7 @@ a {
 	width: 46%;
 	height: 240px;
 	margin: 0 4% 15px 0;
-	border: 1px solid #808080;
+	border: 1px solid #757575;
 	border-radius: 5px;
 }
 
@@ -75,7 +75,7 @@ a {
 	align-items: center;
 	width: 100%;
 	height: 40px;
-	background-color: #808080;
+	background-color: #757575;
 	color: #fff;
 	font-size: 1.8rem;
 	font-weight: 500;
