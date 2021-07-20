@@ -1,0 +1,60 @@
+[{
+	"name" : "Lightning",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Overload",
+
+			"details" : "Every time Lightning uses an ability, she gains a stack of overload.<br><br>Each stack of Overload grants her increased magic penetration (maximum 5 stacks)."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Lightning Bolt",
+
+			"details" : "Lightning calls down the thunder to strike in a target direction, dealing magical damage (scaling with magical power) to all enemies hit."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Electrorb",
+
+			"details" : "Lightning sends a lightning orb to a target direction.<br><br>Upon impact or at the end of the travel, the orb releases a shockwave, dealing magical damage (scaling with magical power) to all nearby enemies and slowing them for a short duration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Static Link",
+
+			"details" : "On the first cast, Lightning builds an electrical point.<br><br>On the second cast, Lightning creates another point and both points immediately connect, shocking all enemies in between, dealing magical damage (scaling with magical power) and briefly stuning them."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Thunder Storm",
+
+			"details" : "Lightning releases a thunder storm around her, dealing magical damage (scaling with magical power) each wave.<br><br>Thunder Storm has 3 waves and the last wave deals additional damage<br><br>Lightning gains increased movement speed during Thunder Storm but is unable to cast other abilities.<br><br>Each wave also grants Lightning a stack of Overload."
+
+		}
+
+	}
+
+}]

@@ -1,0 +1,60 @@
+[{
+	"name" : "Ninetails",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Allure",
+
+			"details" : "When not in combat, Ninetails's next basic attack gains additional range and deals additional magical damage (scaling with magical power).<br><br>It also marks the enemy for a short duration, causing the target to deal less damage to Ninetails."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Bewitching Dance",
+
+			"details" : "Ninetails dances in a series of spins, dealing magical damage (scaling with magical power) to all nearby enemies and briefly slowing them.<br><br>Bewitching Dance can be cast three times in a short time frame and the movement speed reduction can be stacked."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Fox Fire",
+
+			"details" : "Ninetails sends out a flaming fox in a target location and it will travel to there by the shortest path while providing vision around.<br><br>If it spots an enemy Hero, it will run toward the target and explodes on the first enemy contact, dealing magical damage (scaling with magical power) to all nearby enemies and revealing them for a while.<br><br>If no enemy hero, fox fire will stay still and explode after a few seconds."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Lover's Call",
+
+			"details" : "Ninetails leaps to an ally Hero, shielding both the target and herself (scaling with magical power) for a few seconds upon arrival."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Cursed Embrace",
+
+			"details" : "Ninetails sends out a charming wave, dealing magical damage (scaling with magical power) and charms all enemies hit, causing them to take increased damage from Ninetails’s attack and abilities.<br><br>Male units will also slowly walk towards Ninetails when charmed while female units will only be greatly slowed."
+
+		}
+
+	}
+
+}]

@@ -1,0 +1,60 @@
+[{
+	"name" : "Hellhound",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Sharp Claws",
+
+			"details" : "Hellhound's basic attack causes the enemy to bleed, dealing physical damage (scaling with physical power) over a few seconds and can be stacked up to 5 times."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Chomp",
+
+			"details" : "Hellhound chomps at the target enemy, dealing physical damage (scaling with physical power) and heals himself for a percentage of his missing health.<br><br>During Full Moon, Chomp&rsquo;s damage and heal will be enhanced."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Howl",
+
+			"details" : "Hellhound grants himself and nearby allies increased movement speed that will decay over the next few seconds.<br><br>During Full Moon, Hellhound also gains increased attack speed for the same duration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Pounce",
+
+			"details" : "Hellhound pounces in a target direction, grabbing the first enemy hit for a short duration and hitting the target twice, dealing the same damage and on-hit effects as two basic attacks.<br><br>During Full Moon, Hellhound will hit thrice instead."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Full Moon",
+
+			"details" : "Hellhound transforms into a full-fledged Wolf, gaining increased size, health and physical power for a duration.<br><br>In addition, Hellhound can also sense the trails leading to all nearby enemy Heroes. When following a trail, Wolf gains increased movement speed."
+
+		}
+
+	}
+
+}]

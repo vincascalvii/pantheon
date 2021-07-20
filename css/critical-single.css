@@ -1,0 +1,162 @@
+/* ======================================================================
+
+	BREADCRUMB
+
+====================================================================== */
+
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.6rem;
+	padding: 0;
+}
+
+.breadcrumb .arrow {
+	margin: 0 15px;
+}
+
+/* ======================================================================
+
+	HEADING
+
+====================================================================== */
+
+.heading {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+/* ======================================================================
+
+	ABILITIES
+
+====================================================================== */
+
+.ability {
+	height: 1000px;
+}
+
+.ability .content {
+	justify-content: space-between;
+}
+
+.ability .left,
+.ability .right {
+	width: 100%;
+}
+
+.ability .thumbnails {
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.ability .block {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: transparent;
+	width: 100px;
+	height: 95px;
+	padding: 0;
+	margin-right: 20px;
+	border: none;
+}
+
+.ability .block .image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: #eee;
+	width: 50px;
+	height: 50px;
+	transition: .2s ease-in-out;
+}
+
+.ability .block.active .image {
+	background-color: #808080;
+	top: -15px;
+}
+
+.ability .block .connector {
+	position: absolute;
+	bottom: 30px;
+	display: block;
+	width: 2px;
+	height: 0;
+	background-color: #808080;
+	margin: 0 auto;
+	transition: .2s ease-in-out;
+}
+
+.ability .block.active .connector {
+	height: 20px;
+}
+
+.ability .block .border {
+	position: absolute;
+	top: 65px;
+	width: 25px;
+	height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #fff;
+	border: 3px solid transparent;
+	border-radius: 50%;
+	transition: .2s ease-in-out;
+}
+
+.ability .block.active .border {
+	border-color: #808080;
+}
+
+.ability .block .dot {
+	display: block;
+	background-color: #eee;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	transition: .2s ease-in-out;
+}
+
+.ability .block:hover .dot,
+.ability .block.active .dot {
+	background-color: #808080;
+}
+
+.ability .bar {
+	position: absolute;
+	bottom: 15px;
+	left: -20px;
+    width: calc(100% - 20px);
+	height: 2px;
+	background-color: #eee;
+	z-index: -1;
+}
+
+.ability .info {
+	display: none;
+	margin-top: 40px;
+}
+
+.ability .info.active {
+	display: block;
+}
+
+.ability .info .type {
+	color: #727272;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	margin: 0 0 5px;
+}
+
+.ability .info .name {
+	font-size: 2.8rem;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}

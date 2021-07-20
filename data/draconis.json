@@ -1,0 +1,60 @@
+[{
+	"name" : "Draconis",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Dragon Fury",
+
+			"details" : "Every time Draconis basic attacks or uses Dragon Spear on an enemy Hero, he receives a stack that boosts attack speed (maximum 5 stacks). At maximum stacks, Draconis&rsquo;s basic attack or Dragon Spear creates lightning and deals additional magical damage (scaling with magical power) to the target and nearby enemies.<br><br>In Dragon Form, Draconis gains increased attack range and fires a lightning bolt each basic attack, dealing additional magical damage (scaling with magical power)."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Spear Strike",
+
+			"details" : "Draconis thrusts his spear forward in a target direction, dealing physical damage (scaling with physical power) to all enemies hit.<br><br>In Dragon Form, Draconis fires a blast of lightning in a target direction, dealing magical damage (scaling with magical power) to all enemies hit."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Swift Steps",
+
+			"details" : "Draconis gains increased movement speed that decays over a short duration. Using this ability will remove all movement speed slow debuffs currently on him.<br><br>In Dragon Form, Draconis flies up and gains the ability to go over terrains. Using the ability again to land down, dealing physical damage (scaling with physical power) to all enemies in a radius and knocking them back."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Reaping Spear",
+
+			"details" : "Draconis leaps to a target and thrusts his spear, dealing physical damage (scaling with physical power and movement speed) and slowing the target for a short duration.<br><br>In Dragon Form, Draconis sweeps its tail in a cone-shaped area, dealing physical damage (scaling with physical power) to all enemies hit and slowing them down for a short duration."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Dragon&rsquo;s Wrath",
+
+			"details" : "Draconis transforms into a powerful drake, gaining a separate health bar and increased armor, magic resist, movement speed.<br><br>In addition, Draconis also switches to a separate abilities set.<br><br>This mode ends when either the duration runs out or the separate health bar is depleted."
+
+		}
+
+	}
+
+}]

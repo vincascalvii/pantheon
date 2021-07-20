@@ -1,0 +1,60 @@
+[{
+	"name" : "Phoenix",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Flame Guard",
+
+			"details" : "Phoenix’s body is constantly engulfed with powerful fire, gaining a stack of Flame Guard every several seconds.<br><br>Each charge increases Phoenix’s magic resistance by a small amount (maximum 3 stacks).<br><br>When Phoenix uses an ability, the effect of that ability will be enhanced based on the number of Flame Guard stacks but one stack will be lost each time."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Fire Spirits",
+
+			"details" : "Phoenix launches a fire spirit to a small target area, dealing magical damage (scaling with magical power) to all enemies hit. Hitting additional enemy Hero will reduce the total damage.<br><br>Phoenix can cast Fire Spirits 2 more times before it goes on cooldowns. Each launch needs to wait briefly before re-casting.<br><br>Phoenix can move, basic attack and use other abilities while casting Fire Spirits."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Phoenix&rsquo;s Wings",
+
+			"details" : "Phoenix pushes the flame out, dealing magical damage (scaling with magical power) to all nearby enemies.<br><br>Enemies who stand too close to her will be pushed out during the activation and slowed for a short duration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Divine Flame",
+
+			"details" : "Phoenix casts a self-healing flame in a target area, dealing magical damage (scaling with magical power) per second to all enemies on top while healing herself by a small amount of health (scaling with magical power) each second."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Rebirth",
+
+			"details" : "Phoenix casts the resurrection flame on herself, giving her an ability to resurrect after taking a fatal damage in the next few seconds.<br><br>The resurrection takes a short while so during that time, she becomes invulnerable and when resurrected, she gains a percentage of her health back and full stacks of Flame Guard."
+
+		}
+
+	}
+
+}]

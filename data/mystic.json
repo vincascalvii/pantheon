@@ -1,0 +1,60 @@
+[{
+	"name" : "Mystic",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Elementalist",
+
+			"details" : "As a master of all elements, Mystic can combine 2 of her 4 abilities to cast a spell. The combination can be either unique or duplicated. In addition, each cast of her spells gains a stack with the same name (maximum 5 stacks for each spell, and 10 stacks overall).<br><br>Rune increases her magical power.<br>Nature increases her movement speed.<br>Arcane increases her resistance.<br>Mystic increases her magic penetration.<br><br>However, she cannot use the same spell within a while. Enemies who are impaired by Mystic's abilities gain increased tenacity from her spells afterwards."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Rune",
+
+			"details" : "Rune + Rune = Runic Flare - Mystic will cast a blast of fire to a target direction, exploding on the first target hit, dealing magical damage (scaling with magical power) to all nearby enemies.<br><br>Rune + Nature = Runic Stone - Mystic will summon sharp edge rock from the ground, dealing magical damage (scaling with magical power) in a target direction. The terrain then stays there and briefly slows all enemies' movement speed.<br><br>Rune + Arcane = Runic Gust - Mystic will cast a tornado in a target direction, dealing magical damage (scaling with magical power) and slightly knocking up all enemies in the path.<br><br>Rune + Mystic = Runic Shadow - Mystic will cast a darkened blast to a target direction, dealing magical damage (scaling with magical power) to all enemies in its path and lowering their resistance for a short duration."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Nature",
+
+			"details" : "Nature + Nature = Nature Blessing - Mystic will cast a healing spell on herself or an allied Hero, healing a small amount (scaling with magical power) instantly.<br><br>Nature + Rune = Nature Wrath - Mystic will summon the plant to root down a target for a short duration, dealing magical damage (scaling with magical power).<br><br>Nature + Arcane = Nature Energy - Mystic will cast an enchanting spell on herself or an allied Hero, increasing the ally's movement speed for a few seconds.<br><br>Nature + Mystic = Nature Wave - Mystic will send a wave of water to an enemy, dealing magical damage (scaling with magical power) to the target. The wave then returns to her and becomes a water barrier, shielding her for a few seconds."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Arcane",
+
+			"details" : "Arcane + Arcane = Arcane Flux - Mystic will summon a field of arcane energy, dealing magical damage (scaling with magical power) after a short delay. If multiple enemies are struck by the spell, Mystic will gain half of the mana cost back.<br><br>Arcane + Rune = Arcane Lightning - Mystic will summon a thunderbolt to strike at a target area, dealing magical damage (scaling with magical power). Additional enemies getting hit within the area will increase the damage.<br><br>Arcane + Nature = Arcane Frost - Mystic will summon a field of blizzard, dealing magical damage (scaling with magical power) over a few seconds. Enemies within the area are also briefly slowed.<br><br>Arcane + Mystic = Arcane Abyss - Mystic will cast a mysterious field that is linked to the abyss, dealing magical damage (scaling with magical power) and silencing all enemies within. The field stays for a few seconds but the silence effect is much shorter."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Mystic",
+
+			"details" : "Mystic + Mystic = Mystical Void - Mystic will summon a dark orb that will turn into a dark hole, sucking all nearby enemies to the center while dealing a large amount of magical damage (scaling with magical power).<br><br>Mystic + Rune = Mystical Darkness - Mystic will cast a shroud of darkness at a target area that constantly deals magical damage (scaling with magical power) for a few seconds. The shroud will slowly expand, reducing vision of all enemies within.<br><br>Mystic + Nature - Mystical Sea - Mystic will cast a huge wave of tsunami in a target direction, dealing magical damage (scaling with magical power) to all enemies hit and knocking them up.<br><br>Mystic + Arcane - Mystical Surge - Mystic will cast a bolt of mystical energy, bouncing between enemies several  times while dealing magical damage (scaling with magical power) for each bounce. If the bolt kills a unit, its power will be increased on the next bounce (maximum 4 times)."
+
+		}
+
+	}
+
+}]

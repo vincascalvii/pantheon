@@ -1,0 +1,60 @@
+[{
+	"name" : "Berserker",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Undying Rage",
+
+			"details" : "Berserker gains a stack of Undying Rage each time he basic attacks an enemy (maximum 10 stacks). In addition, when Berserker falls below a certain threshold of health, he will recover a percentage of his health over a duration.<br><br>The number of stacks will affect the amount of health recovered and Berserker's other abilities."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Fearless",
+
+			"details" : "Berserker leaps up and lands down in a target direction, dealing physical damage (scaling with physical power) to all enemies hit and briefly slowing them.<br><br>At maximum stacks of Undying Rage, Fearless will deal more damage and knock up the enemies instead."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Asura&rsquo;s Wrath",
+
+			"details" : "Berserker gains a number of Undying Rage stacks and increases his attack speed for 6 seconds.<br><br>If the number of stacks are already maxed out, Berserker gains increased life steal and attack speed instead."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Shear",
+
+			"details" : "Berserker reaps the enemy, dealing physical damage (scaling with physical power). At maximum stacks of Undying Rage, Shear will deal true damage instead."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Unforgivable",
+
+			"details" : "On first cast, Berserker breaks out of any crowd control he is currently on, marks all enemy Heroes who recently damage him for a duration and gains increased movement speed towards them.<br><br>On second cast, Berserker leaps at a nearby target enemy Hero whom he has marked, dealing a percentage of the enemy's missing health as physical damage (scaling with physical power).<br><br>At maximum stacks of Undying Rage, Berserker also gains immunity to movement speed reduction."
+
+		}
+
+	}
+
+}]
