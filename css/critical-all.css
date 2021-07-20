@@ -25,6 +25,12 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
 .breadcrumb {
 	list-style: none;
 	display: flex;
@@ -38,6 +44,7 @@ a {
 }
 
 .characters {
+	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 }
