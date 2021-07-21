@@ -19,7 +19,7 @@
 	if ( character != '' && character != null ) {
 
 		// Fetch the JSON file
-		fetch('/characters/data/' + character + '.json')
+		fetch('/pantheon/data/' + character + '.json')
 
 		.then( response => {
 			if (!response.ok)
