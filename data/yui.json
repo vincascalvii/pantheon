@@ -1,0 +1,60 @@
+[{
+	"name" : "Yui",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Back Stab",
+
+			"details" : "Yui&rsquo;s basic attack behind the target critical strikes for an additional amount of the physical damage."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Flying Kunais",
+
+			"details" : "Yui launches 5 kunais in a cone-shaped direction, dealing physical damage (scaling with physical power) for each kunai hit."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Blade Spin",
+
+			"details" : "Yui spins around with her blades, dealing physical damage (scaling with physical power) to all nearby enemies and reducing their movement speed for a short duration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Substitution Jutsu",
+
+			"details" : "Yui replaces herself with a wooden dummy and appears behind a target enemy, dealing physical damage (scaling with physical power).<br><br>All on-going projectiles will go to the dummy instead."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Smoke Screen",
+
+			"details" : "Yui detonates a smoke bomb, becomes stealthed, gains increased movement speed and refreshes Backstab’s cooldown.<br><br>Enemies hit by the smoke bomb will have reduced vision for a short duration."
+
+		}
+
+	}
+
+}]

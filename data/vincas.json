@@ -1,0 +1,60 @@
+[{
+	"name" : "Vincas",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Condemn",
+
+			"details" : "Every 3rd basic attack of Vincas condemns the target, dealing additional physical damage (scaling with physical power).<br><br>When nearby large minion, monster or enemy Hero dies, a Spirit Blade will be spawned.<br><br>Vincas can pick up a Spirit Blade to trigger Condemn on his next basic attack.<br><br>It is possible to pick up to 3 Spirit Blades, but Vincas can only use 1 for each basic attack."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Double Slash",
+
+			"details" : "Vincas&rsquo;s next basic attack within a few seconds hits the target twice.<br><br>When Vincas kills an enemy with Double Slash, a Spirit Blade will spawn on top of that unit."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Blade Work",
+
+			"details" : "Vincas summons a Spirit Blade in a target location.<br><br>Within a short while, Vincas gains increased movement speed towards nearby Spirit Blades."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Blade Surge",
+
+			"details" : "Vincas dashes to a Spirit Blade and picks it up.<br><br>Within a few seconds, Vincas's next basic attack will dash to the target enemy, dealing Condemn's damage and gains increased attack speed for next 3 basic attacks."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Blade Storm",
+
+			"details" : "Vincas dashes to a target location, drawing all the nearby Spirit Blades to him.<br><br>The initial dash will take off all Spirit Blades on him and deal the combined damage straight away.<br><br>Each Spirit Blade will inflict Condemn as true damage to all enemies hit by Blade Storm."
+
+		}
+
+	}
+
+}]

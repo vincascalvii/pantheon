@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Absolute Ruler",
+			"name" : "Verdict",
 
-			"details" : "Each time Justice casts an ability, he grants a stack of Absolute Ruler (maximum 4 stacks). At maximum stacks, his next regular ability will be enhanced.<br><br>He also gains additional magical power per stack."
+			"details" : "Justice&rsquo;s abilities apply Verdict to enemies hit.<br><br>If 3 stacks are accumulated, the target will take a burst of true damage (scaling with magical power)."
 
 		},
 
@@ -19,9 +19,9 @@
 
 			"type" : "First Ability",
 
-			"name" : "God's Order",
+			"name" : "Smiting Force",
 
-			"details" : "Justice casts a powerful force in a target direction, after a brief delay, the energy will burst and deal magical damage (scaling with magical power) to all enemies hit.<br><br>When enhanced, God's Order range, area of effect and damage are increased."
+			"details" : "Justice creates 3 powerful spheres and launches each sphere in a target direction per cast, dealing magical damage (scaling with magical power)."
 
 		},
 
@@ -29,9 +29,9 @@
 
 			"type" : "Second Ability",
 
-			"name" : "God's Will",
+			"name" : "Heaven&rsquo;s Will",
 
-			"details" : "Justice sends an orb to a target area, creating an energy field upon arrival. After a brief delay, the field grabs onto all enemies on top of the area, dealing magical damage (scaling with magical power) and lowering their movement speed for a short duration.<br><br>When enhanced, God's Will deals more damage and roots the enemies instead."
+			"details" : "Justice creates a rectangle zone that deals magical damage (scaling with magical power) and slow any enemy passing through."
 
 		},
 
@@ -39,9 +39,9 @@
 
 			"type" : "Third Ability",
 
-			"name" : "God's Might",
+			"name" : "Divine Retribution",
 
-			"details" : "Justice sends an orb in a target direction that explodes at an enemy Hero, dealing magical damage (scaling with magical power) to all surrounding enemies and granting him a shield (scaling with magical power) based on the amount of Heroes hit.<br><br>When enhanced, God's Might will create a powerful force that drags all nearby enemies to its centre a few seconds after the explosion."
+			"details" : "Justice creates a circular zone which burst up after a short delay, dealing magical damage (scaling with magical power) and knocks all enemies up."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Judgement",
 
-			"details" : "Justice uses the ultimate power of the creation god, granting sight globally for the next few seconds.<br><br>Recasting the ability will release Judgement in a target area after a few seconds, dealing magical damage (scaling with magical power) to all enemies within.<br><br>Enemies hit by the inner range of Judgement take more damage. The closer the target location is toward Justice, the faster he channels."
+			"details" : "Justice uses the ultimate power of the creation god, granting sight globally for the next few seconds.<br><br>Recasting the ability will release Judgement in a target area after a short delay, dealing magical damage (scaling with magical power) to all enemies within.<br><br>Enemies hit by the inner range of Judgement take more damage. The closer the target location is toward Justice, the faster he channels."
 
 		}
 

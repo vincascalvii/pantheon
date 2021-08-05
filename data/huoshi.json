@@ -1,0 +1,60 @@
+[{
+	"name" : "Huo Shi",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Warborne",
+
+			"details" : "Each time Huo Shi takes or deals damage to an enemy Hero, he gains increased life steal for a few seconds (maximum 10 stacks)."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Decimate",
+
+			"details" : "Huo Shi gains increased movement speed for a few seconds and his next basic attack deals additional physical damage (scaling with physical power) to the target.<br><br>At maximum stack of Warborne, Decimate deals additional physical damage based on the target’s maximum health."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "War Cry",
+
+			"details" : "Huo Shi rallies, increasing his and nearby allies’ physical power over a duration.<br><br>At maximum stacks of Warborne, War Cry also increases Huo Shi's armour penetration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Scorching Edge",
+
+			"details" : "Huo Shi swings up his glaive to send out a flaming wave in a target direction, dealing physical damage (scaling with physical power) to all enemies hit and slowing them for a short duration.<br><br>At maximum stacks of Warborne, Scorching Edge’s range and slow effect increase."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Challenger Ring",
+
+			"details" : "Huo Shi picks a target enemy Hero, then slams down his glaive and creates an arena around him.<br><br>Inside the arena, he instantly gains maximum stacks of Warborne.<br><br>Enemy Heroes cannot walk out or into the arena.<br><brIf Huo Shi wins the duel, he will activate War Cry or reset its duration if War Cry is already active."
+
+		}
+
+	}
+
+}]
