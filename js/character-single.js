@@ -48,6 +48,10 @@
 				document.querySelector('.ability .info-' + i + ' .type').innerHTML = abilityType;
 				document.querySelector('.ability .info-' + i + ' .name').innerHTML = abilityName;
 				document.querySelector('.ability .info-' + i + ' .details').innerHTML = abilityDetails;
+				document.querySelector('.ability #ability-' + i + ' .image').innerHTML =
+					'<img src="/pantheon/img/' + character + '/' + i + '-1.jpg 1x, /pantheon/img/' 
+					+ character + '/' + i + '-2.jpg 2x, /pantheon/img/' + character + '/' + i 
+					+ '-3.jpg 3x" alt="Ability ' + i + '">';
 			}
 
 		})

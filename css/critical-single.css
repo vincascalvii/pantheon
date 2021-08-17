@@ -104,6 +104,12 @@ a {
 	top: -15px;
 }
 
+.ability .block .image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
 .ability .block .connector {
 	position: absolute;
 	bottom: 30px;
