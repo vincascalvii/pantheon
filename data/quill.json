@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Nature's Wrath",
+			"name" : "Piercing Arrows",
 
-			"details" : "Quill can hear the wind's whisper to tell where the nearby enemies are even without vision."
+			"details" : "Quill's piercing arrows allow her to gain increased armour penetration by default."
 
 		},
 
@@ -19,9 +19,9 @@
 
 			"type" : "First Ability",
 
-			"name" : "Piercing Arrow",
+			"name" : "Tail Wind",
 
-			"details" : "Quill charges up a piercing arrow, dealing physical damage (scaling with physical power) to the first enemy hit when released, and reduced damage to the rest of the enemies hit.<br><br>The damage and range increased based on the charge duration."
+			"details" : "Quill fires a piercing arrow in the target direction, dealing physical damage (scaling with physical power) to all enemies in the path until it reaches the first enemy hero.<br><br>The enemy hero who gets hit will leave behind a wind trail that grants Quill and her allied heroes increased movement speed while they’re following the path."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Hail of Arrows",
 
-			"details" : "Quill fires a hail of arrows at a target location, dealing physical damage (scaling with physical power) to all enemies hit and reducing their movement speed."
+			"details" : "Quill fires a hail of arrows at the target location, dealing physical damage (scaling with physical power) to all enemies within the area and leaving a wind zone that slows all the enemies on top."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Light Breeze",
 
-			"details" : "Quill dashes to a target direction and can still cast Piercing Arrow or Hail of Arrows during the dash.<br><br>Hitting an enemy Hero reduces the cooldowns of Light Breeze."
+			"details" : "Quill gains increased movement speed and ignores unit collision for a few seconds. Killing an enemy hero resets the cooldowns of this ability."
 
 		},
 
@@ -49,9 +49,9 @@
 
 			"type" : "Ultimate",
 
-			"name" : "Tailwind",
+			"name" : "Gale Force",
 
-			"details" : "Quill creates a field for a duration that increases her and allies’ movement speed.<br><br>In addition, she also gains a large amount of attack speed."
+			"details" : "Quill enchants her bow to gain increased attack speed and allows her basic attack to strike the enemy target for two additional times, each dealing a percentage of her physical power."
 
 		}
 

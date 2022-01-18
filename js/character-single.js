@@ -50,9 +50,9 @@
 				document.querySelector('.ability .info-' + i + ' .details').innerHTML = abilityDetails;
 				document.querySelector('.ability #ability-' + i + ' .image').innerHTML =
 					'<img src="/pantheon/img/' + character + '/' + i + '-1.jpg" srcset="/pantheon/img/' 
-					+ character + '/' + i + '-1.jpg 1x, /pantheon/img/' 
-					+ character + '/' + i + '-2.jpg 2x, /pantheon/img/' 
-					+ character + '/' + i + '-3.jpg 3x" alt="Ability ' + i + '">';
+					+ character + '/abilities/' + i + '-50x50.jpg 1x, /pantheon/img/' 
+					+ character + '/abilities/' + i + '-100x100.jpg 2x, /pantheon/img/' 
+					+ character + '/abilities/' + i + '-150x150.jpg 3x" alt="Ability ' + i + '">';
 			}
 
 		})
