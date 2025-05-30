@@ -1,108 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 	<!-- UNICODE -->
 	<meta charset="utf-8">
-
 	<!-- COMPABILITY -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
-
 	<!-- THEME COLOUR -->
 	<meta name="theme-color" content="#333">
-
 	<!-- BASE URL -->
-	<base href="https://vincascalvii.github.io">
-
+	<!-- <base href="https://vincascalvii.github.io"> -->
 	<!-- TITLE -->
 	<title>Pantheon - Character Design - Calvin Lam</title>
-
 	<!-- META DATA -->
 	<meta name="description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
 	<meta name="author" content="Calvin Lam">
-
 	<!-- FONTS -->
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="/css/fonts.css?version1">
-
 	<!-- CRITICAL CSS -->
-	<link rel="stylesheet" type="text/css" href="/pantheon/css/critical-all.css?version1">
-
+	<link rel="stylesheet" type="text/css" href="./css/home.css">
     <!-- FACEBOOK OPENGRAPH -->
     <meta property="og:site_name" content="Calvin Lam">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/img/others/opengraph.jpg">
-    <meta property="og:url" content="https://vincascalvii.github.io/">
+    <meta property="og:url" content="https://vincascalvii.github.io/pantheon">
     <meta property="og:title" content="Pantheon - Character Design - Calvin Lam">
     <meta property="og:description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
-
     <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="/img/others/twitter.jpg"> 
-    <meta name="twitter:url" content="https://vincascalvii.github.io/">
+    <meta name="twitter:url" content="https://vincascalvii.github.io/pantheon">
     <meta name="twitter:title" content="Pantheon - Character Design - Calvin Lam">
     <meta name="twitter:description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
-
 </head>
-
-
-
 <body>
-
 	<main>
-
-		<!-- CHARACTERS -->
-		<section>
-			<div class="container">
-
-				<ol class="breadcrumb">
-					<li>
-						<a href="/" class="link" aria-label="Breadcrumb return to home">
-							<span class="item">Home</span>
-						</a>
-					</li>
-					<li class="arrow">&gt;</li>
-					<li>
-						<a href="/pantheon" class="link" aria-label="Breadcrumb Pantheon">
-							<span class="item">Pantheon</span>
-						</a>
-					</li>
-				</ol>
-				
-				<h1 class="title">Characters</h1>
-
-				<div class="characters flex">
-					<a href="/pantheon/character?name=quill" class="block" aria-label="Navigate to Quill">
-						<div class="image">
-							<picture>
-								<source data-srcset="/pantheon/img/quill/thumbnails/160x200.webp 1x, /pantheon/img/quill/thumbnails/320x400.webp 2x, /pantheon/img/quill/thumbnails/480x600.webp 3x" type="image/webp">
-								<source data-srcset="/pantheon/img/quill/thumbnails/160x200.png 1x, /pantheon/img/quill/thumbnails/320x400.png 2x, /pantheon/img/quill/thumbnails/480x600.png 3x" type="image/png">
-								<img data-src="/pantheon/img/quill/thumbnails/1200x1500.png" 
-								 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
-								 class="lazyload" alt="Quill thumbnail">
-							</picture>
-						</div>
-						<span class="name">Quill</span>
-					</a>
+		<!-- SEARCH -->
+		<section class="header container">
+			<h1 class="title">Pantheon</h1>
+			<div class="search">
+				<div class="sbar">
+					<input type="text" id="sbar-input" placeholder="Search characters..." aria-label="Search characters">
+					<svg xmlns="http://www.w3.org/2000/svg" class="sbar-icon" viewBox="0 -0.5 25 25" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M15.989 15.4905L19.5 19.0015" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
 				</div>
-
+				<div class="scat">
+					<label for="bastion-test" class="scat-block">
+						<input type="radio" id="bastion-test" name="bastion" class="scat-input">
+					</label>
+				</div>
 			</div>
 		</section>
-
+		<!-- CHARACTERS -->
+		<section class="characters container">
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+			<div class="char-block">
+				<div class="char-bg">
+					<img src="" class="char-img" alt="">
+				</div>
+				<div class="char-name"></div>
+			</div>
+		</section>
 	</main>
-
 	<!-- LAZYSIZES / LAZY LOADING -->
 	<script src="/js/lazysizes/lazysizes.min.js"></script>
-
 	<!-- STRUCUTED DATA -->
 	<script type="text/javascript" src="/pantheon/js/structured-data.js?version1"></script>
-
 </body>
-
 </html>
