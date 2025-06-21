@@ -30,6 +30,36 @@ a {
 	margin: 0 auto;
 }
 
+.back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.back-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.back-icon * {
+    fill: #333;
+}
+
+.back-text {
+    color: #333;
+}
+
+.back:hover .back-icon * {
+    fill: #3865ff;
+}
+
+.back:hover .back-text {
+    color: #3865ff;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -40,8 +70,9 @@ a {
 
 .search {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    column-gap: 20px;
     margin-bottom: 20px;
 }
 
@@ -55,6 +86,13 @@ a {
     padding: 15px 30px 15px 55px;
     border: 1px solid #ddd;
     border-radius: 60px;
+    transition: .2s ease-in-out;
+}
+
+#sbar-input:hover,
+#sbar-input:focus {
+    border-color: #333;
+    outline: none;
 }
 
 .sbar-icon {
@@ -69,6 +107,33 @@ a {
     stroke: #727272;
 }
 
+.scat {
+    display: flex;
+    column-gap: 10px;
+}
+
+.scat-block {
+    height: 50px;
+    cursor: pointer;
+}
+
+.scat-input {
+    display: none;
+}
+
+.scat-logo {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    transition: .2s ease-in-out;
+}
+
+.scat-logo:hover,
+.scat-input:checked + .scat-logo {
+    opacity: 1;
+}
+
 .characters {
     display: flex;
     justify-content: flex-start;
@@ -78,25 +143,66 @@ a {
 }
 
 .char-block {
+    position: relative;
     width: calc((100% / 8) - 8.75px);
+    height: 280px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px -5px rgba(0, 0, 0, .7);
+    overflow: hidden;
+    transition: .2s ease-in-out;
+    display: none;
+}
+
+.char-block.active {
+    display: block;
+}
+
+.char-block:hover {
+    border-color: #333;
 }
 
 .char-bg {
-    position: relative;
-    background-color: grey;
-    height: 280px;
+    background-color: #aaa;
+    width: 100%;
+    height: 100%;
 }
 
 .char-img {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .char-name {
-    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
     color: #fff;
     font-size: 1.8rem;
     font-weight: 500;
     padding: 10px;
+    text-align: center;
+}
+
+.slide {
+    animation-name: slide;
+    animation-duration: .2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes slide {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
 }
