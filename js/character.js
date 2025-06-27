@@ -19,7 +19,7 @@
 	        return response.json();
 	    })
 		.then( data => {
-console.log(data);
+
             // Populate the data
 			popData(data, 'full_name');
             popData(data, 'title');
@@ -29,7 +29,7 @@ console.log(data);
             popData(data, 'resonance');
 
             // Populate the art
-            document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_name'].strtolower() + '-mini.png';
+            document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_name'].toLowerCase() + '-mini.png';
             document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
 		})
 		.catch( function(error) {
