@@ -16,35 +16,36 @@
 		fetch('/pantheon/data/characters/' + charCode + '.json')
 		.then( response => {
 			if (!response.ok) throw new Error('HTTP error ' + response.status);
-	        return response.json();
-	    })
+	        	return response.json();
+	    	})
 		.then( data => {
 
-            // Populate the data
+            		// Populate the data
 			popData(data, 'full_name');
-            popData(data, 'title');
-            popData(data, 'bastion_full');
-            popData(data, 'race');
-            popData(data, 'soulforge');
-            popData(data, 'resonance');
+		    	popData(data, 'title');
+		    	popData(data, 'bastion_full');
+		    	popData(data, 'race');
+		    	popData(data, 'soulforge');
+		    	popData(data, 'resonance');
+			popData(data, 'intro');
 
-            // Populate the art
-            document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_name'].toLowerCase() + '-mini.png';
-            document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
+		    	// Populate the art
+		    	document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_name'].toLowerCase() + '-mini.png';
+		    	document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
 		})
 		.catch( function(error) {
 			console.log('Fetch error: ', error);
 		});
 	}
 
-    // Reusable function to populate data
-    function popData(data, name) {
-        var val = data[name];
-        var els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
-        for ( var i = 0; i < els.length; i++ ) {
-            els[i].innerHTML = val;
-        }
-    }
+    	// Reusable function to populate data
+	function popData(data, name) {
+		var val = data[name];
+        	var els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
+        	for ( var i = 0; i < els.length; i++ ) {
+            		els[i].innerHTML = val;
+        	}
+    	}
 })();
 
 
