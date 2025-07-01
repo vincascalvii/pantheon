@@ -42,7 +42,7 @@
         var val = data[name];
         var els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
         for ( var i = 0; i < els.length; i++ ) {
-            val[i].innerHTML = val;
+            els[i].innerHTML = val;
         }
     }
 })();
