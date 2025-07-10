@@ -14,26 +14,26 @@
 
 		// Fetch the JSON file
 		fetch('/pantheon/data/characters/' + charCode + '.json')
-		.then( response => {
+		.then(response => {
 			if (!response.ok) throw new Error('HTTP error ' + response.status);
 	        	return response.json();
 	    	})
-		.then( data => {
+		.then(data => {
 
-            		// Populate the data
+        	// Populate the data
 			popData(data, 'full_name');
-		    	popData(data, 'title');
-		    	popData(data, 'bastion_full');
-		    	popData(data, 'race');
-		    	popData(data, 'soulforge');
-		    	popData(data, 'resonance');
+	    	popData(data, 'title');
+	    	popData(data, 'bastion_full');
+	    	popData(data, 'race');
+	    	popData(data, 'soulforge');
+	    	popData(data, 'resonance');
 			popData(data, 'intro');
 
-		    	// Populate the art
-		    	document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_name'].toLowerCase() + '-mini.png';
-		    	document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
+	    	// Populate the art
+	    	document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_short'] + '.png';
+	    	document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
 		})
-		.catch( function(error) {
+		.catch(function(error) {
 			console.log('Fetch error: ', error);
 		});
 	}
@@ -57,7 +57,6 @@
 ========================================================================== */
 
 function getParameter() {
-
     var key = false, results = {}, item = null;
 
     // Get the query string without the "?""
