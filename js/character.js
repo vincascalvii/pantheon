@@ -20,6 +20,9 @@
 	    	})
 		.then(data => {
 
+			// Add unique code on the container
+			document.querySelector('main').classList.add('main-' + data['code'].toLowerCase());
+
         	// Populate the data
 			popData(data, 'full_name');
 	    	popData(data, 'title');

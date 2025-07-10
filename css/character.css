@@ -102,6 +102,8 @@ a {
 }
 
 .main-intro {
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 0 2px 100px 100px rgba(255, 255, 255, .9);
     margin-top: 30px;
     line-height: 1.6;
 }
@@ -120,4 +122,23 @@ a {
 .main-art-img {
     object-fit: contain;
     height: 100%;
+}
+
+.main-mystic .main-art {
+    top: -60px;
+    right: 60px;
+}
+
+.main-ignite .main-art {
+    top: 0;
+    right: -120px;
+}
+
+.main-blade .main-art {
+    top: 0;
+    right: -140px;
+}
+
+.main-hope .main-art {
+    top: 0;
 }
