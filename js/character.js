@@ -35,6 +35,33 @@
 	    	// Populate the art
 	    	document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_short'] + '.png';
 	    	document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
+
+		// Get the abilities container
+            	var abilityList = document.getElementById('pop-abilities');
+
+	            // Define the ability types
+	            var abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
+
+		    // Populate the abilities
+		    for ( var i = 0; i < 5; i++ ) {
+			var ability = document.createElement('div');
+			    ability.classList.add('ability-item');
+			var abilityType = document.createElement('div');
+			    abilityType.classList.add('ability-type');
+			    abilityType.innerHTML = abilityTypes[i];
+			var abilityName = document.createElement('div');
+			    abilityName.classList.add('ability-name');
+			    abilityName.innerHTML = data['abilities'][i]['name'];
+			var abilityDetails = document.createElement('div');
+			    abilityDetails.classList.add('ability-details');
+			    abilityDetails.innerHTML = data['abilities'][i]['details'];
+			
+			// Add the ability type, name & details
+			ability.appendChild(abilityType);
+			ability.appendChild(abilityName);
+			ability.appendChild(abilityDetails);
+			abilityList.appendChild(ability);
+		    }
 		})
 		.catch(function(error) {
 			console.log('Fetch error: ', error);
