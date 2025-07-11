@@ -10,5 +10,27 @@
     "race": "Valorian",
     "soulforge": "Ignis",
     "resonance": "Flame Manipulation",
-    "intro": "Prodigy of the Flameheart House, one of the five noble houses of Everlight, Eris is famous for weaving her fire flag and dancing through the battlefield, hence, earning her the nickname of the Scarlet Flame. Since birth, she was assigned to be the personal guard of the youngest daughter of the Everlight's Paragon, Ciarra Crownsworth. They grew up together and became best friends. Eris later on joined Ciarra and the others to create the Seventh Order of Everlight, where she continued to shine through her talent and became one of the strongest flame masters in the world."
+    "intro": "Prodigy of the Flameheart House, one of the five noble houses of Everlight, Eris is famous for weaving her fire flag and dancing through the battlefield, hence, earning her the nickname of the Scarlet Flame. Since birth, she was assigned to be the personal guard of the youngest daughter of the Everlight's Paragon, Ciarra Crownsworth. They grew up together and became best friends. Eris later on joined Ciarra and the others to create the Seventh Order of Everlight, where she continued to shine through her talent and became one of the strongest flame masters in the world.",
+    "abilities": [
+        {
+            "name": "Unwavering Faith",
+            "details": "While out of combat, Eris gains <span class=\"ability-buff\">increased movement speed</span>. Upon entering combat with an enemy hero (by dealing or taking damage from them), Eris's next basic attack within a few seconds deals bonus magic damage (scaling with <span class=\"ability-ap\">magical power</span>) and briefly grants her a burst of tenacity."
+        },
+        {
+            "name": "Flaming Sweep",
+            "details": "Eris's next 3 basic attacks sweeps her blazing standard in a wide arc, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies around her. Continous hits on the same target deals additional damage."
+        },
+        {
+            "name": "Fiery Rally",
+            "details": "Eris plants down her <span>Sacred Banner</span>, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies. The planted banner radiates an aura, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) per second for a few seconds.<br><br>All allied heroes standing within its radius (including Eris) will be granted bonus <span class=\"ability-buff\">physical and magical power</span>."
+        },
+        {
+            "name": "Zealous Charge",
+            "details": "Eris dashes a short distance in a target direction. If Eris lands within a certain radius of her active <span>Fiery Rally</span> banner, the banner emits a pulse, dealing bonus magic damage (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies, granting her and all allied heroes a shield (scaling with <span class=\"ability-ap\">magical power</span>).<br><br>Casting <span>Fiery Rally</span> resets the cooldowns of this ability."
+        },
+        {
+            "name": "Holy Conflagration",
+            "details": "Eris's <span>Sacred Banner</span> releases a fiery vortex that deals magic damage (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within and greatly slowing them."
+        }
+    ]
 }
