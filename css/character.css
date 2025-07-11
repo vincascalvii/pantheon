@@ -80,14 +80,18 @@ a {
 }
 
 .main-name {
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 0;
 }
 
 .main-title {
     color: #727272;
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin: 10px 0 20px;
+}
+
+.main-details {
+    font-size: 1.8rem;
 }
 
 .main-drow {
@@ -98,13 +102,13 @@ a {
 
 .main-drow-label {
     font-weight: 700;
-    min-width: 100px;
+    min-width: 120px;
 }
 
 .main-intro {
-    background: rgba(255, 255, 255, .9);
-    box-shadow: 0 2px 100px 100px rgba(255, 255, 255, .9);
     margin-top: 30px;
+    font-size: 1.7rem;
+    font-style: italic;
     line-height: 1.6;
 }
 
@@ -124,21 +128,75 @@ a {
     height: 100%;
 }
 
-.main-mystic .main-art {
-    top: -60px;
-    right: 60px;
+.abilities {
+    padding: 60px 0;
 }
 
-.main-ignite .main-art {
-    top: 0;
-    right: -120px;
+.abilities-title {
+    font-size: 3rem;
+    margin-bottom: 40px;
 }
 
-.main-blade .main-art {
-    top: 0;
-    right: -140px;
+.ability-item {
+    margin-bottom: 40px;
 }
 
-.main-hope .main-art {
-    top: 0;
+.ability-type {
+    font-size: 1.6rem;
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+.ability-name {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.ability-details {
+    max-width: 800px;
+}
+
+.ability-details span {
+    font-weight: 700;
+}
+
+.ability-ap {
+    color: #0071ff;
+}
+
+.ability-mr {
+    color: #a45cff;
+}
+
+.ability-ad {
+    color: #ff8e2b;
+}
+
+.ability-ar {
+    color: #eac823;
+}
+
+.ability-debuff {
+    color: #ef4444;
+}
+
+.ability-buff {
+    color: #009549;
+}
+
+.ability-hp {
+    color: #57b572;
+}
+
+.ability-mp {
+    color: #00b8ff;
+}
+
+/* Custom */
+.ability-light {
+    color: #c9c39c;
+}
+
+.ability-dark {
+    color: #584a45;
 }
