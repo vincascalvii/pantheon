@@ -105,6 +105,8 @@ a {
 }
 
 .main-intro {
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0 2px 100px 100px rgba(255, 255, 255, .9);
     width: 480px;
     margin-top: 30px;
     font-size: 1.7rem;
@@ -126,6 +128,20 @@ a {
 .main-art-img {
     object-fit: contain;
     height: 100%;
+}
+
+.main-ignite .main-art-img {
+    top: 0;
+    right: -160px;
+}
+
+.main-blade .main-art-img {
+    right: -160px;
+}
+
+.main-hope .main-art-img {
+    top: 0px;
+    right: 60px;
 }
 
 .abilities {
@@ -190,13 +206,4 @@ a {
 
 .ability-mp {
     color: #00b8ff;
-}
-
-/* Custom */
-.ability-light {
-    color: #c9c39c;
-}
-
-.ability-dark {
-    color: #584a45;
 }
