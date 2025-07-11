@@ -130,16 +130,16 @@ a {
     height: 100%;
 }
 
-.main-ignite .main-art-img {
+.main-ignite .main-art {
     top: 0;
     right: -160px;
 }
 
-.main-blade .main-art-img {
+.main-blade .main-art {
     right: -160px;
 }
 
-.main-hope .main-art-img {
+.main-hope .main-art {
     top: 0px;
     right: 60px;
 }
