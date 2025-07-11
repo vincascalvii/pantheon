@@ -142,18 +142,18 @@ a {
 }
 
 .ability-type {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #727272;
-    margin-bottom: 10px;
 }
 
 .ability-name {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 15px;
 }
 
 .ability-details {
     max-width: 800px;
+    font-size: 1.7rem;
 }
 
 .ability-details span {
