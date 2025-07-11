@@ -26,7 +26,7 @@
         },
         {
             "name": "Zealous Charge",
-            "details": "Eris dashes a short distance in a target direction. If Eris lands within the radius of her active <span>Fiery Rally</span> banner, the banner emits a pulse, dealing bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies while also granting her and all allied heroes a shield (scaling with <span class=\"ability-ap\">magical power</span>) for a few seconds.<br><br>Casting <span>Fiery Rally</span> resets the cooldowns of this ability."
+            "details": "Eris dashes a short distance in a target direction. If Eris lands within the radius of her active <span>Fiery Rally</span> banner, the banner emits a pulse, dealing bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies while also granting her and all allied heroes a shield (scaling with <span class=\"ability-ap\">magical power</span>) for a few seconds.<br><br>The shield can only be granted once per <span>Fiery Rally</span> banner duration. In addition, casting <span>Fiery Rally</span> resets the cooldowns of this <span>Zealous Charge</span>."
         },
         {
             "name": "Holy Conflagration",
