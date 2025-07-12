@@ -30,7 +30,7 @@
         },
         {
             "name": "Oblivion's Decree",
-            "details": "Vincas enters a heightened state for several seconds, gaining bonus <span class=\"ability-buff\">movement speed and attack speed</span>.<br><br>During this state, Vincas replaces his <span>Monochrome Blade</span> with the <span>Oblivion Blade</span>, making his third basic attack deals <span class=\"ability-debuff\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silences</span> the target instead of stealing mana.<br><br>The same enemy hero cannot be silenced twice during each <span>Oblivion's Decree</span>, but will become vulnerable to mana steal again."
+            "details": "Vincas enters a heightened state for several seconds, gaining bonus <span class=\"ability-buff\">movement speed</span> and <span class=\"ability-buff\">attack speed</span>.<br><br>During this state, Vincas replaces his <span>Monochrome Blade</span> with the <span>Oblivion Blade</span>, making his third basic attack deals <span class=\"ability-debuff\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silences</span> the target instead of stealing mana.<br><br>The same enemy hero cannot be silenced twice during each <span>Oblivion's Decree</span>, and will become vulnerable to mana steal again after the first silence."
         }
     ]
 }
