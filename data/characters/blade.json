@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Monochrome Blade",
-            "details": "Vincas's basic attacks generates a stack of <span>Monochrome Blade</span>, stacking up to three times.<br><br>The third stack empowers his basic attack to deal bonus <span class=\"ability-ad\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>), and <span class=\"ability-debuff\">steal</span> a small amount of the target's <span class=\"ability-mp\">mana</span>."
+            "details": "Vincas's basic attacks generates a stack of <span>Monochrome Blade</span>, stacking up to three times.<br><br>The third stack empowers his basic attack to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>), and <span class=\"ability-debuff\">steals</span> a small amount of the target's <span class=\"ability-mp\">mana</span>."
         },
         {
             "name": "Phantom Slash",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Spectral Arsenal",
-            "details": "Vincas periodically crafts a <span>Spectral Blade</span>, up to a maximum of three can be stored at a time. Each <span>Spectral Blade</span> grants him bonus <span class=\"ability-buff\">physical power</span>.<br><br>Vincas can cast this ability to manifest one <span>Spectral Blade</span> at the target location."
+            "details": "Vincas periodically crafts a <span>Spectral Blade</span>, up to a maximum of three can be stored at a time. Each <span>Spectral Blade</span> grants him bonus <span class=\"ability-buff\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>Vincas can cast this ability to manifest one <span>Spectral Blade</span> at the target location."
         },
         {
             "name": "Void Steps",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Oblivion's Decree",
-            "details": "Vincas enters a heightened state for several seconds, gaining bonus <span class=\"ability-buff\">movement speed and attack speed</span>.<br><br>During this state, Vincas also summons the true phantom blade which empowers his <span>Monochrome Blade</span> to deal <span class=\"ability-debuff\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silence</span> the target instead of stealing mana."
+            "details": "Vincas enters a heightened state for several seconds, gaining bonus <span class=\"ability-buff\">movement speed and attack speed</span>.<br><br>During this state, Vincas replaces his <span>Monochrome Blade</span> with the <span>Oblivion Blade</span>, making his third basic attack deals <span class=\"ability-debuff\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silences</span> the target instead of stealing mana."
         }
     ]
 }
