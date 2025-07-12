@@ -10,5 +10,27 @@
     "race": "Valorian?",
     "soulforge": "Monochrome",
     "resonance": "Primal Destruction",
-    "intro": "Originally a Templar from Everlight, the Bastion of the Valorians, Vincas was exiled when he destroyed one of the five noble houses, Hammersky and killed their Pillar. His Soulforge, Monochrome, grants him the ability to remove the colour of all matters, rendering all other abilities useless. This ability can be molded into any shape, which he often uses for his cloak, wolf and all the blades that he carries. Each blade is crafted from a formidable opponent that he has faced, and the most dangerous one is the rumoured crimson blade which also carries the millions of souls whom entrusted their faith in him."
+    "intro": "Originally a Templar from Everlight, the Bastion of the Valorians, Vincas was exiled when he destroyed one of the five noble houses, Hammersky and killed their Pillar. His Soulforge, Monochrome, grants him the ability to remove the colour of all matters, rendering all other abilities useless. This ability can be molded into any shape, which he often uses for his cloak, wolf and all the blades that he carries. Each blade is crafted from a formidable opponent that he has faced, and the most dangerous one is the rumoured crimson blade which also carries the millions of souls whom entrusted their faith in him.",
+    "abilities": [
+        {
+            "name": "Monochrome Blade",
+            "details": "Vincas's basic attacks generates a stack of <span>Monochrome Blade</span>, stacking up to three times.<br><br>The third stack empowers his basic attack to deal bonus <span class=\"ability-ad\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>), and <span class=\"ability-debuff\">steal</span> a small amount of the target's <span class=\"ability-mp\">mana</span>."
+        },
+        {
+            "name": "Phantom Slash",
+            "details": "Vincas slashes twice at a target, each dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>). Each hit is counted as a basic attack."
+        },
+        {
+            "name": "Spectral Arsenal",
+            "details": "Vincas periodically crafts a <span>Spectral Blade</span>, up to a maximum of three can be stored at a time. Each <span>Spectral Blade</span> grants him bonus <span class=\"ability-buff\">physical power</span>.<br><br>Vincas can cast this ability to manifest one <span>Spectral Blade</span> at the target location."
+        },
+        {
+            "name": "Void Steps",
+            "details": "Vincas shifts to a manifested <span>Spectral Blade</span> on the ground, then empowers his next basic attack to blink to the enemy target, dealing bonus physical power <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>)"
+        },
+        {
+            "name": "Oblivion's Decree",
+            "details": "Vincas enters a heightened state for several seconds, gaining bonus <span class=\"ability-buff\">movement speed and attack speed</span>.<br><br>During this state, Vincas also summons the true phantom blade which empowers his <span>Monochrome Blade</span> to deal <span class=\"ability-debuff\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silence</span> the target instead of stealing mana."
+        }
+    ]
 }
