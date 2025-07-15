@@ -1,0 +1,35 @@
+{
+    "code": "Justice",
+    "full_name": "Cyrus Lightbearer",
+    "first_name": "Cyrus",
+    "last_name": "Lightbearer",
+    "title": "the Absolute Ruler",
+    "bastion_full": "Eden, the Ones Above All",
+    "bastion_name": "Eden",
+    "race": "Celestial",
+    "soulforge": "Judgement",
+    "resonance": "Authority",
+    "intro": "",
+    "abilities": [
+        {
+            "name": "Heaven's Will",
+            "details": "When Cyrus damages an enemy champion with his abilities, the target will be marked by the <span>Heaven's Will</span>, <span class=\"ability-debuff\">increasing the damage they take</span> from Cyrus for a few seconds."
+        },
+        {
+            "name": "Retribution",
+            "details": "Cyrus launches a barrage of lumious bolts at a target location over a very short duration. Each bolt explodes upon landing, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>The bolts can be blocked by an enemy hero before they reach the target location, and the damage will be dealt to only that target. Casting this ability does not interupt with Cyrus's movement."
+        },
+        {
+            "name": "Dominion",
+            "details": "Cyrus designates a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit and slightly <span class=\"ability-debuff\">slowing</span> them.<br><br>After a few seconds, the area erupts with cosmic energy, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within and <span class=\"ability-debuff\">stunning</span> them."
+        },
+        {
+            "name": "Singularity",
+            "details": "Cyrus launches a slow-moving, expanding orb of cosmic energy in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies it passes through.<br><br>If <span>Singularity</span> passes through an active <span>Dominion</span> zone, the zone immediately erupts with cosmic energy (secondary effect of that ability).<br><br>If <span>Retribution</span> passes through the moving <span>Singularity</span>, each bolt will deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>)."
+        },
+        {
+            "name": "Judgement",
+            "details": "Cyrus unleashes a radiant blast on all enemies marked by the <span>Heaven's Will</span>, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to each target.<br><br>If the target's health is below a certain threshold, <span>Judgement</span> will <span class=\"ability-debuff\">execute</span> the target. Enemies are also briefly <span class=\"ability-debuff\">revealed</span> from the start of the cast time."
+        }
+    ]
+}
