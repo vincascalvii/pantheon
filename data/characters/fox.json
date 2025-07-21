@@ -26,7 +26,7 @@
         },
         {
             "name": "Fox Fire",
-            "details": "Kimiko sends out a <span>Fox Fire</span> that gains vision around it. If the <span>Fox Fire</span> spots an enemy hero, it will run toward them and explode on the first enemy contact, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and revealing them for a while.<br><br>If no enemy hero is spotted, the <span>Fox Fire</span> will stay still upon reaching the end of its target direction and explode after a few seconds, briefly leaving the vision field there. The explosion deals the same magical damage."
+            "details": "Kimiko sends out a <span>Fox Fire</span> that gains <span class=\"ability-buff\">vision</span> around it. If the <span>Fox Fire</span> spots an enemy hero, it will run toward them and explode on the first enemy contact, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and <span class=\"ability-buff\">revealing</span> them for a while.<br><br>If no enemy hero is spotted, the <span>Fox Fire</span> will stay still upon reaching the end of its target direction and explode after a few seconds, briefly leaving the <span class=\"ability-buff\">vision field</span> there. The explosion deals the same <span class=\"ability-ap\">magical damage</span>."
         },
         {
             "name": "Enthralling Gaze",
