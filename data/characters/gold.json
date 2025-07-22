@@ -22,15 +22,15 @@
         },
         {
             "name": "Golden Ward",
-            "details": "Everett places a <span>Golden Ward</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a duration. While Everett is within range of a Golden Ward, his basic attacks apply an additional <span>Golden Needle</span> stack.<br><br>When shielded, Everett gains <span class=\"ability-buff\">increased attack speed</span> while within range of a <span>Golden Ward</span>."
+            "details": "Everett places a <span>Golden Ward</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a duration.<br><br>While Everett is within range of a Golden Ward, his basic attacks apply an additional <span>Golden Needle</span> stack and when also shielded, Everett gains <span class=\"ability-buff\">increased attack speed</span>."
         },
         {
             "name": "Auric Thread",
-            "details": "Everett pulls back all the <span>Golden Needles</span>, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) based on the number of needles pulled back.<br><br>When shielded, the damage is increased based on Everett's <span class=\"ability-ad\">critical strike chance</span>.<br><br>If an enemy is killed by this ability, <span>Gilded Imprints</span> will still be triggered, earning Everett bonus gold based on the number of needles pulled back."
+            "details": "Everett pulls back all the <span>Golden Needles</span>, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) based on the number of needles pulled back.<br><br>When shielded, the damage is <span class=\"ability-buff\">increased</span> based on Everett's <span class=\"ability-ar\">critical strike chance</span>.<br><br>If an enemy is killed by this ability, <span>Gilded Imprints</span>'s bonus gold gain will still be triggered."
         },
         {
             "name": "Brilliant Rain",
-            "details": "Everett unleashes a torrent of neeldes for a short duration, reducing his movement speed but rapidly throwing needles at nearby enemies, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) with each needle.<br><br>Each needle thrown is treated like a basic attack and can critically strike."
+            "details": "Everett unleashes a torrent of neeldes for a short duration, <span class=\"ability-debuff\">reducing his movement speed</span> but rapidly throwing needles at nearby enemies, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) with each needle.<br><br>Each needle thrown is treated like a basic attack and can critically strike."
         }
     ]
 }
