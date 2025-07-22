@@ -1,0 +1,36 @@
+{
+    "code": "Gold",
+    "full_name": "Everett Wyvernsworn",
+    "first_name": "Everett",
+    "last_name": "Wyvernsworn",
+    "title": "the Gilded Imperator",
+    "bastion_name": "Everlight",
+    "bastion_full": "Everlight, the Dawn Bringers",
+    "bastion_short": "everlight",
+    "race": "Valorian",
+    "soulforge": "?",
+    "resonance": "Gold Crafting",
+    "intro": "Coming soon.",
+    "abilities": [
+        {
+            "name": "Gilded Imprints",
+            "details": "Everett's basic attacks, <span>Sunfire Volley</span> and <span>Brilliant Rain</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
+        },
+        {
+            "name": "Sunfire Volley",
+            "details": "Everett throws 3 needles in a target direction, each dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit.<br><br>When shielded, the needle can pierce through all enemies in its path, dealing the same damage to all targets."
+        },
+        {
+            "name": "Golden Ward",
+            "details": "Everett places a <span>Golden Ward</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a duration. While Everett is within range of a Golden Ward, his basic attacks apply an additional <span>Golden Needle</span> stack.<br><br>When shielded, Everett gains <span class=\"ability-buff\">increased attack speed</span> while within range of a <span>Golden Ward</span>."
+        },
+        {
+            "name": "Auric Thread",
+            "details": "Everett pulls back all the <span>Golden Needles</span>, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) based on the number of needles pulled back.<br><br>When shielded, the damage is increased based on Everett's <span class=\"ability-ad\">critical strike chance</span>.<br><br>If an enemy is killed by this ability, <span>Gilded Imprints</span> will still be triggered, earning Everett bonus gold based on the number of needles pulled back."
+        },
+        {
+            "name": "Brilliant Rain",
+            "details": "Everett unleashes a torrent of neeldes for a short duration, reducing his movement speed but rapidly throwing needles at nearby enemies, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) with each needle.<br><br>Each needle thrown is treated like a basic attack and can critically strike."
+        }
+    ]
+}
