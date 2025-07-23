@@ -284,6 +284,7 @@ a {
 
     .main {
         height: auto;
+        margin-top: 20px;
     }
 
     .main-art {
@@ -296,10 +297,15 @@ a {
         order: 1;
     }
 
+    .main-art img {
+        max-height: 500px;
+    }
+
     .main-info {
         position: relative;
         top: 0;
         order: 2;
+        max-width: 100%;
     }
 
     .main-bastion {
