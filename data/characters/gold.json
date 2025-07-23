@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Gilded Imprints",
-            "details": "Everett's basic attacks, <span>Sunfire Volley</span> and <span>Brilliant Rain</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
+            "details": "Everett's basic attacks, <span>Sunfire Volley</span> and <span>Brilliant Dawn</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
         },
         {
             "name": "Sunfire Volley",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Golden Ward",
-            "details": "Everett places a <span>Golden Ward</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a long duration. Once Everett enters the range of a <span>Golden Ward</span>, it will activate, expanding the range, but will be removed after a few seconds.<br><br>While Everett is within range of a <span>Golden Ward</span>, his basic attacks deal bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and apply an additional <span>Golden Needle</span> stack."
+            "details": "Everett places a <span>Golden Ward</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a long duration. Once Everett enters the range of a <span>Golden Ward</span>, it will activate, span class=\"ability-buff\">expanding the range</span>, but will be span class=\"ability-debuff\">removed</span> after a few seconds.<br><br>While Everett is within range of a <span>Golden Ward</span>, his basic attacks deal bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and apply an additional <span>Golden Needle</span> stack."
         },
         {
             "name": "Auric Thread",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Brilliant Dawn",
-            "details": "Everett channels the full power of his golden essence, gaining bonus <span class=\"ability-buff\">attack range</span> and empowering his basic attacks to <span class=\"ability-buff\">pierce through all enemies in a line</span>.<br><br>If Everett is shielded while in this state, he will gain bonus <span class=\"ability-ad\">physical power</span> and increased <span class=\"ability-buff\">attack speed</span>. If the shield expires or is broken, the bonus stats will be lost."
+            "details": "Everett channels the full power of his golden essence, gaining bonus <span class=\"ability-buff\">attack range</span>, <span class=\"ability-buff\">attack speed</span> and empowering his basic attacks to <span class=\"ability-buff\">pierce through all enemies in a line</span>.<br><br>If Everett is shielded while in this state, he will gain bonus <span class=\"ability-ad\">physical power</span>. If the shield expires or is broken, the bonus stats will be lost."
         }
     ]
 }
