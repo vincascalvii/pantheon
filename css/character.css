@@ -17,7 +17,7 @@ body {
 	font-family: "Poppins", Helvetica, Arial, sans-serif;
 	background-color: #fff;
 	color: #333;
-	font-size: 1.6rem;
+	font-size: 16px;
 	margin: 0;
 }
 
@@ -27,6 +27,7 @@ a {
 
 .container {
 	width: 1400px;
+    max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -37,6 +38,7 @@ a {
     display: flex;
     align-items: center;
     column-gap: 10px;
+    z-index: 1;
 }
 
 .back-icon {
@@ -79,18 +81,18 @@ a {
 }
 
 .main-name {
-    font-size: 5rem;
+    font-size: 50px;
     margin: 0;
 }
 
 .main-title {
     color: #727272;
-    font-size: 2.4rem;
+    font-size: 24px;
     margin: 10px 0 20px;
 }
 
 .main-details {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 
 .main-drow {
@@ -109,7 +111,7 @@ a {
     box-shadow: 0 2px 100px 100px rgba(255, 255, 255, .9);
     width: 480px;
     margin-top: 30px;
-    font-size: 1.7rem;
+    font-size: 17px;
     font-style: italic;
     line-height: 1.6;
 }
@@ -149,7 +151,7 @@ a {
 }
 
 .abilities-title {
-    font-size: 3rem;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -158,18 +160,19 @@ a {
 }
 
 .ability-type {
-    font-size: 1.4rem;
+    font-size: 14px;
     color: #727272;
 }
 
 .ability-name {
-    font-size: 2.2rem;
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
 .ability-details {
+    width: 100%;
     max-width: 800px;
-    font-size: 1.7rem;
+    font-size: 17px;
 }
 
 .ability-details span {
@@ -206,4 +209,177 @@ a {
 
 .ability-mp {
     color: #00b8ff;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .container {
+        width: 900px;
+    }
+
+    .main {
+        height: 506px;
+    }
+
+    .main-bastion {
+        top: 10px;
+        left: -50px;
+        height: 60px;
+    }
+
+    .main-name {
+        font-size: 40px;
+    }
+
+    .main-title {
+        font-size: 20px;
+        margin: 5px 0 15px;
+    }
+
+    .main-details {
+        font-size: 17px;
+    }
+
+    .main-drow {
+        padding-block: 5px;
+    }
+
+    .main-intro {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .main-art {
+        right: -100px;
+        width: 1000px;
+        height: 562px;
+    }
+
+    .abilities-title {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .ability-type {
+        font-size: 13px;
+    }
+
+    .ability-name {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .ability-details {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .main-art {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+        order: 1;
+    }
+
+    .main-info {
+        position: relative;
+        top: 0;
+        order: 2;
+    }
+
+    .main-bastion {
+        position: relative;
+        left: 0;
+    }
+
+    .main-name {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .main-title {
+        font-size: 18px;
+        margin: 0 0 15px;
+    }
+
+    .main-details {
+        font-size: 15px;
+    }
+
+    .main-drow-label {
+        min-width: 100px;
+    }
+
+    .main-intro {
+        font-size: 15px;
+        box-shadow: none;
+    }
+
+    .abilities {
+        padding-inline: 20px;
+    }
+
+    .abilities-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .ability-type {
+        font-size: 12px;
+    }
+
+    .ability-name {
+        font-size: 18px;
+    }
+
+    .ability-details {
+        max-width: 100%;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .back {
+        left: 18px;
+        column-gap: 5px;
+    }
+
+    .back-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .back-text {
+        font-size: 14px;
+    }
+
+    .main-name {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+
+    .main-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .abilities-title {
+        font-size: 20px;
+    }
 }
