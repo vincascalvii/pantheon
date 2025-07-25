@@ -18,7 +18,7 @@
         },
         {
             "name": "Golden Hammer",
-            "details": "Kharra-Ryn hurls her enchanted golden hammer, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly slowing down the target and reducing their <span class=\"ability-ad\">physical power</span> for a few seconds."
+            "details": "Kharra-Ryn hurls her enchanted golden hammer, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly <span class=\"ability-debuff\">slowing</span> down the target and <span class=\"ability-debuff\">reducing their physical power</span> for a few seconds."
         },
         {
             "name": "Molten Impact",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Smelting Core",
-            "details": "Kharra-Ryn launches a heavy, glowing smelting core to a target location within a long range. Upon landing, the core deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) in an area, greatly slowing all enemies hit and reducing their physical resistance for few seconds."
+            "details": "Kharra-Ryn launches a heavy, glowing smelting core to a target location within a long range. Upon landing, the core deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) in an area, greatly <span class=\"ability-debuff\">slowing</span> all enemies hit and <span class=\"ability-debuff\">reducing their physical resistance</span> for few seconds."
         }
     ]
 }
