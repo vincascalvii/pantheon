@@ -13,12 +13,12 @@
     "intro": "Coming soon.",
     "abilities": [
         {
-            "name": "Solar Essence",
-            "details": "Kharra-Ryn passively generates <span>Solar Essence</span> over time. She also gains a small amount of <span>Solar Essence</span> when nearby allies gain gold from killing an enemy unit.<br><br>Kharra-Ryn can use stored <span>Solar Essence</span> to craft an item for an ally hero. However, she will have to pay for a percentage of the gold cost for that item. The item tier is determined by the amount of <span>Solar Essence</span> used.<br><br>This ability has a cooldowns so she will have to wait for a long duration before being able to craft another item."
+            "name": "Living Forge",
+            "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero</span> and <span>choose an item</span> they are currently building. She can then spend a portion of <span class=\"ability-ar\">her own gold</span> to <span class=\"ability-buff\">contribute to that item's cost</span>.<br><br>Her gold contribution is added a small <span class=\"ability-ar\">bonus</span> when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
         },
         {
             "name": "Golden Hammer",
-            "details": "Kharra-Ryn hurls her enchanted golden hammer, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit.<br><br>If <span>Golden Hammer</span> hits an enemy hero currently affected by any stack of <span>Molten Impact</span>, immediately maximise the stacks."
+            "details": "Kharra-Ryn hurls her enchanted golden hammer, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly slowing down the target and reducing their <span class=\"ability-ad\">physical power</span> for a few seconds."
         },
         {
             "name": "Molten Impact",
@@ -29,8 +29,8 @@
             "details": "Kharra-Ryn slams her hammer at a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocks back</span> the target.<br><br>Enemies that collide with the knocked back target take the same physical damage and are briefly <span class=\"ability-debuff\">stunned</span>."
         },
         {
-            "name": "Sun Forge",
-            "details": "Kharra-Ryn charges her golden hammer with immense solar power, unleashing a ground-shattering blow in a target direction, causing a massive fissure along the line. All enemies caught in the line are dealt <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and are <span class=\"ability-debuff\">knocked up</span> into the air.<br><br>Knocked up enemies also have their <span class=\"ability-debuff\">armour reduced</span> for a short duration."
+            "name": "Smelting Core",
+            "details": "Kharra-Ryn launches a heavy, glowing smelting core to a target location within a long range. Upon landing, the core deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) in an area, greatly slowing all enemies hit and reducing their physical resistance for few seconds."
         }
     ]
 }
