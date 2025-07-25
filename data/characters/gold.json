@@ -14,10 +14,10 @@
     "abilities": [
         {
             "name": "Gilded Imprints",
-            "details": "Everett's basic attacks, <span>Sunfire Volley</span> and <span>Brilliant Dawn</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
+            "details": "Everett's basic attacks, <span>Needle Work</span> and <span>Brilliant Dawn</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
         },
         {
-            "name": "Radiant Volley",
+            "name": "Needle Work",
             "details": "Everett throws three needles in a target direction, each dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit.<br><br>When shielded, Everett will throw <span class=\"ability-buff\">five</span> needles instead."
         },
         {
