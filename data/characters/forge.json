@@ -18,7 +18,7 @@
         },
         {
             "name": "Core Breach",
-            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly <span class=\"ability-debuff\">slowing</span> down the target and <span class=\"ability-debuff\">reducing the their physical power</span> for a few seconds."
+            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, slightly <span class=\"ability-debuff\">knocking back</span> the target and <span class=\"ability-debuff\">reducing their physical power</span> for a few seconds."
         },
         {
             "name": "Molten Impact",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Foundry Force",
-            "details": "Kharra-Ryn slams both of her hammers down simultaneously, creating a powerful shockwave in a line, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocking back</span> all enemies hit.<br><br>Enemies that collide with the knocked back target take the same physical damage and are briefly <span class=\"ability-debuff\">stunned</span>."
+            "details": "Kharra-Ryn slams both of her hammers down simultaneously, creating a powerful shockwave around her, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and briefly <span class=\"ability-debuff\">slowing</span> all enemies hit.<br><br>When <span>Foundry Force</span> hits an enemy who has at least one <span>Molten Impact</span> stack, it will immediately maximise the stacks to trigger the stun effect."
         },
         {
             "name": "Solar Cores",
