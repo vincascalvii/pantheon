@@ -10,27 +10,27 @@
     "race": "Dovaran",
     "soulforge": "?",
     "resonance": "?",
-    "intro": "Coming soon.",
+    "intro": "Kharra-Ryn, a determined young blacksmith, carries a pair of golden & molten hammers and is orbited by three glowing solar cores. She embodies the spirit of a living forge, capable of crafting the best Soulforges in the world.",
     "abilities": [
         {
             "name": "Living Forge",
             "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero</span> and <span>choose an item</span> they are currently building. She can then spend a portion of <span class=\"ability-ar\">her own gold</span> to <span class=\"ability-buff\">contribute to that item's cost</span>.<br><br>Her gold contribution is added a small <span class=\"ability-ar\">bonus</span> when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
         },
         {
-            "name": "Golden Hammer",
-            "details": "Kharra-Ryn hurls her enchanted golden hammer, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly <span class=\"ability-debuff\">slowing</span> down the target and <span class=\"ability-debuff\">reducing their physical power</span> for a few seconds."
+            "name": "Core Breach",
+            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, briefly <span class=\"ability-debuff\">slowing</span> down the target and <span class=\"ability-debuff\">reducing the their physical power</span> for a few seconds."
         },
         {
             "name": "Molten Impact",
-            "details": "Kharra-Ryn imbues her hammer with solar energy, causing her next three basic attacks within a few seconds to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">health</span>) and apply a stack of <span>Molten Impact</span> to the target.<br><br>Upon reaching three <span>Molten Impact</span> stacks, the target is dealt <span class=\"ability-ap\">magical damage</span> (scaling with the target's <span class=\"ability-hp\">health</span>) and gets <span class=\"ability-debuff\">stunned</span> for a short duration. The stacks are then removed and can be replied again after a short cooldowns per target."
+            "details": "Kharra-Ryn imbues her hammers, causing her next three basic attacks within a few seconds to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">health</span>) and apply a stack of <span>Molten Impact</span> to the target.<br><br>Upon reaching three <span>Molten Impact</span> stacks, the target is dealt <span class=\"ability-ap\">magical damage</span> (scaling with the target's <span class=\"ability-hp\">health</span>) and gets <span class=\"ability-debuff\">stunned</span> for a short duration. The stacks are then removed and can be replied again after a short cooldowns per target."
         },
         {
-            "name": "Power Strike",
-            "details": "Kharra-Ryn slams her hammer at a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocks back</span> the target.<br><br>Enemies that collide with the knocked back target take the same physical damage and are briefly <span class=\"ability-debuff\">stunned</span>."
+            "name": "Foundry Force",
+            "details": "Kharra-Ryn slams both of her hammers down simultaneously, creating a powerful shockwave in a line, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocking back</span> all enemies hit.<br><br>Enemies that collide with the knocked back target take the same physical damage and are briefly <span class=\"ability-debuff\">stunned</span>."
         },
         {
-            "name": "Smelting Core",
-            "details": "Kharra-Ryn launches a heavy, glowing smelting core to a target location within a long range. Upon landing, the core deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) in an area, greatly <span class=\"ability-debuff\">slowing</span> all enemies hit and <span class=\"ability-debuff\">reducing their physical resistance</span> for few seconds."
+            "name": "Solar Cores",
+            "details": "Kharra-Ryn send all of her solar cores to form a large circle around her. All allies within the circle will gain <span class=\"ability-buff\">increased physical power, magical power, physical resistance and magical resistance</span>.<br><br>However, Kharra-Ryn will have her own stats reduced while the solar cores are active, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
         }
     ]
 }
