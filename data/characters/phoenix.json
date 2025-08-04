@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Origin Embers",
-            "details": "Fèngyíng's abilities ignite enemy heroes, causing them to burn over time, taking <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) per tick.<br><br>At three stacks, <span>Origin Embers</span> consumes all stacks to deal a burst of <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and spread to nearby enemy heroes.<br><br>If the enemy target dies before three stacks, the burst damage will occur early. The same target cannot be applied with <span>Origin Embers</span> again for at least several seconds."
+            "details": "Fèngyíng's abilities ignite enemy heroes, causing them to burn over time, taking <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) per tick.<br><br>At three stacks, <span>Origin Embers</span> consumes all stacks to deal a burst of <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and spread to nearby enemy heroes (adding 1 stack of <span>Origin Embers</span>).<br><br>If the enemy target dies before three stacks, the burst damage will trigger immediately. The same target cannot be applied with <span>Origin Embers</span> again for at least several seconds."
         },
         {
             "name": "Fiery Spirits",
-            "details": "Fèngyíng launches a fire bird spirit to a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within. She can cast this ability two more times before the ability goes on cooldown.<br><br>Each cast has a timer that will put the ability on cooldowns if the next case is not on time."
+            "details": "Fèngyíng launches a fire bird spirit to a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within. She can cast this ability two more times before the ability goes on cooldown.<br><br>Each cast has a timer that will put the ability on cooldowns if the next cast is not on time."
         },
         {
             "name": "Holy Flame",
-            "details": "Fèngyíng designates a small circular area on the ground. After a short delay, the area ignites for a few seconds, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) over time to enemies standing in it.<br><br>Allies standing in the flame will be <span class=\"ability-buff\">healed</span> (scaling with <span class=\"ability-ap\">magical power</span>) instead."
+            "details": "Fèngyíng ignites a small circular area on the ground, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) over time to enemies standing in it.<br><br>Allies standing on the flame will be <span class=\"ability-buff\">healed</span> (scaling with <span class=\"ability-ap\">magical power</span>) instead."
         },
         {
             "name": "Searing Wings",
-            "details": "Fèngyíng releases a cone of fire from her wings, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within it and pushing them back a short distance."
+            "details": "Fèngyíng releases a cone of fire like searing phoenix's wings, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within it and pushing them back a short distance."
         },
         {
             "name": "Phoenix Reborn",
-            "details": "Upon activation, Fèngyíng will temporarily die, and become a stationary, invulnerable <span>Flame Egg</span> for a few seconds. She cannot move, attack, or cast abilities in this state.<br><br>While in the <span>Flame Egg</span> state, holy fire surrounds her, <span class=\"ability-buff\">healing</span> nearby allies over the duration.<br><br>After the duration, the egg hatches. Fèngyíng is reborn at the egg's location with a percentage of her maximum health and mana. The rebirth triggers a burst of fire, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies."
+            "details": "Upon activation, Fèngyíng will temporarily die, and become a stationary <span>Flame Egg</span> for a few seconds. She cannot move, attack, or cast abilities in this state.<br><br>When she first enters the <span>Flame Egg</span> state, her health will be reduced to the lowest limit, and is then regenerating at a rapid rate.<br><br>While in the <span>Flame Egg</span> state, holy fire surrounds her, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-buff\">healing</span> (scaling with <span class=\"ability-ap\">magical power</span>) nearby allies over the duration.<br><br>After the duration, the egg hatches. Fèngyíng is reborn at the egg's location with a percentage of her maximum health and mana. The rebirth triggers a burst of fire, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies."
         }
     ]
 }
