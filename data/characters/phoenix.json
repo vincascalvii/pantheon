@@ -1,0 +1,36 @@
+{
+    "code": "Phoenix",
+    "full_name": "Huǒ Fèngyíng",
+    "first_name": "Fèngyíng",
+    "last_name": "Huǒ",
+    "title": "the Origin Flame",
+    "bastion_name": "Huǒshén",
+    "bastion_full": "Huǒshén, the Ember Masters",
+    "bastion_short": "huoshen",
+    "race": "Asurian",
+    "soulforge": "?",
+    "resonance": "Origin Flame",
+    "intro": "Fèngyíng is the current Paragon of Huǒshén, known by others as the Empress of Holy Fire. She is described by her people as a ruler with a kind heart and is very well received by them. However, she harnesses the primal fire that has the power to scorch all enemies to ashes. While her destructive power is immense, her most sacred power is rather the opposite - the power to bring life back.",
+    "abilities": [
+        {
+            "name": "Origin Embers",
+            "details": "Fèngyíng's abilities ignite enemy heroes, causing them to burn over time, taking <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) per tick.<br><br>At three stacks, <span>Origin Embers</span> consumes all stacks to deal a burst of <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and spread to nearby enemy heroes.<br><br>If the enemy target dies before three stacks, the burst damage will occur early. The same target cannot be applied with <span>Origin Embers</span> again for at least several seconds."
+        },
+        {
+            "name": "Fiery Spirits",
+            "details": "Fèngyíng launches a fire bird spirit to a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within. She can cast this ability two more times before the ability goes on cooldown.<br><br>Each cast has a timer that will put the ability on cooldowns if the next case is not on time."
+        },
+        {
+            "name": "Holy Flame",
+            "details": "Fèngyíng designates a small circular area on the ground. After a short delay, the area ignites for a few seconds, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) over time to enemies standing in it.<br><br>Allies standing in the flame will be <span class=\"ability-buff\">healed</span> (scaling with <span class=\"ability-ap\">magical power</span>) instead."
+        },
+        {
+            "name": "Searing Wings",
+            "details": "Fèngyíng releases a cone of fire from her wings, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within it and pushing them back a short distance."
+        },
+        {
+            "name": "Phoenix Reborn",
+            "details": "Upon activation, Fèngyíng will temporarily die, and become a stationary, invulnerable <span>Flame Egg</span> for a few seconds. She cannot move, attack, or cast abilities in this state.<br><br>While in the <span>Flame Egg</span> state, holy fire surrounds her, <span class=\"ability-buff\">healing</span> nearby allies over the duration.<br><br>After the duration, the egg hatches. Fèngyíng is reborn at the egg's location with a percentage of her maximum health and mana. The rebirth triggers a burst of fire, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies."
+        }
+    ]
+}
