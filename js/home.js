@@ -6,6 +6,7 @@
 
 // Select all elements with the class 'char-block'
 var characters = document.querySelectorAll('.char-block');
+var bastions = document.querySelectorAll('.char-bast');
 
 // Get the search bar input element by its ID
 var searchBar = document.getElementById('sbar-input');
@@ -24,6 +25,11 @@ searchBar.addEventListener('input', function(event) {
 
         // Use setTimeout to delay the search for 200 milliseconds
         setTimeout(function() {
+
+            // Loop through all bastion blocks
+            for ( let j = 0; j < bastions.length; j++ ) {
+                bastions[j].classList.remove('active');
+            }
         
             // Loop through all character blocks
             for ( let i = 0; i < characters.length; i++ ) {
@@ -41,9 +47,13 @@ searchBar.addEventListener('input', function(event) {
                         // Use setTimeout to ensure the class is added after the removal
                         setTimeout(function() {
                             characters[i].classList.add('active');
+                            document.querySelector('.char-bast[data-bastion="' + characters[i].getAttribute('data-bastion') + '"]')
+                                    .classList.add('active');
                         }, 1);
                     } else {
                         characters[i].classList.add('active');
+                        document.querySelector('.char-bast[data-bastion="' + characters[i].getAttribute('data-bastion') + '"]')
+                                    .classList.add('active');
                     }
 
                 // Otherwise, hide it
@@ -55,6 +65,19 @@ searchBar.addEventListener('input', function(event) {
             // If initialAnimation is true, set it to false
             if ( initialAnimation === true ) initialAnimation = false;
         }, 200);
+
+    // Bring back all bastions and characters
+    } else {
+
+        // Loop through all character blocks
+        for ( let i = 0; i < characters.length; i++ ) {
+            characters[i].classList.add('active');
+        }
+
+        // Loop through all bastion blocks
+        for ( let j = 0; j < bastions.length; j++ ) {
+            bastions[j].classList.add('active');
+        }
     }
 });
 
@@ -93,6 +116,33 @@ bastionInputs.forEach((input, index) => {
             // Otherwise, hide it
             } else {
                 characters[i].classList.remove('active');
+            }
+        }
+
+        // Loop through all bastion blocks
+        for ( let j = 0; j < bastions.length; j++ ) {
+
+            // Get the bastion from the data-bastion attribute
+            let bastBastion = bastions[j].getAttribute('data-bastion').toLowerCase();
+
+            // If the character name includes the search term, show it
+            if ( bastBastion.includes(selectedBastion) ) {
+
+                // If initialAnimation is true, remove the 'active' class and then add it back
+                if ( initialAnimation === true ) {
+                    bastions[j].classList.remove('active');
+
+                    // Use setTimeout to ensure the class is added after the removal
+                    setTimeout(function() {
+                        bastions[j].classList.add('active');
+                    }, 1);
+                } else {
+                    bastions[j].classList.add('active');
+                }
+
+            // Otherwise, hide it
+            } else {
+                bastions[j].classList.remove('active');
             }
         }
 
