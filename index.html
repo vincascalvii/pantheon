@@ -48,6 +48,10 @@
 						<input type="radio" id="bastion-all" name="bastion" class="scat-input" value="">
 						<img src="img/bastions/all.png" class="scat-logo" alt="All Bastions">
 					</label>
+					<label for="bastion-custodians" class="scat-block">
+						<input type="radio" id="bastion-custodians" name="bastion" class="scat-input" value="custodians">
+						<img src="img/bastions/custodians.png" class="scat-logo" alt="Custodians">
+					</label>
 					<label for="bastion-everlight" class="scat-block">
 						<input type="radio" id="bastion-everlight" name="bastion" class="scat-input" value="everlight">
 						<img src="img/bastions/everlight.png" class="scat-logo" alt="Everlight">
@@ -96,10 +100,38 @@
 						<input type="radio" id="bastion-altharion" name="bastion" class="scat-input" value="altharion">
 						<img src="img/bastions/altharion.png" class="scat-logo" alt="Altharion">
 					</label>
+					<label for="bastion-eden" class="scat-block">
+						<input type="radio" id="bastion-eden" name="bastion" class="scat-input" value="eden">
+						<img src="img/bastions/eden.png" class="scat-logo" alt="Eden">
+					</label>
+					<label for="bastion-nether" class="scat-block">
+						<input type="radio" id="bastion-nether" name="bastion" class="scat-input" value="nether">
+						<img src="img/bastions/nether.png" class="scat-logo" alt="Nether">
+					</label>
 				</div>
 			</div>
 		</section>
 		<section class="characters container">
+
+			<div class="char-bast slide active" data-bastion="custodian">Custodians <span>(Protagonists)</span></div>
+			<a href="character?code=blade" class="char-block slide active" data-name="arcian - blade" data-bastion="custodian">
+				<div class="char-bg">
+					<img src="img/characters/blade/thumb.jpg" class="char-img" alt="Blade">
+				</div>
+				<div class="char-name">Arcian (Blade)</div>
+			</a>
+			<a href="character?code=justice" class="char-block slide active" data-name="justice" data-bastion="custodian">
+				<div class="char-bg">
+					<!-- <img src="img/characters/justice/thumb.jpg" class="char-img" alt="Justice"> -->
+				</div>
+				<div class="char-name">Cyrus (Justice)</div>
+			</a>
+			<div class="char-block slide active" data-name="curator" data-bastion="custodian">
+				<div class="char-bg">
+					<!-- <img src="img/characters/curator/thumb.jpg" class="char-img" alt="Curator"> -->
+				</div>
+				<div class="char-name">Xenon (Curator)</div>
+			</div>
 
 			<div class="char-bast slide active" data-bastion="everlight">Everlight <span>the Dawn Bringers</span></div>
 			<a href="character?code=mystic" class="char-block slide active" data-name="ciarra - mystic" data-bastion="everlight">
@@ -113,12 +145,6 @@
 					<img src="img/characters/ignite/thumb.jpg" class="char-img" alt="Ignite">
 				</div>
 				<div class="char-name">Eris (Ignite)</div>
-			</a>
-			<a href="character?code=blade" class="char-block slide active" data-name="arcian - blade" data-bastion="everlight">
-				<div class="char-bg">
-					<img src="img/characters/blade/thumb.jpg" class="char-img" alt="Blade">
-				</div>
-				<div class="char-name">Arcian (Blade)</div>
 			</a>
 			<a href="character?code=silver" class="char-block slide active" data-name="silver" data-bastion="everlight">
 				<div class="char-bg">
@@ -185,6 +211,18 @@
 					<!-- <img src="img/characters/tiger/thumb.jpg" class="char-img" alt="Tiger"> -->
 				</div>
 				<div class="char-name">??? (Tiger)</div>
+			</div>
+			<div class="char-block slide active" data-name="wolf" data-bastion="shirohana">
+				<div class="char-bg">
+					<!-- <img src="img/characters/wolf/thumb.jpg" class="char-img" alt="Wolf"> -->
+				</div>
+				<div class="char-name">??? (Wolf)</div>
+			</div>
+			<div class="char-block slide active" data-name="bear" data-bastion="shirohana">
+				<div class="char-bg">
+					<!-- <img src="img/characters/bear/thumb.jpg" class="char-img" alt="Bear"> -->
+				</div>
+				<div class="char-name">??? (Bear)</div>
 			</div>
 
 			<div class="char-bast slide active" data-bastion="dragnoel">Dragnoel <span>the Dragon Knights</span></div>
@@ -284,6 +322,12 @@
 				</div>
 				<div class="char-name">??? (Leviathan)</div>
 			</div>
+			<div class="char-block slide active" data-name="ocean" data-bastion="nagaithis">
+				<div class="char-bg">
+					<!-- <img src="img/characters/ocean/thumb.jpg" class="char-img" alt="Ocean"> -->
+				</div>
+				<div class="char-name">??? (Ocean)</div>
+			</div>
 			<div class="char-block slide active" data-name="wave" data-bastion="nagaithis">
 				<div class="char-bg">
 					<!-- <img src="img/characters/wave/thumb.jpg" class="char-img" alt="Wave"> -->
@@ -300,12 +344,6 @@
 			</div>
 			
 			<div class="char-bast slide active" data-bastion="eden">Eden <span>the Heavenly Sovereigns</span></div>
-			<a href="character?code=justice" class="char-block slide active" data-name="justice" data-bastion="eden">
-				<div class="char-bg">
-					<!-- <img src="img/characters/justice/thumb.jpg" class="char-img" alt="Justice"> -->
-				</div>
-				<div class="char-name">Cyrus (Justice)</div>
-			</a>
 			<div class="char-block slide active" data-name="life" data-bastion="eden">
 				<div class="char-bg">
 					<!-- <img src="img/characters/life/thumb.jpg" class="char-img" alt="Life"> -->
@@ -350,17 +388,17 @@
 				</div>
 				<div class="char-name">Chaos (End)</div>
 			</div>
-			<div class="char-block slide active" data-name="ruin" data-bastion="nether">
-				<div class="char-bg">
-					<!-- <img src="img/characters/ruin/thumb.jpg" class="char-img" alt="Ruin"> -->
-				</div>
-				<div class="char-name">Vorax (Ruin)</div>
-			</div>
 			<div class="char-block slide active" data-name="nameless" data-bastion="nether">
 				<div class="char-bg">
 					<!-- <img src="img/characters/nameless/thumb.jpg" class="char-img" alt="Nameless"> -->
 				</div>
 				<div class="char-name">Nameless (Oblivion)</div>
+			</div>
+			<div class="char-block slide active" data-name="ruin" data-bastion="nether">
+				<div class="char-bg">
+					<!-- <img src="img/characters/ruin/thumb.jpg" class="char-img" alt="Ruin"> -->
+				</div>
+				<div class="char-name">Vorax (Ruin)</div>
 			</div>
 			<div class="char-block slide active" data-name="calamity" data-bastion="nether">
 				<div class="char-bg">
@@ -368,17 +406,17 @@
 				</div>
 				<div class="char-name">Ragnarok (Calamity)</div>
 			</div>
-			<div class="char-block slide active" data-name="blood" data-bastion="nether">
-				<div class="char-bg">
-					<!-- <img src="img/characters/blood/thumb.jpg" class="char-img" alt="Blood"> -->
-				</div>
-				<div class="char-name">Nocturne (Blood)</div>
-			</div>
 			<div class="char-block slide active" data-name="plague" data-bastion="nether">
 				<div class="char-bg">
 					<!-- <img src="img/characters/plague/thumb.jpg" class="char-img" alt="Plague"> -->
 				</div>
 				<div class="char-name">Miasma (Plague)</div>
+			</div>
+			<div class="char-block slide active" data-name="blood" data-bastion="nether">
+				<div class="char-bg">
+					<!-- <img src="img/characters/blood/thumb.jpg" class="char-img" alt="Blood"> -->
+				</div>
+				<div class="char-name">Nocturne (Blood)</div>
 			</div>
 			
 		</section>
