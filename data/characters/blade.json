@@ -4,13 +4,13 @@
     "first_name": "Arcian",
     "last_name": "Truthsteel",
     "title": "the Abyssal Demon",
-    "bastion_name": "Everlight",
-    "bastion_full": "Everlight, the Dawn Bringers",
+    "bastion_name": "Custodians",
+    "bastion_full": "Custodians (Protagonists)",
     "bastion_short": "everlight",
-    "race": "Valorian?",
+    "race": "Valorian",
     "soulforge": "Monochrome",
     "resonance": "Primal Destruction",
-    "intro": "Originally a Templar from Everlight, the Bastion of the Valorians, Arcian was exiled when he destroyed one of the five noble houses, Hammersky and killed their Pillar. His Soulforge, Monochrome, grants him the ability to remove the colour of all matters, rendering all other abilities useless. This ability can be molded into any shape, which he often uses for his cloak, wolf and all the blades that he carries. Each blade is crafted from a formidable opponent that he has faced, and the most dangerous one is the rumoured crimson blade which also carries the millions of souls whom entrusted their faith in him.",
+    "intro": "Originally a Templar from Everlight, the Bastion of the Valorians, Arcian was exiled when he destroyed one of the five noble houses, Skyforge and killed their Pillar. His Soulforge, Monochrome, grants him the ability to remove the colour of all matters, rendering all other abilities useless. This ability can be molded into any shape, which he often uses for his cloak, wolf and all the blades that he carries. Each blade is crafted from a formidable opponent that he has faced, and the most dangerous one is the rumoured crimson blade which also carries the millions of souls whom entrusted their faith in him.",
     "abilities": [
         {
             "name": "Monochrome Blade",
