@@ -1,36 +1,36 @@
 {
     "code": "Wrath",
-    "full_name": "Huǒ Wújiàng",
-    "first_name": "Wújiàng",
-    "last_name": "Huǒ",
+    "full_name": "Huo Wujiang",
+    "first_name": "Wujiang",
+    "last_name": "Huo",
     "title": "the Undying Flame",
-    "bastion_name": "Huǒshén",
-    "bastion_full": "Huǒshén, the Ember Masters",
+    "bastion_name": "Huoshen",
+    "bastion_full": "Huoshen, the Ember Masters",
     "bastion_short": "huoshen",
     "race": "Asurian",
-    "soulforge": "Liánhuǒ",
+    "soulforge": "Lianhuo",
     "resonance": "Undying Flame",
-    "intro": "Wújiàng is named the strongest warrior in the history of Huǒshén, the bastion of Asurians. His resonance ability, the Undying Flame, originally belonged to the Paragon, Phoenix, but was shared to him when he defended the Bastion from one of the strongest Hellspawns, with the cost of his life. The flame resurrected him and fused with his original fire-bending ability. Since then, he continued to wield his Soulforge, Liánhuǒ, to defeat anyone who is foolish enough to harm the Bastion or the Empress of the Holy Fire, his saviour.",
+    "intro": "Wujiang is named the strongest warrior in the history of Huoshen, the bastion of Chizus. His resonance ability, the Undying Flame, originally belonged to the Paragon, Phoenix, but was shared to him when he defended the Bastion from one of the strongest Hellspawns, with the cost of his life. The flame resurrected him and fused with his original fire-bending ability. Since then, he continued to wield his Soulforge, Lianhuo, to defeat anyone who is foolish enough to harm the Bastion or the Empress of the Holy Fire, his saviour.",
     "abilities": [
         {
             "name": "Blazing Bulwark",
-            "details": "Wújiàng generates an <span>Blazing Bulwark</span> stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wújiàng has a <span>Blazing Bulwark</span> stack, his body will be surrounding by flame, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to nearby enemies per second.<br><br>Each stack increases the damage dealt. At maximum <span>Blazing Bulwark</span> stacks, each time the flame deals damage, it will <span class=\"ability-buff\">heal</span> Wújiàng for a <span class=\"ability-buff\">percentage of the damage dealt</span>."
+            "details": "Wujiang generates an <span>Blazing Bulwark</span> stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wujiang has a <span>Blazing Bulwark</span> stack, his body will be surrounding by flame, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to nearby enemies per second.<br><br>Each stack increases the damage dealt. At maximum <span>Blazing Bulwark</span> stacks, each time the flame deals damage, it will <span class=\"ability-buff\">heal</span> Wujiang for a <span class=\"ability-buff\">percentage of the damage dealt</span>."
         },
         {
             "name": "Fearless Smash",
-            "details": "Wújiàng leaps to a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>At maximum <span>Blazing Bulwark</span> stacks, Fearless Smash will also deal damage to surrounding enemies in a small radius around the target, and slightly <span class=\"ability-debuff\">knock them back</span>."
+            "details": "Wujiang leaps to a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>At maximum <span>Blazing Bulwark</span> stacks, Fearless Smash will also deal damage to surrounding enemies in a small radius around the target, and slightly <span class=\"ability-debuff\">knock them back</span>."
         },
         {
             "name": "Inferno Fists",
-            "details": "Wújiàng channels flame on his fists, empowering his basic attacks to deal <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to surrounding enemies in a small radius around the target.<br><br>At maximum <span>Blazing Bulwark</span> stacks, he gains <span class=\"ability-buff\">increased attack speed</span>."
+            "details": "Wujiang channels flame on his fists, empowering his basic attacks to deal <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to surrounding enemies in a small radius around the target.<br><br>At maximum <span>Blazing Bulwark</span> stacks, he gains <span class=\"ability-buff\">increased attack speed</span>."
         },
         {
             "name": "Seismic Kick",
-            "details": "Wújiàng kicks the ground, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies in a small radius and slowing them for a short duration.<br><br>At maximum <span>Blazing Bulwark</span> stacks, the impact will first <span class=\"ability-debuff\">knock up</span> the enemies, before slowing them down."
+            "details": "Wujiang kicks the ground, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies in a small radius and slowing them for a short duration.<br><br>At maximum <span>Blazing Bulwark</span> stacks, the impact will first <span class=\"ability-debuff\">knock up</span> the enemies, before slowing them down."
         },
         {
             "name": "Undying Flame",
-            "details": "Wújiàng embraces the blessing of the Phoenix, becoming a temporary avatar of pure, unyielding fire. He instantly gains <span class=\"ability-buff\">maximum</span> <span>Blazing Bulwark</span> stacks, and takes <span class=\"ability-buff\">reduced incoming damage</span> by a significant percentage for the next few seconds."
+            "details": "Wujiang embraces the blessing of the Phoenix, becoming a temporary avatar of pure, unyielding fire. He instantly gains <span class=\"ability-buff\">maximum</span> <span>Blazing Bulwark</span> stacks, and takes <span class=\"ability-buff\">reduced incoming damage</span> by a significant percentage for the next few seconds."
         }
     ]
 }
