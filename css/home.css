@@ -253,7 +253,7 @@ a.char-block .char-bg {
     }
 
     .title {
-        padding: 30px 0 60px;
+        margin: 30px 0 60px;
     }
 
     .search {
@@ -276,7 +276,7 @@ a.char-block .char-bg {
 
     .container {
         width: 100%;
-        padding-inline: 10px;
+        padding-inline: 20px;
     }
 
     .title {
@@ -291,10 +291,6 @@ a.char-block .char-bg {
 
     .char-bast {
         margin-block: 40px 15px;
-    }
-
-    .char-bast:first-child {
-        margin-top: 25px;
     }
 
     .char-block {
