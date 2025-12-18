@@ -13,7 +13,7 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Wars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Wars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>At maximum stacks, Wars gains bonus <span class=\"ability-ar\">armour penetration</span>."
+            "details": "Wars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Wars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, Wars gains bonus <span class=\"ability-ar\">armour penetration</span>."
         },
         {
             "name": "Onslaught",
@@ -21,7 +21,7 @@
         },
         {
             "name": "Conqueror",
-            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks deal a percentage of the damage as <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to enemies in a cone behind the primary target (cleave damage).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heals</span> for a percentage of the damage dealt from the weaving attacks."
+            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks deal a percentage of the damage as <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to enemies in a cone behind the primary target (cleave damage).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heal</span> for a percentage of the cleave damage dealt."
         },
         {
             "name": "Augury",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Dominion",
-            "details": "Wars launches into the air then slams his glaive down at the target location, unleashing a shockwave that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to nearby enemies and <span class=\"ability-debuff\">fearing</span> everyone except the target marked by <strong>Augury</strong>.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also create a <strong>Dominion</strong> zone for a few seconds around himself, becoming <span class=\"ability-buff\">immune to all damage and negative effects</span> originating from enemies outside the zone."
+            "details": "Wars launches into the air then slams his glaive down at the target location, unleashing a shockwave that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to nearby enemies and <span class=\"ability-debuff\">fearing</span> everyone except the target marked by <strong>Augury</strong>.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also create a <strong>Dominion</strong> zone for a few seconds around himself upon landing, becoming <span class=\"ability-buff\">immune to all damage and negative effects</span> originating from enemies outside the zone."
         }
     ]
 }
