@@ -13,23 +13,23 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Wars's basic attacks and <strong>Onslaught</strong> deal a percentage of the damage as <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to enemies in a cone behind the primary target (cleave damage)."
+            "details": "Wars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Wars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>At maximum stacks, Wars gains bonus <span class=\"ability-ar\">armour penetration</span>."
         },
         {
             "name": "Onslaught",
-            "details": "Wars swings his war-glaive in a powerful, three-part sequence, culminating in a devastating final blow.<br><br>On the first cast, Wars thrusts his glaive in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit.<br><br>On the second cast, Wars performs a 360-degree swing around himself, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in a ring around him.<br><br>On the third cast, Wars leaps to a target area, slamming his glaive down, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and briefly <span class=\"ability-debuff\">fearing</span> enemies hit."
+            "details": "On the first cast, Wars thrusts his glaive in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit, and briefly slowing them.<br><br>Wars's next basic attack then performs a dash to the target and swings his glaive 360-degree around himself upon arrival, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit."
         },
         {
             "name": "Conqueror",
-            "details": "Wars gains increased <span class=\"ability-buff\">life steal</span> and <span class=\"ability-buff\">movement speed</span> for a short duration. In addition, Wars also deals <span class=\"ability-buff\">increased damage</span> to enemies who are below a certain percentage of their maximum health or the target marked by <strong>Augury</strong>."
+            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks deal a percentage of the damage as <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to enemies in a cone behind the primary target (cleave damage).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heals</span> for a percentage of the damage dealt from the weaving attacks."
         },
         {
             "name": "Augury",
-            "details": "Wars marks the target enemy hero, reducing the target's <span class=\"ability-debuff\">movement speed</span> and <span class=\"ability-debuff\">attack speed</span> that continues to increase every second over a duration.<br><br>The marked target can remove the mark by dealing a fixed amount of damage to Wars within the duration."
+            "details": "Wars marks the target enemy hero, reducing the target's <span class=\"ability-debuff\">movement speed</span> and <span class=\"ability-debuff\">attack speed</span> that continues to increase every second over a duration.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also gain increased <span class=\"ability-buff\">movement speed</span> towards the target."
         },
         {
             "name": "Dominion",
-            "details": "Wars swings his glaive, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) in a circular zone around him and instantly creating a <strong>Dominion</strong> zone for a few seconds, becoming <span class=\"ability-buff\">immune to all damage and negative effects</span> originating from enemies outside the zone.<br><br>If there is a target marked by <strong>Augury</strong>, Wars can leap to the target's location, dealing the same damage and creating the <strong>Dominion</strong> zone upon landing. In addition, all nearby enemies who are not marked by <strong>Augury</strong> will be <span class=\"ability-debuff\">pushed out</span> of the zone upon its creation."
+            "details": "Wars launches into the air then slams his glaive down at the target location, unleashing a shockwave that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to nearby enemies and <span class=\"ability-debuff\">fearing</span> everyone except the target marked by <strong>Augury</strong>.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also create a <strong>Dominion</strong> zone for a few seconds around himself, becoming <span class=\"ability-buff\">immune to all damage and negative effects</span> originating from enemies outside the zone."
         }
     ]
 }
