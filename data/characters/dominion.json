@@ -13,15 +13,15 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Wars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Wars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, Wars gains bonus <span class=\"ability-ar\">armour penetration</span>."
+            "details": "Wars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Wars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, Wars gains a percentage of <span class=\"ability-ar\">armour penetration</span>."
         },
         {
             "name": "Onslaught",
-            "details": "On the first cast, Wars thrusts his glaive in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit, and briefly slowing them.<br><br>Wars's next basic attack then performs a dash to the target and swings his glaive 360-degree around himself upon arrival, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit."
+            "details": "On the first cast, Wars thrusts his glaive in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit, and briefly <span class=\"ability-debuff\">slowing</span> them.<br><br>Wars's next basic attack then performs a dash to the target and swings his glaive 360-degree around himself upon arrival, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit."
         },
         {
             "name": "Conqueror",
-            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks deal a percentage of the damage as <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to enemies in a cone behind the primary target (cleave damage).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heal</span> for a percentage of the cleave damage dealt."
+            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks cleave in a cone that deals bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit (on-hit effects only apply to the primary target).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heal</span> for a percentage of the cleave damage dealt to enemy heroes."
         },
         {
             "name": "Augury",
