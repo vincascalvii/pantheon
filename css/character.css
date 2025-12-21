@@ -179,18 +179,22 @@ a {
     font-weight: 700;
 }
 
+/* Magical Damage / Ability Power */
 .ability-ap {
     color: #0071ff;
 }
 
+/* Magic Resistance */
 .ability-mr {
     color: #a45cff;
 }
 
+/* Physical Damage / Attack Damage */
 .ability-ad {
     color: #f4892a;
 }
 
+/* Physical Resistance / Armour */
 .ability-ar {
     color: #dbb600;
 }
@@ -203,12 +207,24 @@ a {
     color: #009549;
 }
 
+/* Health */
 .ability-hp {
     color: #57b572;
 }
 
+/* Mana */
 .ability-mp {
     color: #00b8ff;
+}
+
+/* Movement Speed */
+.ability-mv {
+	color: #00B076;
+}
+
+/* Shield */
+.ability-sh {
+	color: #6badc7;
 }
 
 @media only screen and (max-width: 1600px) {
