@@ -17,7 +17,7 @@
         },
         {
             "name": "Cloud Breaker",
-            "details": "Kaelen throws a <strong>Sky Piercer</strong> in the target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-mv\">movement speed</span>).<br><br>This abilities requires one <strong>Sky Piercer</strong>."
+            "details": "Kaelen throws a <strong>Sky Piercer</strong> in the target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-mv\">movement speed</span>).<br><br>This ability requires one <strong>Sky Piercer</strong>."
         },
         {
             "name": "Impaling Rain",
@@ -25,11 +25,11 @@
         },
         {
             "name": "Air Walk",
-            "details": "Kaelen performs a short, quick dash in a target direction (dash distance scaling with <span class=\"ability-mv\">movement speed</span>). This ability has two charges, allowing for quick repositioning so <strong>Cloud Breaker</strong> can hit a desired target, or reach dropped <strong>Sky Piercers</strong>."
+            "details": "Kaelen performs a short, quick dash in a target direction (dash distance scaling with <span class=\"ability-mv\">movement speed</span>).<br><br>This ability has two charges, allowing for quick repositioning so <strong>Cloud Breaker</strong> can hit a desired target, or reach dropped <strong>Sky Piercers</strong>."
         },
         {
             "name": "Soaring Whirlwind",
-            "details": "Kaelen focuses his momentum, gaining massive <span class=\"ability-mv\">movement speed</span> that decays over the next few seconds. During this time, his <strong>Skypiercing Strike</strong> range is doubled and becomes a whirlwind slash instead, dealing additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the enemy target and all enemies around Kaelen.<br><br>Scoring a takedown refreshes the <span class=\"ability-mv\">movement speed</span> buff and extends the duration of <strong>Soaring Whirlwind</strong>."
+            "details": "Kaelen focuses his momentum, gaining massive <span class=\"ability-mv\">movement speed</span> that decays over the next few seconds.<br><br>During this time, <strong>Skypiercing Strike</strong> range is doubled and becomes a whirlwind slash instead, dealing additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the enemy target and all enemies around Kaelen.<br><br>Scoring a takedown refreshes the <span class=\"ability-mv\">movement speed</span> buff and extends the duration of <strong>Soaring Whirlwind</strong>."
         }
     ]
 }
