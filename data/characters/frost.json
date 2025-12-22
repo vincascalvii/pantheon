@@ -13,7 +13,7 @@
     "abilities": [
         {
             "name": "Frost Armour",
-            "details": "Fenrir generates a layer of frost over his fur every now and then. This armour grants him a <span class=\"ability-ar\">flat damage reduction</span> against <span class=\"ability-ar\">basic attacks</span> and minor <span class=\"ability-mr\">magic resistance</span>.<br><br>When an enemy breaks the armour or when Fenrir is hit by a displacement effect, it shatters, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">magical power</span>) to nearby enemies and applying a stack of <strong>Frost</strong>.<br><br>Enemies with <strong>Frost</strong> have their <span class=\"ability-debuff\">movement speed</span> reduced, stacking up to eight times."
+            "details": "Fenrir generates a layer of frost over his fur every now and then. This armour grants him a <span class=\"ability-ar\">flat damage reduction</span> against <span class=\"ability-ar\">basic attacks</span> and minor <span class=\"ability-mr\">magic resistance</span>.<br><br>When an enemy breaks the armour or when Fenrir is hit by a displacement effect, it shatters, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and applying a stack of <strong>Frost</strong>.<br><br>Enemies with <strong>Frost</strong> have their <span class=\"ability-debuff\">movement speed</span> reduced, stacking up to eight times."
         },
         {
             "name": "Glacial Slash",
@@ -25,7 +25,7 @@
         },
         {
             "name": "Snow Ball",
-            "details": "Fenrir conjures a snowball that rolls in a target direction. As it travels, it grows in size, increasing its damage and impact radius.<br><br>Upon contact with an enemy hero, it explodes, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">knocking up</span> enemies hit."
+            "details": "Fenrir conjures a snowball that rolls in a target direction. As it travels, it grows in size, increasing its damage and impact radius.<br><br>Upon contact with an enemy hero, it explodes, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">knocking up</span> enemies hit."
         },
         {
             "name": "Winter Is Coming",
