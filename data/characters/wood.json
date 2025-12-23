@@ -1,0 +1,36 @@
+{
+    "code": "Wood",
+    "full_name": "Sylvaris Draconis",
+    "first_name": "Sylvaris",
+    "last_name": "Draconis",
+    "title": "the Woodland Sentry",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Forest Breaker",
+    "resonance": "Plant Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Sylvaris is the first fragment and the eldest of the siblings, wielding the elemental power of plants and nature...",
+    "abilities": [
+        {
+            "name": "SCALING WITH HEALTH",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "Forest Breaker",
+            "details": ""
+        }
+    ]
+}

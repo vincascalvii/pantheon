@@ -25,7 +25,7 @@
         },
         {
             "name": "Augury",
-            "details": "Wars marks the target enemy hero, reducing the target's <span class=\"ability-debuff\">movement speed</span> and <span class=\"ability-debuff\">attack speed</span> that continues to increase every second over a duration.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also gain increased <span class=\"ability-buff\">movement speed</span> towards the target."
+            "details": "Wars marks the target enemy hero, reducing the target's <span class=\"ability-debuff\">movement speed</span> and <span class=\"ability-debuff\">attack speed</span> that continues to increase every second over a duration.<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also gain increased <span class=\"ability-mv\">movement speed</span> towards the target."
         },
         {
             "name": "Dominion",

@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Wind Walk",
-            "details": "Kiannah's abilities create wind, called the <span>Wind Walk</span> effect, either around her or in a target area, granting herself and all allies <span class=\"ability-buff\">increased movement speed</span>.<br><br>Kiannah's movement speed boost is slightly more than the one her allies receive. When the <span>Wind Walk</span> effect is worn off, the movement speed boost will not disappear straight away but rapidly decay within a second instead."
+            "details": "Kiannah's abilities create wind, called the <strong>Wind Walk</strong> effect, either around her or in a target area, granting herself and all allies <span class=\"ability-mv\">increased movement speed</span>.<br><br>Kiannah's movement speed boost is slightly more than the one her allies receive. When the <strong>Wind Walk</strong> effect is worn off, the movement speed boost will not disappear straight away but rapidly decay within a second instead."
         },
         {
             "name": "Tailwind Arrow",
-            "details": "Kiannah fires a piercing arrow in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in the path until it reaches the first enemy hero.<br><br>The enemy hero who gets hit will leave behind a wind trail that has <span>Wind Walk</span> effect. The wind trail will stay for a while and when the time is up, it will start fading from the beginning point first. This wind trail can be cleansed."
+            "details": "Kiannah fires a piercing arrow in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in the path until it reaches the first enemy hero.<br><br>The enemy hero who gets hit will leave behind a wind trail that has <strong>Wind Walk</strong> effect. The wind trail will stay for a while and when the time is up, it will start fading from the beginning point first. This wind trail can be cleansed."
         },
         {
             "name": "Gale Force",
-            "details": "Kiannah enchants her bow for a duration to gain <span class=\"ability-buff\">increased attack speed</span> and allow her basic attack to strike the enemy target for <span class=\"ability-buff\">two additional times</span>, each dealing a percentage of her <span class=\"ability-ad\">physical power</span>.<br><br>Every time when Kiannah hits three basic attacks, she briefly creates a <span>Wind Walk</span> effect on herself."
+            "details": "Kiannah enchants her bow for a duration to gain <span class=\"ability-buff\">increased attack speed</span> and allow her basic attack to strike the enemy target for <span class=\"ability-buff\">two additional times</span>, each dealing a percentage of her <span class=\"ability-ad\">physical power</span>.<br><br>Every time when Kiannah hits three basic attacks, she briefly creates a <strong>Wind Walk</strong> effect on herself."
         },
         {
             "name": "Aero Barrage",
-            "details": "Kiannah fires a hail of arrows at the target location, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies within the area and leaving a wind zone that slows all the enemies on top.<br><br>The wind zone stays around for a short duration and grants the <span>Wind Walk</span> effect. After the arrows have landed, that's when the wind zone spreads out. In other words, the area that applies the slow and <span>Wind Walk</span> effect is slightly larger than the hitbox."
+            "details": "Kiannah fires a hail of arrows at the target location, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies within the area and leaving a wind zone that slows all the enemies on top.<br><br>The wind zone stays around for a short duration and grants the <strong>Wind Walk</strong> effect. After the arrows have landed, that's when the wind zone spreads out. In other words, the area that applies the slow and <strong>Wind Walk</strong> effect is slightly larger than the hitbox."
         },
         {
             "name": "Tempest Veil",
-            "details": "Kianna summons powerful whirlwind to surround herself, creating a vast wind zone that grants <span>Wind Walk</span> effect. Upon casting this ability, Kiannah <span class=\"ability-buff\">removes all slowing effect</span> on herself and allies. In addition, the increased movement speed boost from <span>Wind Walk</span> effect is <span class=\"ability-buff\">doubled</span>.<br><br>The wind zone will follow Kiannah for a short while. Allies existing the wind zone will start the one second decaying effect, but re-entering will immediately remove that."
+            "details": "Kianna summons powerful whirlwind to surround herself, creating a vast wind zone that grants <strong>Wind Walk</strong> effect. Upon casting this ability, Kiannah <span class=\"ability-buff\">removes all slowing effect</span> on herself and allies. In addition, the increased movement speed boost from <strong>Wind Walk</strong> effect is <span class=\"ability-mv\">doubled</span>.<br><br>The wind zone will follow Kiannah for a short while. Allies existing the wind zone will start the one second decaying effect, but re-entering will immediately remove that."
         }
     ]
 }

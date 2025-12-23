@@ -1,0 +1,36 @@
+{
+    "code": "Wind",
+    "full_name": "Zephyrus Draconis",
+    "first_name": "Zephyrus",
+    "last_name": "Draconis",
+    "title": "the Sky Rider",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Air Breaker",
+    "resonance": "Wind Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Zephyrus is the third sibling, wielding the elemental power of wind...",
+    "abilities": [
+        {
+            "name": "SCALING WITH ATTACK SPEED & MOVEMENT SPEED",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "",
+            "details": ""
+        },
+        {
+            "name": "Air Breaker",
+            "details": ""
+        }
+    ]
+}

@@ -199,12 +199,17 @@ a {
     color: #dbb600;
 }
 
-.ability-debuff {
-    color: #ef4444;
+/* True Damage */
+.ability-td {
+    color: #aaaaaa;
 }
 
 .ability-buff {
     color: #009549;
+}
+
+.ability-debuff {
+    color: #ef4444;
 }
 
 /* Health */
@@ -220,6 +225,11 @@ a {
 /* Movement Speed */
 .ability-mv {
 	color: #00B076;
+}
+
+/* Crit */
+.ability-cr {
+	color: #fd600d;
 }
 
 /* Shield */
