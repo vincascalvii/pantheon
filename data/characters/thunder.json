@@ -1,0 +1,36 @@
+{
+    "code": "Thunder",
+    "full_name": "Artorias Draconis",
+    "first_name": "Artorias",
+    "last_name": "Draconis",
+    "title": "the Lightning Champion",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Storm Breaker",
+    "resonance": "Thunder Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Artorias is the youngest sibling, wielding the elemental power of thunder. He loves to travel around the world and wrecking havoc everywhere, which cause a lot of headache to his older siblings.",
+    "abilities": [
+        {
+            "name": "Thunder Fury",
+            "details": "Every time Artorias basic attacks or uses <strong>Lightning Strike</strong> on an enemy hero, he receives a stack of <strong>Thunder Fury</span> that boosts <span class=\"ability-buff\">attack speed</span> (maximum five stacks).<br><br>At maximum stacks, Artorias's basic attack or <strong>Lightning Strike</strong> creates lightning and deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and nearby enemies."
+        },
+        {
+            "name": "Lightning Strike",
+            "details": "Artorias thrusts his spear forward in a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit.<br><br>In <strong>Thunder Dragon</strong> form, Artorias fires a blast of lightning in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit."
+        },
+        {
+            "name": "Voltaic Body",
+            "details": "Artorias gains increased <span class=\"ability-buff\">movement speed</span> that decays over a short duration. Using this ability will remove all movement speed slow debuffs currently on him.<br><br>In <strong>Thunder Dragon</strong> form, Artorias flies up and gains the ability to go over terrains. Using the ability again to land down, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in a radius and <span class=\"ability-debuff\">knocking</span> them back."
+        },
+        {
+            "name": "Galvanic Spear",
+            "details": "Artorias leaps to a target and thrusts his spear, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">slowing</span> the target for a short duration.<br><br>In <strong>Thunder Dragon</strong> form, Artorias sweeps its tail in a cone-shaped area, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit and <span class=\"ability-debuff\">slowing</span> them down for a short duration."
+        },
+        {
+            "name": "Storm Breaker",
+            "details": "Artorias transforms into the powerful <strong>Thunder Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-mv\">movement speed</span> and maximum stacks of <strong>Thunder Fury</strong> for a duration.<br><br>While in <strong>Thunder Dragon</strong> form, Artorias's attack speed will be converted to bonus <span class=\"ability-ap\">magical power</span> and his basic attacks fire a long range lightning bolt instead.<br><br>Artorias also switches to a separate abilities set during this time."
+        }
+    ]
+}

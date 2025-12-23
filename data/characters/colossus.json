@@ -1,0 +1,36 @@
+{
+    "code": "Colossus",
+    "full_name": "Duncan Wyvernsworn",
+    "first_name": "Duncan",
+    "last_name": "Wyvernsworn",
+    "title": "?",
+    "bastion_name": "Everlight",
+    "bastion_full": "Everlight, the Dawn Bringers",
+    "bastion_short": "everlight",
+    "race": "Valorian",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "?",
+    "abilities": [
+        {
+            "name": "Hulking Strength",
+            "details": "Duncan does not scale on attack speed, but his basic attack deals additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to all enemies in a straight line.<br><br>Additional attack speed will be converted to bonus <span class=\"ability-ad\">physical power</span>."
+        },
+        {
+            "name": "Shield Bash",
+            "details": "Duncan bashes the enemies in a cone-shaped direction with his shield, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in the area.<br><br><strong>Shield Bash</strong> also slightly <span class=\"ability-debuff\">knocks</span> the enemies back and briefly <span class=\"ability-debuff\">slows</span> them."
+        },
+        {
+            "name": "Steadfast Presence",
+            "details": "Duncan tumbles to a target direction, gaining increased <span class=\"ability-ar\">physical resistance</span> and <span class=\"ability-mr\">magic resistance</span> for a duration."
+        },
+        {
+            "name": "Valiant Charge",
+            "details": "Duncan charges at a target enemy, pushing the target back along the way and dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>If the target is knocked onto a wall, <strong>Valiant Charge</strong> will stun the target for a short duration, dealing additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>)."
+        },
+        {
+            "name": "Defensive Front",
+            "details": "Duncan holds up his shield and creates a giant wall that <span class=\"ability-buff\">blocks all projectiles</span> including ultimate, except turret blasts.<br><br>Duncan also gains increased <span class=\"ability-mv\">movement speed</span> and the ability to <span class=\"ability-buff\">move through units</span>.<br><br>However, he can only use <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>. Using <strong>Valiant Charge</strong> during <strong>Defensive Front</strong> will have a much wider wall range and can push multiple enemies at once."
+        }
+    ]
+}

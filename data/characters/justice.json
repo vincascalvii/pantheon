@@ -20,12 +20,12 @@
             "details": "Cyrus launches a barrage of lumious bolts at a target location over a very short duration. Each bolt explodes upon landing, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>The bolts can be blocked by an enemy hero before they reach the target location, and the damage will be dealt to only that target. Casting this ability does not interupt with Cyrus's movement."
         },
         {
-            "name": "Dominion",
+            "name": "Verdict",
             "details": "Cyrus designates a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit and slightly <span class=\"ability-debuff\">slowing</span> them.<br><br>After a few seconds, the area erupts with cosmic energy, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within and <span class=\"ability-debuff\">stunning</span> them."
         },
         {
             "name": "Singularity",
-            "details": "Cyrus launches a slow-moving, expanding orb of cosmic energy in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies it passes through.<br><br>If <span>Singularity</span> passes through an active <span>Dominion</span> zone, the zone immediately erupts with cosmic energy (secondary effect of that ability).<br><br>If <span>Retribution</span> passes through the moving <span>Singularity</span>, each bolt will deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>)."
+            "details": "Cyrus launches a slow-moving, expanding orb of cosmic energy in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies it passes through.<br><br>If <span>Singularity</span> passes through an active <span>Verdict</span> zone, the zone immediately erupts with cosmic energy (secondary effect of that ability).<br><br>If <span>Retribution</span> passes through the moving <span>Singularity</span>, each bolt will deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>)."
         },
         {
             "name": "Judgement",

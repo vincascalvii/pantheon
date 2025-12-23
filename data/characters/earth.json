@@ -1,5 +1,5 @@
 {
-    "code": "Iron",
+    "code": "Earth",
     "full_name": "Argon Draconis",
     "first_name": "Argon",
     "last_name": "Draconis",
@@ -8,7 +8,7 @@
     "bastion_full": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "race": "Dragonian",
-    "soulforge": "Earthbreaker",
+    "soulforge": "Earth Breaker",
     "resonance": "Iron Bending",
     "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Argon is the second sibling, wielding the elemental power of earth and metal. He spends most of his time at the bastion, which he built all on his own over decades. He believes his primary duty of the siblings is not only to rule their people with an iron fist, but also to protect them with an iron wall.",
     "abilities": [
@@ -30,7 +30,7 @@
         },
         {
             "name": "Earth Breaker",
-            "details": "Argon channels his power to prepare a powerful attack. When unleashed, Argon smashes the ground, sending out a wave of rupture that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocks up</span> enemies upon contact. The longer he charges the attack, the further the wave travels and the more damage it deals.<br><br>When the wave of rupture touches the <span>Iron Pillars</span>, it will shatter them, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to surrouding enemies and briefly <span class=\"ability-debuff\">stunning</span> them. If the enemies have already been knocked up, the stun effect takes place after the target lands.<br><br>Argon can still move while channeling his power, but will be slightly slower.<br><br>If the enemies stand behind the <span>Iron Pillars</span>, they will not be knocked up because the rupture wave would have stopped at the pillars. However, they can still be stunned when the <span>Iron Pillars</span> shatter if they stand too close."
+            "details": "Argon channels his power to unleash his dragon form. When unleashed, Argon becomes the powerful <strong>Earth Dragon</strong>, gaining increased <span class=\"ability-ar\">physical resistance</strong>, <span class=\"ability-buff\">size</strong> and <span class=\"ability-buff\">attack range</strong>, while sending out a wave of rupture that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">knocks up</span> enemies upon contact.<br><br>When the wave of rupture touches the <span>Iron Pillars</span>, it will shatter them, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to surrouding enemies and briefly <span class=\"ability-debuff\">stunning</span> them.<br><br>If the enemies have already been knocked up, the stun effect takes place after the target lands. If the enemies stand behind the <span>Iron Pillars</span>, they will not be knocked up because the rupture wave would have stopped at the pillars. However, they can still be stunned when the <span>Iron Pillars</span> shatter if they stand too close."
         }
     ]
 }
