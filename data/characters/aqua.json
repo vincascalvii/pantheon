@@ -14,15 +14,15 @@
     "abilities": [
         {
             "name": "Abyssal Depth",
-            "details": "Marinus gains bonus <span class=\"ability-ap\">magic penetration</span> based on her <span class=\"ability-mp\">maximum mana</span>.<br><br>A percentage of Marinus's bonus <span class=\"ability-ap\">magical power</span> is converted into <span class=\"ability-mp\">maximum mana</span>."
+            "details": "Marinus gains bonus <span class=\"ability-ap\">magic penetration</span> based on her <span class=\"ability-mp\">maximum mana</span>. A percentage of Marinus's bonus <span class=\"ability-ap\">magical power</span> is converted into <span class=\"ability-mp\">maximum mana</span>."
         },
         {
             "name": "Hydro Pump",
-            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) every quarter second.<br><br>While casting, Marinus is grounded (cannot move) but can rotate her direction. This ability can be held down to continue the blast, rapidly consuming her <span class=\"ability-mp\">mana</span> per second.<br><br>In <strong>Aqua Dragon</strong> form, the beam becomes a powerful torrent, gaining extra range and dealing additional bonus magical damage based on the target's maximum health (scaling with <span class=\"ability-mp\">maximum mana</span>)."
+            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) every 0.25 seconds.<br><br>While casting, Marinus is <span class=\"ability-debuff\">grounded</span> (cannot move) but can rotate her direction. This ability can be held down to continue the blast, rapidly consuming her <span class=\"ability-mp\">mana</span> per second.<br><br>In <strong>Aqua Dragon</strong> form, the beam becomes a powerful torrent, gaining extra range and dealing additional bonus magical damage based on the target's <span class=\"ability-debuff\">maximum health</strong> (scaling with <span class=\"ability-mp\">maximum mana</span>)."
         },
         {
             "name": "Riptide Vortex",
-            "details": "Marinus creates a swirling vortex at a target location. After a short delay, the vortex deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) per second and constantly <span class=\"ability-debuff\">pulls</span> them toward its center.<br><br>In <strong>Aqua Dragon</strong> form, the vortex is larger and enemies will also be <span class=\"ability-debuff\">grounded</span>."
+            "details": "Marinus creates a swirling vortex at a target location. After a short delay, the vortex deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) per second and constantly <span class=\"ability-debuff\">pulls</span> them toward its center.<br><br>In <strong>Aqua Dragon</strong> form, the vortex is larger and enemies will also be <span class=\"ability-debuff\">grounded</span> (preventing them from dashing)."
         },
         {
             "name": "Tidal Surge",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Ocean Breaker",
-            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</span> for a duration, gaining increased <span class=\"ability-mp\">maximum mana</span> and <span class=\"ability-mp\">mana regen</span>.<br><br>In addition, <strong>Ocean Breaker</strong> also <span class=\"ability-buff\">recovers</span> a percentage of her maximum mana on cast. While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
+            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</strong> for a duration, gaining increased <span class=\"ability-mp\">maximum mana</span> and <span class=\"ability-mp\">mana regen</span>.<br><br>In addition, <strong>Ocean Breaker</strong> also <span class=\"ability-buff\">recovers</span> a percentage of her maximum mana on cast.<br><br>While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
         }
     ]
 }

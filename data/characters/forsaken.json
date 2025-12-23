@@ -26,7 +26,7 @@
         },
         {
             "name": "The Hunt",
-            "details": "Draevyn gains increased <span class=\"ability-mv\">movement speed</span> and becomes <span class=\"ability-buff\">camouflaged</span> for a duration. He will gain increased <span class=\"ability-buff\">attack speed</span>when exiting camouflage.<br><br>Takedown on enemy hero that Draevyn recently damaged will reset <strong>The Hunt</strong> cooldown.<br><br>Draevyn can cast <strong>Slaughter Zone</span> without revealing himself."
+            "details": "Draevyn gains increased <span class=\"ability-mv\">movement speed</span> and becomes <span class=\"ability-buff\">camouflaged</span> for a duration. He will gain increased <span class=\"ability-as\">attack speed</span>when exiting camouflage.<br><br>Takedown on enemy hero that Draevyn recently damaged will reset <strong>The Hunt</strong> cooldown.<br><br>Draevyn can cast <strong>Slaughter Zone</span> without revealing himself."
         },
         {
             "name": "Multilate",

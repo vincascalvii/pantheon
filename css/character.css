@@ -227,6 +227,11 @@ a {
 	color: #00B076;
 }
 
+/* Attack Speed */
+.ability-as {
+    color: #ff9915;
+}
+
 /* Crit */
 .ability-cr {
 	color: #fd600d;

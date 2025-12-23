@@ -21,7 +21,7 @@
         },
         {
             "name": "Conqueror",
-            "details": "Wars gains increased <span class=\"ability-buff\">attack speed</span> for a short duration. In addition, his basic attacks cleave in a cone that deals bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit (on-hit effects only apply to the primary target).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heal</span> for a percentage of the cleave damage dealt to enemy heroes."
+            "details": "Wars gains increased <span class=\"ability-as\">attack speed</span> for a short duration. In addition, his basic attacks cleave in a cone that deals bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit (on-hit effects only apply to the primary target).<br><br>At maximum <strong>War Stance</strong> stacks, Wars will also <span class=\"ability-buff\">heal</span> for a percentage of the cleave damage dealt to enemy heroes."
         },
         {
             "name": "Augury",
