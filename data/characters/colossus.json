@@ -30,7 +30,7 @@
         },
         {
             "name": "Defensive Front",
-            "details": "Duncan holds up his shield and creates a giant wall that <span class=\"ability-buff\">blocks all projectiles</span> including ultimate, except turret blasts.<br><br>Duncan also gains increased <span class=\"ability-mv\">movement speed</span> and the ability to <span class=\"ability-buff\">move through units</span>.<br><br>However, he can only use <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>. Using <strong>Valiant Charge</strong> during <strong>Defensive Front</strong> will have a much wider wall range and can push multiple enemies at once."
+            "details": "Duncan holds up his shield and creates a giant wall that <span class=\"ability-buff\">blocks all projectiles</span> including ultimate, except turret blasts.<br><br>Duncan also gains increased <span class=\"ability-mv\">movement speed</span> and the ability to <span class=\"ability-buff\">move through units</span>.<br><br>However, he can only use <strong>Shield Bash</strong> and <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>.<br><br><strong>Shield Bash</strong> has a rectangle hit box instead of a cone, and <strong>Valiant Charge</strong> will push multiple enemies at once. Both abilities range are based on the wall's length."
         }
     ]
 }

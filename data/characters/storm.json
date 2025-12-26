@@ -18,7 +18,7 @@
         },
         {
             "name": "Thundering Smash",
-            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</strong> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. During this time, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>. Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
+            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. During this time, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>. Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
         },
         {
             "name": "Lightning Rebuke",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Electrical Anchors",
-            "details": "On the first cast, Thorr places an <strong>Electrical Anchor</strong> at a target location. On the second cast, Thorr places a second Electrical Anchor at another location.<br><br>Then, an electrical arc instantly connects the two points, shocking all enemies in between, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">stuning</strong> them.<br><br>Thorr can place <strong>Electrical Anchors</strong> while moving."
+            "details": "On the first cast, Thorr places an <strong>Electrical Anchor</strong> at a target location. On the second cast, Thorr places a second Electrical Anchor at another location.<br><br>Then, an electrical arc instantly connects the two points, shocking all enemies in between, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">stuning</span> them.<br><br>Thorr can place <strong>Electrical Anchors</strong> while moving."
         },
         {
             "name": "Gathering Storm",
