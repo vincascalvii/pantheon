@@ -32,5 +32,8 @@
             "name": "Unstoppable Force",
             "details": "Baal becomes unstoppable for a few seconds, <span class=\"ability-buff\">reducing all incoming damage</span> by a percentage and becoming <span class=\"ability-buff\">immune to all crowd controls</span>.<br><br>Using <strong>Unstoppable Force</strong> will also break out from any form of crowd control he is currently in."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "storm"
+    }
 }

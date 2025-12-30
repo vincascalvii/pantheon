@@ -32,5 +32,9 @@
             "name": "Flame Breaker",
             "details": ""
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "aqua",
+        "next_char": "thunder"
+    }
 }

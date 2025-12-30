@@ -10,7 +10,7 @@
     "race": "Celestial",
     "soulforge": "Judgement",
     "resonance": "Authority",
-    "intro": "",
+    "intro": "Once the crown jewel of the Valorians, Cyrus was the pinnacle of the Seventh Order’s \"Golden Generation\" - a symbol of hope for mortals. Through a series of world-altering events, Cyrus was chosen as the vessel for the Ascension. He shed his mortality to become a Sovereign, joining the ranks of the celestial rulers of the mortal realms. Now possessed of Absolute Authority, Cyrus has transitioned from a protector to a judge. He no longer sees individuals, only \"worthiness\". To him, the world is a chaotic system that requires the \"Definite Judgment\" of a god to remain stable.",
     "abilities": [
         {
             "name": "Heaven's Will",
@@ -32,5 +32,9 @@
             "name": "Judgement",
             "details": "Cyrus unleashes a radiant blast on all enemies marked by the <span>Heaven's Will</span>, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to each target.<br><br>If the target's health is below a certain threshold, <span>Judgement</span> will <span class=\"ability-debuff\">execute</span> the target. Enemies are also briefly <span class=\"ability-debuff\">revealed</span> from the start of the cast time."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "blade",
+        "next_char": "vigil"
+    }
 }

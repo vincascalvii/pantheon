@@ -32,5 +32,9 @@
             "name": "Air Breaker",
             "details": ""
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "earth",
+        "next_char": "aqua"
+    }
 }

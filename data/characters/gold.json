@@ -32,5 +32,9 @@
             "name": "Brilliant Dawn",
             "details": "Everett channels the full power of his golden essence, gaining bonus <span class=\"ability-buff\">attack range</span> and empowering his basic attacks to <span class=\"ability-buff\">pierce through all enemies in a line</span>.<br><br>If Everett is shielded while in this state, he will gain bonus <span class=\"ability-as\">attack speed</span>. If the shield expires or is broken, the bonus stats will be lost.<br><br>While <span>Brilliant Dawn</span> is active, <span>Golden Sentry</span> also gains extended attack range, and its attacks will pierce through all enemies in a line, mirroring Everett's empowered basic attacks."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "silver",
+        "next_char": "colossus"
+    }
 }

@@ -32,5 +32,9 @@
             "name": "Earth Breaker",
             "details": "Terros channels his power to unleash his dragon form. When unleashed, Terros becomes the powerful <strong>Earth Dragon</strong>, gaining increased <span class=\"ability-ar\">physical resistance</span>, <span class=\"ability-buff\">size</span> and <span class=\"ability-buff\">attack range</span>, while sending out a wave of rupture that deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) and <span class=\"ability-debuff\">knocks up</span> enemies upon contact.<br><br>When the wave of rupture touches the <strong>Iron Pillars</strong>, it will shatter them, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to surrouding enemies and briefly <span class=\"ability-debuff\">stunning</span> them.<br><br>If the enemies have already been knocked up, the stun effect takes place after the target lands. If the enemies stand behind the <strong>Iron Pillars</strong>, they will not be knocked up because the rupture wave would have stopped at the pillars. However, they can still be stunned when the <strong>Iron Pillars</strong> shatter if they stand too close.<br><br>While in <strong>Earth Dragon</strong> form, his abilities are enhanced."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "wood",
+        "next_char": "wind"
+    }
 }

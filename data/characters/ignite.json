@@ -34,6 +34,8 @@
         }
     ],
     "config": {
-        "char_height": 860
+        "char_height": 860,
+        "prev_char": "mystic",
+        "next_char": "silver"
     }
 }

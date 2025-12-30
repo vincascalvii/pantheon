@@ -32,5 +32,8 @@
             "name": "Forest Breaker",
             "details": ""
         }
-    ]
+    ],
+    "config": {
+        "next_char": "earth"
+    }
 }

@@ -32,5 +32,8 @@
             "name": "Gathering Storm",
             "details": "Thorr raises his hammer, summoning a massive thunderstorm around himself, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span> each wave.<br><br><strong>Gathering Storm</strong> has three waves. The last wave deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">stunning</span> all enemies hit.<br><br>Thorr gains increased <span class=\"ability-mv\">movement speed</span> and <span class=\"ability-buff\">damage reduction</span> during <strong>Gathering Storm</strong> but is unable to basic attack or cast other abilities."
         }
-    ]
+    ],
+    "config": {
+        "next_char": "horns"
+    }
 }

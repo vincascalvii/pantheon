@@ -32,5 +32,9 @@
             "name": "Sentinel's Embrace",
             "details": "Clair channels briefly, then slams her lance down, creating a massive silver dome at her location that persists for several seconds. Allied heroes inside the dome gain <span class=\"ability-buff\">damage reduction</span> from all sources.<br><br>In addition, all ally and enemy heroes will receive a stack of <span>Silver Weave</span> when entering the dome."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "ignite",
+        "next_char": "gold"
+    }
 }

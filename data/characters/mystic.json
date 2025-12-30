@@ -35,6 +35,7 @@
     ],
     "config": {
         "char_width": 1000,
-        "char_height": 760
+        "char_height": 760,
+        "next_char": "ignite"
     }
 }

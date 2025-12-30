@@ -32,5 +32,8 @@
             "name": "Storm Breaker",
             "details": "Artorias transforms into the powerful <strong>Thunder Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-mv\">movement speed</span> and maximum stacks of <strong>Thunder Fury</strong> for a duration.<br><br>While in <strong>Thunder Dragon</strong> form, Artorias will always <span class=\"ability-cr\">critically strike</span> with basic attacks and <strong>Lightning Strike</strong>. In addition, his critical chance will be converted to bonus <span class=\"ability-cr\">critical strike damage</span> instead.<br><br>While in <strong>Thunder Dragon</strong> form, his abilities are enhanced."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "flame"
+    }
 }

@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Hulking Strength",
-            "details": "Duncan does not scale on attack speed, but his basic attack deals additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to all enemies in a straight line.<br><br>Additional attack speed will be converted to bonus <span class=\"ability-ad\">physical power</span>."
+            "details": "Duncan does not scale on attack speed, but his basic attack deals additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all enemies in a straight line.<br><br>Additional attack speed will be converted to bonus <span class=\"ability-ad\">physical power</span>."
         },
         {
             "name": "Shield Bash",
@@ -32,5 +32,8 @@
             "name": "Defensive Front",
             "details": "Duncan holds up his shield and creates a giant wall that <span class=\"ability-buff\">blocks all projectiles</span> including ultimate, except turret blasts.<br><br>Duncan also gains increased <span class=\"ability-mv\">movement speed</span> and the ability to <span class=\"ability-buff\">move through units</span>.<br><br>However, he can only use <strong>Shield Bash</strong> and <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>.<br><br><strong>Shield Bash</strong> has a rectangle hit box instead of a cone, and <strong>Valiant Charge</strong> will push multiple enemies at once. Both abilities range are based on the wall's length."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "gold"
+    }
 }

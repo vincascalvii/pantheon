@@ -40,13 +40,13 @@ let arrowNext = document.querySelector('.arrow-next');
 			main.classList.add('main-' + data.code.toLowerCase());
 			main.classList.add('main-' + data.bastion_short.toLowerCase());
 
-			//
+			// Setup navigation arrows
 			if (data.config?.prev_char !== undefined) {
-				arrowPrev.href = './character?code=' + data.config.prev_char;
+				arrowPrev.href = '../character?code=' + data.config.prev_char;
 				arrowPrev.classList.add('active');
 			}
 			if (data.config?.next_char !== undefined) {
-				arrowNext.href = './character?code=' + data.config.next_char;
+				arrowNext.href = '../character?code=' + data.config.next_char;
 				arrowNext.classList.add('active');
 			}
 
