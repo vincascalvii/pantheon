@@ -1,0 +1,26 @@
+@font-face {
+    font-family: BrunoAceSC;
+    src: url('../fonts/BrunoAceSC-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Rationale;
+    src: url('../fonts/Rationale-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lekton;
+    src: url('../fonts/Lekton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lekton;
+    src: url('../fonts/Lekton-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Lekton;
+    src: url('../fonts/Lekton-Italic.ttf') format('truetype');
+    font-style: italic;
+}

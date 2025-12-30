@@ -1,27 +1,42 @@
 /* ==========================================================================
 
-	CHARACTER JS
+	DECLARE RE-USABLE VARIABLES
+
+========================================================================== */
+
+const urlParams = new URLSearchParams(window.location.search);
+let main = document.querySelector('main');
+let bastion = document.querySelector('.main-bastion');
+let artContainer = document.querySelector('.main-art');
+let artChar = document.querySelector('.main-art-img');
+let zoom = document.querySelector('.zoom');
+var abilityList = document.querySelector('.ability-list');
+
+
+
+/* ==========================================================================
+
+	POPULATE DATA
 
 ========================================================================== */
 
 (function() {
 
 	// Get the character
-	var charCode = getParameter('code').toLowerCase();
+	let charCode = urlParams.get('code').toLowerCase();
 
-	// If the value is not empty or null
-	if ( charCode != '' && charCode != null ) {
-
-		// Fetch the JSON file
-		fetch('/pantheon/data/characters/' + charCode + '.json')
-		.then(response => {
-			if (!response.ok) throw new Error('HTTP error ' + response.status);
-	        	return response.json();
-	    	})
+	// If the value is not empty or null, fetch the JSON file
+	if (charCode != '' && charCode != null) {
+		fetch('/data/characters/' + charCode + '.json')
+		.then(res => {
+			if (!res.ok) throw new Error('HTTP error ' + res.status);
+	        return res.json();
+	    })
 		.then(data => {
 
 			// Add unique code on the container
-			document.querySelector('main').classList.add('main-' + data['code'].toLowerCase());
+			main.classList.add('main-' + data.code.toLowerCase());
+			main.classList.add('main-' + data.bastion_short.toLowerCase());
 
         	// Populate the data
 			popData(data, 'full_name');
@@ -33,82 +48,144 @@
 			popData(data, 'intro');
 
 	    	// Populate the art
-	    	document.getElementById('pop-bastion-logo').src = '../img/bastions/' + data['bastion_short'] + '.png';
-	    	document.getElementById('pop-art-full').src = '../img/characters/' + charCode + '/full.png';
+	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
+			artChar.src = '../img/characters/' + charCode + '/full.png';
+			if (data.config?.character_width !== undefined) 
+				artContainer.style.width = data.config.character_width + 'px';
+			if (data.config?.character_height !== undefined)
+				artContainer.style.height = data.config.character_height + 'px';
 
-		// Get the abilities container
-            	var abilityList = document.getElementById('pop-abilities');
-
-	            // Define the ability types
-	            var abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
+			// Define the ability types
+			let abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
 
 		    // Populate the abilities
-		    for ( var i = 0; i < 5; i++ ) {
-			var ability = document.createElement('div');
-			    ability.classList.add('ability-item');
-			var abilityType = document.createElement('div');
-			    abilityType.classList.add('ability-type');
-			    abilityType.innerHTML = abilityTypes[i];
-			var abilityName = document.createElement('div');
-			    abilityName.classList.add('ability-name');
-			    abilityName.innerHTML = data['abilities'][i]['name'];
-			var abilityDetails = document.createElement('div');
-			    abilityDetails.classList.add('ability-details');
-			    abilityDetails.innerHTML = data['abilities'][i]['details'];
-			
-			// Add the ability type, name & details
-			ability.appendChild(abilityType);
-			ability.appendChild(abilityName);
-			ability.appendChild(abilityDetails);
-			abilityList.appendChild(ability);
+		    for (let i = 0; i < 5; i++) {
+				let ability = document.createElement('div');
+					ability.classList.add('ability-item');
+					ability.setAttribute('data-ability', abilityTypes[i]);
+					if (i===0) ability.classList.add('active');
+				let abilityType = document.createElement('div');
+					abilityType.classList.add('ability-type');
+					abilityType.innerHTML = abilityTypes[i];
+				let abilityName = document.createElement('div');
+					abilityName.classList.add('ability-name');
+					abilityName.innerHTML = data.abilities[i].name;
+				let abilityDetails = document.createElement('div');
+					abilityDetails.classList.add('ability-details');
+					abilityDetails.innerHTML = data.abilities[i].details;
+				
+				// Add the ability type, name & details
+				ability.appendChild(abilityType);
+				ability.appendChild(abilityName);
+				ability.appendChild(abilityDetails);
+				abilityList.appendChild(ability);
 		    }
+
+			// Initialise ability switching
+			switchAbility();
 		})
 		.catch(function(error) {
 			console.log('Fetch error: ', error);
 		});
 	}
 
-    	// Reusable function to populate data
+    // Reusable function to populate data
 	function popData(data, name) {
-		var val = data[name];
-        	var els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
-        	for ( var i = 0; i < els.length; i++ ) {
-            		els[i].innerHTML = val;
-        	}
-    	}
+		let val = data[name];
+		let els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
+		for ( let i = 0; i < els.length; i++ ) {
+			els[i].innerHTML = val;
+		}
+    }
 })();
 
 
 
 /* ==========================================================================
 
-    GET URL PARAMATER
+    ZOOM IN IMAGE
 
 ========================================================================== */
 
-function getParameter() {
-    var key = false, results = {}, item = null;
+(function() {
+	zoom.addEventListener('click', function() {
+		artContainer.classList.add('zoomed-in');
+	});
+	artContainer.addEventListener('click', function() {
+		artContainer.classList.remove('zoomed-in');
+	});
+})();
 
-    // Get the query string without the "?""
-    var qs = location.search.substring(1);
 
-    // Check for the key as an argument
-    if ( arguments.length > 0 && arguments[0].length > 1 ) key = arguments[0];
 
-    // Make a regex pattern to grab key/value
-    var pattern = /([^&=]+)=([^&]*)/g;
+/* ==========================================================================
 
-    // Loop the items in the query string,
-    // Either find a match to the argument, 
-    // Or build an object with key/value pairs
-    while ( item = pattern.exec(qs) ) {
-        if ( key !== false && decodeURIComponent(item[1]) === key ) {
-            return decodeURIComponent(item[2]);
-        } else if ( key === false ) {
-            results[decodeURIComponent(item[1])] = decodeURIComponent(item[2]);
-        }
-    }
+    SWITCHING TAB
 
-    // Return the results if no key was specified
-    return key === false ? results : null;
+========================================================================== */
+
+(function() {
+
+	// Get all tab buttons and contents
+	let tabButtons = document.querySelectorAll('.main-nav-item');
+	let tabContents = document.querySelectorAll('.main-tab');
+
+	// Add click event listener to each button to switch tabs
+	tabButtons.forEach(function(button) {
+		button.addEventListener('click', function() {
+			let targetTab = button.getAttribute('data-tab');
+
+			// Remove active class from all buttons and contents
+			tabButtons.forEach(function(btn) {
+				btn.classList.remove('active');
+			});
+			tabContents.forEach(function(content) {
+				content.classList.remove('active');
+			});
+
+			// Add active class to the clicked button and corresponding content
+			let targetContent = document.querySelector('.main-tab[data-tab="' + targetTab + '"]');
+			if (targetContent) {
+				button.classList.add('active');
+				targetContent.classList.add('active');
+			}
+		});
+	});
+})();
+
+
+
+/* ==========================================================================
+
+    SWITCHING ABILITY
+
+========================================================================== */
+
+function switchAbility() {
+
+	// Get all ability buttons and contents
+	let abilityButtons = document.querySelectorAll('.ability-nav-item');
+	let abilityContents = document.querySelectorAll('.ability-item');
+
+	// Add click event listener to each button to switch abilitys
+	abilityButtons.forEach(function(button) {
+		button.addEventListener('click', function() {
+			let targetTab = button.getAttribute('data-ability');
+
+			// Remove active class from all buttons and contents
+			abilityButtons.forEach(function(btn) {
+				btn.classList.remove('active');
+			});
+			abilityContents.forEach(function(content) {
+				content.classList.remove('active');
+			});
+
+			// Add active class to the clicked button and corresponding content
+			let targetContent = document.querySelector('.ability-item[data-ability="' + targetTab + '"]');
+			if (targetContent) {
+				button.classList.add('active');
+				targetContent.classList.add('active');
+			}
+		});
+	});
 }

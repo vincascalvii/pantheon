@@ -7,13 +7,18 @@
 	<meta name="theme-color" content="#333">
 	<title>Pantheon - Character Design - Calvin Lam</title>
 	<meta name="description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
-	<meta name="keywords" content="vincas, vincas calvii, calvin lam, web design, web developer, character design, story design, pokemon">
 	<meta name="author" content="Calvin Lam">
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
+	<!-- <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
 	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="/css/fonts.css?version1">
-	<link rel="stylesheet" type="text/css" href="../css/character.css?version1">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous"> -->
+	<link rel="preload" as="font" type="font/ttf" href="../fonts/BrunoAceSC-Regular.ttf" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="../fonts/Rationale-Regular.ttf" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="../fonts/Lekton-Regular.ttf" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="../fonts/Lekton-Bold.ttf" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="../fonts/Lekton-Italic.ttf" crossorigin="anonymous"> 
+	<!-- <link rel="stylesheet" type="text/css" href="/css/fonts.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/character.css">
 	<meta property="og:site_name" content="Calvin Lam">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/img/others/opengraph.jpg">
@@ -34,40 +39,96 @@
 			</svg>
 			<span class="back-text">Back</span>
 		</a>
+		<img src="../img/bg-char.png" class="background" alt="Background">
 		<section class="main container">
 			<div class="main-info">
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-					 id="pop-bastion-logo" class="main-bastion" alt="Bastion Logo">
-				<h1 class="main-name pop-full-name">N/A</h1>
-				<div class="main-title pop-title">N/A</div>
-				<div class="main-details">
-					<div class="main-drow">
-						<span class="main-drow-label">Bastion</span>
-						<span class="main-drow-value pop-bastion-full">N/A</span>
+				<div class="main-header">
+					<img src="../img/bastions/all.png" class="main-bastion" alt="Bastion Logo"
+						 onerror="this.style.display='none'">
+					<h1 class="main-name pop-full-name">N/A</h1>
+					<div class="main-title pop-title">N/A</div>
+				</div>
+				<div class="main-nav">
+					<div class="main-nav-item active" data-tab="intro">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="main-nav-icon">
+							<path fill="currentColor" d="M128 16v99.3l119 118.9V120.1L128 16zm256 0L265 120.1v114.1l119-119V16zM16 128l104 119h114.2L115.3 128H16zm380.8 0l-119 119h114.1l104-119h-99.1zM120 265L16 384h99.2l119-119H120zm157.8 0l119 119h99.1l-104-119H277.8zM247 277.8l-119 119V496l119-104.1V277.8zm18 0v114.1L384 496v-99.2l-119-119z"/>
+						</svg>
 					</div>
-					<div class="main-drow">
-						<span class="main-drow-label">Race</span>
-						<span class="main-drow-value pop-race">N/A</span>
+					<div class="main-nav-item" data-tab="ability">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="main-nav-icon">
+							<path fill="currentColor" d="M405.878,357.099c-3.641-41.297-29.703-99.953-92.734-102.781c-92.922,0.25-106.391,72.141-97.656,103.984   c7.328,26.75,26.781,48.078,54.422,45.656s48.469-26.844,45.656-54.438c-0.484-29.266,24.344-28.5,25.094,3.875   c1.016,43.094-28.094,80.922-71.031,84.703c-42.938,3.75-77.531-28.547-84.719-71.031c-4.344-25.781,0.594-75.172,44.438-113.766   c56.344-49.594,117.719,9.875,112.734-70.578c-5.031-81.188-25.438-82.906-78.063-114.531   c-34.797-20.922-40.75-54.109-38.797-67.109c0.078-0.625,0.078-1.563-1.156-0.781c-32.594,20.469-32.859,58-13.813,87.25   c9.141,14.016,28.031,21.234,29.969,43.422c2.641,30.094-14.672,39.281-28.938,51.703c-14.25,12.422-31.219,25.75-56.813,52.078   c-40.875,42.063-51.625,95.219-48.359,140.266c3.609,41.281,23.625,77.203,53.031,101.875   c29.453,24.688,68.313,38.141,109.594,34.516c41.297-3.625,77.203-23.641,101.906-53.063   C395.315,428.911,409.487,398.38,405.878,357.099z"/>
+						</svg>
 					</div>
-					<div class="main-drow">
-						<span class="main-drow-label">Soulforge</span>
-						<span class="main-drow-value pop-soulforge">N/A</span>
+					<div class="main-nav-item" data-tab="chess">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" class="main-nav-icon">
+							<path fill="currentColor" d="M19 272.47l40.63 18.06a32 32 0 0 0 24.88.47l12.78-5.12a32 32 0 0 0 18.76-20.5l9.22-30.65a24 24 0 0 1 12.55-15.65L159.94 208v50.33a48 48 0 0 1-26.53 42.94l-57.22 28.65A80 80 0 0 0 32 401.48V416h319.86V224c0-106-85.92-192-191.92-192H12A12 12 0 0 0 0 44a16.9 16.9 0 0 0 1.79 7.58L16 80l-9 9a24 24 0 0 0-7 17v137.21a32 32 0 0 0 19 29.26zM52 128a20 20 0 1 1-20 20 20 20 0 0 1 20-20zm316 320H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h352a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"/>
+						</svg>
 					</div>
-					<div class="main-drow">
-						<span class="main-drow-label">Resonance</span>
-						<span class="main-drow-value pop-resonance">N/A</span>
+					<div class="main-nav-item" data-tab="design">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="main-nav-icon">
+							<path fill="currentColor" d="M485.016,220.691c12.422-8.422,22.188-57.266,7.797-87.016c-26.859,28.125-80.109,49.859-142,72.922   c-64.656,24.078-71.531,41.859-94.813,42.172c-23.297-0.313-30.156-18.094-94.813-42.172c-61.891-23.063-115.141-44.797-142-72.922   c-14.406,29.75-4.625,78.594,7.781,87.016C13.484,214.332,0,210.051,0,210.051s3.813,68.172,33.25,106.563   c24.953,32.547,86.984,72.906,145.828,58.828c62.219-14.875,62.344-41.406,76.922-41.266c14.563-0.141,14.688,26.391,76.906,41.266   c58.844,14.078,120.875-26.281,145.844-58.828C508.156,278.223,512,210.051,512,210.051S498.5,214.332,485.016,220.691z    M131.438,318.848c-25.109-11.641-46.063-37.422-43.188-73.891c12.813,5.078,48.844,9.406,69.094,17.281   c23,8.953,46.031,23.984,48.922,41.25C205.313,317.879,170.75,337.066,131.438,318.848z M380.563,318.848   c-39.344,18.219-73.875-0.969-74.828-15.359c2.891-17.266,25.891-32.297,48.922-41.25c20.25-7.875,56.281-12.203,69.094-17.281   C426.625,281.426,405.656,307.207,380.563,318.848z"/>
+						</svg>
 					</div>
 				</div>
-				<div class="main-intro pop-intro">N/A</div>
+				<div class="main-tab active" data-tab="intro">
+					<div class="main-tab-con">
+						<h2 class="main-heading">Introduction</h2>
+						<div class="main-details">
+							<div class="main-drow">
+								<span class="main-drow-label">Bastion</span>
+								<span class="main-drow-value pop-bastion-full">N/A</span>
+							</div>
+							<div class="main-drow">
+								<span class="main-drow-label">Race</span>
+								<span class="main-drow-value pop-race">N/A</span>
+							</div>
+							<div class="main-drow">
+								<span class="main-drow-label">Soulforge</span>
+								<span class="main-drow-value pop-soulforge">N/A</span>
+							</div>
+							<div class="main-drow">
+								<span class="main-drow-label">Resonance</span>
+								<span class="main-drow-value pop-resonance">N/A</span>
+							</div>
+						</div>
+						<div class="main-intro pop-intro">N/A</div>
+					</div>
+				</div>
+				<div class="main-tab" data-tab="ability">
+					<div class="main-tab-con">
+						<h2 class="main-heading">Abilities</h2>
+						<div class="ability-nav">
+							<div class="ability-nav-item active" data-ability="Passive">P</div>
+							<div class="ability-nav-item" data-ability="First Ability">1</div>
+							<div class="ability-nav-item" data-ability="Second Ability">2</div>
+							<div class="ability-nav-item" data-ability="Third Ability">3</div>
+							<div class="ability-nav-item" data-ability="Ultimate">U</div>
+						</div>
+						<div id="pop-ability" class="ability-list"></div>
+					</div>
+				</div>
+				<div class="main-tab" data-tab="chess">
+					<div class="main-tab-con">
+						Coming Soon.
+					</div>
+				</div>
+				<div class="main-tab" data-tab="design">
+					<div class="main-tab-con">
+						Coming Soon.
+					</div>
+				</div>
 			</div>
 			<div class="main-art">
 				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
-					 id="pop-art-full" class="main-art-img" alt="Character Full">
+					 id="pop-art-full" class="main-art-img" alt="Character Full"
+					 onerror="this.style.display='none'">
 			</div>
-		</section>
-		<section class="abilities container">
-			<h2 class="abilities-title">Abilities</h2>
-			<div id="pop-abilities" class="abilities-list"></div>
+			<div class="zoom">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="zoom-icon">
+					<path fill="currentColor" d="M9.354 15.354L3.7 21H8v1H2v-6h1v4.285l5.646-5.639zM22 2h-6v1h4.3l-5.654 5.646.707.708L21 3.715V8h1zm-6 20h6v-6h-1v4.285l-5.646-5.639-.707.708L20.3 21H16zM8 2H2v6h1V3.715l5.646 5.639.707-.708L3.7 3H8z"/>
+					<path fill="none" d="M0 0h24v24H0z"/>
+				</svg>
+			</div>
 		</section>
 	</main>
 	<script type="text/javascript" src="../js/structured-data.js"></script>

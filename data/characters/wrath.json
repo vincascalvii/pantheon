@@ -32,5 +32,9 @@
             "name": "Undying Flame",
             "details": "Wǔjiàng embraces the blessing of the Phoenix, becoming a temporary avatar of pure, unyielding fire. He instantly gains <span class=\"ability-buff\">maximum</span> <span>Blazing Bulwark</span> stacks, and takes <span class=\"ability-buff\">reduced incoming damage</span> by a significant percentage for the next few seconds."
         }
-    ]
+    ],
+    "config": {
+        "character_width": 900,
+        "character_height": 900
+    }
 }

@@ -32,5 +32,8 @@
             "name": "Holy Conflagration",
             "details": "Eris's <span>Sacred Banner</span> releases a fiery vortex that deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within and greatly <span class=\"ability-debuff\">slowing</span> them.<br><br>Casting <span>Holy Conflagration</span> refreshes the duration of her active <span>Fiery Rally</span> banner. However, it will not refresh the ability to grant a shield as it's still counted as a single duration."
         }
-    ]
+    ],
+    "config": {
+        "character_height": 860
+    }
 }

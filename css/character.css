@@ -1,3 +1,69 @@
+:root {
+    --theme-1: #5454C0;
+    --theme-2: #9696e4;
+    --custodians-1: #727272;
+    --custodians-2: #999;
+    --custodians-3: #ddd;
+    --everlight-1: #5d9bfe;
+    --everlight-2: #ffca49;
+    --everlight-3: #ffe7ae;
+    --viridisia-1: #2ea424;
+    --viridisia-2: #33be62;
+    --viridisia-3: #85c69b;
+    --huoshen-1: #da5238;
+    --huoshen-2: #fc8032;
+    --huoshen-3: #ffaf95;
+    --shirohana-1: #b573e4;
+    --shirohana-2: #e28de9;
+    --shirohana-3: #edb7f2;
+    --dragnoel-1: #80d2ef;
+    --dragnoel-2: #47d7e3;
+    --dragnoel-3: #98dee4;
+    --duraktharn-1: #f2c156;
+    --duraktharn-2: #f6b15b;
+    --duraktharn-3: #efc693;
+    --kragnok-1: #99c743;
+    --kragnok-2: #c6ca25;
+    --kragnok-3: #dcdf7c;
+    --jotunheimr-1: #a1c8cb;
+    --jotunheimr-2: #7db8ca;
+    --jotunheimr-3: #b0d7e3;
+    --solzakar-1: #fac26e;
+    --solzakar-2: #ffd164;
+    --solzakar-3: #fbe2a6;
+    --chandrasar-1: #7e73e4;
+    --chandrasar-2: #a38de9;
+    --chandrasar-3: #d9cdff;
+    --nagaithis-1: #3993ff;
+    --nagaithis-2: #22adf5;
+    --nagaithis-3: #9ad5fb;
+    --altharion-1: #8f6666;
+    --altharion-2: #b86363;
+    --altharion-3: #dc9f9f;
+    --eden-1: #f7f4e0;
+    --eden-2: #fff5a0;
+    --eden-3: #efebca;
+    --eden-4: #898989;
+    --nether-1: #6d6075;
+    --nether-2: #784574;
+    --nether-3: #ba98b7;
+    --ability-ad: #f4892a; /* Physical Damage / Attack Damage */
+    --ability-ap: #0071ff; /* Magical Damage / Ability Power */
+    --ability-td: #aaaaaa; /* True Damage */
+    --ability-ar: #dbb600; /* Physical Resistance / Armour */
+    --ability-mr: #a45cff; /* Magic Resistance */
+    --ability-buff: #009549;
+    --ability-debuff: #ef4444;
+    --ability-hp: #57b572; /* Health */
+    --ability-mp: #00b8ff; /* Mana */
+    --ability-mv: #00B076; /* Movement Speed */
+    --ability-as: #ff9915; /* Attack Speed */
+    --ability-cr: #fd600d; /* Crit */
+    --ability-sh: #6badc7; /* Shield */
+    --black: #333333;
+    --grey: #ccc;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -15,10 +81,13 @@ html {
 
 body {
 	font-family: "Poppins", Helvetica, Arial, sans-serif;
-	background-color: #fff;
-	color: #333;
+	background: linear-gradient(180deg,rgba(229, 231, 231, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	color: var(--black);
 	font-size: 16px;
+    width: 100vw;
+    height: 100vh;
 	margin: 0;
+    overflow: hidden;
 }
 
 a {
@@ -27,7 +96,8 @@ a {
 
 .container {
 	width: 1400px;
-    max-width: 100%;
+    max-width: 100vw;
+    height: 100vh;
 	margin: 0 auto;
 }
 
@@ -44,61 +114,350 @@ a {
 .back-icon {
     width: 40px;
     height: 40px;
+    transition: .2s ease-in-out;
 }
 
 .back-icon * {
-    fill: #333;
+    fill: var(--grey);
+}
+
+.main-custodians .back-icon * {
+    fill: var(--custodians-1);
+}
+
+.main-everlight .back-icon * {
+    fill: var(--everlight-1);
+}
+
+.main-viridisia .back-icon * {
+    fill: var(--viridisia-1);
+}
+
+.main-huoshen .back-icon * {
+    fill: var(--huoshen-1);
+}
+
+.main-shirohana .back-icon * {
+    fill: var(--shirohana-1);
+}
+
+.main-dragnoel .back-icon * {
+    fill: var(--dragnoel-1);
+}
+
+.main-duraktharn .back-icon * {
+    fill: var(--duraktharn-1);
+}
+
+.main-kragnok .back-icon * {
+    fill: var(--kragnok-1);
+}
+
+.main-jotunheimr .back-icon * {
+    fill: var(--jotunheimr-1);
+}
+
+.main-solzakar .back-icon * {
+    fill: var(--solzakar-1);
+}
+
+.main-chandrasar .back-icon * {
+    fill: var(--chandrasar-1);
+}
+
+.main-nagaithis .back-icon * {
+    fill: var(--nagaithis-1);
+}
+
+.main-altharion .back-icon * {
+    fill: var(--altharion-1);
+}
+
+.main-eden .back-icon * {
+    fill: var(--eden-4);
+}
+
+.main-nether .back-icon * {
+    fill: var(--nether-1);
 }
 
 .back-text {
-    color: #333;
+    color: var(--black);
 }
 
-.back:hover .back-icon * {
-    fill: #3865ff;
+.back:hover .back-icon {
+    opacity: .8;
 }
 
-.back:hover .back-text {
-    color: #3865ff;
+main {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
 }
 
 .main {
     position: relative;
-    height: 1080px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-info {
-    position: absolute;
-    top: 120px;
-    left: 0;
+    position: relative;
+    width: 460px;
+    padding-top: 10vh;
 }
 
 .main-bastion {
     position: absolute;
-    top: 0;
+    top: 10vh;
     left: -90px;
     height: 100px;
 }
 
+.main-header {
+    font-family: "BrunoAceSC", "Poppins", Helvetica, Arial, sans-serif;
+}
+
 .main-name {
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
+    white-space: nowrap;
 }
 
 .main-title {
     color: #727272;
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 0 20px;
 }
 
-.main-details {
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-item {
+    flex: 1;
+    background-color: var(--grey);
+    color: white;
+    border-bottom: 2px solid var(--grey);
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.main-custodians .main-nav-item {
+    background-color: var(--custodians-1);
+    border-color: var(--custodians-1);
+}
+
+.main-everlight .main-nav-item {
+    background-color: var(--everlight-1);
+    border-color: var(--everlight-1);
+}
+
+.main-viridisia .main-nav-item {
+    background-color: var(--viridisia-1);
+    border-color: var(--viridisia-1);
+}
+
+.main-huoshen .main-nav-item {
+    background-color: var(--huoshen-1);
+    border-color: var(--huoshen-1);
+}
+
+.main-shirohana .main-nav-item {
+    background-color: var(--shirohana-1);
+    border-color: var(--shirohana-1);
+}
+
+.main-dragnoel .main-nav-item {
+    background-color: var(--dragnoel-1);
+    border-color: var(--dragnoel-1);
+}
+
+.main-duraktharn .main-nav-item {
+    background-color: var(--duraktharn-1);
+    border-color: var(--duraktharn-1);
+}
+
+.main-kragnok .main-nav-item {
+    background-color: var(--kragnok-1);
+    border-color: var(--kragnok-1);
+}
+
+.main-jotunheimr .main-nav-item {
+    background-color: var(--jotunheimr-1);
+    border-color: var(--jotunheimr-1);
+}
+
+.main-solzakar .main-nav-item {
+    background-color: var(--solzakar-1);
+    border-color: var(--solzakar-1);
+}
+
+.main-chandrasar .main-nav-item {
+    background-color: var(--chandrasar-1);
+    border-color: var(--chandrasar-1);
+}
+
+.main-nagaithis .main-nav-item {
+    background-color: var(--nagaithis-1);
+    border-color: var(--nagaithis-1);
+}
+
+.main-altharion .main-nav-item {
+    background-color: var(--altharion-1);
+    border-color: var(--altharion-1);
+}
+
+.main-eden .main-nav-item {
+    background-color: var(--eden-1);
+    border-color: var(--eden-1);
+}
+
+.main-eden .main-nav-icon {
+    color: var(--eden-4);
+}
+
+.main-nether .main-nav-item {
+    background-color: var(--nether-1);
+    border-color: var(--nether-1);
+}
+
+.main-nav-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main-nav-item.active,
+.main-nav-item:hover {
+    background-color: white;
+    color: var(--theme-1);
+}
+
+.main-custodians .main-nav-item.active,
+.main-custodians .main-nav-item:hover {
+    color: var(--custodians-1);
+}
+
+.main-everlight .main-nav-item.active,
+.main-everlight .main-nav-item:hover {
+    color: var(--everlight-1);
+}
+
+.main-viridisia .main-nav-item.active,
+.main-viridisia .main-nav-item:hover {
+    color: var(--viridisia-1);
+}
+
+.main-huoshen .main-nav-item.active,
+.main-huoshen .main-nav-item:hover {
+    color: var(--huoshen-1);
+}
+
+.main-shirohana .main-nav-item.active,
+.main-shirohana .main-nav-item:hover {
+    color: var(--shirohana-1);
+}
+
+.main-dragnoel .main-nav-item.active,
+.main-dragnoel .main-nav-item:hover {
+    color: var(--dragnoel-1);
+}
+
+.main-duraktharn .main-nav-item.active,
+.main-duraktharn .main-nav-item:hover {
+    color: var(--duraktharn-1);
+}
+
+.main-kragnok .main-nav-item.active,
+.main-kragnok .main-nav-item:hover {
+    color: var(--kragnok-1);
+}
+
+.main-jotunheimr .main-nav-item.active,
+.main-jotunheimr .main-nav-item:hover {
+    color: var(--jotunheimr-1);
+}
+
+.main-solzakar .main-nav-item.active,
+.main-solzakar .main-nav-item:hover {
+    color: var(--solzakar-1);
+}
+
+.main-chandrasar .main-nav-item.active,
+.main-chandrasar .main-nav-item:hover {
+    color: var(--chandrasar-1);
+}
+
+.main-nagaithis .main-nav-item.active,
+.main-nagaithis .main-nav-item:hover {
+    color: var(--nagaithis-1);
+}
+
+.main-altharion .main-nav-item.active,
+.main-altharion .main-nav-item:hover {
+    color: var(--altharion-1);
+}
+
+.main-eden .main-nav-item.active .main-nav-icon,
+.main-eden .main-nav-item:hover .main-nav-icon {
+    color: var(--eden-4);
+}
+
+.main-nether .main-nav-item.active,
+.main-nether .main-nav-item:hover {
+    color: var(--nether-1);
+}
+
+.main-tab {
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%);
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease-in-out;
+}
+
+.main-tab.active {
+    max-height: 600px;
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: hidden;
+}
+
+.main-tab-con {
+    padding: 30px;
+}
+
+.main-heading {
+    font-family: "BrunoAceSC", "Poppins", Helvetica, Arial, sans-serif;
     font-size: 18px;
+    margin-block: 0;
+}
+
+.main-details {
+    font-family: "Lekton", "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-block: 20px;
 }
 
 .main-drow {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-block: 7px;
+    padding-block: 10px;
+    border-bottom: 1px solid var(--grey);
 }
 
 .main-drow-label {
@@ -107,56 +466,302 @@ a {
 }
 
 .main-intro {
-    background-color: rgba(255, 255, 255, .9);
-    box-shadow: 0 2px 100px 100px rgba(255, 255, 255, .9);
-    width: 480px;
-    margin-top: 30px;
+    font-family: "Rationale", "Poppins", Helvetica, Arial, sans-serif;
+    width: 100%;
     font-size: 17px;
-    font-style: italic;
     line-height: 1.6;
 }
 
 .main-art {
     position: absolute;
-    top: 60px;
+    bottom: 5vh;
     right: 0;
-    width: 100%;
-    height: 1080px;
+    max-width: 100vw;
+    max-height: 95vh;
     display: flex;
-    justify-content: flex-end;
-    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    z-index: -5;
 }
 
 .main-art-img {
     object-fit: contain;
+    width: 100%;
     height: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
-.main-ignite .main-art {
-    top: 0;
-    right: -160px;
+.main-art.zoomed-in {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #f5f5fb;
+    padding: 10px;
+    cursor: zoom-out;
+    z-index: 10;
 }
 
-.main-blade .main-art {
-    right: -160px;
+.zoom {
+    position: absolute;
+    bottom: 5vh;
+    right: 0;
+    cursor: zoom-in;
 }
 
-.main-hope .main-art {
-    top: 0px;
-    right: 60px;
+.zoom .zoom-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
 }
 
-.abilities {
+.zoom .zoom-icon:hover {
+    color: var(--theme-1);
+}
+
+.main-custodians .zoom .zoom-icon:hover {
+    color: var(--custodians-1);
+}
+
+.main-everlight .zoom .zoom-icon:hover {
+    color: var(--everlight-1);
+}
+
+.main-viridisia .zoom .zoom-icon:hover {
+    color: var(--viridisia-1);
+}
+
+.main-huoshen .zoom .zoom-icon:hover {
+    color: var(--huoshen-1);
+}
+
+.main-shirohana .zoom .zoom-icon:hover {
+    color: var(--shirohana-1);
+}
+
+.main-dragnoel .zoom .zoom-icon:hover {
+    color: var(--dragnoel-1);
+}
+
+.main-duraktharn .zoom .zoom-icon:hover {
+    color: var(--duraktharn-1);
+}
+
+.main-kragnok .zoom .zoom-icon:hover {
+    color: var(--kragnok-1);
+}
+
+.main-jotunheimr .zoom .zoom-icon:hover {
+    color: var(--jotunheimr-1);
+}
+
+.main-solzakar .zoom .zoom-icon:hover {
+    color: var(--solzakar-1);
+}
+
+.main-chandrasar .zoom .zoom-icon:hover {
+    color: var(--chandrasar-1);
+}
+
+.main-nagaithis .zoom .zoom-icon:hover {
+    color: var(--nagaithis-1);
+}
+
+.main-altharion .zoom .zoom-icon:hover {
+    color: var(--altharion-1);
+}
+
+.main-eden .zoom .zoom-icon:hover {
+    color: var(--eden-4);
+}
+
+.main-nether .zoom .zoom-icon:hover {
+    color: var(--nether-1);
+}
+
+.ability {
     padding: 60px 0;
 }
 
-.abilities-title {
-    font-size: 30px;
-    margin-bottom: 40px;
+.ability-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-block: 20px 30px;
+}
+
+.ability-nav-item {
+    font-family: "BrunoAceSC", "Poppins", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-2);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.ability-nav-item:hover,
+.ability-nav-item.active {
+    background-color: var(--theme-1);
+}
+
+.main-custodians .ability-nav-item {
+    background-color: var(--custodians-3);
+}
+
+.main-custodians .ability-nav-item:hover,
+.main-custodians .ability-nav-item.active  {
+    background-color: var(--custodians-2);
+}
+
+.main-everlight .ability-nav-item {
+    background-color: var(--everlight-3);
+}
+
+.main-everlight .ability-nav-item:hover,
+.main-everlight .ability-nav-item.active  {
+    background-color: var(--everlight-2);
+}
+
+.main-viridisia .ability-nav-item {
+    background-color: var(--viridisia-3);
+}
+
+.main-viridisia .ability-nav-item:hover,
+.main-viridisia .ability-nav-item.active  {
+    background-color: var(--viridisia-2);
+}
+
+.main-huoshen .ability-nav-item {
+    background-color: var(--huoshen-3);
+}
+
+.main-huoshen .ability-nav-item:hover,
+.main-huoshen .ability-nav-item.active  {
+    background-color: var(--huoshen-2);
+}
+
+.main-shirohana .ability-nav-item {
+    background-color: var(--shirohana-3);
+}
+
+.main-shirohana .ability-nav-item:hover,
+.main-shirohana .ability-nav-item.active  {
+    background-color: var(--shirohana-2);
+}
+
+.main-dragnoel .ability-nav-item {
+    background-color: var(--dragnoel-3);
+}
+
+.main-dragnoel .ability-nav-item:hover,
+.main-dragnoel .ability-nav-item.active  {
+    background-color: var(--dragnoel-2);
+}
+
+.main-duraktharn .ability-nav-item {
+    background-color: var(--duraktharn-3);
+}
+
+.main-duraktharn .ability-nav-item:hover,
+.main-duraktharn .ability-nav-item.active  {
+    background-color: var(--duraktharn-2);
+}
+
+.main-kragnok .ability-nav-item {
+    background-color: var(--kragnok-3);
+}
+
+.main-kragnok .ability-nav-item:hover,
+.main-kragnok .ability-nav-item.active  {
+    background-color: var(--kragnok-2);
+}
+
+.main-jotunheimr .ability-nav-item {
+    background-color: var(--jotunheimr-3);
+}
+
+.main-jotunheimr .ability-nav-item:hover,
+.main-jotunheimr .ability-nav-item.active  {
+    background-color: var(--jotunheimr-2);
+}
+
+.main-solzakar .ability-nav-item {
+    background-color: var(--solzakar-3);
+}
+
+.main-solzakar .ability-nav-item:hover,
+.main-solzakar .ability-nav-item.active  {
+    background-color: var(--solzakar-2);
+}
+
+.main-chandrasar .ability-nav-item {
+    background-color: var(--chandrasar-3);
+}
+
+.main-chandrasar .ability-nav-item:hover,
+.main-chandrasar .ability-nav-item.active  {
+    background-color: var(--chandrasar-2);
+}
+
+.main-nagaithis .ability-nav-item {
+    background-color: var(--nagaithis-3);
+}
+
+.main-nagaithis .ability-nav-item:hover,
+.main-nagaithis .ability-nav-item.active  {
+    background-color: var(--nagaithis-2);
+}
+
+.main-altharion .ability-nav-item {
+    background-color: var(--altharion-3);
+}
+
+.main-altharion .ability-nav-item:hover,
+.main-altharion .ability-nav-item.active  {
+    background-color: var(--altharion-2);
+}
+
+.main-eden .ability-nav-item {
+    background-color: var(--eden-3);
+    color: var(--eden-4);
+}
+
+.main-eden .ability-nav-item:hover,
+.main-eden .ability-nav-item.active  {
+    background-color: var(--eden-2);
+}
+
+.main-nether .ability-nav-item {
+    background-color: var(--nether-3);
+}
+
+.main-nether .ability-nav-item:hover,
+.main-nether .ability-nav-item.active  {
+    background-color: var(--nether-2);
 }
 
 .ability-item {
-    margin-bottom: 40px;
+    font-family: "Lekton", "Poppins", Helvetica, Arial, sans-serif;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease-in-out;
+}
+
+.ability-item.active {
+    max-height: 400px;
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
 }
 
 .ability-type {
@@ -179,67 +784,56 @@ a {
     font-weight: 700;
 }
 
-/* Magical Damage / Ability Power */
-.ability-ap {
-    color: #0071ff;
-}
-
-/* Magic Resistance */
-.ability-mr {
-    color: #a45cff;
-}
-
-/* Physical Damage / Attack Damage */
 .ability-ad {
-    color: #f4892a;
+    color: var(--ability-ad);
 }
 
-/* Physical Resistance / Armour */
-.ability-ar {
-    color: #dbb600;
+.ability-ap {
+    color: var(--ability-ap);
 }
 
-/* True Damage */
 .ability-td {
-    color: #aaaaaa;
+    color: var(--ability-td);
+}
+
+.ability-ar {
+    color: var(--ability-ar);
+}
+
+.ability-mr {
+    color: var(--ability-mr);
 }
 
 .ability-buff {
-    color: #009549;
+    color: var(--ability-buff);
 }
 
 .ability-debuff {
-    color: #ef4444;
+    color: var(--ability-debuff);
 }
 
-/* Health */
 .ability-hp {
-    color: #57b572;
+    color: var(--ability-hp);
 }
 
-/* Mana */
 .ability-mp {
-    color: #00b8ff;
+    color: var(--ability-mp);
 }
 
-/* Movement Speed */
 .ability-mv {
-	color: #00B076;
+	color: var(--ability-mv);
 }
 
-/* Attack Speed */
 .ability-as {
-    color: #ff9915;
+    color: var(--ability-as);
 }
 
-/* Crit */
 .ability-cr {
-	color: #fd600d;
+	color: var(--ability-cr);
 }
 
-/* Shield */
 .ability-sh {
-	color: #6badc7;
+	color: var(--ability-sh);
 }
 
 @media only screen and (max-width: 1600px) {
@@ -286,7 +880,7 @@ a {
         height: 562px;
     }
 
-    .abilities-title {
+    .ability-title {
         font-size: 26px;
         margin-bottom: 30px;
     }
@@ -367,11 +961,11 @@ a {
         box-shadow: none;
     }
 
-    .abilities {
+    .ability {
         padding-inline: 20px;
     }
 
-    .abilities-title {
+    .ability-title {
         font-size: 22px;
         margin-bottom: 25px;
     }
@@ -416,7 +1010,7 @@ a {
         margin-bottom: 10px;
     }
 
-    .abilities-title {
+    .ability-title {
         font-size: 20px;
     }
 }
