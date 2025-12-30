@@ -6,6 +6,7 @@
     "title": "the Skystrike General",
     "bastion_full": "Viridisia, the Verdant Guards",
     "bastion_name": "Viridisia",
+    "bastion_short": "viridisia",
     "race": "Aelf",
     "soulforge": "Sky Piercers",
     "resonance": "Wind Enhancement",
@@ -31,5 +32,8 @@
             "name": "Soaring Whirlwind",
             "details": "Kaelen focuses his momentum, gaining massive <span class=\"ability-mv\">movement speed</span> that decays over the next few seconds.<br><br>During this time, <strong>Skypiercing Strike</strong> range is doubled and becomes a whirlwind slash instead, dealing additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the enemy target and all enemies around Kaelen.<br><br>Scoring a takedown refreshes the <span class=\"ability-mv\">movement speed</span> buff and extends the duration of <strong>Soaring Whirlwind</strong>."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "hope"
+    }
 }

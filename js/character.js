@@ -10,7 +10,9 @@ let bastion = document.querySelector('.main-bastion');
 let artContainer = document.querySelector('.main-art');
 let artChar = document.querySelector('.main-art-img');
 let zoom = document.querySelector('.zoom');
-var abilityList = document.querySelector('.ability-list');
+let abilityList = document.querySelector('.ability-list');
+let arrowPrev = document.querySelector('.arrow-prev');
+let arrowNext = document.querySelector('.arrow-next');
 
 
 
@@ -27,7 +29,7 @@ var abilityList = document.querySelector('.ability-list');
 
 	// If the value is not empty or null, fetch the JSON file
 	if (charCode != '' && charCode != null) {
-		fetch('/data/characters/' + charCode + '.json')
+		fetch('../data/characters/' + charCode + '.json')
 		.then(res => {
 			if (!res.ok) throw new Error('HTTP error ' + res.status);
 	        return res.json();
@@ -37,6 +39,16 @@ var abilityList = document.querySelector('.ability-list');
 			// Add unique code on the container
 			main.classList.add('main-' + data.code.toLowerCase());
 			main.classList.add('main-' + data.bastion_short.toLowerCase());
+
+			//
+			if (data.config?.prev_char !== undefined) {
+				arrowPrev.href = './character?code=' + data.config.prev_char;
+				arrowPrev.classList.add('active');
+			}
+			if (data.config?.next_char !== undefined) {
+				arrowNext.href = './character?code=' + data.config.next_char;
+				arrowNext.classList.add('active');
+			}
 
         	// Populate the data
 			popData(data, 'full_name');
@@ -50,10 +62,10 @@ var abilityList = document.querySelector('.ability-list');
 	    	// Populate the art
 	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
 			artChar.src = '../img/characters/' + charCode + '/full.png';
-			if (data.config?.character_width !== undefined) 
-				artContainer.style.width = data.config.character_width + 'px';
-			if (data.config?.character_height !== undefined)
-				artContainer.style.height = data.config.character_height + 'px';
+			if (data.config?.char_width !== undefined) 
+				artContainer.style.width = data.config.char_width + 'px';
+			if (data.config?.char_height !== undefined)
+				artContainer.style.height = data.config.char_height + 'px';
 
 			// Define the ability types
 			let abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];

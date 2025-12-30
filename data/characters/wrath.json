@@ -34,7 +34,7 @@
         }
     ],
     "config": {
-        "character_width": 900,
-        "character_height": 900
+        "char_width": 900,
+        "char_height": 900
     }
 }

@@ -34,7 +34,7 @@
         }
     ],
     "config": {
-        "character_width": 1000,
-        "character_height": 760
+        "char_width": 1000,
+        "char_height": 760
     }
 }

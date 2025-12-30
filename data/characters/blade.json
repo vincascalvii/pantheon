@@ -34,7 +34,8 @@
         }
     ],
     "config": {
-        "character_width": 1080,
-        "character_height": 860
+        "char_width": 1080,
+        "char_height": 860,
+        "next_char": "justice"
     }
 }
