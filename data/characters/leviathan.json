@@ -1,0 +1,36 @@
+{
+    "code": "Leviathan",
+    "full_name": "Nakaraj Rakthanon",
+    "first_name": "Nakaraj",
+    "last_name": "Rakthanon",
+    "title": "the Ocean Marshal",
+    "bastion_name": "Nagaithis",
+    "bastion_full": "Nagaithis, the Tide Callers",
+    "bastion_short": "nagaithis",
+    "race": "Naga",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Nakaraj is the divine protector of the Bastion of the Tide Callers, a vast underwater stronghold. He is a noble but terrifying titan who embodies the wrath and grace of the tides. Adorned in gold-trimmed ceremonial armor and scales that shimmer like emeralds, Varuna rises from the deep to wash away those who threaten the sanctity of his waters.",
+    "abilities": [
+        {
+            "name": "Crushing Weight",
+            "details": "Every few seconds, Nakaraj's next basic attack deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">stuns</span> the target for a short duration."
+        },
+        {
+            "name": "Geyser Burst",
+            "details": "Nakaraj slams his fist into the ground, calling forth a high-pressure blast of water at a target location after a brief delay, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>Enemies in the center of the blast are <span class=\"ability-debuff\">knocked up</span>, while those on the outer edge are <span class=\"ability-debuff\">pushed</span> slightly outward."
+        },
+        {
+            "name": "Ebb and Flow",
+            "details": "Nakaraj creates a rhythmic aura of water around himself for a few seconds. Every second, the aura pulses, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and applying a stacking <span class=\"ability-debuff\">slow</span>.<br><br>For every enemy hit by a pulse, Nakaraj <span class=\"ability-buff\">heals</span> for a small amount (increased against heroes)."
+        },
+        {
+            "name": "Tidal Ride",
+            "details": "Nakaraj summons a powerful surge beneath his feet and rides the wave, dashing in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the first enemy hero hit and <span class=\"ability-debuff\">stunning</span> the target."
+        },
+        {
+            "name": "Abyssal Wrath",
+            "details": "Nakaraj lets out an ancient roar and creates a massive whirlpool around him for a few seconds, gradually <span class=\"ability-debuff\">pulling</span> all nearby enemies toward himself and dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to them.<br><br>The closer they are to him, the stronger the pull and the higher the magic damage they take per second."
+        }
+    ]
+}

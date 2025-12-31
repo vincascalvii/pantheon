@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Iron Armour",
-            "details": "Terros builds up layers of iron on his armour when not in combat, granting bonus <span class=\"ability-ar\">physical resistance</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) each layer (maximum 5 layers).<br><br>Each time Terros takes physical damage, a layer will be destroyed and Terros will gain increased <span class=\"ability-mv\">movement speed</span> for a short duration. The movement speed boost can be stacked."
+            "details": "Terros builds up layers of iron on his armour when not in combat, granting bonus <span class=\"ability-ar\">physical resistance</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) each layer (maximum 5 layers).<br><br>Each time Terros takes physical damage, a layer will be destroyed and Terros will gain increased <span class=\"ability-ms\">movement speed</span> for a short duration. The movement speed boost can be stacked."
         },
         {
             "name": "Colossal Smash",

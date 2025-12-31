@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Wind Walk",
-            "details": "Kiannah's abilities create wind, called the <strong>Wind Walk</strong> effect, either around her or in a target area, granting herself and all allies <span class=\"ability-mv\">increased movement speed</span>.<br><br>Kiannah's movement speed boost is slightly more than the one her allies receive. When the <strong>Wind Walk</strong> effect is worn off, the movement speed boost will not disappear straight away but rapidly decay within a second instead."
+            "details": "Kiannah's abilities create wind, called the <strong>Wind Walk</strong> effect, either around her or in a target area, granting herself and all allies <span class=\"ability-ms\">increased movement speed</span>.<br><br>Kiannah's movement speed boost is slightly more than the one her allies receive. When the <strong>Wind Walk</strong> effect is worn off, the movement speed boost will not disappear straight away but rapidly decay within a second instead."
         },
         {
             "name": "Tailwind Arrow",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Tempest Veil",
-            "details": "Kianna summons powerful whirlwind to surround herself, creating a vast wind zone that grants <strong>Wind Walk</strong> effect. Upon casting this ability, Kiannah <span class=\"ability-buff\">removes all slowing effect</span> on herself and allies. In addition, the increased movement speed boost from <strong>Wind Walk</strong> effect is <span class=\"ability-mv\">doubled</span>.<br><br>The wind zone will follow Kiannah for a short while. Allies existing the wind zone will start the one second decaying effect, but re-entering will immediately remove that."
+            "details": "Kianna summons powerful whirlwind to surround herself, creating a vast wind zone that grants <strong>Wind Walk</strong> effect. Upon casting this ability, Kiannah <span class=\"ability-buff\">removes all slowing effect</span> on herself and allies. In addition, the increased movement speed boost from <strong>Wind Walk</strong> effect is <span class=\"ability-ms\">doubled</span>.<br><br>The wind zone will follow Kiannah for a short while. Allies existing the wind zone will start the one second decaying effect, but re-entering will immediately remove that."
         }
     ],
     "config": {

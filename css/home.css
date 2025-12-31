@@ -25,47 +25,23 @@ a {
 	text-decoration: none;
 }
 
+main {
+    position: relative;
+    padding-block: 40px 80px;
+}
+
 .container {
 	width: 1200px;
 	margin: 0 auto;
-}
-
-.back {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-}
-
-.back-icon {
-    width: 40px;
-    height: 40px;
-}
-
-.back-icon * {
-    fill: #333;
-}
-
-.back-text {
-    color: #333;
-}
-
-.back:hover .back-icon * {
-    fill: #3865ff;
-}
-
-.back:hover .back-text {
-    color: #3865ff;
 }
 
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "BrunoAceSC", "Poppins", Helvetica, Arial, sans-serif;
     font-size: 40px;
-    margin: 40px 0 80px;
+    margin-block: 0 80px;
 }
 
 .search {
@@ -82,6 +58,7 @@ a {
 }
 
 #sbar-input {
+    font-family: "Rationale", "Poppins", Helvetica, Arial, sans-serif;
     width: 100%;
     font-size: 18px;
     padding: 15px 30px 15px 55px;
@@ -144,6 +121,7 @@ a {
 }
 
 .char-bast {
+    font-family: "BrunoAceSC", "Poppins", Helvetica, Arial, sans-serif;
     width: 100%;
     font-size: 20px;
     font-weight: 700;
@@ -154,7 +132,7 @@ a {
 
 .char-bast span {
     color: #727272;
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 5px;
 }
 
@@ -166,8 +144,6 @@ a {
     position: relative;
     width: calc((100% / 6) - (50px / 6));
     height: 320px;
-    border: 2px solid white;
-    border-radius: 10px;
     box-shadow: 0 2px 10px -5px rgba(0, 0, 0, .7);
     overflow: hidden;
     transition: .2s ease-in-out;
@@ -176,10 +152,6 @@ a {
 
 .char-block.active {
     display: block;
-}
-
-a.char-block:hover {
-    border-color: #333;
 }
 
 .char-bg {
@@ -203,8 +175,9 @@ a.char-block .char-bg {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(51,51,51,.5);
     color: #fff;
+    font-family: "Lekton", "Poppins", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
     padding: 10px 5px;
@@ -212,6 +185,50 @@ a.char-block .char-bg {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+    transition: .2s ease-in-out;
+}
+
+a.char-block:hover .char-name {
+    background-color: #333;
+}
+
+.back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.back-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.back-icon * {
+    fill: #333;
+}
+
+.back-text {
+    color: #333;
+}
+
+.back:hover .back-icon * {
+    fill: #3865ff;
+}
+
+.back:hover .back-text {
+    color: #3865ff;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
 
 .slide {

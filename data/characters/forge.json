@@ -14,11 +14,11 @@
     "abilities": [
         {
             "name": "Living Forge",
-            "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero</span> and <span>choose an item</span> they are currently building. She can then spend a portion of <span class=\"ability-ar\">her own gold</span> to <span class=\"ability-buff\">contribute to that item's cost</span>.<br><br>Her gold contribution is added a small <span class=\"ability-ar\">bonus</span> when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
+            "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero</span> and <span>choose an item</span> they are currently building. She can then spend a portion of her own <span class=\"ability-ar\">gold</span> to <span class=\"ability-buff\">contribute to that item's cost</span>.<br><br>Her gold contribution is added a small <span class=\"ability-ar\">bonus</span> when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
         },
         {
             "name": "Core Breach",
-            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, slightly <span class=\"ability-debuff\">knocking back</span> the target and <span class=\"ability-debuff\">reducing their physical power</span> for a few seconds."
+            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, slightly <span class=\"ability-debuff\">knocking back</span> the target and reducing their <span class=\"ability-debuff\">physical power</span> for a few seconds."
         },
         {
             "name": "Molten Impact",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Solar Cores",
-            "details": "Kharra-Ryn send all of her solar cores to form a large circle around her. All allies within the circle will gain <span class=\"ability-buff\">increased physical power, magical power, physical resistance and magical resistance</span>.<br><br>However, Kharra-Ryn will have her own stats reduced while the solar cores are active, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
+            "details": "Kharra-Ryn send all of her solar cores to form a large circle around her. All allies within the circle will gain increased <span class=\"ability-buff\">physical power</span>, <span class=\"ability-buff\">magical power</span>, <span class=\"ability-buff\">physical resistance</span> and <span class=\"ability-buff\">magical resistance</span>.<br><br>However, Kharra-Ryn will have her own <span class=\"ability-debuff\">stats</span> reduced while the solar cores are active, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
         }
     ]
 }

@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Spirit Mark",
-            "details": "Kimiko gains increased movement speed while being unseen by the enemies. Each time Kimiko reveals herself, her next basic attack with a short timeframe deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and mark the target.<br><br>Hitting a marked target with her basic attacks and <span>Bewitching Dance</span> deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and grants herself a small burst of <span class=\"ability-mv\">movement speed</span>."
+            "details": "Kimiko gains increased movement speed while being unseen by the enemies. Each time Kimiko reveals herself, her next basic attack with a short timeframe deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and mark the target.<br><br>Hitting a marked target with her basic attacks and <span>Bewitching Dance</span> deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and grants herself a small burst of <span class=\"ability-ms\">movement speed</span>."
         },
         {
             "name": "Bewitching Dance",

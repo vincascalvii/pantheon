@@ -1,0 +1,36 @@
+{
+    "code": "Cat",
+    "full_name": "Yui",
+    "first_name": "Yui",
+    "last_name": "",
+    "title": "the Mist Reaper",
+    "bastion_name": "Shirohana",
+    "bastion_full": "Shirohana, the Blossom Keepers",
+    "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Coming soon.",
+    "abilities": [
+        {
+            "name": "Last Breath",
+            "details": "Yui's basic attack behind the target critical strikes for a percentage of the target's current health as bonus <span class=\"ability-ad\">physical damage</span>."
+        },
+        {
+            "name": "Flying Swallow",
+            "details": "Yui launches 5 kunais in a cone-shaped direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) for each kunai hit."
+        },
+        {
+            "name": "Whirlwind Strike",
+            "details": "Yui spins around with her blades, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing</span> them for a short duration."
+        },
+        {
+            "name": "Wooden Dummy",
+            "details": "Yui replaces herself with a wooden dummy that lasts for 5 seconds and appears behind a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>All on-going projectiles will go to the dummy instead and it can be destroyed with 4 hits.<br><br>After 1 second, Yui can recast <strong>Wooden Dummy</strong> again to replace the dummy with herself if it's still there."
+        },
+        {
+            "name": "Vanishing Mist",
+            "details": "Yui detonates a smoke bomb, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit and reduce their <span class=\"ability-debuff\">vision</span>.<br><br>The smoke will quickly expand into a circular area. Yui also becomes <span class=\"ability-buff\">stealthed</span> and gains increased <span class=\"ability-ms\">movement speed</span> while inside the smoke."
+        }
+    ]
+}

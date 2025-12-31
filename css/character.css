@@ -6,7 +6,7 @@
     --custodians-3: #ddd;
     --everlight-1: #5d9bfe;
     --everlight-2: #ffbe20;
-    --everlight-3: #fedf96;
+    --everlight-3: #ffdc84;
     --viridisia-1: #2ea424;
     --viridisia-2: #33be62;
     --viridisia-3: #85c69b;
@@ -19,9 +19,9 @@
     --dragnoel-1: #80d2ef;
     --dragnoel-2: #47d7e3;
     --dragnoel-3: #98dee4;
-    --duraktharn-1: #f2c156;
-    --duraktharn-2: #f6b15b;
-    --duraktharn-3: #efc693;
+    --duraktharn-1: #e6be68;
+    --duraktharn-2: #ce9855;
+    --duraktharn-3: #e9c393;
     --kragnok-1: #99c743;
     --kragnok-2: #c6ca25;
     --kragnok-3: #dcdf7c;
@@ -56,7 +56,7 @@
     --ability-debuff: #ef4444;
     --ability-hp: #57b572; /* Health */
     --ability-mp: #00b8ff; /* Mana */
-    --ability-mv: #00B076; /* Movement Speed */
+    --ability-ms: #00B076; /* Movement Speed */
     --ability-as: #ff9915; /* Attack Speed */
     --ability-cr: #fd600d; /* Crit */
     --ability-sh: #6badc7; /* Shield */
@@ -246,7 +246,7 @@ main {
 .main-nav-item.active,
 .main-nav-item:hover {
     background-color: white;
-    color: var(--theme-1);
+    color: var(--grey);
 }
 
 .main-custodians .main-nav-item.active,
@@ -723,8 +723,8 @@ main {
     color: var(--ability-mp);
 }
 
-.ability-mv {
-	color: var(--ability-mv);
+.ability-ms {
+	color: var(--ability-ms);
 }
 
 .ability-as {

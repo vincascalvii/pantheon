@@ -26,7 +26,7 @@
         },
         {
             "name": "Arcanic Gale / Mystical Flora",
-            "details": "During <span>Arcane</span> mode, Ciarra will cast a wind gale on a target path, increasing her and allies' <span class=\"ability-mv\">movement speed</span> for a short duration.<br><br>During <span>Mystic</span> mode, Ciarra will summon several sprouts on a target path. After a short duration, they will grow into thorns and grab onto all enemies within the area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">rooting</span> them down for a short duration."
+            "details": "During <span>Arcane</span> mode, Ciarra will cast a wind gale on a target path, increasing her and allies' <span class=\"ability-ms\">movement speed</span> for a short duration.<br><br>During <span>Mystic</span> mode, Ciarra will summon several sprouts on a target path. After a short duration, they will grow into thorns and grab onto all enemies within the area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">rooting</span> them down for a short duration."
         },
         {
             "name": "Arcanic Light / Mystical Void",

@@ -22,7 +22,7 @@
         },
         {
             "name": "Argent Charge",
-            "details": "Clair targets an allied hero (or herself) and grants them a burst of <span class=\"ability-mv\">movement speed</span>. If Clair has a stack of <span>Silver Weave</span> on her, this ability will transfer one stack of <span>Silver Weave</span> to the target.<br><br>Using <span>Argent Charge</span> will generate a stack of <span>Silver Weave</span> due to Clair's passive, which can only be transferred after the cast (meaning this will not be transferred to the targeted ally via the casting of this ability)."
+            "details": "Clair targets an allied hero (or herself) and grants them a burst of <span class=\"ability-ms\">movement speed</span>. If Clair has a stack of <span>Silver Weave</span> on her, this ability will transfer one stack of <span>Silver Weave</span> to the target.<br><br>Using <span>Argent Charge</span> will generate a stack of <span>Silver Weave</span> due to Clair's passive, which can only be transferred after the cast (meaning this will not be transferred to the targeted ally via the casting of this ability)."
         },
         {
             "name": "Shimmer Burst",
