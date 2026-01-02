@@ -9,6 +9,7 @@ let main = document.querySelector('main');
 let bastion = document.querySelector('.main-bastion');
 let artContainer = document.querySelector('.main-art');
 let artChar = document.querySelector('.main-art-img');
+let artBg = document.querySelector('.background');
 let zoom = document.querySelector('.zoom');
 let abilityList = document.querySelector('.ability-list');
 let arrowPrev = document.querySelector('.arrow-prev');
@@ -62,6 +63,7 @@ let arrowNext = document.querySelector('.arrow-next');
 	    	// Populate the art
 	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
 			artChar.src = '../img/characters/' + charCode + '/full.png';
+			artBg.src = '../img/background/' + data.bastion_short + '.png';
 			if (data.config?.char_width !== undefined) 
 				artContainer.style.width = data.config.char_width + 'px';
 			if (data.config?.char_height !== undefined)

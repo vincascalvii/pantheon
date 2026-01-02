@@ -750,73 +750,94 @@ main {
 }
 
 .back-icon {
-    width: 40px;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--grey);
+    border-radius: 7px;
     transition: .2s ease-in-out;
 }
 
-.back-icon * {
-    fill: var(--grey);
+.back-icon .icon {
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 
-.main-custodians .back-icon * {
-    fill: var(--custodians-1);
+.main-custodians .back-icon {
+    background-color: var(--custodians-1);
 }
 
-.main-everlight .back-icon * {
-    fill: var(--everlight-1);
+.main-everlight .back-icon {
+    background-color: var(--everlight-1);
 }
 
-.main-viridisia .back-icon * {
-    fill: var(--viridisia-1);
+.main-viridisia .back-icon {
+    background-color: var(--viridisia-1);
 }
 
-.main-huoshen .back-icon * {
-    fill: var(--huoshen-1);
+.main-huoshen .back-icon {
+    background-color: var(--huoshen-1);
 }
 
-.main-shirohana .back-icon * {
-    fill: var(--shirohana-1);
+.main-shirohana .back-icon {
+    background-color: var(--shirohana-1);
 }
 
-.main-dragnoel .back-icon * {
-    fill: var(--dragnoel-1);
+.main-dragnoel .back-icon {
+    background-color: var(--dragnoel-1);
 }
 
-.main-duraktharn .back-icon * {
-    fill: var(--duraktharn-1);
+.main-duraktharn .back-icon {
+    background-color: var(--duraktharn-1);
 }
 
-.main-kragnok .back-icon * {
-    fill: var(--kragnok-1);
+.main-kragnok .back-icon {
+    background-color: var(--kragnok-1);
 }
 
-.main-jotunheimr .back-icon * {
-    fill: var(--jotunheimr-1);
+.main-jotunheimr .back-icon {
+    background-color: var(--jotunheimr-1);
 }
 
-.main-solzakar .back-icon * {
-    fill: var(--solzakar-1);
+.main-solzakar .back-icon {
+    background-color: var(--solzakar-1);
 }
 
-.main-chandrasar .back-icon * {
-    fill: var(--chandrasar-1);
+.main-chandrasar .back-icon {
+    background-color: var(--chandrasar-1);
 }
 
-.main-nagaithis .back-icon * {
-    fill: var(--nagaithis-1);
+.main-nagaithis .back-icon {
+    background-color: var(--nagaithis-1);
 }
 
-.main-altharion .back-icon * {
-    fill: var(--altharion-1);
+.main-altharion .back-icon {
+    background-color: var(--altharion-1);
 }
 
-.main-eden .back-icon * {
-    fill: var(--eden-4);
+.main-eden .back-icon {
+    background-color: var(--eden-1);
 }
 
-.main-nether .back-icon * {
-    fill: var(--nether-1);
+.main-eden .back-icon .icon {
+    color: var(--eden-4);
+}
+
+.main-nether .back-icon {
+    background-color: var(--nether-1);
+}
+
+.back-icon-white {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    z-index: -1;
 }
 
 .back-text {

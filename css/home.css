@@ -202,24 +202,28 @@ a.char-block:hover .char-name {
 }
 
 .back-icon {
-    width: 40px;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 7px;
+    transition: .2s ease-in-out;
 }
 
-.back-icon * {
-    fill: #333;
+.back-icon .icon {
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 
 .back-text {
     color: #333;
 }
 
-.back:hover .back-icon * {
-    fill: #3865ff;
-}
-
-.back:hover .back-text {
-    color: #3865ff;
+.back:hover .back-icon {
+    background-color: #666;
 }
 
 .background {
