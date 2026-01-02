@@ -1,0 +1,36 @@
+{
+    "code": "Shadow",
+    "full_name": "Grim",
+    "first_name": "Grim",
+    "last_name": "?",
+    "title": "?",
+    "bastion_name": "Altharion",
+    "bastion_full": "Altharion, the Dusk Blades",
+    "bastion_short": "altharion",
+    "race": "Graveborn",
+    "soulforge": "Twin Shadows",
+    "resonance": "?",
+    "intro": "Grim is the Paragon of Altharion, the Bastion of the Graveborns. He is known as the legendary hitman who exists between the physical world and the dead. Wielding two supernatural firearms named Twin Shadows, he executes his targets with rhythmic precision.",
+    "abilities": [
+        {
+            "name": "Twin Shadows",
+            "details": "Grim's basic attacks fire twice—once from each gun. The second shot deals a percentage of the first shot's damage as <span class=\"ability-ap\">magical damage</span> and applies on-hit effects.<br><br>He will shoot the same target, else another target in range. The second shot is also affected by critical strike modifiers, but the critical chance is based on the first shot."
+        },
+        {
+            "name": "Piercing Darkness",
+            "details": "Grim fires a high-velocity shadow laser in a line, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical damage</span>) to all enemies hit."
+        },
+        {
+            "name": "Shroud of Gloom",
+            "details": "Grim designates a target location, creating a thick patch of gloomy shroud for a few seconds. Enemies standing within the shroud become <span class=\"ability-debuff\">nearsighted</span>."
+        },
+        {
+            "name": "Dawning Shadow",
+            "details": "Grim dashes a short distance, leaving a <strong>Shadow</strong> at his starting location for a few seconds. He can re-activate this ability to instantly return to the <strong>Shadow</strong>.<br><br>If Grim scores a takedown before returning, or within few seconds after returning, the cooldown of <strong>Living Shadow</strong> is <span class=\"ability-buff\">reset</span>."
+        },
+        {
+            "name": "Last Whisper",
+            "details": "Grim allows his shadow to fully engulf him, gaining increased <span class=\"ability-buff\">movement speed</span> and ignoring <span class=\"ability-buff\">unit collision</span>.<br><br>In addition, his basic attacks have <span class=\"ability-buff\">no travel time</span> (including the second shot from <strong>Twin Shadows</strong>), and each shot ignores a percentage of the target's <span class=\"ability-ar\">physical resistance</span> and <span class=\"ability-mr\">magical resistance</span> respectively."
+        }
+    ]
+}

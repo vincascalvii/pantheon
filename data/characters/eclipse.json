@@ -26,7 +26,7 @@
         },
         {
             "name": "Moonphase Shift",
-            "details": "Iyla performs a quick, graceful dash in a target direction, leaving behind a <strong>Lunar Image</strong> at her starting location.<br><br>After a brief delay, the image rushes toward Iyla's current position. Enemies caught in the path of the returning image take <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>).<br><br>If the image passes through at least one enemy hero, Iyla gains a <span class=\"ability-sh\">shield</span> (scaling with <span class=\"ability-ap\">magical power</span>) upon the image merging back with her."
+            "details": "Iyla blinks to a target location. If there is a nearby enemy hero, Iyla will perform a whirlwind slash, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies."
         },
         {
             "name": "Perfect Alignment",
