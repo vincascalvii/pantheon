@@ -1,3 +1,10 @@
+:root {
+    --theme-1: #5454C0;
+    --theme-2: #9696e4;
+    --black: #333;
+    --grey: #ddd;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -16,7 +23,7 @@ html {
 body {
 	font-family: "Poppins", Helvetica, Arial, sans-serif;
 	background-color: #fff;
-	color: #333;
+	color: var(--black);
 	font-size: 16px;
 	margin: 0;
 }
@@ -44,6 +51,81 @@ main {
     margin-block: 0 80px;
 }
 
+.sort {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 53px;
+    height: 53px;
+    border: 1px solid var(--grey);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.sort:hover,
+.sort:focus {
+    border-color: var(--black);
+}
+
+.sort-icon {
+    display: none;
+    width: 28px;
+    height: 28px;
+}
+
+.sort-text {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.sort-text-grey {
+    opacity: .5;
+}
+
+.sort-icon.active {
+    display: flex;
+}
+
+.sort-modal {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 360px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.sort:hover .sort-modal {
+    display: block;
+}
+
+.sort-opts {
+    width: 100%;
+    background-color: white;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sort-opt {
+    color: #727272;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+}
+
+.sort-opt:hover {
+    background-color: #dee2ea;
+}
+
 .search {
     display: flex;
     justify-content: center;
@@ -62,14 +144,14 @@ main {
     width: 100%;
     font-size: 18px;
     padding: 15px 30px 15px 55px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--grey);
     border-radius: 60px;
     transition: .2s ease-in-out;
 }
 
 #sbar-input:hover,
 #sbar-input:focus {
-    border-color: #333;
+    border-color: var(--black);
     outline: none;
 }
 
@@ -103,7 +185,7 @@ main {
     object-fit: contain;
     width: 100%;
     height: 100%;
-    opacity: .7;
+    opacity: .5;
     transition: .2s ease-in-out;
 }
 
@@ -112,12 +194,35 @@ main {
     opacity: 1;
 }
 
+.clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 53px;
+    height: 53px;
+    border: 1px solid var(--grey);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.clear:hover {
+    border-color: var(--black);
+}
+
+.clear-icon {
+    width: 28px;
+    height: 28px;
+}
+
 .characters {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 40px;
 }
 
 .char-bast {
@@ -128,6 +233,10 @@ main {
     margin-block: 30px 15px;
     transition: .2s ease-in-out;
     display: none;
+}
+
+.char-bast:first-child {
+    margin-top: 0;
 }
 
 .char-bast span {
@@ -181,7 +290,7 @@ main {
 }
 
 .char-block:hover .char-name {
-    background-color: #333;
+    background-color: var(--black);
 }
 
 .char-block.active {
@@ -211,7 +320,7 @@ main {
     align-items: center;
     width: 30px;
     height: 30px;
-    background-color: #333;
+    background-color: var(--black);
     border-radius: 7px;
     transition: .2s ease-in-out;
 }
@@ -223,7 +332,7 @@ main {
 }
 
 .back-text {
-    color: #333;
+    color: var(--black);
 }
 
 .back:hover .back-icon {

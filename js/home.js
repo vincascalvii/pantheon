@@ -4,39 +4,138 @@
 
 ========================================================================== */
 
-(function() {
+// Function to render the characters
+function render(data, withBastions = true) {
 
-    //
-    let container = document.getElementById('characters');
+    // Start with empty content
+    let content = '';
 
-    //
-    if (data && container) {
-
-        //
+    // If with bastions, render by bastion groups
+    if (withBastions === true) {
         for (let i= 0; i < data.length; i++) {
-            container.innerHTML += `<div class="char-bast slide active" data-bastion="` 
+            content += `<div class="char-bast slide active" data-bastion="` 
                 + data[i].bastion.toLowerCase().replace(/\s+/g, '-') + `">` 
                 + data[i].bastion + ` <span>` + data[i].title + `</span></div>`;
 
-            //
+            // Render the characters
             for (let j = 0; j < data[i].characters.length; j++) {
-                let char = data[i].characters[j];
-                let disabledClass = char.disabled ? ' disabled' : '';
-                container.innerHTML += `<a href="character?code=` 
-                    + char.code.toLowerCase() + `" class="char-block slide active` + disabledClass 
-                    + `" data-name="` + data[i].bastion.toLowerCase() + ` - ` + char.name.toLowerCase()
-                    + `" data-bastion="` + data[i].bastion.toLowerCase() + `">`
-                    + `<div class="char-bg">`
-                    + `<img src="img/characters/` 
-                    + char.code.toLowerCase() + `/thumb.jpg" class="char-img" alt="` 
-                    + char.name + `" onerror="this.style.visibility='hidden'">`
-                    + `</div>`
-                    + `<div class="char-name">` + char.name + ` (` + char.code + `)</div>`
-                    + `</a>`;
+                content += renderCharacter(data[i].characters[j]);
             }
         }
+
+    // Else, render a flat list of characters only
+    } else {
+        for (let i= 0; i < data.length; i++) {
+            content += renderCharacter(data[i]);
+        }
     }
-})();
+
+    // Pass the content to the container
+    container.innerHTML = content;
+}
+
+// Function to render a character
+function renderCharacter(char) {
+    
+    // Start with empty content
+    let content = '';
+    let disabledClass = char.disabled ? ' disabled' : '';
+
+    // Build the character block
+    content += `<a href="character?code=` 
+        + char.code.toLowerCase() + `" class="char-block slide active` + disabledClass + `">`
+        + `<div class="char-bg">`;
+
+    // If thumbnail exists, add <img> block
+    if (char.thumb === true) {
+        content += `<img src="img/characters/` 
+            + char.code.toLowerCase() + `/thumb.jpg" class="char-img" alt="` 
+            + char.name + `" onerror="this.style.visibility='hidden'">`
+    }
+    
+    // Close the block
+    content += `</div>` + `<div class="char-name">` + char.name + ` (` + char.code + `)</div>` + `</a>`;
+
+    // Render the content
+    return content;
+}
+
+// Get the container & render the initial characters
+let container = document.getElementById('characters');
+if (data && container) render(data, true);
+
+
+
+/* ==========================================================================
+
+	SORTING
+
+========================================================================== */
+
+// Loop through the sort options
+let sortIcons = document.querySelectorAll('.sort-icon');
+let sortOpts = document.querySelectorAll('.sort-opt');
+sortOpts.forEach(opt => {
+    opt.addEventListener('click', function() {
+
+        // Get the sort type
+        let sort = this.getAttribute('data-sort');
+
+        // Switch active icon
+        sortIcons.forEach(icon => icon.classList.remove('active'));
+        document.querySelector('.sort-icon[data-sort="' + sort + '"]').classList.add('active');
+
+        // Render the sorted data
+        container.innerHTML = '';
+        switch (sort) {
+            case 'az':
+            case 'za':
+                sortByAlpha(sort);
+                break;
+            default:
+                render(data, true);
+                break;
+        }
+    }, false);
+});
+
+// Function to sort alphabetically
+function sortByAlpha(order) {
+
+    // Extract all characters into a flat list
+    let characters = data.flatMap(item => item.characters);
+
+    // Sort the characters
+    if (order === 'az') {
+        characters.sort((a, b) => {
+            const aUnknown = a.name === '???';
+            const bUnknown = b.name === '???';
+
+            // Push "???" to the bottom
+            if (aUnknown && !bUnknown) return 1;
+            if (!aUnknown && bUnknown) return -1;
+
+            // Normal alphabetical sort (A → Z)
+            return a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+        });
+    } else if (order === 'za') {
+        characters.sort((a, b) => {
+            const aUnknown = a.name === '???';
+            const bUnknown = b.name === '???';
+
+            // Push "???" to the bottom
+            if (aUnknown && !bUnknown) return 1;
+            if (!aUnknown && bUnknown) return -1;
+
+            // Normal alphabetical sort (Z → A)
+            return b.name.localeCompare(a.name, undefined, { sensitivity: "base" })
+        });
+    }
+
+    // Render the sorted characters
+    render(characters, false);
+}
+
 
 
 /* ==========================================================================
@@ -45,152 +144,60 @@
 
 ========================================================================== */
 
-(function() {
+// Get the search bar input element by its ID
+var searchBar = document.getElementById('sbar-input');
 
-    // Select all elements with the class 'char-block'
-    var characters = document.querySelectorAll('.char-block');
-    var bastions = document.querySelectorAll('.char-bast');
+// Add an event listener for the keyup event on the search bar
+// Use setTimeout to delay the search for 200 milliseconds
+searchBar.addEventListener('input', function(e) {
+    setTimeout(function() {
+        filterData();
+    }, 200);
+});
 
-    // Get the search bar input element by its ID
-    var searchBar = document.getElementById('sbar-input');
+// Select all input checkboxes and logos for the Bastion section
+var bastionInputs = document.querySelectorAll('.scat-input');
 
-    // Initialize a variable to track if the initial animation has run
-    var initialAnimation = true;
-
-    // Add an event listener for the keyup event on the search bar
-    searchBar.addEventListener('input', function(event) {
-
-        // Get the search term from the input field
-        let searchTerm = event.target.value.toLowerCase();
-
-        // If search term is not empty and has at least 1 character
-        if ( searchTerm !== '' && searchTerm !== null && searchTerm.length >= 1 ) {
-
-            // Use setTimeout to delay the search for 200 milliseconds
-            setTimeout(function() {
-
-                // Loop through all bastion blocks
-                for ( let j = 0; j < bastions.length; j++ ) {
-                    bastions[j].classList.remove('active');
-                }
-            
-                // Loop through all character blocks
-                for ( let i = 0; i < characters.length; i++ ) {
-
-                    // Get the character name from the data-name attribute
-                    let charName = characters[i].getAttribute('data-name').toLowerCase();
-
-                    // If the character name includes the search term, show it
-                    if ( charName.includes(searchTerm) ) {
-
-                        // If initialAnimation is true, remove the 'active' class and then add it back
-                        if ( initialAnimation === true ) {
-                            characters[i].classList.remove('active');
-
-                            // Use setTimeout to ensure the class is added after the removal
-                            setTimeout(function() {
-                                characters[i].classList.add('active');
-                                document.querySelector('.char-bast[data-bastion="' + characters[i].getAttribute('data-bastion') + '"]')
-                                        .classList.add('active');
-                            }, 1);
-                        } else {
-                            characters[i].classList.add('active');
-                            document.querySelector('.char-bast[data-bastion="' + characters[i].getAttribute('data-bastion') + '"]')
-                                        .classList.add('active');
-                        }
-
-                    // Otherwise, hide it
-                    } else {
-                        characters[i].classList.remove('active');
-                    }
-                }
-
-                // If initialAnimation is true, set it to false
-                if ( initialAnimation === true ) initialAnimation = false;
-            }, 200);
-
-        // Bring back all bastions and characters
-        } else {
-
-            // Loop through all character blocks
-            for ( let i = 0; i < characters.length; i++ ) {
-                characters[i].classList.add('active');
-            }
-
-            // Loop through all bastion blocks
-            for ( let j = 0; j < bastions.length; j++ ) {
-                bastions[j].classList.add('active');
-            }
-        }
+// Add event listeners to each input checkbox
+bastionInputs.forEach((input, index) => {
+    input.addEventListener('change', function() {
+        filterData();
     });
+});
 
-    // Select all input checkboxes and logos for the Bastion section
-    var bastionInputs = document.querySelectorAll('.scat-input');
-    var bastionLogos = document.querySelectorAll('.scat-logo');
+// Function to filter data
+function filterData() {
 
-    // Add event listeners to each input checkbox
-    bastionInputs.forEach((input, index) => {
-        input.addEventListener('change', function() {
+    // Get the search term
+    const term = searchBar.value.trim().toLowerCase();
+    const bastion = document.querySelector('.scat-input:checked').value.toLowerCase();
 
-            // Get the corresponding logo element
-            let selectedBastion = this.value.toLowerCase();
-            
-            // Loop through all character blocks
-            for ( let i = 0; i < characters.length; i++ ) {
+    // If no filters are applied, render the full data
+    if (term === '' && bastion === '') {
+        render(data, true);
+        return;
+    }
 
-                // Get the character bastion from the data-bastion attribute
-                let charBastion = characters[i].getAttribute('data-bastion').toLowerCase();
+    // Filter data by bastion first, then search term
+    let filteredData = data.filter(item => !bastion || item.bastion_filter === bastion)
 
-                // If the character name includes the search term, show it
-                if ( charBastion.includes(selectedBastion) ) {
+        // Extract lists
+        .flatMap(item => item.characters) 
 
-                    // If initialAnimation is true, remove the 'active' class and then add it back
-                    if ( initialAnimation === true ) {
-                        characters[i].classList.remove('active');
-
-                        // Use setTimeout to ensure the class is added after the removal
-                        setTimeout(function() {
-                            characters[i].classList.add('active');
-                        }, 1);
-                    } else {
-                        characters[i].classList.add('active');
-                    }
-
-                // Otherwise, hide it
-                } else {
-                    characters[i].classList.remove('active');
-                }
-            }
-
-            // Loop through all bastion blocks
-            for ( let j = 0; j < bastions.length; j++ ) {
-
-                // Get the bastion from the data-bastion attribute
-                let bastBastion = bastions[j].getAttribute('data-bastion').toLowerCase();
-
-                // If the character name includes the search term, show it
-                if ( bastBastion.includes(selectedBastion) ) {
-
-                    // If initialAnimation is true, remove the 'active' class and then add it back
-                    if ( initialAnimation === true ) {
-                        bastions[j].classList.remove('active');
-
-                        // Use setTimeout to ensure the class is added after the removal
-                        setTimeout(function() {
-                            bastions[j].classList.add('active');
-                        }, 1);
-                    } else {
-                        bastions[j].classList.add('active');
-                    }
-
-                // Otherwise, hide it
-                } else {
-                    bastions[j].classList.remove('active');
-                }
-            }
-
-            // If initialAnimation is true, set it to false
-            if ( initialAnimation === true ) initialAnimation = false;
+        // Filter by text input
+        .filter(entry => {
+            if (!term) return true;
+            return entry.name_filter.includes(term);
         });
-    });
-})();
+
+    // Render the filtered data
+    render(filteredData, false);
+}
+
+// Remove all the filters and render the full data
+var clearFilter = document.querySelector('.clear');
+clearFilter.addEventListener('click', function() {
+    searchBar.value = '';
+    bastionInputs[0].checked = true;
+    render(data, true);
+}, false);
