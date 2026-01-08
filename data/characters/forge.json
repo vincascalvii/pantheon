@@ -30,7 +30,7 @@
         },
         {
             "name": "Solar Cores",
-            "details": "Kharra-Ryn send all of her solar cores to form a large circle around her. All allies within the circle will gain increased <span class=\"ability-buff\">physical power</span>, <span class=\"ability-buff\">magical power</span>, <span class=\"ability-buff\">physical resistance</span> and <span class=\"ability-buff\">magical resistance</span>.<br><br>However, Kharra-Ryn will have her own <span class=\"ability-debuff\">stats</span> reduced while the solar cores are active, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
+            "details": "Kharra-Ryn send all of her <strong>Solar Cores</strong> to orbit around an ally hero.<br><br>Each of the cores can completely block 1 ability from the enemy heroes. Once 3 blocks are completed, the solar cores will return to Kharra-Ryn.<br><br>While the <strong>Solar Cores</strong> are away, Kharra-Ryn will have her own <span class=\"ability-debuff\">stats</span> reduced, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
         }
     ]
 }
