@@ -18,11 +18,11 @@
         },
         {
             "name": "Thundering Smash",
-            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. During this time, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>. Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
+            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>. Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
         },
         {
             "name": "Lightning Rebuke",
-            "details": "Thorr slams his fists together, creating a resonant boom. For the next few seconds, Thorr gains a shield and any enemy that basic attacks him is struck by a bolt of lightning, taking minor <span class=\"ability-ap\">magical damage</span> and granting Thorr a quarter of his <strong>Static</strong> charge."
+            "details": "Thorr slams his fists together, creating a resonant boom. For the next few seconds, Thorr gains a shield and any enemy that basic attacks him is struck by a bolt of lightning, taking minor <span class=\"ability-ap\">magical damage</span> and granting Thorr a quarter of his <strong>Static</strong> charge.<br><br><strong>Lightning Rebuke</strong> can only be cast while Thorr is disarmed."
         },
         {
             "name": "Electrical Anchors",

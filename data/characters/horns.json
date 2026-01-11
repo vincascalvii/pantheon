@@ -26,7 +26,7 @@
         },
         {
             "name": "Bull Rush",
-            "details": "Baal charges forward, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all enemies hit.<br><br>If Baal hits an enemy hero, <strong>Bull Rush</strong> will stop and <span class=\"ability-debuff\">knock up</span> the target.<br><br>If Baal hits small monsters and minions, <strong>Bull Rush</strong> will knock them aside instead."
+            "details": "Baal charges forward, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all enemies hit.<br><br>If Baal hits an enemy hero, <strong>Bull Rush</strong> will stop and <span class=\"ability-debuff\">fling</span> the target backward.<br><br>If Baal hits small monsters and minions, <strong>Bull Rush</strong> will knock them aside instead."
         },
         {
             "name": "Unstoppable Force",

@@ -30,7 +30,7 @@
         },
         {
             "name": "Abyssal Wrath",
-            "details": "Nakaraj lets out an ancient roar and creates a massive whirlpool around him for a few seconds, gradually <span class=\"ability-debuff\">pulling</span> all nearby enemies toward himself and dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to them.<br><br>The closer they are to him, the stronger the pull and the higher the magic damage they take per second."
+            "details": "Nakaraj creates a massive whirlpool around him for a few seconds, gradually <span class=\"ability-debuff\">pulling</span> all nearby enemies toward himself and dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to them.<br><br>The closer they are to him, the stronger the pull and the higher the magic damage they take per second."
         }
     ]
 }
