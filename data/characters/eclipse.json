@@ -22,7 +22,7 @@
         },
         {
             "name": "Lunar Guard",
-            "details": "Iyla plants her feet and holds her chakrams in a defensive stance for a short duration. While in this stance, she blocks all <span class=\"ability-buff\">basic attacks</span> from the enemies."
+            "details": "Iyla plants her feet and holds her chakrams in a defensive stance for a short duration. While in this stance, she blocks all <span class=\"ability-buff\">basic attacks</span> and takes <span class=\"ability-buff\">reduced damage</span> from the enemies.<br><br>The damage reduction does not apply for damage-over-time."
         },
         {
             "name": "Moonphase Shift",

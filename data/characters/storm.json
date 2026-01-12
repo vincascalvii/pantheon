@@ -18,7 +18,7 @@
         },
         {
             "name": "Thundering Smash",
-            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>. Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
+            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>, but <strong>Static Accumulator</strong> charges faster.<br><br>Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
         },
         {
             "name": "Lightning Rebuke",

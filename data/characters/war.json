@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Mars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds and stacking up to ten times.<br><br>Each <strong>War Stance</strong> stack gains Mars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, the <span class=\"ability-buff\">physical power</span> bonus is <span class=\"ability-buff\">doubled</span>."
+            "details": "Mars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).<br><br>Each <strong>War Stance</strong> stack gains Mars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, the <span class=\"ability-buff\">physical power</span> bonus is <span class=\"ability-buff\">doubled</span>."
         },
         {
             "name": "Dominion",

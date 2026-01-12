@@ -30,7 +30,7 @@
         },
         {
             "name": "Ocean Breaker",
-            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</strong> for a duration, gaining increased <span class=\"ability-mp\">maximum mana</span> and <span class=\"ability-mp\">mana regen</span>.<br><br>In addition, <strong>Ocean Breaker</strong> also <span class=\"ability-buff\">recovers</span> a percentage of her maximum mana on cast.<br><br>While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
+            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</strong> for a duration, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-mp\">maximum mana</span> and <span class=\"ability-mp\">mana regen</span>.<br><br>In addition, <strong>Ocean Breaker</strong> also <span class=\"ability-buff\">recovers</span> a percentage of her maximum mana on cast.<br><br>While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
         }
     ],
     "config": {

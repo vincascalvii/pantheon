@@ -29,8 +29,8 @@
             "details": "Draevyn gains increased <span class=\"ability-ms\">movement speed</span> and becomes <span class=\"ability-buff\">camouflaged</span> for a duration. He will gain increased <span class=\"ability-as\">attack speed</span> when exiting camouflage.<br><br>Takedown on enemy hero that Draevyn recently damaged will reset <strong>The Hunt</strong> cooldown.<br><br>Draevyn can cast <strong>Slaughter Zone</strong> without revealing himself."
         },
         {
-            "name": "Multilate",
-            "details": "Draevyn slashes the chain in a large radius, hitting all nearby enemies in the outer range and dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> plus their <span class=\"ability-debuff\">missing health</span>).<br><br>Enemies hit will be affected with <strong>Cut Throat</strong> and those who are already affected will have the duration reset."
+            "name": "Death Knocks Twice",
+            "details": "Draevyn slashes the chain in a large radius twice.<br><br>The first slash deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and greatly <span class=\"ability-debuff\">slows</span> all enemies hit.<br><br>The second slash deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> plus the target's <span class=\"ability-debuff\">missing health</span>).<br><br>Enemies hit will be affected with <strong>Cut Throat</strong> and those who are already affected will have the duration reset."
         }
     ]
 }

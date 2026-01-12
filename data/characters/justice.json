@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Heaven's Will",
-            "details": "When Cyrus damages an enemy champion with his abilities, the target will be marked by the <span>Heaven's Will</span>, <span class=\"ability-debuff\">increasing the damage they take</span> from Cyrus for a few seconds."
+            "details": "When Cyrus damages an enemy champion with his abilities, the target will be marked by the <span>Heaven's Will</span>, increasing the <span class=\"ability-debuff\">damage</span> they take from Cyrus for a few seconds."
         },
         {
             "name": "Retribution",

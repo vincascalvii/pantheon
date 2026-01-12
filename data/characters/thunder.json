@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Thunder Fury",
-            "details": "Every time Artorias basic attacks or uses <strong>Lightning Strike</strong> on an enemy hero, he receives a stack of <strong>Thunder Fury</strong> (maximum 10 stacks). A critical hit will grant him 2 stacks instead.<br><br>Each <strong>Thunder Fury</strong> stack increases his <span class=\"ability-cr\">critical chance</span>. Artorias's critical chance can exceed 100%, and excessive critical chance will be converted to <span class=\"ability-cr\">critical strike damage</strong>.<br><br>At maximum stacks, Artorias's basic attack or <strong>Lightning Strike</strong> creates lightning that deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-cr\">critical strike damage</span>) to the target and nearby enemies."
+            "details": "Every time Artorias basic attacks or uses <strong>Lightning Strike</strong> on an enemy hero, he receives a stack of <strong>Thunder Fury</strong> (maximum 10 stacks). A critical hit will grant him 2 stacks instead.<br><br>Each <strong>Thunder Fury</strong> stack increases his <span class=\"ability-cr\">critical chance</span>. Artorias's critical chance can exceed 100%, and excessive critical chance will be converted to <span class=\"ability-cr\">critical strike damage</span>.<br><br>At maximum stacks, Artorias's basic attack or <strong>Lightning Strike</strong> creates lightning that deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-cr\">critical strike damage</span>) to the target and nearby enemies."
         },
         {
             "name": "Lightning Strike",
@@ -30,7 +30,7 @@
         },
         {
             "name": "Storm Breaker",
-            "details": "Artorias transforms into the powerful <strong>Thunder Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-ms\">movement speed</span> and maximum stacks of <strong>Thunder Fury</strong> for a duration.<br><br>While in <strong>Thunder Dragon</strong> form, Artorias will always <span class=\"ability-cr\">critically strike</span> with basic attacks and <strong>Lightning Strike</strong>. In addition, his critical chance will be converted to bonus <span class=\"ability-cr\">critical strike damage</span> instead.<br><br>While in <strong>Thunder Dragon</strong> form, his abilities are enhanced."
+            "details": "Artorias transforms into the powerful <strong>Thunder Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span> and maximum stacks of <strong>Thunder Fury</strong> for a duration.<br><br>While in <strong>Thunder Dragon</strong> form, Artorias will always <span class=\"ability-cr\">critically strike</span> with basic attacks and <strong>Lightning Strike</strong>. In addition, his critical chance will be converted to bonus <span class=\"ability-cr\">critical strike damage</span> instead.<br><br>While in <strong>Thunder Dragon</strong> form, his abilities are enhanced."
         }
     ],
     "config": {
