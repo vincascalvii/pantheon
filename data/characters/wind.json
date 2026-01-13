@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Gale Blades",
-            "details": "Zephyrus starts with 4 <strong>Gale Blades</strong>. He gains additional blades based on his bonus attack speed.<br><br>His blades orbit him closely, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-as\">attack speed</span>) to any enemy they pass through.<br><br>Each time he basic attacks, he uses 1 blade. His abilities can also use up all of his current blades.<br><br>When Zephyrus is out of blades, he is unable to <span class=\"ability-debuff\">basic attack</span>, use <strong>Razor Array</strong> or <strong>Cyclone Orbit</strong> until he regenerates more blades over time."
+            "details": "Zephyrus starts with 3 <strong>Gale Blades</strong>. He gains additional blades based on his bonus attack speed.<br><br>His blades orbit him closely, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-as\">attack speed</span>) to any enemy they pass through.<br><br>Each time he basic attacks, he uses 1 blade. His abilities can also use up all of his current blades.<br><br>When Zephyrus is out of blades, he is unable to <span class=\"ability-debuff\">basic attack</span>, use <strong>Razor Array</strong> or <strong>Cyclone Orbit</strong> until he regenerates more blades over time."
         },
         {
             "name": "Razor Array",
