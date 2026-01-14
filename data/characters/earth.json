@@ -30,7 +30,7 @@
         },
         {
             "name": "Tectonic Breaker",
-            "details": "Terros transforms into the <strong>Earth Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-buff\">attack range</span>, <span class=\"ability-ar\">physical resistance</span>.<br><br>Upon activation, Terros releases a massive seismic shockwave, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to all enemies hit and slightly <span class=\"ability-debuff\">knocking</span> them towards himself.<br><br>While in <strong>Earth Dragon</strong> form, his abilities are enhanced."
+            "details": "Terros transforms into the <strong>Earth Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-buff\">attack range</span> and <span class=\"ability-ar\">physical resistance</span>.<br><br>Upon activation, Terros releases a massive seismic shockwave, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to all enemies hit and slightly <span class=\"ability-debuff\">knocking</span> them towards himself.<br><br>While in <strong>Earth Dragon</strong> form, his abilities are enhanced."
         }
     ],
     "config": {
