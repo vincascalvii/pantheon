@@ -34,8 +34,8 @@
         }
     ],
     "config": {
-        "char_width": 1000,
-        "char_height": 760,
+        "char_width": 1100,
+        "char_height": 840,
         "background": true,
         "next_char": "ignite"
     }
