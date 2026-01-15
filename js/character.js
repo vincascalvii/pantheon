@@ -62,8 +62,12 @@ let arrowNext = document.querySelector('.arrow-next');
 
 	    	// Populate the art
 	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
+			artBg.src = '../img/' + (
+				data.config?.background === true 
+					? 'characters/' + charCode + '/bg.png' 
+					: 'background/' + data.bastion_short + '.png'
+				);
 			artChar.src = '../img/characters/' + charCode + '/full.png';
-			artBg.src = '../img/background/' + data.bastion_short + '.png';
 			if (data.config?.char_width !== undefined) 
 				artContainer.style.width = data.config.char_width + 'px';
 			if (data.config?.char_height !== undefined)

@@ -36,6 +36,7 @@
     "config": {
         "char_width": 1000,
         "char_height": 760,
+        "background": true,
         "next_char": "ignite"
     }
 }
