@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Cut Throat",
-            "details": "Every few seconds, Draevyn's basic attack reaps the enemy, causing them to bleed, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) over a duration."
+            "details": "Every few seconds, Draevyn's basic attack reaps the enemy, causing them to bleed, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) over a duration."
         },
         {
             "name": "Death Hook",
-            "details": "Draevyn swings up his chain then throws the hook part at a target direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit.<br><br><strong>Death Hook</strong> also slightly pulls the target toward him and then briefly <span class=\"ability-debuff\">slows</span> the target."
+            "details": "Draevyn swings up his chain then throws the hook part at a target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to the first enemy hit.[n]<b>Death Hook</b> also slightly [db]pulls[/] the target toward him and then briefly [db]slows[/] the target."
         },
         {
             "name": "Slaughter Zone",
-            "details": "Draevyn selects a target area and while he's inside, his basic attacks have increased range and deal additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>)."
+            "details": "Draevyn selects a target area and while he's inside, his basic attacks have increased [bf]range[/], deal additional [ad]physical damage[/] (scaling with [ad]physical power[/]) and [bf]heal[/] himself for a small amount."
         },
         {
             "name": "The Hunt",
-            "details": "Draevyn gains increased <span class=\"ability-ms\">movement speed</span> and becomes <span class=\"ability-buff\">camouflaged</span> for a duration. He will gain increased <span class=\"ability-as\">attack speed</span> when exiting camouflage.<br><br>Takedown on enemy hero that Draevyn recently damaged will reset <strong>The Hunt</strong> cooldown.<br><br>Draevyn can cast <strong>Slaughter Zone</strong> without revealing himself."
+            "details": "Draevyn gains increased [ms]movement speed[/] and becomes [bf]camouflaged[/] for a duration. He will gain increased [as]attack speed[/] when exiting camouflage.[n]Takedown on enemy hero that Draevyn recently damaged will [bf]reset[/] <b>The Hunt</b> cooldown.[n]Draevyn can cast <b>Slaughter Zone</b> without revealing himself."
         },
         {
             "name": "Death Knocks Twice",
-            "details": "Draevyn slashes the chain in a large radius twice.<br><br>The first slash deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and greatly <span class=\"ability-debuff\">slows</span> all enemies hit.<br><br>The second slash deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> plus the target's <span class=\"ability-debuff\">missing health</span>).<br><br>Enemies hit will be affected with <strong>Cut Throat</strong> and those who are already affected will have the duration reset."
+            "details": "Draevyn slashes the chain in a large radius twice.[n]The first slash deals [ad]physical damage[/] (scaling with [ad]physical power[/]) and greatly [db]slows[/] all enemies hit.[n]The second slash deals [ad]physical damage[/] (scaling with [ad]physical power[/] plus the target's [db]missing health[/]).[n]Enemies hit will be affected with <b>Cut Throat</b> and those who are already affected will have the duration reset."
         }
     ]
 }

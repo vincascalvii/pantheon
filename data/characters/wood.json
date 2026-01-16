@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Verdant Growth",
-            "details": "Every several seconds, Velerias's next basic attack with her scepter deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) and creates a small circle of <strong>Verdant Soil</strong> at her location for a short duration.<br><br>Allies standing on this soil are <span class=\"ability-buff\">healed</span> (scaling with <span class=\"ability-hp\">maximum health</span>) for a small amount every second."
+            "details": "Every several seconds, Velerias's next basic attack with her scepter deals bonus [ap]magical damage[/] (scaling with [hp]maximum health[/]) and creates a small circle of <b>Verdant Soil</b> at her location for a short duration.[n]Allies standing on this soil are [bf]healed[/] (scaling with [hp]maximum health[/]) for a small amount every second."
         },
         {
             "name": "Root Bind",
-            "details": "Velerias thrusts her scepter forward, sending a line of sharp wooden briars through the earth, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to the first enemy hit and <span class=\"ability-debuff\">root</span> the target for a short duration.<br><br>If Velerias is standong on a <strong>Verdant Soil</strong>, the root duration is <span class=\"ability-debuff\">increased</span>.<br><br>In <strong>Wood Dragon</strong> form, the briars spread out in a wider area, dealing increased <span class=\"ability-ap\">magical damage</span> and <span class=\"ability-debuff\">rooting</span> all enemies hit instead."
+            "details": "Velerias thrusts her scepter forward, sending a line of sharp wooden briars through the earth, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to the first enemy hit and [db]root[/] the target for a short duration.[n]If Velerias is standong on a <b>Verdant Soil</b>, the root duration is [db]increased[/].[n]In <b>Wood Dragon</b> form, the briars spread out in a wider area, dealing increased [ap]magical damage[/] and [db]rooting[/] all enemies hit instead."
         },
         {
             "name": "Living Bark",
-            "details": "Velerias wraps herself and her lowest-health nearby ally hero in enchanted bark, granting both a <span class=\"ability-sh\">shield</span> (scaling with <span class=\"ability-hp\">maximum health</span>) for a few seconds.<br><br>In <strong>Wood Dragon</strong> form, the <span class=\"ability-buff\">shield strength</span> is increased and all nearby allies are also <span class=\"ability-sh\">shielded</span> over the duration of the shield."
+            "details": "Velerias wraps herself and her lowest-health nearby ally hero in enchanted bark, granting both a [sh]shield[/] (scaling with [hp]maximum health[/]) for a few seconds.[n]In <b>Wood Dragon</b> form, the [bf]shield strength[/] is increased and all nearby allies are also [sh]shielded[/] over the duration of the shield."
         },
         {
             "name": "Thorn Embrace",
-            "details": "Velerias targets an enemy hero, tethering them to her scepter with a spectral vine for a few seconds.<br><br>While tethered, the enemy deals <span class=\"ability-buff\">reduced damage</span> to Velerias while she continuously drains the target's <span class=\"ability-hp\">health</span> (scaling with <span class=\"ability-hp\">maximum health</span>).<br><br>At the end of the duration, the thorns grows out from the vine, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) and <span class=\"ability-debuff\">rooting</span> the target for a short duration.<br><br>In <strong>Wood Dragon</strong> form, if the tether ends or the target dies, the vine bursts into life, <span class=\"ability-buff\">healing</span> (scaling with <span class=\"ability-hp\">maximum health</span>) the nearest allied hero."
+            "details": "Velerias targets an enemy hero, tethering them to her scepter with a spectral vine for a few seconds.[n]While tethered, the enemy deals [bf]reduced damage[/] to Velerias while she continuously drains the target's [hp]health[/] (scaling with [hp]maximum health[/]).[n]At the end of the duration, the thorns grows out from the vine, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) and [db]rooting[/] the target for a short duration.[n]In <b>Wood Dragon</b> form, if the tether ends or the target dies, the vine bursts into life, [bf]healing[/] (scaling with [hp]maximum health[/]) the nearest allied hero."
         },
         {
             "name": "Forest Breaker",
-            "details": "Velerias transforms into an elder <strong>Wood Dragon</strong> form, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-buff\">attack range</span> and <span class=\"ability-hp\">maximum health</span>.<br><br>In <strong>Wood Dragon</strong> form, her <strong>Verdant Soil</strong> <span class=\"ability-buff\">radius</span> is larger and the <span class=\"ability-buff\">healing</span> is increased.<br><br>All of Velerias's abilities are enhanced while in <strong>Wood Dragon</strong> form."
+            "details": "Velerias transforms into an elder <b>Wood Dragon</b> form, gaining increased [bf]size[/], [bf]attack range[/] and [hp]maximum health[/].[n]In <b>Wood Dragon</b> form, her <b>Verdant Soil</b> [bf]radius[/] is larger and the [bf]healing[/] is increased.[n]All of Velerias's abilities are enhanced while in <b>Wood Dragon</b> form."
         }
     ],
     "config": {

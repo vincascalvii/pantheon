@@ -1,0 +1,36 @@
+{
+    "code": "Tiger",
+    "full_name": "Byakko",
+    "first_name": "Byakko",
+    "last_name": "",
+    "title": "the Relentless Prosecutor",
+    "bastion_name": "Shirohana",
+    "bastion_full": "Shirohana, the Blossom Keepers",
+    "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Byakko is a monk-like tiger who serves as the arbiter of justice in Shirohana. Clad in simple but elegant monastic robes and armored bracers, he possesses a frighteningly calm demeanor even in the heat of battle. He tracks down those who flee from their crimes, utilising two floating Tiger Totems to subdue lawbreakers and lock them within a judicial arena from which there is no escape.",
+    "abilities": [
+        {
+            "name": "Fearless Stance",
+            "details": "Byakko gains bonus [ar]physical resistance[/] and [mr]magical resistance[/] for every nearby enemy hero."
+        },
+        {
+            "name": "Punishing Punch",
+            "details": "Byakko's next basic attack is empowered, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]stunning[/] the target for a short duration.[n]Byakko also gains increased [ms]movement speed[/] for a few seconds or until he punches the target."
+        },
+        {
+            "name": "Tiger Totems",
+            "details": "Byakko commands his 2 floating totems to spin rapidly in an orbit around him for a few seconds, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies they pass through.[n]Each time both totems strike the same enemy hero within a single rotation, the totems increase in [bf]size[/] and the ability's duration is [bf]extended[/]."
+        },
+        {
+            "name": "Sovereign Roar",
+            "details": "Byakko lets out a terrifying roar in a small cone-shaped direction, [db]taunting[/] all enemies hit for a short duration.[n]In addition, taunted enemies also have their [db]magical resistance[/] reduced."
+        },
+        {
+            "name": "Inescapable Prison",
+            "details": "Byakko leaps to a target enemy hero, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]) upon landing.[n]Once landed, he creates a circular arena around the target and himself for a few seconds. The arena acts as a terrain that [db]blocks[/] normal movement.[n]Byakko can recast this ability to destroys the terrain."
+        }
+    ]
+}

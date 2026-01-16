@@ -52,8 +52,8 @@
     --ability-td: #aaaaaa; /* True Damage */
     --ability-ar: #dbb600; /* Physical Resistance / Armour */
     --ability-mr: #a45cff; /* Magic Resistance */
-    --ability-buff: #009549;
-    --ability-debuff: #ef4444;
+    --ability-bf: #009549;
+    --ability-db: #ef4444;
     --ability-hp: #57b572; /* Health */
     --ability-mp: #00b8ff; /* Mana */
     --ability-ms: #00B076; /* Movement Speed */
@@ -708,12 +708,12 @@ main {
     color: var(--ability-mr);
 }
 
-.ability-buff {
-    color: var(--ability-buff);
+.ability-bf {
+    color: var(--ability-bf);
 }
 
-.ability-debuff {
-    color: var(--ability-debuff);
+.ability-db {
+    color: var(--ability-db);
 }
 
 .ability-hp {

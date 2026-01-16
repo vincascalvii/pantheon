@@ -1,0 +1,36 @@
+{
+    "code": "Bear",
+    "full_name": "Kuma",
+    "first_name": "Kuma",
+    "last_name": "",
+    "title": "the Ancient Totem",
+    "bastion_name": "Shirohana",
+    "bastion_full": "Shirohana, the Blossom Keepers",
+    "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Kuma is a massive bear and one of the clan leaders from Shirohana, the bastion of the Blossom Keepers. He carries a monolith-sized Spirit Totem that acts as both a weapon and a conduit for ancient earth magic. By planting his totem, Kuma can suppress enemies from a distance while using his own brute strength to protect for his allies.",
+    "abilities": [
+        {
+            "name": "Ancient Totem",
+            "details": "Kuma enters the battlefield wielding his giant <b>Ancient Totem</b>. When certain abilities are cast, he leaves the <b>Ancient Totem</b> on the ground and begins fighting with his bare hands.[n]While separated from the <b>Ancient Totem</b>, Kuma has decreased [db]attack range[/] but his basic attacks deal bonus [ad]physical damage[/] (scaling with [hp]maximum health[/]).[n]If Kuma moves more than a certain distance away from his totem, it sinks into the earth and reappears in his hands instantly."
+        },
+        {
+            "name": "Tremor Pulse",
+            "details": "Kuma slams the totem into the earth, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) in a shockwave around him. He then leaves the <b>Ancient Totem</b> at the centre of the impact.[n]If Kuma is separated from the <b>Ancient Totem</b>, both Kuma and the stationary <b>Ancient Totem</b> release a shockwave simultaneously.[n]The totem deals the same damage and [db]slows[/] nearby enemies, while Kuma deals [db]half[/] of the damage only."
+        },
+        {
+            "name": "Purifying Resonance",
+            "details": "Kuma enchants the <b>Ancient Totem</b> for a few seconds. Enemies within the totem's aura have their [db]healing[/] and [db]shielding[/] effectiveness reduced by a percentage."
+        },
+        {
+            "name": "Totem Retrieval",
+            "details": "Kuma commands the totem to return to his hands. Once returned, Kuma gains a [sh]shield[/] (scaling with [hp]maximum health[/]) and his next basic attack is empowered, dealing bonus [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]stunning[/] the target for a short duration."
+        },
+        {
+            "name": "Fracture Earth",
+            "details": "Kuma puts all his strength into a groundbreaking smash, creating a linear rupture in a target direction.[n]All enemies hit by the line are dealt [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]knocked up[/].[n]At the end of the line's path, the <b>Ancient Totem</b> emerges from the ground and remains there."
+        }
+    ]
+}
