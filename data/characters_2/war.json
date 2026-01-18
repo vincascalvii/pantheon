@@ -1,0 +1,36 @@
+{
+    "code": "Dominion",
+    "full_name": "Mars",
+    "first_name": "Mars",
+    "last_name": "",
+    "title": "the Sovereign of War",
+    "bastion_full": "Eden, the Heavenly Sovereigns",
+    "bastion_name": "Eden",
+    "bastion_short": "eden",
+    "race": "Celestial",
+    "soulforge": "Conqueror",
+    "resonance": "Immense Strength",
+    "intro": "Coming soon.",
+    "abilities": [
+        {
+            "name": "War Stance",
+            "details": "Mars generates a stack of <strong>War Stance</strong> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).<br><br>Each <strong>War Stance</strong> stack gains Mars bonus <span class=\"ability-ad\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>). At maximum stacks, the <span class=\"ability-buff\">physical power</span> bonus is <span class=\"ability-buff\">doubled</span>."
+        },
+        {
+            "name": "Dominion",
+            "details": "Mars slams the axe to the ground to create a fissure in a straight line, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit and briefly <span class=\"ability-debuff\">slowing</span> them.<br><br>At maximum <strong>War Stance</strong> stacks, the <span class=\"ability-buff\">range</span> and <span class=\"ability-buff\">slow</span> effect are increased."
+        },
+        {
+            "name": "Onslaught",
+            "details": "Mars gains increased <span class=\"ability-as\">attack speed</span> and <span class=\"ability-ms\">movement speed</span> for a duration. In addition, his basic attacks cleave in a cone, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit.<br><br>At maximum <strong>War Stance</strong> stacks, Mars heals for a percentage of the cleave damage dealt to enemy heroes."
+        },
+        {
+            "name": "Omen",
+            "details": "Mars dashes to a target direction. Dash distance is increased when cast towards an enemy hero, but decreased when cast away from enemy heroes.<br><br>Upon arrival, Mars spins his axe around, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies.<br><br>At maximum <strong>War Stance</strong> stacks, Mars shreds the <span class=\"ability-debuff\">physical resistance</span> of all enemies hit."
+        },
+        {
+            "name": "Conqueror",
+            "details": "Mars releases a powerful roar, <span class=\"ability-ad\">fearing</span> all nearby enemies and greatly <span class=\"ability-ad\">slowing</span> their movement speed for a duration.<br><br>Mars also gains maximum <strong>War Stance</strong> stacks upon casting this ability."
+        }
+    ]
+}

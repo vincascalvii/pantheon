@@ -1,0 +1,40 @@
+{
+    "code": "Gold",
+    "full_name": "Everett Wyvernsworn",
+    "first_name": "Everett",
+    "last_name": "Wyvernsworn",
+    "title": "the Gilded Imperator",
+    "bastion_name": "Everlight",
+    "bastion_full": "Everlight, the Dawn Bringers",
+    "bastion_short": "everlight",
+    "race": "Valorian",
+    "soulforge": "Golden Sentry",
+    "resonance": "Gold Crafting",
+    "intro": "In the history of Everlight, no duo is as celebrated as Silver and Gold. Born to a lineage of Wyvernsworn knights, they represent the perfect synthesis of defense and offense. Where one goes, the other follows—an inseparable force that has never lost a flank in the war against the Hellspawns. Everett wields a unique soulforge known as the Golden Sentry, a floating apparatus that hovers over the battlefield. From this vantage point, he rains down needles of pure light energy that will always bring victory to the Seventh Order.",
+    "abilities": [
+        {
+            "name": "Gilded Imprints",
+            "details": "Everett's basic attacks, <span>Needle Work</span> and <span>Brilliant Dawn</span> embed <span>Golden Needles</span> on the target that stacks infinitely. Killing the enemy target will return all the <span>Golden Needles</span> back to him, earning him bonus <span class=\"ability-ar\">gold</span> depending on the number of returned needles."
+        },
+        {
+            "name": "Needle Work",
+            "details": "Everett throws three needles in a target direction, each dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit.<br><br>When shielded, Everett will throw <span class=\"ability-buff\">five</span> needles instead."
+        },
+        {
+            "name": "Golden Sentry",
+            "details": "Everett places a <span>Golden Sentry</span> at a target location, granting <span class=\"ability-buff\">vision</span> in a small area for a short duration. When Everett basic attacks an enemy, if that enemy is within the <span>Golden Sentry</span>'s range, the sentry will also fire at the same target, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) per hit and applying a stack of <span>Golden Needle</span>."
+        },
+        {
+            "name": "Auric Thread",
+            "details": "Everett pulls back all the <span>Golden Needles</span>, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) based on the number of needles pulled back.<br><br>When shielded, the damage is <span class=\"ability-buff\">increased</span> based on Everett's <span class=\"ability-ar\">critical strike chance</span>.<br><br>If an enemy is killed by this ability, <span>Gilded Imprints</span>'s bonus gold gain will still be triggered."
+        },
+        {
+            "name": "Brilliant Dawn",
+            "details": "Everett channels the full power of his golden essence, gaining bonus <span class=\"ability-buff\">attack range</span> and empowering his basic attacks to <span class=\"ability-buff\">pierce through all enemies in a line</span>.<br><br>If Everett is shielded while in this state, he will gain bonus <span class=\"ability-as\">attack speed</span>. If the shield expires or is broken, the bonus stats will be lost.<br><br>While <span>Brilliant Dawn</span> is active, <span>Golden Sentry</span> also gains extended attack range, and its attacks will pierce through all enemies in a line, mirroring Everett's empowered basic attacks."
+        }
+    ],
+    "config": {
+        "prev_char": "silver",
+        "next_char": "colossus"
+    }
+}

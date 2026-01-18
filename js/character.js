@@ -26,7 +26,7 @@ let arrowNext = document.querySelector('.arrow-next');
 (function() {
 
 	// Get the character
-	let charCode = urlParams.get('code').toLowerCase();
+	let charCode = urlParams.get('name').toLowerCase();
 
 	// If the value is not empty or null, fetch the JSON file
 	if (charCode != '' && charCode != null) {
@@ -43,11 +43,11 @@ let arrowNext = document.querySelector('.arrow-next');
 
 			// Setup navigation arrows
 			if (data.config?.prev_char !== undefined) {
-				arrowPrev.href = '../character?code=' + data.config.prev_char;
+				arrowPrev.href = '../character?name=' + data.config.prev_char;
 				arrowPrev.classList.add('active');
 			}
 			if (data.config?.next_char !== undefined) {
-				arrowNext.href = '../character?code=' + data.config.next_char;
+				arrowNext.href = '../character?name=' + data.config.next_char;
 				arrowNext.classList.add('active');
 			}
 

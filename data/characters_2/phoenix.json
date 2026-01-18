@@ -1,0 +1,39 @@
+{
+    "code": "Phoenix",
+    "full_name": "Huǒ Fèngyīng",
+    "first_name": "Fèngyīng",
+    "last_name": "Huǒ",
+    "title": "the Origin Flame",
+    "bastion_name": "Huǒshén",
+    "bastion_full": "Huǒshén, the Ember Masters",
+    "bastion_short": "huoshen",
+    "race": "Chìzú",
+    "soulforge": "?",
+    "resonance": "Origin Flame",
+    "intro": "Fèngyīng is the current Paragon of Huǒshén, known by others as the Empress of Holy Fire. She is described by her people as a ruler with a kind heart and is very well received by them. However, she harnesses the primal fire that has the power to scorch all enemies to ashes. While her destructive power is immense, her most sacred power is rather the opposite - the power to bring life back.",
+    "abilities": [
+        {
+            "name": "Origin Embers",
+            "details": "Fèngyīng's abilities ignite enemy heroes, causing them to burn over time, taking <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) per tick.<br><br>At 4 stacks, <strong>Origin Embers</strong> consume all stacks to deal a burst of <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and spread to nearby enemy heroes (adding 1 stack of <strong>Origin Embers</strong>).<br><br>If the enemy target dies before 4 stacks, the burst damage will trigger immediately. The same target cannot be applied with <strong>Origin Embers</strong> again for at least several seconds."
+        },
+        {
+            "name": "Fiery Spirits",
+            "details": "Fèngyīng launches a fire bird spirit to a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>She can cast this ability two more times before the ability goes on cooldown. Each cast has a timer that will put the ability on cooldowns if the next cast is not on time."
+        },
+        {
+            "name": "Holy Flame",
+            "details": "Fèngyīng ignites a small circular area on the ground, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) over time to enemies standing in it.<br><br>Allies (and Fèngyīng) standing in the flame will be <span class=\"ability-buff\">healed</span> (scaling with <span class=\"ability-ap\">magical power</span>) instead.<br><br>Additionally, enemies who are currently affected by <strong>Origin Embers</strong> will also have <span class=\"ability-debuff\">reduced movement speed</span> when standing in the flame.<br><br><strong>Holy Flame</strong> can only apply 1 stack of <strong>Origin Embers</strong> to each enemy per cast."
+        },
+        {
+            "name": "Searing Wings",
+            "details": "Fèngyīng releases a cone of fire like searing phoenix's wings, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies caught within it and <span class=\"ability-debuff\">pushing them back</span> a short distance."
+        },
+        {
+            "name": "Phoenix Reborn",
+            "details": "Upon activation, Fèngyīng will temporarily die, and become a stationary <span>Flame Egg</span> for a few seconds. She cannot move, attack, or cast abilities in this state.<br><br>When she first enters the <span>Flame Egg</span> state, her health will be reduced to the lowest limit, and is then regenerating at a rapid rate (this means that enemies can kill her during this state).<br><br>While in the <span>Flame Egg</span> state, holy fire surrounds her, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-buff\">healing</span> (scaling with <span class=\"ability-ap\">magical power</span>) nearby allies over the duration.<br><br>After the duration, the egg hatches. Fèngyīng is reborn at the egg's location with a percentage of her maximum health and mana."
+        }
+    ],
+    "config": {
+        "next_char": "wrath"
+    }
+}

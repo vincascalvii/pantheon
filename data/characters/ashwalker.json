@@ -1,0 +1,40 @@
+{
+    "code": "Ashwalker",
+    "full_name": "Ignis Draconis",
+    "first_name": "Ignis",
+    "last_name": "Draconis",
+    "title": "the Cinder Aegis",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Flame Breaker",
+    "resonance": "Fire Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Ignis is the fifth sibling, wielding the elemental power of fire. She is a specialised warrior whose scales were forged in the heart of a supernova. Ignis grows stronger the more magical heat she absorbs, turning the enemy's spells into fuel for her own devastating flames.",
+    "abilities": [
+        {
+            "name": "Cinder Scales",
+            "details": "Every time Ignis is hit by an enemy ability, she gains a <strong>Cinder Scale</strong> (maximum 4 stacks). Each stack grants her increased tenacity.<br><br>At max stacks, her next basic attack consumes them to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) in an explosion."
+        },
+        {
+            "name": "Dragon's Breath",
+            "details": "Ignis exhales a stream of fire in a cone for a few seconds, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) over time to all enemies hit.<br><br>If the fire passes through her <strong>Infernal Wall</strong>, the cone becomes wider, deals more damage, and the duration is extended.<br><br>In <strong>Flame Dragon</strong> form, the breath applies a <span class=\"ability-debuff\">slow</span> to all enemies hit and also reduces their <span class=\"ability-debuff\">magical resistance</span> each tick of damage, up to a certain limit."
+        },
+        {
+            "name": "Infernal Wall",
+            "details": "Ignis creates a wall of fire that blocks enemy projectiles and deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) to enemies who pass through.<br><br>In <strong>Flame Dragon</strong> form, the wall is larger, lasts longer and allies who pass through the wall also gain a <span class=\"ability-mr\">magical shield</span> (scaling with <span class=\"ability-mr\">magical resistance</span>)."
+        },
+        {
+            "name": "Scorching Charge",
+            "details": "Ignis charges forward, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) to all enemies in her path.<br><br>If Ignis passes through the <strong>Infernal Wall</strong>, her body ignites, dealing additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) and <span class=\"ability-debuff\">slowing</span> all enemies hit.<br><br>In <strong>Flame Dragon</strong> form, Ignis leaves a trail of fire behind her, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) and <span class=\"ability-debuff\">slowing</span> all enemies in the trail."
+        },
+        {
+            "name": "Flame Breaker",
+            "details": "Ignis fully embraces her draconic heritage, transforming into a massive <strong>Flame Dragon</strong> for a duration.<br><br>In this form, Ignis gains increased <span class=\"ability-buff\">size</span>, <span class=\"ability-buff\">attack range</span> and <span class=\"ability-mr\">magical resistance</span>.<br><br>In addition, Ignis's body is engulfed in flame, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mr\">magical resistance</span>) to nearby enemies every second.<br><br>All of Ignis's abilities are enhanced while in <strong>Flame Dragon</strong> form."
+        }
+    ],
+    "config": {
+        "prev_char": "tidecaller",
+        "next_char": "stormbringer"
+    }
+}

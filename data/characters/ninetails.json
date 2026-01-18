@@ -1,0 +1,39 @@
+{
+    "code": "Ninetails",
+    "full_name": "Kimiko",
+    "first_name": "Kimiko",
+    "last_name": "",
+    "title": "the Nine-Tailed Fox",
+    "bastion_name": "Shirohana",
+    "bastion_full": "Shirohana, the Blossom Keepers",
+    "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Coming soon.",
+    "abilities": [
+        {
+            "name": "Spirit Mark",
+            "details": "Kimiko gains increased movement speed while being unseen by the enemies. Each time Kimiko reveals herself, her next basic attack with a short timeframe deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and mark the target.<br><br>Hitting a marked target with her basic attacks and <span>Bewitching Dance</span> deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and grants herself a small burst of <span class=\"ability-ms\">movement speed</span>."
+        },
+        {
+            "name": "Bewitching Dance",
+            "details": "Kimiko's next three basic attack will gain <span class=\"ability-buff\">increased attack speed</span>, with each basic attack dealing bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and surrounding enemies, while briefly <span class=\"ability-debuff\">slowing</span> the target's movement speed."
+        },
+        {
+            "name": "Illusion Veil",
+            "details": "Kimiko becomes <span class=\"ability-buff\">stealthed</span> and leaps to an ally unit. If the target is an ally hero, Kimiko and the ally will become briefly <span class=\"ability-buff\">stealthed</span>.<br><br>Enemies will be able to very briefly see an after-image of Kimiko's dashing animation at the location she leapt from. When the ally enters stealth mode, the same after-image will also apply, very briefly indicating the direction the ally was moving before becoming stealthed.<br><br>If Kimiko or her ally attacks or uses an ability while stealthed, the stealth effect will be removed."
+        },
+        {
+            "name": "Fox Fire",
+            "details": "Kimiko sends out a <span>Fox Fire</span> that gains vision around it. If the <span>Fox Fire</span> spots an enemy hero, it will run toward it and explode on the first enemy contact, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and <span class=\"ability-debuff\">revealing</span> them for a while.<br><br>If no enemy hero is spotted, the <span>Fox Fire</span> will stay still upon reaching the end of its target direction and explode after a few seconds, briefly leaving the <span class=\"ability-buff\">vision field</span> there. The explosion deals the same magical damage."
+        },
+        {
+            "name": "Enthralling Gaze",
+            "details": "Kimiko unleashes a wave of irresistible charm, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">charms</span> all enemies hit.<br><br>When charmed, enemies will slowly <span class=\"ability-debuff\">walk towards</span> Kimiko while also take <span class=\"ability-debuff\">increased damage</span> from Kimiko."
+        }
+    ],
+    "config": {
+        "next_char": "wildfury"
+    }
+}

@@ -133,383 +133,228 @@
 			</div>
 		</section>
 		<script>
-			var data = [
+			const data = [
 				{
-					bastion: "Custodians",
-					bastion_filter: "custodians",
-					title: "(Protagonists)",
-					characters: [
-						{
-							code: "Blade",
-							name: "Arcian",
-							name_filter: "arcian blade",
-							thumb: true,
-						},
-						{
-							code: "Justice",
-							name: "Cyrus",
-							name_filter: "cyrus justice",
-						},
-						{
-							code: "Vigil",
-							name: "Xenon",
-							name_filter: "xenon vigil",
-						},
-					],
+					name: "Oblivion",
+					bastion: "custodians",
+					thumb: true,
 				},
 				{
-					bastion: "Everlight",
-					bastion_filter: "everlight",
-					title: "the Dawn Bringers",
-					characters: [
-						{
-							code: "Mystic",
-							name: "Ciarra",
-							name_filter: "ciarra mystic",
-							thumb: true,
-						},
-						{
-							code: "Ignite",
-							name: "Eris",
-							name_filter: "eris ignite",
-							thumb: true,
-						},
-						{
-							code: "Silver",
-							name: "Clair",
-							name_filter: "clair silver",
-						},
-						{
-							code: "Gold",
-							name: "Everett",
-							name_filter: "everett gold",
-						},
-					],
+					name: "Justice",
+					bastion: "custodians",
 				},
 				{
-					bastion: "Viridisia",
-					bastion_filter: "viridisia",
-					title: "the Verdant Guards",
-					characters: [
-						{
-							code: "Hope",
-							name: "Kiannah",
-							name_filter: "kiannah hope",
-							thumb: true,
-						},
-						{
-							code: "Lancer",
-							name: "Kaelen",
-							name_filter: "kaelen lancer",
-						},
-					],
+					name: "Sentinel",
+					bastion: "custodians",
 				},
 				{
-					bastion: "Huǒshén",
-					bastion_filter: "huoshen",
-					title: "the Ember Masters",
-					characters: [
-						{
-							code: "Phoenix",
-							name: "Fèngyīng",
-							name_filter: "fengying phoenix",
-						},
-						{
-							code: "Wrath",
-							name: "Wǔjiàng",
-							name_filter: "wujiang wrath",
-							thumb: true,
-						},
-						{
-							code: "Reckless",
-							name: "???",
-							name_filter: "??? reckless",
-							disabled: true,
-						},
-						{
-							code: "Heedless",
-							name: "???",
-							name_filter: "??? heedless",
-							disabled: true,
-						},
-					],
+					name: "Mystic",
+					bastion: "everlight",
+					thumb: true,
 				},
 				{
-					bastion: "Shirohana",
-					bastion_filter: "shirohana",
-					title: "the Blossom Keepers",
-					characters: [
-						{
-							code: "Fox",
-							name: "Kimiko",
-							name_filter: "kimiko fox",
-						},
-						{
-							code: "Tiger",
-							name: "???",
-							name_filter: "??? tiger",
-							disabled: true,
-						},
-						{
-							code: "Bear",
-							name: "???",
-							name_filter: "??? bear",
-							disabled: true,
-						},
-						{
-							code: "Cat",
-							name: "Yui",
-							name_filter: "yui cat",
-						},
-					],
+					name: "Emberheart",
+					bastion: "everlight",
+					thumb: true,
 				},
 				{
-					bastion: "Dragnoel",
-					bastion_filter: "dragnoel",
-					title: "the Dragon Knights",
-					characters: [
-						{
-							code: "Wood",
-							name: "Velerias",
-							name_filter: "velerias wood",
-						},
-						{
-							code: "Earth",
-							name: "Terros",
-							name_filter: "terros earth",
-						},
-						{
-							code: "Wind",
-							name: "Zephyrus",
-							name_filter: "zephyrus wind",
-						},
-						{
-							code: "Aqua",
-							name: "Marinus",
-							name_filter: "marinus aqua",
-						},
-						{
-							code: "Flame",
-							name: "Ignis",
-							name_filter: "ignis flame",
-						},
-						{
-							code: "Thunder",
-							name: "Artorias",
-							name_filter: "artorias thunder",
-						},
-					],
+					name: "Valkyrie",
+					bastion: "everlight",
 				},
 				{
-					bastion: "Durak-Tharn",
-					bastion_filter: "duraktharn",
-					title: "the Hearth Forgers",
-					characters: [
-						{
-							code: "Forge",
-							name: "Kharra-Ryn",
-							name_filter: "kharraryn forge",
-						},
-						{
-							code: "Iron",
-							name: "Ar-Gon",
-							name_filter: "argon iron",
-						},
-						{
-							code: "Colossus",
-							name: "Dun-Can",
-							name_filter: "duncan colossus",
-						},
-					],
+					name: "Imperator",
+					bastion: "everlight",
 				},
 				{
-					bastion: "Kragnok",
-					bastion_filter: "kragnok",
-					title: "the Thunder Mauls",
-					characters: [
-						{
-							code: "Storm",
-							name: "Thorr",
-							name_filter: "thorr storm",
-						},
-						{
-							code: "Horns",
-							name: "Baal",
-							name_filter: "baal horns",
-						},
-					],
+					name: "Windwalker",
+					bastion: "viridisia",
+					thumb: true,
 				},
 				{
-					bastion: "Jötunheimr",
-					bastion_filter: "jotunheimr",
-					title: "the Frost Giants",
-					characters: [
-						{
-							code: "Snow",
-							name: "???",
-							name_filter: "??? snow",
-							disabled: true,
-						},
-						{
-							code: "Winter",
-							name: "Fenrir",
-							name_filter: "fenrir winter",
-						},
-					],
+					name: "Skyspear",
+					bastion: "viridisia",
 				},
 				{
-					bastion: "Sol’zakar",
-					bastion_filter: "solzakar",
-					title: "the Sun Seekers",
-					characters: [
-						{
-							code: "Solar",
-							name: "Ra’sutekh",
-							name_filter: "rasutekh solar",
-						},
-						{
-							code: "Sand",
-							name: "???",
-							name_filter: "??? sand",
-							disabled: true,
-						},
-					],
+					name: "Phoenix",
+					bastion: "huoshen",
 				},
 				{
-					bastion: "Chandrasar",
-					bastion_filter: "chandrasar",
-					title: "the Moon Striders",
-					characters: [
-						{
-							code: "Lunar",
-							name: "???",
-							name_filter: "??? lunar",
-							disabled: true,
-						},
-						{
-							code: "Eclipse",
-							name: "Ilya",
-							name_filter: "ilya eclipse",
-						},
-					],
+					name: "Everflame",
+					bastion: "huoshen",
+					thumb: true,
 				},
 				{
-					bastion: "Nagaithis",
-					bastion_filter: "nagaithis",
-					title: "the Tide Callers",
-					characters: [
-						{
-							code: "Leviathan",
-							name: "Nakaraj",
-							name_filter: "nakaraj leviathan",
-						},
-						{
-							code: "Wave",
-							name: "Phraya",
-							name_filter: "phraya wave",
-						},
-					],
+					name: "Havoc",
+					bastion: "huoshen",
+					disabled: true,
 				},
 				{
-					bastion: "Altharion",
-					bastion_filter: "altharion",
-					title: "the Dusk Blades",
-					characters: [
-						{
-							code: "Shadow",
-							name: "Grim",
-							name_filter: "grim shadow",
-						},
-						{
-							code: "Forsaken",
-							name: "Draevyn",
-							name_filter: "draevyn forsaken",
-						},
-					],
+					name: "Inferno",
+					bastion: "huoshen",
+					disabled: true,
 				},
 				{
-					bastion: "Eden",
-					bastion_filter: "eden",
-					title: "the Heavenly Sovereigns",
-					characters: [
-						{
-							code: "Life",
-							name: "Eosfor",
-							name_filter: "eosfor life",
-							disabled: true,
-						},
-						{
-							code: "Death",
-							name: "Umbron",
-							name_filter: "umbron death",
-							disabled: true,
-						},
-						{
-							code: "Time",
-							name: "Chronos",
-							name_filter: "chronos time",
-							disabled: true,
-						},
-						{
-							code: "Space",
-							name: "Axis",
-							name_filter: "axis space",
-							disabled: true,
-						},
-						{
-							code: "Truth",
-							name: "Logos",
-							name_filter: "logos truth",
-							disabled: true,
-						},
-						{
-							code: "War",
-							name: "Mars",
-							name_filter: "mars war",
-						},
-					],
+					name: "Ninetails",
+					bastion: "shirohana",
 				},
 				{
-					bastion: "Nether",
-					bastion_filter: "nether",
-					title: "the Hellish Monarchs",
-					characters: [
-						{
-							code: "Chaos",
-							name: "End",
-							name_filter: "end chaos",
-							disabled: true,
-						},
-						{
-							code: "Oblivion",
-							name: "Nameless",
-							name_filter: "nameless oblivion",
-							disabled: true,
-						},
-						{
-							code: "Ruin",
-							name: "Vorax",
-							name_filter: "vorax ruin",
-							disabled: true,
-						},
-						{
-							code: "Calamity",
-							name: "Ragnarok",
-							name_filter: "ragnarok calamity",
-							disabled: true,
-						},
-						{
-							code: "Plague",
-							name: "Miasma",
-							name_filter: "miasma plague",
-							disabled: true,
-						},
-						{
-							code: "Blood",
-							name: "Nocturne",
-							name_filter: "nocturne blood",
-						},
-					],
+					name: "Wildfury",
+					bastion: "shirohana",
+					disabled: true,
+				},
+				{
+					name: "Elderpost",
+					bastion: "shirohana",
+					disabled: true,
+				},
+				{
+					name: "Nightprowler",
+					bastion: "shirohana",
+				},
+				{
+					name: "Woodkeeper",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Earthbreaker",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Windstrider",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Tidecaller",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Ashwalker",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Stormbringer",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Soulforger",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Ironbound",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Colossus",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Thunder",
+					bastion: "kragnok",
+				},
+				{
+					name: "Behemoth",
+					bastion: "kragnok",
+				},
+				{
+					name: "Snow",
+					bastion: "jotunheimr",
+					disabled: true,
+				},
+				{
+					name: "Frostguard",
+					bastion: "jotunheimr",
+				},
+				{
+					name: "Sunbringer",
+					bastion: "solzakar",
+				},
+				{
+					name: "Scorpion",
+					bastion: "solzakar",
+					disabled: true,
+				},
+				{
+					name: "Moondweller",
+					bastion: "chandrasar",
+					disabled: true,
+				},
+				{
+					name: "Eclipse",
+					bastion: "chandrasar",
+				},
+				{
+					name: "Leviathan",
+					bastion: "nagaithis",
+				},
+				{
+					name: "Siren",
+					bastion: "nagaithis",
+				},
+				{
+					name: "Shadow",
+					bastion: "altharion",
+				},
+				{
+					name: "Grimhook",
+					bastion: "altharion",
+				},
+				{
+					name: "Genesis",
+					bastion: "eden",
+					disabled: true,
+				},
+				{
+					name: "Requiem",
+					bastion: "eden",
+					disabled: true,
+				},
+				{
+					name: "Paradox",
+					bastion: "eden",
+					disabled: true,
+				},
+				{
+					name: "Horizon",
+					bastion: "eden",
+					disabled: true,
+				},
+				{
+					name: "Oracle",
+					bastion: "eden",
+					disabled: true,
+				},
+				{
+					name: "Conqueror",
+					bastion: "eden",
+				},
+				{
+					name: "Chaos",
+					bastion: "nether",
+					disabled: true,
+				},
+				{
+					name: "Nameless",
+					bastion: "nether",
+					disabled: true,
+				},
+				{
+					name: "Calamity",
+					bastion: "nether",
+					disabled: true,
+				},
+				{
+					name: "Ragnarok",
+					bastion: "nether",
+					disabled: true,
+				},
+				{
+					name: "Miasma",
+					bastion: "nether",
+					disabled: true,
+				},
+				{
+					name: "Crimson",
+					bastion: "nether",
 				},
 			];
 		</script>

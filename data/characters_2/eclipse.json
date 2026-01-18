@@ -1,0 +1,36 @@
+{
+    "code": "Eclipse",
+    "full_name": "Iyla",
+    "first_name": "Iyla",
+    "last_name": "",
+    "title": "the Obsidian Reach",
+    "bastion_name": "Chandrasar",
+    "bastion_full": "Chandrasar, the Moon Striders",
+    "bastion_short": "chandrasar",
+    "race": "Lunari",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Iyla is a high-priest of Chandrasar, the Bastion of the Lunaries, a race of four-armed mortals who dwell in the moon's shadow. Tall, graceful, and eerily pale, she wields four Chakrams with hypnotic precision. On the battlefield, she is a whirlwind of silver steel, keeping enemies at bay with a constant flow of blades that return to her many hands like loyal servants.",
+    "abilities": [
+        {
+            "name": "Quad-Wielding Rhythm",
+            "details": "Every 4th basic attack of Iyla deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>)."
+        },
+        {
+            "name": "Crescent Convergence",
+            "details": "Iyla throws two chakrams that travel in opposing outward arcs before meeting at a target location. The blades deal <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies they pass through.<br><br>Upon reaching the meeting point, the blades snap together, dealing bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">slowing</span> enemies in a small area before returning to Iyla.<br><br>The returning blades deal reduced damage."
+        },
+        {
+            "name": "Lunar Guard",
+            "details": "Iyla plants her feet and holds her chakrams in a defensive stance for a short duration. While in this stance, she blocks all <span class=\"ability-buff\">basic attacks</span> and takes <span class=\"ability-buff\">reduced damage</span> from the enemies.<br><br>The damage reduction does not apply for damage-over-time."
+        },
+        {
+            "name": "Moonphase Shift",
+            "details": "Iyla blinks to a target location. If there is a nearby enemy hero, Iyla will perform a whirlwind slash, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies."
+        },
+        {
+            "name": "Perfect Alignment",
+            "details": "Iyla enters a state of perfect alignment for a few seconds, gaining a massive burst of <span class=\"ability-as\">attack speed</span>.<br><br>During this time, her attack speed cap is <span class=\"ability-buff\">removed</span>, and every basic attack now launches all <span class=\"ability-buff\">four</span> chakrams in rapid succession.<br><br>Each chakram deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and applies on-hit effect separately."
+        }
+    ]
+}

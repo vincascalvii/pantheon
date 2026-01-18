@@ -32,5 +32,8 @@
             "name": "Abyssal Wrath",
             "details": "Nakaraj summons a colossal wave and rides it forward in a wide path.<br><br>Nakaraj is unstoppable during the charge. All enemies hit are <span class=\"ability-debuff\">knocked back</span> along the wave and dealt <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>).<br><br>If the enemies are standing on top of a <strong>Tidal Pool</strong> (from <strong>Undercurrent</strong>), they will be <span class=\"ability-debuff\">knocked up</span> instead of back.<br><br>All enemies hit by the wave instantly receive 5 stacks of <strong>Pressure</strong>."
         }
-    ]
+    ],
+    "config": {
+        "next_char": "siren"
+    }
 }

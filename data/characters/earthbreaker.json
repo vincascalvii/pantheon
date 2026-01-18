@@ -1,0 +1,40 @@
+{
+    "code": "Earthbreaker",
+    "full_name": "Terros Draconis",
+    "first_name": "Terros",
+    "last_name": "Draconis",
+    "title": "the Lithic Vanguard",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Earth Breaker",
+    "resonance": "Earth Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Terros is the second sibling, wielding the elemental power of earth and metal. He spends most of his time at the bastion, which he built all on his own over decades. He believes his primary duty of the siblings is not only to rule their people with an iron fist, but also to protect them with an iron wall.",
+    "abilities": [
+        {
+            "name": "Heavy Weight",
+            "details": "Terros is permanently <span class=\"ability-buff\">immune</span> to all slow effects.<br><br>However, all of his bonus movement speed is converted into bonus <span class=\"ability-ar\">physical resistance</span> instead."
+        },
+        {
+            "name": "Quake Slam",
+            "details": "Terros slams his twin maces in 2 straight lines, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to all enemies hit and briefly <span class=\"ability-debuff\">slowing</span> them.<br><br>In <strong>Earth Dragon</strong> form, Terros slams his massive claws in a wide cone, dealing increased <span class=\"ability-ad\">physical damage</span> and <span class=\"ability-debuff\">stunning</span> the enemies instead."
+        },
+        {
+            "name": "Lithic Aegis",
+            "details": "Terros hardens his scales into a dense crystalline shell, gaining a <span class=\"ability-sh\">shield</span> that absorbs incoming damage for a duration.<br><br>While the shield is active, Terros stores a percentage of the damage he takes (maximum limit based on his <span class=\"ability-ar\">physical resistance</span>). When the shield is destroyed or expires, it shatters, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) plus the damage stored during the absorption phase.<br><br>In <strong>Earth Dragon</strong> form, the <span class=\"ability-buff\">shield strength</span> and <span class=\"ability-buff\">absorption limit</span> are increased."
+        },
+        {
+            "name": "Tremor Challenge",
+            "details": "Terros strikes his maces together, creating a localised vibration that <span class=\"ability-debuff\">taunts</span> a single target enemy hero for a short duration, forcing them to attack him.<br><br>In <strong>Earth Dragon</strong> form, the vibration is replaced with a tremor in a circle around Terros, taunting all nearby enemies instead."
+        },
+        {
+            "name": "Tectonic Breaker",
+            "details": "Terros transforms into the <strong>Earth Dragon</strong>, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-buff\">attack range</span> and <span class=\"ability-ar\">physical resistance</span>.<br><br>Upon activation, Terros releases a massive seismic shockwave, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ar\">physical resistance</span>) to all enemies hit and slightly <span class=\"ability-debuff\">knocking</span> them towards himself.<br><br>While in <strong>Earth Dragon</strong> form, his abilities are enhanced."
+        }
+    ],
+    "config": {
+        "prev_char": "woodweaver",
+        "next_char": "windstrider"
+    }
+}

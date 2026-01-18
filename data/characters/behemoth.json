@@ -1,0 +1,39 @@
+{
+    "code": "Behemoth",
+    "full_name": "Baal",
+    "first_name": "Baal",
+    "last_name": "",
+    "title": "?",
+    "bastion_name": "Kragnok",
+    "bastion_full": "Kragnok, the Thunder Mauls",
+    "bastion_short": "kragnok",
+    "race": "Ork",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Coming soon.",
+    "abilities": [
+        {
+            "name": "Tough Hide",
+            "details": "Baal stores a portion of damage taken and <span class=\"ability-buff\">heals</span> back a percentage of it when out of combat."
+        },
+        {
+            "name": "Oxen Force",
+            "details": "Baal's next three basic attacks release a shockwave in a small cone-shaped area, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all nearby enemies."
+        },
+        {
+            "name": "Wild Trample",
+            "details": "Baal slams down his foot to the ground, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing</span> them for a few seconds."
+        },
+        {
+            "name": "Bull Rush",
+            "details": "Baal charges forward, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all enemies hit.<br><br>If Baal hits an enemy hero, <strong>Bull Rush</strong> will stop and <span class=\"ability-debuff\">fling</span> the target backward.<br><br>If Baal hits small monsters and minions, <strong>Bull Rush</strong> will knock them aside instead."
+        },
+        {
+            "name": "Unstoppable Force",
+            "details": "Baal becomes unstoppable for a few seconds, <span class=\"ability-buff\">reducing all incoming damage</span> by a percentage and becoming <span class=\"ability-buff\">immune to all crowd controls</span>.<br><br>Using <strong>Unstoppable Force</strong> will also break out from any form of crowd control he is currently in.<br><br>Using <strong>Bull Rush</strong> during <strong>Unstoppable Force</strong> will be charging in the direction of the cursor instead and will not stop until hitting either an enemy hero or a terrain."
+        }
+    ],
+    "config": {
+        "prev_char": "thunderfell"
+    }
+}

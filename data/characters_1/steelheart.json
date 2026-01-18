@@ -1,0 +1,60 @@
+[{
+	"name" : "Steelheart",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Iron Armour",
+
+			"details" : "When Steelheart is not in combat, his armour becomes hardened, granting him a shield based on his maximum health."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Shattering Smash",
+
+			"details" : "Steelheart winds up his hammer then smashes the floor, dealing physical damage (scaling with physical power) in a cone-shaped area and slowing all enemies hit for a few seconds."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Heavy Hit",
+
+			"details" : "Steelheart's next basic attack becomes a powerful slam, dealing additional physical damage (scaling with physical power and maximum health) to the target and nearby enemies.<br><br>If any of the enemies has been recently hit by Colossal Smash, Heavy Hit will deal more damage and slightly knock them back."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Obliterate",
+
+			"details" : "Steelheart charges for a few seconds, once released, he will start spinning and hitting all nearby enemies, dealing physical damage (scaling with physical power).<br><Br>Quick cast of Obliterate will only spin once. The time taken to charge increases the spinning speed, resulting in more damage over time."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Magnetic Storm",
+
+			"details" : "Steelheart creates a magnetic field that deals magical damage (scaling with magical power), slowing all nearby enemies and preventing them from using any dashes and teleportations."
+
+		}
+
+	}
+
+}]

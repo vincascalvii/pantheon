@@ -1,0 +1,39 @@
+{
+    "code": "Storm",
+    "full_name": "Thorr",
+    "first_name": "Thorr",
+    "last_name": "",
+    "title": "the Storm Reckoning",
+    "bastion_name": "Kragnok",
+    "bastion_full": "Kragnok, the Thunder Mauls",
+    "bastion_short": "kragnok",
+    "race": "Ork",
+    "soulforge": "Mornark",
+    "resonance": "?",
+    "intro": "Thorr is the Paragon of the Kragnok. Wielding the colossal hammer Mornark, he descends upon the battlefield not with speed, but with inevitable power. He bides his time, gathering the static of the atmosphere into a single, world-shaking blow before trapping his enemies in a web of lightning.",
+    "abilities": [
+        {
+            "name": "Static Accumulator",
+            "details": "When Thorr is not basic attacking, he generates <strong>Static</strong> charge, reaching maximum capacity over a few seconds.<br><br>Thorr's next basic attack uses up all the <strong>Static</strong> charge and deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) based on the current charge amount.<br><br>At maximum charge, Thorr gains increased <span class=\"ability-ms\">movement speed</span> and the bonus damage on his next basic attack is doubled."
+        },
+        {
+            "name": "Thundering Smash",
+            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing them</span> for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal <span class=\"ability-debuff\">less damage</span>, but <strong>Static Accumulator</strong> charges faster.<br><br>Thorr can also walk over the hammer to pick it up again and <span class=\"ability-buff\">reduce the remaining cooldown</span> of this ability by half."
+        },
+        {
+            "name": "Lightning Rebuke",
+            "details": "Thorr slams his fists together, creating a resonant boom. For the next few seconds, Thorr gains a shield and any enemy that basic attacks him is struck by a bolt of lightning, taking minor <span class=\"ability-ap\">magical damage</span> and granting Thorr a quarter of his <strong>Static</strong> charge.<br><br><strong>Lightning Rebuke</strong> can only be cast while Thorr is disarmed."
+        },
+        {
+            "name": "Electrical Anchors",
+            "details": "On the first cast, Thorr places an <strong>Electrical Anchor</strong> at a target location. On the second cast, Thorr places a second Electrical Anchor at another location.<br><br>Then, an electrical arc instantly connects the two points, shocking all enemies in between, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">stuning</span> them.<br><br>Thorr can place <strong>Electrical Anchors</strong> while moving."
+        },
+        {
+            "name": "Gathering Storm",
+            "details": "Thorr raises his hammer, summoning a massive thunderstorm around himself, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span> each wave.<br><br><strong>Gathering Storm</strong> has three waves. The last wave deals additional <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">stunning</span> all enemies hit.<br><br>Thorr gains increased <span class=\"ability-ms\">movement speed</span> and <span class=\"ability-buff\">damage reduction</span> during <strong>Gathering Storm</strong> but is unable to basic attack or cast other abilities."
+        }
+    ],
+    "config": {
+        "next_char": "horns"
+    }
+}

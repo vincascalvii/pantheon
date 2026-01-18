@@ -1,0 +1,60 @@
+[{
+	"name" : "Challenger",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Duelist",
+
+			"details" : "Challenger's abilities deal additional physical damage (scaling with physical power) if they hit a single enemy."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Iron Fists",
+
+			"details" : "Challenger's next two basic attack deals additional physical damage (scaling with physical power) to the target and send out two flying fist, dealing lesser physical damage (scaling with physical power) to all enemies behind in a line."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Cripple",
+
+			"details" : "Challenger kicks in a cone, dealing physical damage (scaling with physical power) and greatly slow the enemies down for a short duration."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Valor",
+
+			"details" : "Challenger dashes in a target direction and gains a shield. Challenger's basic attack on enemy Hero reduces the cooldowns for this ability."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Cataclysm",
+
+			"details" : "Challenger stomps the ground and breaks it in a cone-shape wave, dealing physical damage (scaling with physical power), knocking all nearby enemies up and reducing their armor for a short duration."
+
+		}
+
+	}
+
+}]

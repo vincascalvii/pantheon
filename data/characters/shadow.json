@@ -32,5 +32,8 @@
             "name": "Last Whisper",
             "details": "Grim launches a globule of shadow in a target direction that collides with the first enemy hero hit, afflicting them with a shadow that grows over the next few seconds.<br><br>The shadow will cause the enemy target to be <span class=\"ability-debuff\">nearsighted</span>, and also stores a portion of all damage Grim deals to the target.<br><br>At the end of the duration, the shadow detonates to deal <span class=\"ability-ad\">physical damage</span> based on the stored damage."
         }
-    ]
+    ],
+    "config": {
+        "next_char": "grimhook"
+    }
 }

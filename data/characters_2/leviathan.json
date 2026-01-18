@@ -1,0 +1,36 @@
+{
+    "code": "Leviathan",
+    "full_name": "Nakaraj Rakthanon",
+    "first_name": "Nakaraj",
+    "last_name": "Rakthanon",
+    "title": "the Ocean Marshal",
+    "bastion_name": "Nagaithis",
+    "bastion_full": "Nagaithis, the Tide Callers",
+    "bastion_short": "nagaithis",
+    "race": "Naga",
+    "soulforge": "?",
+    "resonance": "?",
+    "intro": "Nakaraj is the divine protector of the Bastion of the Tide Callers, a vast underwater stronghold. He is a noble but terrifying titan who embodies the wrath and grace of the tides. Adorned in gold-trimmed ceremonial armor and scales that shimmer like emeralds, Varuna rises from the deep to wash away those who threaten the sanctity of his waters.",
+    "abilities": [
+        {
+            "name": "Crushing Weight",
+            "details": "Whenever Nakaraj damages an enemy hero, he applies stacks of <strong>Pressure</strong> (visible as a secondary bar under their health) (basic attack adds 1 stack).<br><br>At 10 stacks, the enemy's defense is shattered, causing them to lose a percentage of <span class=\"ability-debuff\">physical resistance</span>, <span class=\"ability-debuff\">magical resistance</span> and <span class=\"ability-debuff\">movement speed</span> for a duration.<br><br>Once the target recovers from the defense break, they cannot gain <strong>Pressure</strong> stacks again for a short duration."
+        },
+        {
+            "name": "Geyser Burst",
+            "details": "Nakaraj slams his fist into the ground, calling forth a high-pressure blast of water at a target location after a brief delay, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit and applying 2 stacks of <strong>Pressure</strong> on them.<br><br>Enemies in the centre of the blast are <span class=\"ability-debuff\">knocked up</span>, take more damage and receive 1 additional stack of <strong>Pressure</strong>.<br><br>If cast upon a <strong>Tidal Pool</strong> (from <strong>Undercurrent</strong>), the geyser becomes supercharged,<span class=\"ability-debuff\">knocking up</span> all enemies within the entire radius of the pool, not just the centre (also apply 1 additional stack of <strong>Pressure</strong> to all enemies as well)."
+        },
+        {
+            "name": "Ebb and Flow",
+            "details": "Nakaraj creates a rhythmic aura of water around himself for a few seconds. Every second, the aura pulses, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and applying a stack of <strong>Pressure</strong>.<br><br>For every enemy hit by a pulse, Nakaraj <span class=\"ability-buff\">heals</span> for a small amount (increased against heroes)."
+        },
+        {
+            "name": "Undercurrent",
+            "details": "Nakaraj sends a surge of water deep underground toward an enemy target. Upon reaching the target, the water erupts, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and <span class=\"ability-debuff\">slowing</span> all nearby enemies for a short duration.<br><br>The eruption leaves behind a <strong>Tidal Pool</strong> on the ground for short duration."
+        },
+        {
+            "name": "Abyssal Wrath",
+            "details": "Nakaraj summons a colossal wave and rides it forward in a wide path.<br><br>Nakaraj is unstoppable during the charge. All enemies hit are <span class=\"ability-debuff\">knocked back</span> along the wave and dealt <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>).<br><br>If the enemies are standing on top of a <strong>Tidal Pool</strong> (from <strong>Undercurrent</strong>), they will be <span class=\"ability-debuff\">knocked up</span> instead of back.<br><br>All enemies hit by the wave instantly receive 5 stacks of <strong>Pressure</strong>."
+        }
+    ]
+}

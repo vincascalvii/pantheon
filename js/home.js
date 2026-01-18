@@ -5,29 +5,14 @@
 ========================================================================== */
 
 // Function to render the characters
-function render(data, withBastions = true) {
+function render(data) {
 
     // Start with empty content
     let content = '';
 
-    // If with bastions, render by bastion groups
-    if (withBastions === true) {
-        for (let i= 0; i < data.length; i++) {
-            content += `<div class="char-bast slide active" data-bastion="` 
-                + data[i].bastion.toLowerCase().replace(/\s+/g, '-') + `">` 
-                + data[i].bastion + ` <span>` + data[i].title + `</span></div>`;
-
-            // Render the characters
-            for (let j = 0; j < data[i].characters.length; j++) {
-                content += renderCharacter(data[i].characters[j]);
-            }
-        }
-
-    // Else, render a flat list of characters only
-    } else {
-        for (let i= 0; i < data.length; i++) {
-            content += renderCharacter(data[i]);
-        }
+    // Render the characters
+    for (let i= 0; i < data.length; i++) {
+        content += renderCharacter(data[i]);
     }
 
     // Pass the content to the container
@@ -36,25 +21,25 @@ function render(data, withBastions = true) {
 
 // Function to render a character
 function renderCharacter(char) {
-    
+
     // Start with empty content
     let content = '';
     let disabledClass = char.disabled ? ' disabled' : '';
 
     // Build the character block
-    content += `<a href="character?code=` 
-        + char.code.toLowerCase() + `" class="char-block slide active` + disabledClass + `">`
+    content += `<a href="character?name=` 
+        + char.name.toLowerCase() + `" class="char-block slide active` + disabledClass + `">`
         + `<div class="char-bg">`;
 
     // If thumbnail exists, add <img> block
     if (char.thumb === true) {
         content += `<img src="img/characters/` 
-            + char.code.toLowerCase() + `/thumb.jpg" class="char-img" alt="` 
+            + char.name.toLowerCase() + `/thumb.jpg" class="char-img" alt="` 
             + char.name + `" onerror="this.style.visibility='hidden'">`
     }
     
     // Close the block
-    content += `</div>` + `<div class="char-name">` + char.name + ` (` + char.code + `)</div>` + `</a>`;
+    content += `</div>` + `<div class="char-name">` + char.name + `</div>` + `</a>`;
 
     // Render the content
     return content;
@@ -62,7 +47,7 @@ function renderCharacter(char) {
 
 // Get the container & render the initial characters
 let container = document.getElementById('characters');
-if (data && container) render(data, true);
+if (data && container) render(data);
 
 
 
@@ -93,7 +78,7 @@ sortOpts.forEach(opt => {
                 sortByAlpha(sort);
                 break;
             default:
-                render(data, true);
+                render(data);
                 break;
         }
     }, false);
@@ -102,8 +87,7 @@ sortOpts.forEach(opt => {
 // Function to sort alphabetically
 function sortByAlpha(order) {
 
-    // Extract all characters into a flat list
-    let characters = data.flatMap(item => item.characters);
+    const characters = [...data];
 
     // Sort the characters
     if (order === 'az') {
@@ -133,7 +117,7 @@ function sortByAlpha(order) {
     }
 
     // Render the sorted characters
-    render(characters, false);
+    render(characters);
 }
 
 
@@ -187,7 +171,7 @@ function filterData() {
         // Filter by text input
         .filter(entry => {
             if (!term) return true;
-            return entry.name_filter.includes(term);
+            return entry.name.toLowerCase().includes(term);
         });
 
     // Render the filtered data
