@@ -1,16 +1,13 @@
 {
-    "code": "Sentinel",
-    "full_name": "Xenon Skyforge",
-    "first_name": "Xenon",
-    "last_name": "Skyforge",
-    "title": "the Fractured Arbiter",
+    "alias": "Sentinel",
+    "name": "Xenon Skyforge",
     "bastion_name": "Custodians",
     "bastion_full": "Custodians (Protagonists)",
     "bastion_short": "custodians",
-    "race": "Valorian",
-    "soulforge": "Faultless",
-    "resonance": "Time and Space Manipulation",
-    "intro": "Born a bastard of the prestigious Skyforge house from Everlight, he was treated as a stain on their reputation. Despite his family's disdain, Xenon's ability to warp the fabric of reality allowed the Seventh Order to survive encounters that should have been massacres. Driven by the suffering of the commoners, Xenon eventually turned his space-bending powers against the establishment, leading the largest political and military uprising in history. Xenon is a man breaking himself to fix a broken world. His tragedy is that the closer he gets to winning, the less of \"himself\" remains to see the new world he's building.",
+    "role": "",
+    "class": "",
+    "type": "",
+    "range": "",
     "abilities": [
         {
             "name": "",

@@ -1,16 +1,13 @@
 {
-    "code": "Behemoth",
-    "full_name": "Baal",
-    "first_name": "Baal",
-    "last_name": "",
-    "title": "?",
+    "alias": "Behemoth",
+    "name": "Baal",
     "bastion_name": "Kragnok",
     "bastion_full": "Kragnok, the Thunder Mauls",
     "bastion_short": "kragnok",
-    "race": "Ork",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Coming soon.",
+    "role": "Tank",
+    "class": "Vanguard",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Tough Hide",

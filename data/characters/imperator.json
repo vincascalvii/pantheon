@@ -1,16 +1,16 @@
 {
-    "code": "Imperator",
-    "full_name": "Everett Wyvernsworn",
+    "alias": "Imperator",
+    "name": "Everett Wyvernsworn",
     "first_name": "Everett",
     "last_name": "Wyvernsworn",
     "title": "the Gilded Imperator",
     "bastion_name": "Everlight",
     "bastion_full": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
-    "race": "Valorian",
-    "soulforge": "Golden Sentry",
-    "resonance": "Gold Crafting",
-    "intro": "In the history of Everlight, no duo is as celebrated as Silver and Gold. Born to a lineage of Wyvernsworn knights, they represent the perfect synthesis of defense and offense. Where one goes, the other follows—an inseparable force that has never lost a flank in the war against the Hellspawns. Everett wields a unique soulforge known as the Golden Sentry, a floating apparatus that hovers over the battlefield. From this vantage point, he rains down needles of pure light energy that will always bring victory to the Seventh Order.",
+    "role": "Marksman",
+    "class": "Sniper",
+    "type": "Physical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Gilded Imprints",

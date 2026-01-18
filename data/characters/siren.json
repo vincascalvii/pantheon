@@ -1,16 +1,13 @@
 {
-    "code": "Siren",
-    "full_name": "Phraya Saranak",
-    "first_name": "Phraya",
-    "last_name": "Saranak",
-    "title": "the Tidesong Enchanter",
+    "alias": "Siren",
+    "name": "Phraya Saranak",
     "bastion_name": "Nagaithis",
     "bastion_full": "Nagaithis, the Tide Callers",
     "bastion_short": "nagaithis",
-    "race": "Naga",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Phraya is the serene but fierce enchanter of the Sunken Bastion. While her husband, Nakaraj, represents the crushing weight of the depths, Phraya represents the life-giving and relentless nature of the currents. Dressed in flowing silks and jade jewelry that chimes like crashing waves, she orchestrates the battlefield to ensure her people and her Paragon never falter.",
+    "role": "Support",
+    "class": "Healer",
+    "type": "Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Gift of the Sea",

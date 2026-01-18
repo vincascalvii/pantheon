@@ -1,16 +1,13 @@
 {
-    "code": "Conqueror",
-    "full_name": "Mars",
-    "first_name": "Mars",
-    "last_name": "",
-    "title": "the Sovereign of War",
+    "alias": "Conqueror",
+    "name": "Mars",
     "bastion_full": "Eden, the Heavenly Sovereigns",
     "bastion_name": "Eden",
     "bastion_short": "eden",
-    "race": "Celestial",
-    "soulforge": "Conqueror",
-    "resonance": "Immense Strength",
-    "intro": "Coming soon.",
+    "role": "Warrior",
+    "class": "Juggernaut",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "War Stance",

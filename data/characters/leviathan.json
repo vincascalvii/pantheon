@@ -1,16 +1,13 @@
 {
-    "code": "Leviathan",
-    "full_name": "Nakaraj Rakthanon",
-    "first_name": "Nakaraj",
-    "last_name": "Rakthanon",
-    "title": "the Ocean Marshal",
+    "alias": "Leviathan",
+    "name": "Nakaraj Rakthanon",
     "bastion_name": "Nagaithis",
     "bastion_full": "Nagaithis, the Tide Callers",
     "bastion_short": "nagaithis",
-    "race": "Naga",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Nakaraj is the divine protector of the Bastion of the Tide Callers, a vast underwater stronghold. He is a noble but terrifying titan who embodies the wrath and grace of the tides. Adorned in gold-trimmed ceremonial armor and scales that shimmer like emeralds, Varuna rises from the deep to wash away those who threaten the sanctity of his waters.",
+    "role": "Tank",
+    "class": "Vanguard",
+    "type": "Magical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Crushing Weight",

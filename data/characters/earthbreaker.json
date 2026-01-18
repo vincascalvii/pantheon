@@ -1,16 +1,13 @@
 {
-    "code": "Earthbreaker",
-    "full_name": "Terros Draconis",
-    "first_name": "Terros",
-    "last_name": "Draconis",
-    "title": "the Lithic Vanguard",
+    "alias": "Earthbreaker",
+    "name": "Terros Draconis",
     "bastion_name": "Dragnoel",
     "bastion_full": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
-    "race": "Dragonian",
-    "soulforge": "Earth Breaker",
-    "resonance": "Earth Bending",
-    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Terros is the second sibling, wielding the elemental power of earth and metal. He spends most of his time at the bastion, which he built all on his own over decades. He believes his primary duty of the siblings is not only to rule their people with an iron fist, but also to protect them with an iron wall.",
+    "role": "Tank",
+    "class": "Vanguard",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Heavy Weight",

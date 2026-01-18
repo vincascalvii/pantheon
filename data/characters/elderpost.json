@@ -1,16 +1,13 @@
 {
-    "code": "Elderpost",
-    "full_name": "Kuma",
-    "first_name": "Kuma",
-    "last_name": "",
-    "title": "the Ancient Totem",
+    "alias": "Elderpost",
+    "name": "Kuma",
     "bastion_name": "Shirohana",
     "bastion_full": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
-    "race": "Kiin",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Kuma is a massive bear and one of the clan leaders from Shirohana, the bastion of the Blossom Keepers. He carries a monolith-sized Spirit Totem that acts as both a weapon and a conduit for ancient earth magic. By planting his totem, Kuma can suppress enemies from a distance while using his own brute strength to protect for his allies.",
+    "role": "Tank",
+    "class": "Warden",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Ancient Totem",

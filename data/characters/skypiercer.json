@@ -1,16 +1,16 @@
 {
-    "code": "Skypiercer",
-    "full_name": "Kaelen Virgwyn",
+    "alias": "Skypiercer",
+    "name": "Kaelen Virgwyn",
     "first_name": "Kaelen",
     "last_name": "Virgwyn",
     "title": "the Skystrike General",
     "bastion_full": "Viridisia, the Verdant Guards",
     "bastion_name": "Viridisia",
     "bastion_short": "viridisia",
-    "race": "Aelf",
-    "soulforge": "Sky Piercers",
-    "resonance": "Wind Enhancement",
-    "intro": "Kaelen is an Aelven warrior from the high peaks, utilising a quiver of specialised javelins named Sky Piercers. He is the most respected general of Viridisia, and is highly regarded as one of the strongest warrior in the Aelven history. Viridisia, as a bastion, is wellknown to others by the quote \"One arrow, seven spears\", referring to the many generations of Viridisia's Paragons who wield the legendary bow, and many generations of the grand generals wielding the legendary seven spears.",
+    "role": "Assassin",
+    "class": "Skirmisher",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Sky Piercers",

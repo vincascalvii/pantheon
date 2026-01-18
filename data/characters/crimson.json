@@ -1,16 +1,13 @@
 {
-    "code": "Crimson",
-    "full_name": "Nocturne",
-    "first_name": "Nocturne",
-    "last_name": "",
-    "title": "the Monarch of Blood",
+    "alias": "Crimson",
+    "name": "Nocturne",
     "bastion_full": "Nether, the Hellish Monarchs",
     "bastion_name": "Nether",
     "bastion_short": "nether",
-    "race": "Hellspawn",
-    "soulforge": "?",
-    "resonance": "Blood Manipulation",
-    "intro": "",
+    "role": "Mage",
+    "class": "Spellsword",
+    "type": "Magical",
+    "range": "Melee & Ranged",
     "abilities": [
         {
             "name": "Blood Pool",

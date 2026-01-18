@@ -1,16 +1,13 @@
 {
-    "code": "Stormchaser",
-    "full_name": "Artorias Draconis",
-    "first_name": "Artorias",
-    "last_name": "Draconis",
-    "title": "the Lightning Champion",
+    "alias": "Stormchaser",
+    "name": "Artorias Draconis",
     "bastion_name": "Dragnoel",
     "bastion_full": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
-    "race": "Dragonian",
-    "soulforge": "Storm Breaker",
-    "resonance": "Thunder Bending",
-    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Artorias is the youngest sibling, wielding the elemental power of thunder. He loves to travel around the world and wrecking havoc everywhere, which cause a lot of headache to his older siblings.",
+    "role": "Marksman",
+    "class": "Hybrid",
+    "type": "Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Thunder Fury",

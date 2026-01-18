@@ -1,16 +1,13 @@
 {
-    "code": "Phoenix",
-    "full_name": "Huǒ Fèngyīng",
-    "first_name": "Fèngyīng",
-    "last_name": "Huǒ",
-    "title": "the Origin Flame",
+    "alias": "Phoenix",
+    "name": "Huǒ Fèngyīng",
     "bastion_name": "Huǒshén",
     "bastion_full": "Huǒshén, the Ember Masters",
     "bastion_short": "huoshen",
-    "race": "Chìzú",
-    "soulforge": "?",
-    "resonance": "Origin Flame",
-    "intro": "Fèngyīng is the current Paragon of Huǒshén, known by others as the Empress of Holy Fire. She is described by her people as a ruler with a kind heart and is very well received by them. However, she harnesses the primal fire that has the power to scorch all enemies to ashes. While her destructive power is immense, her most sacred power is rather the opposite - the power to bring life back.",
+    "role": "Mage",
+    "class": "Spellsword",
+    "type": "Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Origin Embers",

@@ -1,16 +1,13 @@
 {
-    "code": "Valkyrie",
-    "full_name": "Clair Wyvernsworn",
-    "first_name": "Clair",
-    "last_name": "Wyvernsworn",
-    "title": "the Silver Valkyrie",
+    "alias": "Valkyrie",
+    "name": "Clair Wyvernsworn",
     "bastion_name": "Everlight",
     "bastion_full": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
-    "race": "Valorian",
-    "soulforge": "?",
-    "resonance": "Silver Crafting",
-    "intro": "In the history of Everlight, no duo is as celebrated as Silver and Gold. As the elder sibling, Clair embodies the steadfast will of the Valorians, often being the first to drop into the thickest Hellspawn hives to create a safe zone for her comrades. Clad in enchanted silver plate, she is a blurring streak of moonlight on the battlefield. Clair doesn't just fight for glory; she fights to ensure every member of the Seventh Order returns home.",
+    "role": "Support",
+    "class": "Enchanter",
+    "type": "Magical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Silver Weave",
@@ -30,7 +27,7 @@
         },
         {
             "name": "Sentinel's Embrace",
-            "details": "Clair channels briefly, then slams her lance down, creating a massive silver dome at her location that persists for several seconds.[n]While inside the dome, all allies and enemies are unable to be targeted by abilities or basic attacks, as well as being unable to use any abilities.[n]When allies exit the dome, they will receive a stack of <span>Silver Weave[/]."
+            "details": "Clair channels briefly, then slams her lance down, creating a massive silver dome at her location that persists for several seconds.[n]While inside the dome, all allies and enemies are unable to be targeted by [bf]abilities[/] or [bf]basic attacks[/], as well as being unable to use any [db]abilities[/].[n]When allies exit the dome, they will receive a stack of <span>Silver Weave[/]."
         }
     ],
     "config": {

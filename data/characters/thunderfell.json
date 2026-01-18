@@ -1,16 +1,16 @@
 {
-    "code": "Thunderfell",
-    "full_name": "Thorr",
+    "alias": "Thunderfell",
+    "name": "Thorr",
     "first_name": "Thorr",
     "last_name": "",
     "title": "the Storm Reckoning",
     "bastion_name": "Kragnok",
     "bastion_full": "Kragnok, the Thunder Mauls",
     "bastion_short": "kragnok",
-    "race": "Ork",
-    "soulforge": "Mornark",
-    "resonance": "?",
-    "intro": "Thorr is the Paragon of the Kragnok. Wielding the colossal hammer Mornark, he descends upon the battlefield not with speed, but with inevitable power. He bides his time, gathering the static of the atmosphere into a single, world-shaking blow before trapping his enemies in a web of lightning.",
+    "role": "Warrior",
+    "class": "Juggernaut",
+    "type": "Magical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Static Accumulator",

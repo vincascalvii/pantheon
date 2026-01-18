@@ -1,16 +1,13 @@
 {
-    "code": "Ninetails",
-    "full_name": "Kimiko",
-    "first_name": "Kimiko",
-    "last_name": "",
-    "title": "the Nine-Tailed Fox",
+    "alias": "Ninetails",
+    "name": "Kimiko",
     "bastion_name": "Shirohana",
     "bastion_full": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
-    "race": "Kiin",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Coming soon.",
+    "role": "Assassin",
+    "class": "Skirmisher",
+    "type": "Magical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Spirit Mark",

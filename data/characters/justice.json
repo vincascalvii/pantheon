@@ -1,16 +1,13 @@
 {
-    "code": "Justice",
-    "full_name": "Cyrus Lightbearer",
-    "first_name": "Cyrus",
-    "last_name": "Lightbearer",
-    "title": "the Sovereign of Justice",
+    "alias": "Justice",
+    "name": "Cyrus Lightbearer",
     "bastion_name": "Custodians",
     "bastion_full": "Custodians (Protagonists)",
     "bastion_short": "custodians",
-    "race": "Celestial",
-    "soulforge": "Judgement",
-    "resonance": "Authority",
-    "intro": "Once the crown jewel of the Valorians, Cyrus was the pinnacle of the Seventh Order’s \"Golden Generation\" - a symbol of hope for mortals. Through a series of world-altering events, Cyrus was chosen as the vessel for the Ascension. He shed his mortality to become a Sovereign, joining the ranks of the celestial rulers of the mortal realms. Now possessed of Absolute Authority, Cyrus has transitioned from a protector to a judge. He no longer sees individuals, only \"worthiness\". To him, the world is a chaotic system that requires the \"Definite Judgment\" of a god to remain stable.",
+    "role": "Mage",
+    "class": "Burst",
+    "type": "Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Heaven's Will",

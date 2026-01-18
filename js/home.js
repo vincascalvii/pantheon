@@ -27,7 +27,7 @@ function renderCharacter(char) {
     let disabledClass = char.disabled ? ' disabled' : '';
 
     // Build the character block
-    content += `<a href="character?name=` 
+    content += `<a href="character?alias=` 
         + char.name.toLowerCase() + `" class="char-block slide active` + disabledClass + `">`
         + `<div class="char-bg">`;
 
@@ -158,24 +158,19 @@ function filterData() {
 
     // If no filters are applied, render the full data
     if (term === '' && bastion === '') {
-        render(data, true);
+        render(data);
         return;
     }
 
     // Filter data by bastion first, then search term
-    let filteredData = data.filter(item => !bastion || item.bastion_filter === bastion)
-
-        // Extract lists
-        .flatMap(item => item.characters) 
-
-        // Filter by text input
+    let filteredData = data.filter(item => !bastion || item.bastion === bastion)
         .filter(entry => {
             if (!term) return true;
             return entry.name.toLowerCase().includes(term);
         });
 
     // Render the filtered data
-    render(filteredData, false);
+    render(filteredData);
 }
 
 // Remove all the filters and render the full data

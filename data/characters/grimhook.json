@@ -1,16 +1,13 @@
 {
-    "code": "Grimhook",
-    "full_name": "Draevyn",
-    "first_name": "Draevyn",
-    "last_name": "?",
-    "title": "?",
+    "alias": "Grimhook",
+    "name": "Draevyn",
     "bastion_name": "Altharion",
     "bastion_full": "Altharion, the Dusk Blades",
     "bastion_short": "altharion",
-    "race": "Graveborn",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Coming soon.",
+    "role": "Assassin",
+    "class": "Skirmisher",
+    "type": "Physical",
+    "range": "Melee & Ranged",
     "abilities": [
         {
             "name": "Cut Throat",
@@ -22,7 +19,7 @@
         },
         {
             "name": "Slaughter Zone",
-            "details": "Draevyn selects a target area and while he's inside, his basic attacks have increased range and deal additional [ad]physical damage[/] (scaling with [ad]physical power[/])."
+            "details": "Draevyn selects a target area and while he's inside, his basic attacks have increased [bf]]range[/] and deal additional [ad]physical damage[/] (scaling with [ad]physical power[/])."
         },
         {
             "name": "The Hunt",

@@ -1,16 +1,16 @@
 {
-    "code": "Sunbringer",
-    "full_name": "Ra’sutekh",
+    "alias": "Sunbringer",
+    "name": "Ra’sutekh",
     "first_name": "Ra’sutekh",
     "last_name": "",
     "title": "the Living Sun",
     "bastion_name": "Sol’zakar",
     "bastion_full": "Sol’zakar, the Sun Seekers",
     "bastion_short": "solzakar",
-    "race": "Solari",
-    "soulforge": "Sun Staff of Khem",
-    "resonance": "Solar Obelisks",
-    "intro": "Ra’sutekh is the Paragon of Sol’zakar, known by many as the Living Sun. Wielding the Sun Staff of Khem, he commands the literal power of the sun to incinerate his foes. Unlike other rulers who hide in the backline, Ra’sutekh stands at the center of his golden empire, forcing enemies to choose between stepping into his searing light or retreating into the shadows of history.",
+    "role": "Mage",
+    "class": "Spellsword",
+    "type": "Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Glorious Radiance",

@@ -1,16 +1,13 @@
 {
-    "code": "Nightprowler",
-    "full_name": "Yui",
-    "first_name": "Yui",
-    "last_name": "",
-    "title": "the Mist Reaper",
+    "alias": "Nightprowler",
+    "name": "Yui",
     "bastion_name": "Shirohana",
     "bastion_full": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
-    "race": "Kiin",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Coming soon.",
+    "role": "Assassin",
+    "class": "Slayer",
+    "type": "Physical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Last Breath",

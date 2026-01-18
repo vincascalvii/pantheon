@@ -1,16 +1,13 @@
 {
-    "code": "Ashwalker",
-    "full_name": "Ignis Draconis",
-    "first_name": "Ignis",
-    "last_name": "Draconis",
-    "title": "the Cinder Aegis",
+    "alias": "Ashwalker",
+    "name": "Ignis Draconis",
     "bastion_name": "Dragnoel",
     "bastion_full": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
-    "race": "Dragonian",
-    "soulforge": "Flame Breaker",
-    "resonance": "Fire Bending",
-    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Ignis is the fifth sibling, wielding the elemental power of fire. She is a specialised warrior whose scales were forged in the heart of a supernova. Ignis grows stronger the more magical heat she absorbs, turning the enemy's spells into fuel for her own devastating flames.",
+    "role": "Mage",
+    "class": "Spellsword",
+    "type": "Magical",
+    "range": "Melee",
     "abilities": [
         {
             "name": "Cinder Scales",

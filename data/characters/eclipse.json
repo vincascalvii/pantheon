@@ -1,16 +1,13 @@
 {
-    "code": "Eclipse",
-    "full_name": "Iyla",
-    "first_name": "Iyla",
-    "last_name": "",
-    "title": "the Obsidian Reach",
+    "alias": "Eclipse",
+    "name": "Iyla",
     "bastion_name": "Chandrasar",
     "bastion_full": "Chandrasar, the Moon Striders",
     "bastion_short": "chandrasar",
-    "race": "Lunari",
-    "soulforge": "?",
-    "resonance": "?",
-    "intro": "Iyla is a high-priest of Chandrasar, the Bastion of the Lunaries, a race of four-armed mortals who dwell in the moon's shadow. Tall, graceful, and eerily pale, she wields four Chakrams with hypnotic precision. On the battlefield, she is a whirlwind of silver steel, keeping enemies at bay with a constant flow of blades that return to her many hands like loyal servants.",
+    "role": "Marksman",
+    "class": "Hybrid",
+    "type": "Physical & Magical",
+    "range": "Ranged",
     "abilities": [
         {
             "name": "Quad-Wielding Rhythm",
