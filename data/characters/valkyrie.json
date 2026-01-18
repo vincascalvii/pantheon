@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Silver Weave",
-            "details": "Whenever Clair casts an ability, she receives a stack of <span>Silver Weave[/] (maximum three), granting her a [sh]shield[/] that lasts for a few seconds (expire duration is per stack, but shield value cannot be stacked).<br><br>Clair can walk to a nearby ally hero and transfer the <span>Silver Weave[/] stack to them, granting them a [sh]shield[/] as well.<br><br>Enemy heroes can also receive a stack of <span>Silver Weave[/], causing them to take bonus [ap]magical damage[/] when attacked by ally heroes' [db]basic attacks[/]."
+            "details": "Whenever Clair casts an ability, she receives a stack of <span>Silver Weave[/] (maximum three), granting her a [sh]shield[/] that lasts for a few seconds (expire duration is per stack, but shield value cannot be stacked).[n]Clair can walk to a nearby ally hero and transfer the <span>Silver Weave[/] stack to them, granting them a [sh]shield[/] as well.[n]Enemy heroes can also receive a stack of <span>Silver Weave[/], causing them to take bonus [ap]magical damage[/] when attacked by ally heroes' [db]basic attacks[/]."
         },
         {
             "name": "Gleaming Lance",
-            "details": "Clair thrusts her lance in a line, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.<br><br>Enemy heroes struck by <span>Gleaming Lance[/] receive a stack of <span>Silver Weave[/]."
+            "details": "Clair thrusts her lance in a line, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.[n]Enemy heroes struck by <span>Gleaming Lance[/] receive a stack of <span>Silver Weave[/]."
         },
         {
             "name": "Argent Charge",
-            "details": "Clair targets an allied hero (or herself) and grants them a burst of [ms]movement speed[/]. If Clair has a stack of <span>Silver Weave[/] on her, this ability will transfer one stack of <span>Silver Weave[/] to the target.<br><br>Using <span>Argent Charge[/] will generate a stack of <span>Silver Weave[/] due to Clair's passive, which can only be transferred after the cast (meaning this will not be transferred to the targeted ally via the casting of this ability)."
+            "details": "Clair targets an allied hero (or herself) and grants them a burst of [ms]movement speed[/]. If Clair has a stack of <span>Silver Weave[/] on her, this ability will transfer one stack of <span>Silver Weave[/] to the target.[n]Using <span>Argent Charge[/] will generate a stack of <span>Silver Weave[/] due to Clair's passive, which can only be transferred after the cast (meaning this will not be transferred to the targeted ally via the casting of this ability)."
         },
         {
             "name": "Shimmer Burst",
-            "details": "Clair releases a burst of silver energy in a cone, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit and [db]slowing[/] them for a short duration.<br><br>If an enemy hit is marked with a stack of <span>Silver Weave[/], they are [db]stunned[/] instead of slowed."
+            "details": "Clair releases a burst of silver energy in a cone, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit and [db]slowing[/] them for a short duration.[n]If an enemy hit is marked with a stack of <span>Silver Weave[/], they are [db]stunned[/] instead of slowed."
         },
         {
             "name": "Sentinel's Embrace",
-            "details": "Clair channels briefly, then slams her lance down, creating a massive silver dome at her location that persists for several seconds.<br><br>While inside the dome, all allies and enemies are unable to be targeted by abilities or basic attacks, as well as being unable to use any abilities.<br><br>When allies exit the dome, they will receive a stack of <span>Silver Weave[/]."
+            "details": "Clair channels briefly, then slams her lance down, creating a massive silver dome at her location that persists for several seconds.[n]While inside the dome, all allies and enemies are unable to be targeted by abilities or basic attacks, as well as being unable to use any abilities.[n]When allies exit the dome, they will receive a stack of <span>Silver Weave[/]."
         }
     ],
     "config": {

@@ -26,11 +26,11 @@
         },
         {
             "name": "False Presence",
-            "details": "Yui replaces herself with a <strong>Wooden Dummy</strong> that lasts for few seconds and appears behind a target enemy, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]).<br><br>All on-going projectiles will go to the dummy instead and it has its own separate health bar.<br><br>After 1 second, Yui can recast <strong>Wooden Dummy</strong> again to replace the dummy with herself if it's still there."
+            "details": "Yui replaces herself with a <b>Wooden Dummy</b> that lasts for few seconds and appears behind a target enemy, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]).[n]All on-going projectiles will go to the dummy instead and it has its own separate health bar.[n]After 1 second, Yui can recast <b>Wooden Dummy</b> again to replace the dummy with herself if it's still there."
         },
         {
             "name": "Vanishing Mist",
-            "details": "Yui detonates a smoke bomb, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and reduce their [db]vision[/].<br><br>The smoke will quickly expand into a circular area. Yui also becomes [bf]stealthed[/] and gains increased [ms]movement speed[/] while inside the smoke.<br><br>The <strong>Wooden Dummy</strong> also becomes [bf]stealthed[/] while inside the smoke."
+            "details": "Yui detonates a smoke bomb, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and reduce their [db]vision[/].[n]The smoke will quickly expand into a circular area. Yui also becomes [bf]stealthed[/] and gains increased [ms]movement speed[/] while inside the smoke.[n]The <b>Wooden Dummy</b> also becomes [bf]stealthed[/] while inside the smoke."
         }
     ],
     "config": {

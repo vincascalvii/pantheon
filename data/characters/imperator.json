@@ -18,7 +18,7 @@
         },
         {
             "name": "Needle Work",
-            "details": "Everett throws three needles in a target direction, each dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to the first enemy hit.<br><br>When shielded, Everett will throw [bf]five[/] needles instead."
+            "details": "Everett throws three needles in a target direction, each dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to the first enemy hit.[n]When shielded, Everett will throw [bf]five[/] needles instead."
         },
         {
             "name": "Golden Sentry",
@@ -26,11 +26,11 @@
         },
         {
             "name": "Auric Thread",
-            "details": "Everett pulls back all the <span>Golden Needles[/], dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) based on the number of needles pulled back.<br><br>When shielded, the damage is [bf]increased[/] based on Everett's [ar]critical strike chance[/].<br><br>If an enemy is killed by this ability, <span>Gilded Imprints[/]'s bonus gold gain will still be triggered."
+            "details": "Everett pulls back all the <span>Golden Needles[/], dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) based on the number of needles pulled back.[n]When shielded, the damage is [bf]increased[/] based on Everett's [ar]critical strike chance[/].[n]If an enemy is killed by this ability, <span>Gilded Imprints[/]'s bonus gold gain will still be triggered."
         },
         {
             "name": "Brilliant Dawn",
-            "details": "Everett channels the full power of his golden essence, gaining bonus [bf]attack range[/] and empowering his basic attacks to [bf]pierce through all enemies in a line[/].<br><br>If Everett is shielded while in this state, he will gain bonus [as]attack speed[/]. If the shield expires or is broken, the bonus stats will be lost.<br><br>While <span>Brilliant Dawn[/] is active, <span>Golden Sentry[/] also gains extended attack range, and its attacks will pierce through all enemies in a line, mirroring Everett's empowered basic attacks."
+            "details": "Everett channels the full power of his golden essence, gaining bonus [bf]attack range[/] and empowering his basic attacks to [bf]pierce through all enemies in a line[/].[n]If Everett is shielded while in this state, he will gain bonus [as]attack speed[/]. If the shield expires or is broken, the bonus stats will be lost.[n]While <span>Brilliant Dawn[/] is active, <span>Golden Sentry[/] also gains extended attack range, and its attacks will pierce through all enemies in a line, mirroring Everett's empowered basic attacks."
         }
     ],
     "config": {

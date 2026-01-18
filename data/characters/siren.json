@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Gift of the Sea",
-            "details": "Phraya's damaging abilities apply a stack of <strong>Brine</strong> to enemies. Once the first stack is applied, allied heroes' basic attacks also apply a stack of <strong>Brine</strong> (1 stack per unique ability).<br><br>Upon reaching 4 stacks, the <strong>Brine</strong> detonates, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and [bf]healing[/] the last allied hero who damaged that enemy (or Phraya herself)."
+            "details": "Phraya's damaging abilities apply a stack of <b>Brine</b> to enemies. Once the first stack is applied, allied heroes' basic attacks also apply a stack of <b>Brine</b> (1 stack per unique ability).[n]Upon reaching 4 stacks, the <b>Brine</b> detonates, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and [bf]healing[/] the last allied hero who damaged that enemy (or Phraya herself)."
         },
         {
             "name": "Cresting Tide",
@@ -22,15 +22,15 @@
         },
         {
             "name": "Pearl Blessing",
-            "details": "Phraya blesses a targeted ally with a shimmering water bubble, granting the ally a [sh]shield[/] (scaling with [ap]magical power[/]) and bonus [ms]movement speed[/].<br><br>If the shield is broken by an enemy, <strong>Cresting Tide</strong>'s cooldown is reduced by half."
+            "details": "Phraya blesses a targeted ally with a shimmering water bubble, granting the ally a [sh]shield[/] (scaling with [ap]magical power[/]) and bonus [ms]movement speed[/].[n]If the shield is broken by an enemy, <b>Cresting Tide</b>'s cooldown is reduced by half."
         },
         {
             "name": "Spiraling Shoal",
-            "details": "Phraya commands a spectral fish to swim in a circle around a target location for a few seconds, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to any enemy and [bf]healing[/] (scaling with [ap]magical power[/]) any ally it passes through.<br><br>While within the <strong>Deepwater Domain</strong>, the fish grows larger, dealing [bf]increased damage[/] and [db]knocking up[/] enemies hit by its initial pass."
+            "details": "Phraya commands a spectral fish to swim in a circle around a target location for a few seconds, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to any enemy and [bf]healing[/] (scaling with [ap]magical power[/]) any ally it passes through.[n]While within the <b>Deepwater Domain</b>, the fish grows larger, dealing [bf]increased damage[/] and [db]knocking up[/] enemies hit by its initial pass."
         },
         {
             "name": "Deepwater Domain",
-            "details": "Phraya chants an ancient hymn, transforming the surrounding area into a <strong>Deepwater Domain</strong> for a duration. During this time, allied heroes within the domain are [bf]healed[/] (scaling with [ap]magical power[/]) every second and [bf]ignore unit collision[/].<br><br>Phraya cannot move and use any abilities while chanting the hymn. In addition, her <strong>Spiraling Shoal</strong> is enhanced while the domain is active."
+            "details": "Phraya chants an ancient hymn, transforming the surrounding area into a <b>Deepwater Domain</b> for a duration. During this time, allied heroes within the domain are [bf]healed[/] (scaling with [ap]magical power[/]) every second and [bf]ignore unit collision[/].[n]Phraya cannot move and use any abilities while chanting the hymn. In addition, her <b>Spiraling Shoal</b> is enhanced while the domain is active."
         }
     ],
     "config": {

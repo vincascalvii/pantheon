@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Frost Armour",
-            "details": "Fenrir generates a layer of frost over his fur every now and then. This armour grants him a [ar]flat damage reduction[/] against [ar]basic attacks[/] and minor [mr]magical resistance[/].<br><br>When Fenrir is hit by three basic attacks or a displacement effect by an enemy hero, it shatters, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies and applying three stacks of <strong>Frost</strong>.<br><br>Enemies with <strong>Frost</strong> have their [db]movement speed[/] reduced, stacking up to eight times."
+            "details": "Fenrir generates a layer of frost over his fur every now and then. This armour grants him a [ar]flat damage reduction[/] against [ar]basic attacks[/] and minor [mr]magical resistance[/].[n]When Fenrir is hit by 3 basic attacks or 1 displacement effect by an enemy hero, it shatters, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies and applying 3 stacks of <b>Frost</b>.[n]Enemies with <b>Frost</b> have their [db]movement speed[/] reduced, stacking up to 8 times."
         },
         {
             "name": "Glacial Slash",
-            "details": "Fenrir slashes his claws in front of him, dealing [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]) and applying two additional stacks of <strong>Frost</strong> on the target.<br><br>If the target has five or more stacks, this ability [bf]heals[/] Fenrir for a portion of his missing health.<br><br>If the target has eight stacks, this ability deals additional [ap]magical damage[/] (scaling with [ap]magical power[/] and target's [db]maximum health[/])."
+            "details": "Fenrir slashes his claws in front of him, dealing [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]) and applying 2 stacks of <b>Frost</b> on the target.[n]If the target has 5 or more stacks, this ability [bf]heals[/] Fenrir for a portion of his missing health.[n]If the target has 8 stacks, this ability deals additional [ap]magical damage[/] (scaling with [ap]magical power[/] and target's [db]maximum health[/])."
         },
         {
             "name": "Boreal Breath",
-            "details": "Fenrir exhales a blast of freezing wind in a cone for a short duration.<br><br>Enemies caught in the breath take [ap]magical damage[/] (scaling with [ap]magical power[/]) every half of second and have their [db]attack speed[/] reduced.<br><br>Each tick of damage also applies a stack of <strong>Frost</strong> (up to three stacks per ability's full duration)."
+            "details": "Fenrir exhales a blast of freezing wind in a cone for a short duration.[n]Enemies caught in the breath take [ap]magical damage[/] (scaling with [ap]magical power[/]) every half of second and have their [db]attack speed[/] reduced.[n]Each tick of damage also applies 1 stack of <b>Frost</b> (up to 3 stacks per ability's full duration)."
         },
         {
             "name": "Snow Ball",
-            "details": "Fenrir conjures a snowball that rolls in a target direction. As it travels, it grows in size, increasing its damage and impact radius.<br><br>Upon contact with an enemy hero, it explodes, dealing [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]) and [db]knocking up[/] enemies hit."
+            "details": "Fenrir conjures a snowball that rolls in a target direction. As it travels, it grows in size, increasing its damage and impact radius.[n]Upon contact with an enemy hero, it explodes, dealing [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]) and [db]knocking up[/] enemies hit."
         },
         {
             "name": "Winter Is Coming",
-            "details": "Fenrir lets out a blood-curdling howl, causing a localised blizzard to swirl around him for a duration, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and applying a stack of <strong>Frost</strong> per tick of damage (up to twelve stacks per ability's full duration).<br><br>In addition, he gains increased [bf]size[/], [bf]range[/] and his <strong>Frost Armour</strong> cannot be shattered (if Fenrir does not currently have <strong>Frost Armour</strong>, using this ability instantly grants him the armour)."
+            "details": "Fenrir lets out a blood-curdling howl, causing a localised blizzard to swirl around him for a duration, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and applying 1 stack of <b>Frost</b> per tick of damage (up to 8 stacks per ability's full duration).[n]In addition, he gains increased [bf]size[/], [bf]attack range[/] and his <b>Frost Armour</b> cannot be shattered (if Fenrir does not currently have <b>Frost Armour</b>, using this ability instantly grants him the armour)."
         }
     ]
 }

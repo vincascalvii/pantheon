@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Gale Blades",
-            "details": "Zephyrus starts with 3 <strong>Gale Blades</strong>. He gains additional blades based on his bonus attack speed.<br><br>His blades orbit him closely, dealing [ad]physical damage[/] (scaling with [as]attack speed[/]) to any enemy they pass through.<br><br>Each time he basic attacks, he uses 1 blade. His abilities can also use up all of his current blades.<br><br>When Zephyrus is out of blades, he is unable to [db]basic attack[/], use <strong>Razor Array</strong> or <strong>Cyclone Orbit</strong> until he regenerates more blades over time."
+            "details": "Zephyrus starts with 3 <b>Gale Blades</b>. He gains additional blades based on his bonus attack speed.[n]His blades orbit him closely, dealing [ad]physical damage[/] (scaling with [as]attack speed[/]) to any enemy they pass through.[n]Each time he basic attacks, he uses 1 blade. His abilities can also use up all of his current blades.[n]When Zephyrus is out of blades, he is unable to [db]basic attack[/], use <b>Razor Array</b> or <b>Cyclone Orbit</b> until he regenerates more blades over time."
         },
         {
             "name": "Razor Array",
-            "details": "Zephyrus commands all his current blades to strike a target location in a rapid sequence. Each blade deals [ad]physical damage[/] (scaling with [as]attack speed[/]).<br><br>In <strong>Wind Dragon</strong> form, Zephyrus's blades stay on the enemies for a short duration and <strong>Razor Array</strong> can be recasted to return all blades from the enemies to Zephyrus, dealing additional [ad]physical damage[/] (scaling with [as]attack speed[/])."
+            "details": "Zephyrus commands all his current blades to strike a target location in a rapid sequence. Each blade deals [ad]physical damage[/] (scaling with [as]attack speed[/]).[n]In <b>Wind Dragon</b> form, Zephyrus's blades stay on the enemies for a short duration and <b>Razor Array</b> can be recasted to return all blades from the enemies to Zephyrus, dealing additional [ad]physical damage[/] (scaling with [as]attack speed[/])."
         },
         {
             "name": "Cyclone Orbit",
-            "details": "<strong>Cyclone Orbit</strong> is only usable while <strong>Sky Soar</strong> is active. When casted, Zephyrus locks onto a target enemy hero and begins flying in a circle around them.<br><br>While orbiting, Zephyrus automatically launches his blades at the target. Each blade deals [ad]physical damage[/] on hit and immediately return to Zephyrus.<br><br>Zephyrus can choose either clockwise or anti-clockwise for the orbit direction. The firing rate of the blades scales directly with Zephyris's [as]attack speed[/].<br><br>In <strong>Wind Dragon</strong> form, the [bf]orbital speed[/] is increased based on his Zephyrus's attack speed."
+            "details": "<b>Cyclone Orbit</b> is only usable while <b>Sky Soar</b> is active. When casted, Zephyrus locks onto a target enemy hero and begins flying in a circle around them.[n]While orbiting, Zephyrus automatically launches his blades at the target. Each blade deals [ad]physical damage[/] on hit and immediately return to Zephyrus.[n]Zephyrus can choose either clockwise or anti-clockwise for the orbit direction. The firing rate of the blades scales directly with Zephyris's [as]attack speed[/].[n]In <b>Wind Dragon</b> form, the [bf]orbital speed[/] is increased based on his Zephyrus's movement speed."
         },
         {
             "name": "Sky Soar",
-            "details": "Zephyrus spreads his wings, gaining increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration.<br><br>In <strong>Wind Dragon</strong> form, <strong>Sky Soar</strong> is automatically activated and the flight duration remains [bf]permanent[/] until the transformation ends."
+            "details": "Zephyrus spreads his wings, gaining increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration.[n]In <b>Wind Dragon</b> form, <b>Sky Soar</b> is automatically activated and the flight duration remains [bf]permanent[/] until the transformation ends."
         },
         {
             "name": "Air Breaker",
-            "details": "Zephyrus transforms into the <strong>Wind Dragon</strong>, gaining increased [bf]size[/], [ms]movement speed[/] and [as]attack speed[/].<br><br>In addition, his attack speed cap is [bf]removed[/].<br><br>While in <strong>Wind Dragon</strong> form, his abilities are enhanced."
+            "details": "Zephyrus transforms into the <b>Wind Dragon</b>, gaining increased [bf]size[/], [ms]movement speed[/] and [as]attack speed[/].[n]In addition, his attack speed cap is [bf]removed[/].[n]While in <b>Wind Dragon</b> form, his abilities are enhanced."
         }
     ],
     "config": {

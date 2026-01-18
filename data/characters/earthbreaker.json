@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Heavy Weight",
-            "details": "Terros is permanently [bf]immune[/] to all slow effects.<br><br>However, all of his bonus movement speed is converted into bonus [ar]physical resistance[/] instead."
+            "details": "Terros is permanently [bf]immune[/] to all slow effects.[n]However, all of his bonus movement speed is converted into bonus [ar]physical resistance[/] instead."
         },
         {
             "name": "Quake Slam",
-            "details": "Terros slams his twin maces in 2 straight lines, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) to all enemies hit and briefly [db]slowing[/] them.<br><br>In <strong>Earth Dragon</strong> form, Terros slams his massive claws in a wide cone, dealing increased [ad]physical damage[/] and [db]stunning[/] the enemies instead."
+            "details": "Terros slams his twin maces in 2 straight lines, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) to all enemies hit and briefly [db]slowing[/] them.[n]In <b>Earth Dragon</b> form, Terros slams his massive claws in a wide cone, dealing increased [ad]physical damage[/] and [db]stunning[/] the enemies instead."
         },
         {
             "name": "Lithic Aegis",
-            "details": "Terros hardens his scales into a dense crystalline shell, gaining a [sh]shield[/] that absorbs incoming damage for a duration.<br><br>While the shield is active, Terros stores a percentage of the damage he takes (maximum limit based on his [ar]physical resistance[/]). When the shield is destroyed or expires, it shatters, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) plus the damage stored during the absorption phase.<br><br>In <strong>Earth Dragon</strong> form, the [bf]shield strength[/] and [bf]absorption limit[/] are increased."
+            "details": "Terros hardens his scales into a dense crystalline shell, gaining a [sh]shield[/] that absorbs incoming damage for a duration.[n]While the shield is active, Terros stores a percentage of the damage he takes (maximum limit based on his [ar]physical resistance[/]). When the shield is destroyed or expires, it shatters, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) plus the damage stored during the absorption phase.[n]In <b>Earth Dragon</b> form, the [bf]shield strength[/] and [bf]absorption limit[/] are increased."
         },
         {
-            "name": "Tremor Challenge",
-            "details": "Terros strikes his maces together, creating a localised vibration that [db]taunts[/] a single target enemy hero for a short duration, forcing them to attack him.<br><br>In <strong>Earth Dragon</strong> form, the vibration is replaced with a tremor in a circle around Terros, taunting all nearby enemies instead."
+            "name": "Challenging Roar",
+            "details": "Terros releases a powerful roar that [db]taunts[/] a single target enemy for a short duration, forcing them to attack him.[n]In <b>Earth Dragon</b> form, the roar is replaced with a tremor in a circle around Terros, taunting all nearby enemies instead."
         },
         {
             "name": "Tectonic Breaker",
-            "details": "Terros transforms into the <strong>Earth Dragon</strong>, gaining increased [bf]size[/], [bf]attack range[/] and [ar]physical resistance[/].<br><br>Upon activation, Terros releases a massive seismic shockwave, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) to all enemies hit and slightly [db]knocking[/] them towards himself.<br><br>While in <strong>Earth Dragon</strong> form, his abilities are enhanced."
+            "details": "Terros transforms into the <b>Earth Dragon</b>, gaining increased [bf]size[/], [bf]attack range[/] and [ar]physical resistance[/].[n]Upon activation, Terros releases a massive seismic shockwave, dealing [ad]physical damage[/] (scaling with [ar]physical resistance[/]) to all enemies hit and slightly [db]knocking[/] them towards himself.[n]While in <b>Earth Dragon</b> form, his abilities are enhanced."
         }
     ],
     "config": {

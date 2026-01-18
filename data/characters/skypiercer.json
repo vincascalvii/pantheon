@@ -1,0 +1,39 @@
+{
+    "code": "Skypiercer",
+    "full_name": "Kaelen Virgwyn",
+    "first_name": "Kaelen",
+    "last_name": "Virgwyn",
+    "title": "the Skystrike General",
+    "bastion_full": "Viridisia, the Verdant Guards",
+    "bastion_name": "Viridisia",
+    "bastion_short": "viridisia",
+    "race": "Aelf",
+    "soulforge": "Sky Piercers",
+    "resonance": "Wind Enhancement",
+    "intro": "Kaelen is an Aelven warrior from the high peaks, utilising a quiver of specialised javelins named Sky Piercers. He is the most respected general of Viridisia, and is highly regarded as one of the strongest warrior in the Aelven history. Viridisia, as a bastion, is wellknown to others by the quote \"One arrow, seven spears\", referring to the many generations of Viridisia's Paragons who wield the legendary bow, and many generations of the grand generals wielding the legendary seven spears.",
+    "abilities": [
+        {
+            "name": "Sky Piercers",
+            "details": "Kaelen has 5 usable <b>Sky Piercers</b> (the dual <b>Sky Piercers</b> that he wields can't be used for abilities), and some of his abilities require a specific amount of <b>Sky Piercers</b> in order to cast.[n]Upon hitting the enemy, the <b>Sky Piercer</b> will be placed behind the target. If <b>Sky Piercer</b> kills the target, it will continue to fly until it hits the next enemy, or stop at the end of the ability cast range.[n]Whenever Kaelen walks over a <b>Sky Piercer</b> on the ground, he picks it up and gains a burst of [ms]movement speed[/] for a short duration.[n]Picking up a <b>Sky Piercer</b> empowers his next basic attack within few seconds to become a <b>Skypiercing Strike</b>, lunging at his target, dealing additional [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]If the <b>Sky Piercer</b> is not picked up after a certain duration, it will disappear from the ground and slowly return to Kaelen."
+        },
+        {
+            "name": "Cloud Breaker",
+            "details": "Kaelen throws a <b>Sky Piercer</b> in the target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]This ability requires 1 <b>Sky Piercer</b>."
+        },
+        {
+            "name": "Impaling Rain",
+            "details": "Kaelen leaps into the air and throws three <b>Sky Piercers</b> in an arc at a target location, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]slowing[/] all enemies hit.[n]This ability requires 3 <b>Sky Piercers</b>."
+        },
+        {
+            "name": "Air Walk",
+            "details": "Kaelen performs a short, quick dash in a target direction (dash distance scaling with [ms]movement speed[/]).[n]This ability has two charges, allowing for quick repositioning so <b>Cloud Breaker</b> can hit a desired target, or reach dropped <b>Sky Piercers</b>."
+        },
+        {
+            "name": "Soaring Whirlwind",
+            "details": "Kaelen focuses his momentum, gaining massive [ms]movement speed[/] that decays over the next few seconds.[n]During this time, <b>Skypiercing Strike</b> range is doubled and becomes a whirlwind slash instead, dealing additional [ad]physical damage[/] (scaling with [ad]physical power[/]) to the enemy target and all enemies around Kaelen.[n]Scoring a takedown refreshes the [ms]movement speed[/] buff and extends the duration of <b>Soaring Whirlwind</b>."
+        }
+    ],
+    "config": {
+        "prev_char": "windwalker"
+    }
+}

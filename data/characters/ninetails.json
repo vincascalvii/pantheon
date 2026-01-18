@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Spirit Mark",
-            "details": "Kimiko gains increased movement speed while being unseen by the enemies. Each time Kimiko reveals herself, her next basic attack with a short timeframe deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) and mark the target.<br><br>Hitting a marked target with her basic attacks and <span>Bewitching Dance[/] deals additional [ap]magical damage[/] (scaling with [ap]magical power[/]) to the target and grants herself a small burst of [ms]movement speed[/]."
+            "details": "Kimiko gains increased movement speed while being unseen by the enemies. Each time Kimiko reveals herself, her next basic attack with a short timeframe deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) and mark the target.[n]Hitting a marked target with her basic attacks and <span>Bewitching Dance[/] deals additional [ap]magical damage[/] (scaling with [ap]magical power[/]) to the target and grants herself a small burst of [ms]movement speed[/]."
         },
         {
             "name": "Bewitching Dance",
@@ -22,15 +22,15 @@
         },
         {
             "name": "Illusion Veil",
-            "details": "Kimiko becomes [bf]stealthed[/] and leaps to an ally unit. If the target is an ally hero, Kimiko and the ally will become briefly [bf]stealthed[/].<br><br>Enemies will be able to very briefly see an after-image of Kimiko's dashing animation at the location she leapt from. When the ally enters stealth mode, the same after-image will also apply, very briefly indicating the direction the ally was moving before becoming stealthed.<br><br>If Kimiko or her ally attacks or uses an ability while stealthed, the stealth effect will be removed."
+            "details": "Kimiko becomes [bf]stealthed[/] and leaps to an ally unit. If the target is an ally hero, Kimiko and the ally will become briefly [bf]stealthed[/].[n]Enemies will be able to very briefly see an after-image of Kimiko's dashing animation at the location she leapt from. When the ally enters stealth mode, the same after-image will also apply, very briefly indicating the direction the ally was moving before becoming stealthed.[n]If Kimiko or her ally attacks or uses an ability while stealthed, the stealth effect will be removed."
         },
         {
             "name": "Fox Fire",
-            "details": "Kimiko sends out a <span>Fox Fire[/] that gains vision around it. If the <span>Fox Fire[/] spots an enemy hero, it will run toward it and explode on the first enemy contact, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies and [db]revealing[/] them for a while.<br><br>If no enemy hero is spotted, the <span>Fox Fire[/] will stay still upon reaching the end of its target direction and explode after a few seconds, briefly leaving the [bf]vision field[/] there. The explosion deals the same magical damage."
+            "details": "Kimiko sends out a <span>Fox Fire[/] that gains vision around it. If the <span>Fox Fire[/] spots an enemy hero, it will run toward it and explode on the first enemy contact, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies and [db]revealing[/] them for a while.[n]If no enemy hero is spotted, the <span>Fox Fire[/] will stay still upon reaching the end of its target direction and explode after a few seconds, briefly leaving the [bf]vision field[/] there. The explosion deals the same magical damage."
         },
         {
             "name": "Enthralling Gaze",
-            "details": "Kimiko unleashes a wave of irresistible charm, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]charms[/] all enemies hit.<br><br>When charmed, enemies will slowly [db]walk towards[/] Kimiko while also take [db]increased damage[/] from Kimiko."
+            "details": "Kimiko unleashes a wave of irresistible charm, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]charms[/] all enemies hit.[n]When charmed, enemies will slowly [db]walk towards[/] Kimiko while also take [db]increased damage[/] from Kimiko."
         }
     ],
     "config": {

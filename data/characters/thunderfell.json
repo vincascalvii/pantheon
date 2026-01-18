@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Static Accumulator",
-            "details": "When Thorr is not basic attacking, he generates <strong>Static</strong> charge, reaching maximum capacity over a few seconds.<br><br>Thorr's next basic attack uses up all the <strong>Static</strong> charge and deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) based on the current charge amount.<br><br>At maximum charge, Thorr gains increased [ms]movement speed[/] and the bonus damage on his next basic attack is doubled."
+            "details": "When Thorr is not basic attacking, he generates <b>Static</b> charge, reaching maximum capacity over a few seconds.[n]Thorr's next basic attack uses up all the <b>Static</b> charge and deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) based on the current charge amount.[n]At maximum charge, Thorr gains increased [ms]movement speed[/] and the bonus damage on his next basic attack is doubled."
         },
         {
             "name": "Thundering Smash",
-            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all nearby enemies and [db]slowing them[/] for a short duration.<br><br>The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal [db]less damage[/], but <strong>Static Accumulator</strong> charges faster.<br><br>Thorr can also walk over the hammer to pick it up again and [bf]reduce the remaining cooldown[/] of this ability by half."
+            "details": "Thorr throws his hammer to a target direction. Upon impact or at the end of the travel, the hammer releases a shockwave, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all nearby enemies and [db]slowing them[/] for a short duration.[n]The hammer will stay on the ground, and only returns to Thorr after a certain duration. While disarmed, Thorr's basic attacks deal [db]less damage[/], but <b>Static Accumulator</b> charges faster.[n]Thorr can also walk over the hammer to pick it up again and [bf]reduce the remaining cooldown[/] of this ability by half."
         },
         {
             "name": "Lightning Rebuke",
-            "details": "Thorr slams his fists together, creating a resonant boom. For the next few seconds, Thorr gains a shield and any enemy that basic attacks him is struck by a bolt of lightning, taking minor [ap]magical damage[/] and granting Thorr a quarter of his <strong>Static</strong> charge.<br><br><strong>Lightning Rebuke</strong> can only be cast while Thorr is disarmed."
+            "details": "Thorr slams his fists together, creating a resonant boom. For the next few seconds, Thorr gains a shield and any enemy that basic attacks him is struck by a bolt of lightning, taking minor [ap]magical damage[/] and granting Thorr a quarter of his <b>Static</b> charge.[n]<b>Lightning Rebuke</b> can only be cast while Thorr is disarmed."
         },
         {
             "name": "Electrical Anchors",
-            "details": "On the first cast, Thorr places an <strong>Electrical Anchor</strong> at a target location. On the second cast, Thorr places a second Electrical Anchor at another location.<br><br>Then, an electrical arc instantly connects the two points, shocking all enemies in between, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]stuning[/] them.<br><br>Thorr can place <strong>Electrical Anchors</strong> while moving."
+            "details": "On the first cast, Thorr places an <b>Electrical Anchor</b> at a target location. On the second cast, Thorr places a second Electrical Anchor at another location.[n]Then, an electrical arc instantly connects the two points, shocking all enemies in between, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]stuning[/] them.[n]Thorr can place <b>Electrical Anchors</b> while moving."
         },
         {
             "name": "Gathering Storm",
-            "details": "Thorr raises his hammer, summoning a massive thunderstorm around himself, dealing [ap]magical damage[/] (scaling with [ap]magical power[/] each wave.<br><br><strong>Gathering Storm</strong> has three waves. The last wave deals additional [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]stunning[/] all enemies hit.<br><br>Thorr gains increased [ms]movement speed[/] and [bf]damage reduction[/] during <strong>Gathering Storm</strong> but is unable to basic attack or cast other abilities."
+            "details": "Thorr raises his hammer, summoning a massive thunderstorm around himself, dealing [ap]magical damage[/] (scaling with [ap]magical power[/] each wave.[n]<b>Gathering Storm</b> has three waves. The last wave deals additional [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]stunning[/] all enemies hit.[n]Thorr gains increased [ms]movement speed[/] and [bf]damage reduction[/] during <b>Gathering Storm</b> but is unable to basic attack or cast other abilities."
         }
     ],
     "config": {

@@ -119,7 +119,7 @@ let arrowNext = document.querySelector('.arrow-next');
 	// Reusable function to replace highlight tags
 	function renderHighlights(text) {
 		return text
-		  .replace(/\[n\]/g, '<br><br>')
+		  .replace(/\[n\]/g, '[n]')
 		  .replace(/\[(\w+)\]/g, '<span class="ability-$1">')
 		  .replace(/\[\/\]/g, '</span>');
 	  }

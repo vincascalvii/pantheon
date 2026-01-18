@@ -1,0 +1,39 @@
+{
+    "code": "Stormchaser",
+    "full_name": "Artorias Draconis",
+    "first_name": "Artorias",
+    "last_name": "Draconis",
+    "title": "the Lightning Champion",
+    "bastion_name": "Dragnoel",
+    "bastion_full": "Dragnoel, the Dragon Knights",
+    "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "Storm Breaker",
+    "resonance": "Thunder Bending",
+    "intro": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Artorias is the youngest sibling, wielding the elemental power of thunder. He loves to travel around the world and wrecking havoc everywhere, which cause a lot of headache to his older siblings.",
+    "abilities": [
+        {
+            "name": "Thunder Fury",
+            "details": "Every time Artorias basic attacks or uses <b>Lightning Strike</b> on an enemy hero, he receives a stack of <b>Thunder Fury</b> (maximum 10 stacks). A critical hit will grant him 2 stacks instead.[n]Each <b>Thunder Fury</b> stack increases his <span class=\"ability-cr\">critical chance[/]. Artorias's critical chance can exceed 100%, and excessive critical chance will be converted to <span class=\"ability-cr\">critical strike damage[/].[n]At maximum stacks, Artorias's basic attack or <b>Lightning Strike</b> creates lightning that deals additional [ap]magical damage[/] (scaling with <span class=\"ability-cr\">critical strike damage[/]) to the target and nearby enemies."
+        },
+        {
+            "name": "Lightning Strike",
+            "details": "Artorias fires a blast of lightning in a target direction, dealing [ap]magical damage[/] (scaling with <span class=\"ability-cr\">critical strike damage[/]) to all enemies hit (<b>Lightning Strike</b> can critically strike).[n]In <b>Thunder Dragon</b> form, <b>Lightning Strike</b> has a slightly wider and longer range."
+        },
+        {
+            "name": "Voltaic Body",
+            "details": "Artorias gains increased [as]attack speed[/] and [ms]movement speed[/] that decays over a short duration.[n]In <b>Thunder Dragon</b> form, Artorias's basic attacks, <b>Lightning Strike</b> and chained lightning from <b>Thunder Fury</b> also reduce the target's [db]magical resistance[/]."
+        },
+        {
+            "name": "Galvanic Tip",
+            "details": "Artorias leaps to a target direction and fires a lightning bolt at the nearest enemy (prioritising enemy hero), dealing [ap]magical damage[/] (scaling with <span class=\"ability-cr\">critical strike damage[/]) and [db]slowing[/] the target for a short duration.[n]In <b>Thunder Dragon</b> form, Artorias uses his tail to pierce at a target direction, dealing [ad]physical damage[/] (scaling with <span class=\"ability-cr\">critical strike damage[/]) to all enemies hit and greatly [db]slowing[/] them down for the same duration."
+        },
+        {
+            "name": "Storm Breaker",
+            "details": "Artorias transforms into the powerful <b>Thunder Dragon</b>, gaining increased [bf]size[/] and maximum stacks of <b>Thunder Fury</b> for a duration.[n]While in <b>Thunder Dragon</b> form, Artorias will always <span class=\"ability-cr\">critically strike[/] with basic attacks and <b>Lightning Strike</b>. In addition, his critical chance will be converted to bonus <span class=\"ability-cr\">critical strike damage[/] instead.[n]While in <b>Thunder Dragon</b> form, his abilities are enhanced."
+        }
+    ],
+    "config": {
+        "prev_char": "ashwalker"
+    }
+}

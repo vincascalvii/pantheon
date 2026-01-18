@@ -18,19 +18,19 @@
         },
         {
             "name": "Flaming Sweep",
-            "details": "Eris's next three basic attacks sweeps her fire banner in a wide arc, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies around her.<br><br>If Eris is within her active <span>Fiery Rally[/] banner's radius, her enhanced basic attacks will deal additional [ap]magical damage[/] based on the target's [hp]current health[/]."
+            "details": "Eris's next three basic attacks sweeps her fire banner in a wide arc, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies around her.[n]If Eris is within her active <span>Fiery Rally[/] banner's radius, her enhanced basic attacks will deal additional [ap]magical damage[/] based on the target's [hp]current health[/]."
         },
         {
             "name": "Fiery Rally",
-            "details": "Eris plants down her <span>Sacred Banner[/], dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all nearby enemies. The planted banner radiates an aura, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) per second for a few seconds.<br><br>All allied heroes standing within its radius (including Eris) will be granted bonus [bf]physical and magical power[/]."
+            "details": "Eris plants down her <span>Sacred Banner[/] at a target location, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all nearby enemies.[n]The planted banner radiates an aura, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) per second for a few seconds.[n]All allied heroes standing within its radius (including Eris) will be granted bonus [ad]physical power[/] and [ap]magical power[/]."
         },
         {
             "name": "Zealous Charge",
-            "details": "Eris dashes a short distance in a target direction. If Eris lands within the radius of her active <span>Fiery Rally[/] banner, the banner emits a pulse, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies while also granting her and all allied heroes a shield (scaling with [ap]magical power[/]) for a few seconds.<br><br>The shield can only be granted once per <span>Fiery Rally[/] banner duration. In addition, casting <span>Fiery Rally[/] resets the cooldowns of <span>Zealous Charge[/]."
+            "details": "Eris dashes a short distance in a target direction. If Eris lands within the radius of her active <span>Fiery Rally[/] banner, the banner emits a pulse, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies while also granting her and all allied heroes a [sh]shield[/] (scaling with [ap]magical power[/]) for a few seconds.[n]The shield can only be granted once per <span>Fiery Rally[/] banner duration. In addition, casting <span>Fiery Rally[/] resets the cooldowns of <span>Zealous Charge[/]."
         },
         {
             "name": "Holy Conflagration",
-            "details": "Eris's <span>Sacred Banner[/] releases a fiery vortex that deals [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies caught within and greatly [db]slowing[/] them.<br><br>Casting <span>Holy Conflagration[/] refreshes the duration of her active <span>Fiery Rally[/] banner. However, it will not refresh the ability to grant a shield as it's still counted as a single duration."
+            "details": "Eris's <span>Sacred Banner[/] releases a fiery vortex that deals [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies caught within and greatly [db]slowing[/] them.[n]Casting <span>Holy Conflagration[/] refreshes the duration of her active <span>Fiery Rally[/] banner. However, it will not refresh the ability to grant a shield as it's still counted as a single duration."
         }
     ],
     "config": {

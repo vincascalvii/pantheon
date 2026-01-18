@@ -14,7 +14,7 @@
     "abilities": [
         {
             "name": "Twin Shadows",
-            "details": "Grim's basic attacks fire twice—once from each gun. The second shot deals a percentage of the first shot's damage as [ap]magical damage[/] and applies on-hit effects.<br><br>He will shoot the same target, else another target in range. The second shot is also affected by critical strike modifiers, but the critical chance is based on the first shot."
+            "details": "Grim's basic attacks fire twice—once from each gun. The second shot deals a percentage of the first shot's damage as [ap]magical damage[/] and applies on-hit effects.[n]He will shoot the same target, else another target in range. The second shot is also affected by critical strike modifiers, but the critical chance is based on the first shot."
         },
         {
             "name": "Piercing Darkness",
@@ -22,15 +22,15 @@
         },
         {
             "name": "Dark Cloak",
-            "details": "Grim flips his cloak, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies.<br><br><strong>Dark Cloak</strong> can [bf]deflect[/] incoming basic attacks and projectiles back."
+            "details": "Grim flips his cloak, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies.[n]<b>Dark Cloak</b> can [bf]deflect[/] incoming basic attacks and projectiles back."
         },
         {
             "name": "Dawning Shadow",
-            "details": "Grim dashes a short distance, leaving a <strong>Shadow</strong> at his starting location for a few seconds. He can re-activate this ability to instantly return to the <strong>Shadow</strong>.<br><br>If Grim scores a takedown before returning, or within few seconds after returning, the cooldown of <strong>Dawning Shadow</strong> is [bf]reset[/]."
+            "details": "Grim dashes a short distance, leaving a <b>Shadow</b> at his starting location for a few seconds. He can re-activate this ability to instantly return to the <b>Shadow</b>.[n]If Grim scores a takedown before returning, or within few seconds after returning, the cooldown of <b>Dawning Shadow</b> is [bf]reset[/]."
         },
         {
             "name": "Last Whisper",
-            "details": "Grim launches a globule of shadow in a target direction that collides with the first enemy hero hit, afflicting them with a shadow that grows over the next few seconds.<br><br>The shadow will cause the enemy target to be [db]nearsighted[/], and also stores a portion of all damage Grim deals to the target.<br><br>At the end of the duration, the shadow detonates to deal [ad]physical damage[/] based on the stored damage."
+            "details": "Grim launches a globule of shadow in a target direction that collides with the first enemy hero hit, afflicting them with a shadow that grows over the next few seconds.[n]The shadow will cause the enemy target to be [db]nearsighted[/], and also stores a portion of all damage Grim deals to the target.[n]At the end of the duration, the shadow detonates to deal [ad]physical damage[/] based on the stored damage."
         }
     ]
 }

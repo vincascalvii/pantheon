@@ -30,7 +30,7 @@
         },
         {
             "name": "Arcanic Light / Mystical Void",
-            "details": "During <span>Arcane[/] mode, Ciarra will cast a field of light around herself, pushing all enemies out of the field and stopping all enemies who attempt to dash into or within the field. If a target is successfully interrupted, they will be dealt [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]knocked up[/] for a brief duration.[n]During <span>Mystic[/] mode, Ciarra will cast a shroud of darkness at a target area that constantly deals [ap]magical damage[/] (scaling with [ap]magical power[/]) for several seconds. The shroud will slowly [db]expand[/], [db]reducing vision[/] of all enemies within."
+            "details": "During <span>Arcane[/] mode, Ciarra will cast a field of light around herself, pushing all enemies out of the field and stopping all enemies who attempt to dash into or within the field. If a target is successfully interrupted, they will be dealt [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]knocked up[/] for a brief duration.[n]During <span>Mystic[/] mode, Ciarra will cast a shroud of darkness at a target area that constantly deals [ap]magical damage[/] (scaling with [ap]magical power[/]) for several seconds. The shroud will slowly [db]expand, reducing vision[/] of all enemies within."
         }
     ],
     "config": {
