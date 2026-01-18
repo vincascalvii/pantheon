@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Quad-Wielding Rhythm",
-            "details": "Every 4th basic attack of Iyla deals bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>)."
+            "details": "Every 4th basic attack of Iyla deals bonus [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/])."
         },
         {
             "name": "Crescent Convergence",
-            "details": "Iyla throws two chakrams that travel in opposing outward arcs before meeting at a target location. The blades deal <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies they pass through.<br><br>Upon reaching the meeting point, the blades snap together, dealing bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and <span class=\"ability-debuff\">slowing</span> enemies in a small area before returning to Iyla.<br><br>The returning blades deal reduced damage."
+            "details": "Iyla throws two chakrams that travel in opposing outward arcs before meeting at a target location. The blades deal [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies they pass through.[n]Upon reaching the meeting point, the blades snap together, dealing bonus [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]slowing[/] enemies in a small area before returning to Iyla.[n]The returning blades deal reduced damage."
         },
         {
             "name": "Lunar Guard",
-            "details": "Iyla plants her feet and holds her chakrams in a defensive stance for a short duration. While in this stance, she blocks all <span class=\"ability-buff\">basic attacks</span> and takes <span class=\"ability-buff\">reduced damage</span> from the enemies.<br><br>The damage reduction does not apply for damage-over-time."
+            "details": "Iyla plants her feet and holds her chakrams in a defensive stance for a short duration. While in this stance, she blocks all [bf]basic attacks[/] and takes [bf]reduced damage[/] from the enemies.[n]The damage reduction does not apply for damage-over-time."
         },
         {
             "name": "Moonphase Shift",
-            "details": "Iyla blinks to a target location. If there is a nearby enemy hero, Iyla will perform a whirlwind slash, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies."
+            "details": "Iyla blinks to a target location. If there is a nearby enemy hero, Iyla will perform a whirlwind slash, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies."
         },
         {
             "name": "Perfect Alignment",
-            "details": "Iyla enters a state of perfect alignment for a few seconds, gaining a massive burst of <span class=\"ability-as\">attack speed</span>.<br><br>During this time, her attack speed cap is <span class=\"ability-buff\">removed</span>, and every basic attack now launches all <span class=\"ability-buff\">four</span> chakrams in rapid succession.<br><br>Each chakram deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and applies on-hit effect separately."
+            "details": "Iyla enters a state of perfect alignment for a few seconds, gaining a massive burst of [as]attack speed[/].[n]During this time, her attack speed cap is [bf]removed[/], and every basic attack now launches all [bf]four[/] chakrams in rapid succession.[n]Each chakram deals [ad]physical damage[/] (scaling with [ad]physical power[/]) and applies on-hit effect separately."
         }
     ]
 }

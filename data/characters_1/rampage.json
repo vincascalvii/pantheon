@@ -31,7 +31,7 @@
 
 			"name" : "Galvanise",
 
-			"details" : "Rampage gains a shield and his basic attacks deal additional damage based on his maximum health.<br><br>The shield and the damage boost have different duration of effect."
+			"details" : "Rampage gains a shield and his basic attacks deal additional damage based on his maximum health.[n]The shield and the damage boost have different duration of effect."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Relentless",
 
-			"details" : "Rampage gains increased movement speed and his next basic attack will leap to a nearby target enemy, dealing physical damage (scaling with physical power) and reduces the target's movement speed.<br><br>If Rampage's health is below a certain threshold, E will stun the target instead."
+			"details" : "Rampage gains increased movement speed and his next basic attack will leap to a nearby target enemy, dealing physical damage (scaling with physical power) and reduces the target's movement speed.[n]If Rampage's health is below a certain threshold, E will stun the target instead."
 
 		},
 

@@ -11,7 +11,7 @@
 
 			"name" : "Feast",
 
-			"details" : "Killing a unit grants Xer&rsquo;Ju increased maximum health and size permanently.<br><br>Killing large minion and monster doubles the effect while killing an enemy Hero triples the effect."
+			"details" : "Killing a unit grants Xer&rsquo;Ju increased maximum health and size permanently.[n]Killing large minion and monster doubles the effect while killing an enemy Hero triples the effect."
 
 		},
 
@@ -21,7 +21,7 @@
 
 			"name" : "Tongue Lash",
 
-			"details" : "Xer&rsquo;Ju licks in a target direction, dealing physical damage (scaling with physical power) to the first enemy hit.<br><br>Killing the target heals Xer&rsquo;Ju by a small percentage of the target’s health.<br><br>Q’s hitbox increases based on Xer&rsquo;Ju&rsquo;s size."
+			"details" : "Xer&rsquo;Ju licks in a target direction, dealing physical damage (scaling with physical power) to the first enemy hit.[n]Killing the target heals Xer&rsquo;Ju by a small percentage of the target’s health.[n]Q’s hitbox increases based on Xer&rsquo;Ju&rsquo;s size."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "W",
 
-			"details" : "Xer&rsquo;Ju sends out a wave that deals magical damage (scaling with magical power) and taunts all enemies hit.<br><br>W’s hitbox increases based on Xer&rsquo;Ju&rsquo;s size."
+			"details" : "Xer&rsquo;Ju sends out a wave that deals magical damage (scaling with magical power) and taunts all enemies hit.[n]W’s hitbox increases based on Xer&rsquo;Ju&rsquo;s size."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Roll",
 
-			"details" : "Xer&rsquo;Ju starts rolling and gradually picks up the speed.<br><br>Xer&rsquo;Ju will only stop when E is cast again and when it hits a terrain or an enemy.<br><br>E can hit multiple enemies depending on Xer&rsquo;Ju&rsquo;s size, dealing physical damage (scaling with physical power) and knock them back."
+			"details" : "Xer&rsquo;Ju starts rolling and gradually picks up the speed.[n]Xer&rsquo;Ju will only stop when E is cast again and when it hits a terrain or an enemy.[n]E can hit multiple enemies depending on Xer&rsquo;Ju&rsquo;s size, dealing physical damage (scaling with physical power) and knock them back."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Devour",
 
-			"details" : "Xer&rsquo;Ju devours an enemy Hero, dealing physical damage (scaling with maximum health) and suppressing the target.<br><br>Xer&rsquo;Ju is slowed during the suppression but it can still move and use E."
+			"details" : "Xer&rsquo;Ju devours an enemy Hero, dealing physical damage (scaling with maximum health) and suppressing the target.[n]Xer&rsquo;Ju is slowed during the suppression but it can still move and use E."
 
 		}
 

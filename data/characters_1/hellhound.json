@@ -21,7 +21,7 @@
 
 			"name" : "Chomp",
 
-			"details" : "Hellhound chomps at the target enemy, dealing physical damage (scaling with physical power) and heals himself for a percentage of his missing health.<br><br>During Full Moon, Chomp&rsquo;s damage and heal will be enhanced."
+			"details" : "Hellhound chomps at the target enemy, dealing physical damage (scaling with physical power) and heals himself for a percentage of his missing health.[n]During Full Moon, Chomp&rsquo;s damage and heal will be enhanced."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Howl",
 
-			"details" : "Hellhound grants himself and nearby allies increased movement speed that will decay over the next few seconds.<br><br>During Full Moon, Hellhound also gains increased attack speed for the same duration."
+			"details" : "Hellhound grants himself and nearby allies increased movement speed that will decay over the next few seconds.[n]During Full Moon, Hellhound also gains increased attack speed for the same duration."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Pounce",
 
-			"details" : "Hellhound pounces in a target direction, grabbing the first enemy hit for a short duration and hitting the target twice, dealing the same damage and on-hit effects as two basic attacks.<br><br>During Full Moon, Hellhound will hit thrice instead."
+			"details" : "Hellhound pounces in a target direction, grabbing the first enemy hit for a short duration and hitting the target twice, dealing the same damage and on-hit effects as two basic attacks.[n]During Full Moon, Hellhound will hit thrice instead."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Full Moon",
 
-			"details" : "Hellhound transforms into a full-fledged Wolf, gaining increased size, health and physical power for a duration.<br><br>In addition, Hellhound can also sense the trails leading to all nearby enemy Heroes. When following a trail, Wolf gains increased movement speed."
+			"details" : "Hellhound transforms into a full-fledged Wolf, gaining increased size, health and physical power for a duration.[n]In addition, Hellhound can also sense the trails leading to all nearby enemy Heroes. When following a trail, Wolf gains increased movement speed."
 
 		}
 

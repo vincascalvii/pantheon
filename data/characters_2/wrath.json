@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Blazing Bulwark",
-            "details": "Wǔjiàng generates an <span>Blazing Bulwark</span> stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wǔjiàng has a <span>Blazing Bulwark</span> stack, his body will be surrounding by flame, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to nearby enemies per second.<br><br>Each stack increases the damage dealt. At maximum <span>Blazing Bulwark</span> stacks, each time the flame deals damage, it will <span class=\"ability-buff\">heal</span> Wujiang for a <span class=\"ability-buff\">percentage of the damage dealt</span>."
+            "details": "Wǔjiàng generates an <span>Blazing Bulwark[/] stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wǔjiàng has a <span>Blazing Bulwark[/] stack, his body will be surrounding by flame, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to nearby enemies per second.[n]Each stack increases the damage dealt. At maximum <span>Blazing Bulwark[/] stacks, each time the flame deals damage, it will [bf]heal[/] Wujiang for a [bf]percentage of the damage dealt[/]."
         },
         {
             "name": "Fearless Smash",
-            "details": "Wǔjiàng leaps to a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>At maximum <span>Blazing Bulwark</span> stacks, Fearless Smash will also deal damage to surrounding enemies in a small radius around the target, and slightly <span class=\"ability-debuff\">knock them back</span>."
+            "details": "Wǔjiàng leaps to a target enemy, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]).[n]At maximum <span>Blazing Bulwark[/] stacks, Fearless Smash will also deal damage to surrounding enemies in a small radius around the target, and slightly [db]knock them back[/]."
         },
         {
             "name": "Inferno Fists",
-            "details": "Wǔjiàng channels flame on his fists, empowering his basic attacks to deal <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">maximum health</span>) to surrounding enemies in a small radius around the target.<br><br>At maximum <span>Blazing Bulwark</span> stacks, he gains <span class=\"ability-buff\">increased attack speed</span>."
+            "details": "Wǔjiàng channels flame on his fists, empowering his basic attacks to deal [ap]magical damage[/] (scaling with [hp]maximum health[/]) to surrounding enemies in a small radius around the target.[n]At maximum <span>Blazing Bulwark[/] stacks, he gains [bf]increased attack speed[/]."
         },
         {
             "name": "Seismic Kick",
-            "details": "Wǔjiàng kicks the ground, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies in a small radius and slowing them for a short duration.<br><br>At maximum <span>Blazing Bulwark</span> stacks, the impact will first <span class=\"ability-debuff\">knock up</span> the enemies, before slowing them down."
+            "details": "Wǔjiàng kicks the ground, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies in a small radius and slowing them for a short duration.[n]At maximum <span>Blazing Bulwark[/] stacks, the impact will first [db]knock up[/] the enemies, before slowing them down."
         },
         {
             "name": "Undying Flame",
-            "details": "Wǔjiàng embraces the blessing of the Phoenix, becoming a temporary avatar of pure, unyielding fire. He instantly gains <span class=\"ability-buff\">maximum</span> <span>Blazing Bulwark</span> stacks, and takes <span class=\"ability-buff\">reduced incoming damage</span> by a significant percentage for the next few seconds."
+            "details": "Wǔjiàng embraces the blessing of the Phoenix, becoming a temporary avatar of pure, unyielding fire. He instantly gains [bf]maximum[/] <span>Blazing Bulwark[/] stacks, and takes [bf]reduced incoming damage[/] by a significant percentage for the next few seconds."
         }
     ],
     "config": {

@@ -11,7 +11,7 @@
 
 			"name" : "Defensive Stance",
 
-			"details" : "When Valkyrie damages an enemy Hero, she faces the target regardless of which direction she moves.<br><br>In addition, her shield always reduces all incoming damage from the front."
+			"details" : "When Valkyrie damages an enemy Hero, she faces the target regardless of which direction she moves.[n]In addition, her shield always reduces all incoming damage from the front."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Guardian Angel",
 
-			"details" : "Valkyrie quickly positions herself between a target ally Hero and the closest enemy Hero.<br><br>She then gains increased armor and magic resist while redirects a percentage of the  damage on the target ally to her instead."
+			"details" : "Valkyrie quickly positions herself between a target ally Hero and the closest enemy Hero.[n]She then gains increased armor and magic resist while redirects a percentage of the  damage on the target ally to her instead."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Skyfall",
 
-			"details" : "Valkyrie designates a target ally Hero's position as the landing spot, granting that ally a shield (scaling with magical power).<br><br>After a delay, Valkyrie soars to the sky and lands at the target location, dealing magical damage (scaling with magical power) and knocking all nearby enemies up."
+			"details" : "Valkyrie designates a target ally Hero's position as the landing spot, granting that ally a shield (scaling with magical power).[n]After a delay, Valkyrie soars to the sky and lands at the target location, dealing magical damage (scaling with magical power) and knocking all nearby enemies up."
 
 		}
 

@@ -90,7 +90,7 @@ let arrowNext = document.querySelector('.arrow-next');
 					abilityName.innerHTML = data.abilities[i].name;
 				let abilityDetails = document.createElement('div');
 					abilityDetails.classList.add('ability-details');
-					abilityDetails.innerHTML = data.abilities[i].details;
+					abilityDetails.innerHTML = renderHighlights(data.abilities[i].details);
 				
 				// Add the ability type, name & details
 				ability.appendChild(abilityType);
@@ -115,6 +115,14 @@ let arrowNext = document.querySelector('.arrow-next');
 			els[i].innerHTML = val;
 		}
     }
+
+	// Reusable function to replace highlight tags
+	function renderHighlights(text) {
+		return text
+		  .replace(/\[n\]/g, '<br><br>')
+		  .replace(/\[(\w+)\]/g, '<span class="ability-$1">')
+		  .replace(/\[\/\]/g, '</span>');
+	  }
 })();
 
 

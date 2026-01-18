@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Crushing Weight",
-            "details": "Whenever Nakaraj damages an enemy hero, he applies stacks of <strong>Pressure</strong> (visible as a secondary bar under their health) (basic attack adds 1 stack).<br><br>At 10 stacks, the enemy's defense is shattered, causing them to lose a percentage of <span class=\"ability-debuff\">physical resistance</span>, <span class=\"ability-debuff\">magical resistance</span> and <span class=\"ability-debuff\">movement speed</span> for a duration.<br><br>Once the target recovers from the defense break, they cannot gain <strong>Pressure</strong> stacks again for a short duration."
+            "details": "Nakaraj reveal her enemies' <b>Pressure</b> level, whcih is shown under their health that only Nakaraj can see. This bar's maximum value is a percentage of the target's bonus physical resistance and magical resistance.[n]Whenever Nakaraj damages the target, he fills up the <b>Pressure</b> bar.[n]When the bar is fully filled, the enemy's defense is shattered, causing them to lose a percentage of [db]physical resistance[/], [db]magical resistance[/] and [db]tenacity[/] for a duration.[n]Once the target recovers from the defense break, they cannot gain <b>Pressure</b> stacks again for a short duration."
         },
         {
             "name": "Geyser Burst",
-            "details": "Nakaraj slams his fist into the ground, calling forth a high-pressure blast of water at a target location after a brief delay, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit and applying 2 stacks of <strong>Pressure</strong> on them.<br><br>Enemies in the centre of the blast are <span class=\"ability-debuff\">knocked up</span>, take more damage and receive 1 additional stack of <strong>Pressure</strong>.<br><br>If cast upon a <strong>Tidal Pool</strong> (from <strong>Undercurrent</strong>), the geyser becomes supercharged,<span class=\"ability-debuff\">knocking up</span> all enemies within the entire radius of the pool, not just the centre (also apply 1 additional stack of <strong>Pressure</strong> to all enemies as well)."
+            "details": "Nakaraj slams his fist into the ground, calling forth a high-pressure blast of water at a target location after a brief delay, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.[n]Enemies in the centre of the blast are [db]knocked up[/], take more damage and receive more <b>Pressure</b>.[n]If cast upon a <b>Tidal Pool</b> (from <b>Undercurrent</b>), the geyser becomes supercharged,[db]knocking up[/] all enemies within the entire radius of the pool, not just the centre."
         },
         {
             "name": "Ebb and Flow",
-            "details": "Nakaraj creates a rhythmic aura of water around himself for a few seconds. Every second, the aura pulses, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to nearby enemies and applying a stack of <strong>Pressure</strong>.<br><br>For every enemy hit by a pulse, Nakaraj <span class=\"ability-buff\">heals</span> for a small amount (increased against heroes)."
+            "details": "Nakaraj creates a rhythmic aura of water around himself for a few seconds. Every second, the aura pulses, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies and applying a small amount of <b>Pressure</b>.[n]For every enemy hit by a pulse, Nakaraj [bf]heals[/] for a small amount (increased against heroes)."
         },
         {
             "name": "Undercurrent",
-            "details": "Nakaraj sends a surge of water deep underground toward an enemy target. Upon reaching the target, the water erupts, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to the target and <span class=\"ability-debuff\">slowing</span> all nearby enemies for a short duration.<br><br>The eruption leaves behind a <strong>Tidal Pool</strong> on the ground for short duration."
+            "details": "Nakaraj sends a surge of water deep underground toward an enemy target. Upon reaching the target, the water erupts, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to the target and [db]slowing[/] all nearby enemies for a short duration.[n]The eruption leaves behind a <b>Tidal Pool</b> on the ground for short duration."
         },
         {
             "name": "Abyssal Wrath",
-            "details": "Nakaraj summons a colossal wave and rides it forward in a wide path.<br><br>Nakaraj is unstoppable during the charge. All enemies hit are <span class=\"ability-debuff\">knocked back</span> along the wave and dealt <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>).<br><br>If the enemies are standing on top of a <strong>Tidal Pool</strong> (from <strong>Undercurrent</strong>), they will be <span class=\"ability-debuff\">knocked up</span> instead of back.<br><br>All enemies hit by the wave instantly receive 5 stacks of <strong>Pressure</strong>."
+            "details": "Nakaraj summons a colossal wave and rides it forward in a wide path.[n]Nakaraj is unstoppable during the charge. All enemies hit are [db]knocked back[/] along the wave and dealt [ap]magical damage[/] (scaling with [ap]magical power[/]).[n]If the enemies are standing on top of a <b>Tidal Pool</b> (from <b>Undercurrent</b>), they will be [db]knocked up[/] instead of back.[n]All enemies hit by the wave instantly fill up half of their <b>Pressure</b> bar."
         }
     ],
     "config": {

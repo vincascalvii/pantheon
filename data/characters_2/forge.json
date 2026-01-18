@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Living Forge",
-            "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero</span> and <span>choose an item</span> they are currently building. She can then spend a portion of her own <span class=\"ability-ar\">gold</span> to <span class=\"ability-buff\">contribute to that item's cost</span>.<br><br>Her gold contribution is added a small <span class=\"ability-ar\">bonus</span> when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
+            "details": "Kharra-Ryn carries the heart of a forge within her, allowing her to aid her allies' progression by contributing her own gold to their item purchases. Once every few minutes, Kharra-Ryn can <span>select an allied hero[/] and <span>choose an item[/] they are currently building. She can then spend a portion of her own [ar]gold[/] to [bf]contribute to that item's cost[/].[n]Her gold contribution is added a small [ar]bonus[/] when contributed to the ally's item completion progress, effectively giving her a personal reduced cost on the upgrade."
         },
         {
             "name": "Core Breach",
-            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to the first enemy hit, slightly <span class=\"ability-debuff\">knocking back</span> the target and reducing their <span class=\"ability-debuff\">physical power</span> for a few seconds."
+            "details": "Kharra-Ryn smashes one of her solar cores with a hammer, launching it in a line. The core deals [ad]physical damage[/] (scaling with [ad]physical power[/]) to the first enemy hit, slightly [db]knocking back[/] the target and reducing their [db]physical power[/] for a few seconds."
         },
         {
             "name": "Molten Impact",
-            "details": "Kharra-Ryn imbues her hammers, causing her next three basic attacks within a few seconds to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-hp\">health</span>) and apply a stack of <span>Molten Impact</span> to the target.<br><br>Upon reaching three <span>Molten Impact</span> stacks, the target is dealt <span class=\"ability-ap\">magical damage</span> (scaling with the target's <span class=\"ability-hp\">health</span>) and gets <span class=\"ability-debuff\">stunned</span> for a short duration. The stacks are then removed and can be replied again after a short cooldowns per target."
+            "details": "Kharra-Ryn imbues her hammers, causing her next three basic attacks within a few seconds to deal bonus [ap]magical damage[/] (scaling with [hp]health[/]) and apply a stack of <span>Molten Impact[/] to the target.[n]Upon reaching three <span>Molten Impact[/] stacks, the target is dealt [ap]magical damage[/] (scaling with the target's [hp]health[/]) and gets [db]stunned[/] for a short duration. The stacks are then removed and can be replied again after a short cooldowns per target."
         },
         {
             "name": "Foundry Force",
-            "details": "Kharra-Ryn slams both of her hammers down simultaneously, creating a powerful shockwave around her, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) and briefly <span class=\"ability-debuff\">slowing</span> all enemies hit.<br><br>When <span>Foundry Force</span> hits an enemy who has at least one <span>Molten Impact</span> stack, it will immediately maximise the stacks to trigger the stun effect."
+            "details": "Kharra-Ryn slams both of her hammers down simultaneously, creating a powerful shockwave around her, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) and briefly [db]slowing[/] all enemies hit.[n]When <span>Foundry Force[/] hits an enemy who has at least one <span>Molten Impact[/] stack, it will immediately maximise the stacks to trigger the stun effect."
         },
         {
             "name": "Solar Cores",
-            "details": "Kharra-Ryn send all of her <strong>Solar Cores</strong> to orbit around an ally hero.<br><br>Each of the cores can completely block 1 ability from the enemy heroes. Once 3 blocks are completed, the solar cores will return to Kharra-Ryn.<br><br>While the <strong>Solar Cores</strong> are away, Kharra-Ryn will have her own <span class=\"ability-debuff\">stats</span> reduced, and will not be able to use her <span>Core Breach</span> ability until the solar cores return to her."
+            "details": "Kharra-Ryn send all of her <b>Solar Cores</b> to orbit around an ally hero.[n]Each of the cores can completely block 1 ability from the enemy heroes. Once 3 blocks are completed, the solar cores will return to Kharra-Ryn.[n]While the <b>Solar Cores</b> are away, Kharra-Ryn will have her own [db]stats[/] reduced, and will not be able to use her <span>Core Breach[/] ability until the solar cores return to her."
         }
     ]
 }

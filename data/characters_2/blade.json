@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Monochrome Blade",
-            "details": "Arcian's basic attacks generates a stack of <span>Monochrome Blade</span>, stacking up to three times.<br><br>The third stack empowers his basic attack to deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-ap\">magical power</span>), and <span class=\"ability-debuff\">steals</span> a small amount of the target's <span class=\"ability-mp\">mana</span>."
+            "details": "Arcian's basic attacks generates a stack of <span>Monochrome Blade[/], stacking up to three times.[n]The third stack empowers his basic attack to deal bonus [ap]magical damage[/] (scaling with [ad]physical power[/] and [ap]magical power[/]), and [db]steals[/] a small amount of the target's [mp]mana[/]."
         },
         {
             "name": "Phantom Slash",
-            "details": "Arcian slashes twice at a target, each dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>). Each hit is counted as a basic attack."
+            "details": "Arcian slashes twice at a target, each dealing [ad]physical damage[/] (scaling with [ad]physical power[/]). Each hit is counted as a basic attack."
         },
         {
             "name": "Spectral Arsenal",
-            "details": "Arcian periodically crafts a <span>Spectral Blade</span>, up to a maximum of three can be stored at a time. Each <span>Spectral Blade</span> grants him bonus <span class=\"ability-buff\">physical power</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>Arcian can cast this ability to manifest one <span>Spectral Blade</span> at the target location."
+            "details": "Arcian periodically crafts a <span>Spectral Blade[/], up to a maximum of three can be stored at a time. Each <span>Spectral Blade[/] grants him bonus [bf]physical power[/] (scaling with [ad]physical power[/]).[n]Arcian can cast this ability to manifest one <span>Spectral Blade[/] at the target location."
         },
         {
             "name": "Void Steps",
-            "details": "Arcian shifts to a manifested <span>Spectral Blade</span> on the ground, then empowers his next basic attack to blink to the enemy target, dealing bonus <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>)."
+            "details": "Arcian shifts to a manifested <span>Spectral Blade[/] on the ground, then empowers his next basic attack to blink to the enemy target, dealing bonus [ad]physical damage[/] (scaling with [ad]physical power[/])."
         },
         {
             "name": "Oblivion's Decree",
-            "details": "Arcian enters a heightened state for several seconds, gaining bonus <span class=\"ability-ms\">movement speed</span> and <span class=\"ability-as\">attack speed</span>.<br><br>During this state, Arcian replaces his <span>Monochrome Blade</span> with the <span>Oblivion Blade</span>, making his third basic attack deals <span class=\"ability-td\">true damage</span> instead of magical damage, and briefly <span class=\"ability-debuff\">silences</span> the target instead of stealing mana.<br><br>The same enemy hero cannot be silenced twice during each <span>Oblivion's Decree</span>, and will become vulnerable to mana steal again after the first silence."
+            "details": "Arcian enters a heightened state for several seconds, gaining bonus [ms]movement speed[/] and [as]attack speed[/].[n]During this state, Arcian replaces his <span>Monochrome Blade[/] with the <span>Oblivion Blade[/], making his third basic attack deals [td]true damage[/] instead of magical damage, and briefly [db]silences[/] the target instead of stealing mana.[n]The same enemy hero cannot be silenced twice during each <span>Oblivion's Decree[/], and will become vulnerable to mana steal again after the first silence."
         }
     ],
     "config": {
