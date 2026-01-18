@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Abyssal Depth",
-            "details": "Marinus gains bonus <span class=\"ability-ap\">magic penetration</span> based on her <span class=\"ability-mp\">maximum mana</span>. A percentage of Marinus's bonus <span class=\"ability-ap\">magical power</span> is converted into <span class=\"ability-mp\">maximum mana</span>."
+            "details": "Marinus gains bonus [ap]magic penetration[/] based on her [mp]maximum mana[/]. A percentage of Marinus's bonus [ap]magical power[/] is converted into [mp]maximum mana[/]."
         },
         {
             "name": "Hydro Pump",
-            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) every 0.25 seconds.<br><br>While casting, Marinus is <span class=\"ability-debuff\">grounded</span> (cannot move) but can rotate her direction. This ability can be held down to continue the blast, rapidly consuming her <span class=\"ability-mp\">mana</span> per second.<br><br>In <strong>Aqua Dragon</strong> form, the beam becomes a powerful torrent, gaining extra range and dealing additional bonus magical damage based on the target's <span class=\"ability-debuff\">maximum health</strong> (scaling with <span class=\"ability-mp\">maximum mana</span>)."
+            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) every 0.25 seconds.<br><br>While casting, Marinus is [db]grounded[/] (cannot move) but can rotate her direction. This ability can be held down to continue the blast, rapidly consuming her [mp]mana[/] per second.<br><br>In <strong>Aqua Dragon</strong> form, the beam becomes a powerful torrent, gaining extra range and dealing additional bonus magical damage based on the target's [db]maximum health</strong> (scaling with [mp]maximum mana[/])."
         },
         {
             "name": "Riptide Vortex",
-            "details": "Marinus creates a swirling vortex at a target location. After a short delay, the vortex deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) per second and constantly <span class=\"ability-debuff\">pulls</span> them toward its center.<br><br>In <strong>Aqua Dragon</strong> form, the vortex is larger and enemies will also be <span class=\"ability-debuff\">grounded</span> (preventing them from dashing)."
+            "details": "Marinus creates a swirling vortex at a target location. After a short delay, the vortex deals [ap]magical damage[/] (scaling with [mp]maximum mana[/]) per second and constantly [db]pulls[/] them toward its center.<br><br>In <strong>Aqua Dragon</strong> form, the vortex is larger and enemies will also be [db]grounded[/] (preventing them from dashing)."
         },
         {
             "name": "Tidal Surge",
-            "details": "Marinus sends a crashing tidal wave in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-mp\">maximum mana</span>) to all enemies hit and <span class=\"ability-debuff\">slowing</span> them for a short duration.<br><br>In <strong>Aqua Dragon</strong> form, the wave is significantly <span class=\"ability-debuff\">wider</span> and also <span class=\"ability-debuff\">knocks up</span> enemies instead of slowing them."
+            "details": "Marinus sends a crashing tidal wave in a target direction, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies hit and [db]slowing[/] them for a short duration.<br><br>In <strong>Aqua Dragon</strong> form, the wave is significantly [db]wider[/] and also [db]knocks up[/] enemies instead of slowing them."
         },
         {
             "name": "Ocean Breaker",
-            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</strong> for a duration, gaining increased <span class=\"ability-buff\">size</span>, <span class=\"ability-mp\">maximum mana</span> and <span class=\"ability-mp\">mana regen</span>.<br><br>In addition, <strong>Ocean Breaker</strong> also <span class=\"ability-buff\">recovers</span> a percentage of her maximum mana on cast.<br><br>While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
+            "details": "Marinus surges with primal energy, transforming into the <strong>Aqua Dragon</strong> for a duration, gaining increased [bf]size[/], [mp]maximum mana[/] and [mp]mana regen[/].<br><br>In addition, <strong>Ocean Breaker</strong> also [bf]recovers[/] a percentage of her maximum mana on cast.<br><br>While in <strong>Aqua Dragon</strong> form, her abilities are enhanced."
         }
     ],
     "config": {

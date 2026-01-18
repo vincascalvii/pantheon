@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Last Breath",
-            "details": "Yui's basic attack behind the target critical strikes for a percentage of the target's current health as bonus <span class=\"ability-ad\">physical damage</span>."
+            "details": "Yui's basic attack behind the target critical strikes for a percentage of the target's current health as bonus [ad]physical damage[/]."
         },
         {
             "name": "Flying Swallow",
-            "details": "Yui launches 5 kunais in a cone-shaped direction, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) for each kunai hit."
+            "details": "Yui launches 5 kunais in a cone-shaped direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) for each kunai hit."
         },
         {
             "name": "Whirlwind Slash",
-            "details": "Yui spins around with her blades, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all nearby enemies and <span class=\"ability-debuff\">slowing</span> them for a short duration."
+            "details": "Yui spins around with her blades, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies and [db]slowing[/] them for a short duration."
         },
         {
             "name": "False Presence",
-            "details": "Yui replaces herself with a <strong>Wooden Dummy</strong> that lasts for few seconds and appears behind a target enemy, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>All on-going projectiles will go to the dummy instead and it has its own separate health bar.<br><br>After 1 second, Yui can recast <strong>Wooden Dummy</strong> again to replace the dummy with herself if it's still there."
+            "details": "Yui replaces herself with a <strong>Wooden Dummy</strong> that lasts for few seconds and appears behind a target enemy, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]).<br><br>All on-going projectiles will go to the dummy instead and it has its own separate health bar.<br><br>After 1 second, Yui can recast <strong>Wooden Dummy</strong> again to replace the dummy with herself if it's still there."
         },
         {
             "name": "Vanishing Mist",
-            "details": "Yui detonates a smoke bomb, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies hit and reduce their <span class=\"ability-debuff\">vision</span>.<br><br>The smoke will quickly expand into a circular area. Yui also becomes <span class=\"ability-buff\">stealthed</span> and gains increased <span class=\"ability-ms\">movement speed</span> while inside the smoke.<br><br>The <strong>Wooden Dummy</strong> also becomes <span class=\"ability-buff\">stealthed</span> while inside the smoke."
+            "details": "Yui detonates a smoke bomb, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and reduce their [db]vision[/].<br><br>The smoke will quickly expand into a circular area. Yui also becomes [bf]stealthed[/] and gains increased [ms]movement speed[/] while inside the smoke.<br><br>The <strong>Wooden Dummy</strong> also becomes [bf]stealthed[/] while inside the smoke."
         }
     ],
     "config": {

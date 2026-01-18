@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Heaven's Will",
-            "details": "When Cyrus damages an enemy champion with his abilities, the target will be marked by the <span>Heaven's Will</span>, increasing the <span class=\"ability-debuff\">damage</span> they take from Cyrus for a few seconds."
+            "details": "When Cyrus damages an enemy champion with his abilities, the target will be marked by the <span>Heaven's Will[/], increasing the [db]damage[/] they take from Cyrus for a few seconds."
         },
         {
             "name": "Retribution",
-            "details": "Cyrus launches a barrage of lumious bolts at a target location over a very short duration. Each bolt explodes upon landing, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>The bolts can be blocked by an enemy hero before they reach the target location, and the damage will be dealt to only that target. Casting this ability does not interupt with Cyrus's movement."
+            "details": "Cyrus launches a barrage of lumious bolts at a target location over a very short duration. Each bolt explodes upon landing, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.<br><br>The bolts can be blocked by an enemy hero before they reach the target location, and the damage will be dealt to only that target. Casting this ability does not interupt with Cyrus's movement."
         },
         {
             "name": "Verdict",
-            "details": "Cyrus designates a target area, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit and slightly <span class=\"ability-debuff\">slowing</span> them.<br><br>After a few seconds, the area erupts with cosmic energy, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies within and <span class=\"ability-debuff\">stunning</span> them."
+            "details": "Cyrus designates a target area, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit and slightly [db]slowing[/] them.<br><br>After a few seconds, the area erupts with cosmic energy, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies within and [db]stunning[/] them."
         },
         {
             "name": "Singularity",
-            "details": "Cyrus launches a slow-moving, expanding orb of cosmic energy in a target direction, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies it passes through.<br><br>If <span>Singularity</span> passes through an active <span>Verdict</span> zone, the zone immediately erupts with cosmic energy (secondary effect of that ability).<br><br>If <span>Retribution</span> passes through the moving <span>Singularity</span>, each bolt will deal bonus <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>)."
+            "details": "Cyrus launches a slow-moving, expanding orb of cosmic energy in a target direction, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies it passes through.<br><br>If <span>Singularity[/] passes through an active <span>Verdict[/] zone, the zone immediately erupts with cosmic energy (secondary effect of that ability).<br><br>If <span>Retribution[/] passes through the moving <span>Singularity[/], each bolt will deal bonus [ap]magical damage[/] (scaling with [ap]magical power[/])."
         },
         {
             "name": "Judgement",
-            "details": "Cyrus unleashes a radiant blast on all enemies marked by the <span>Heaven's Will</span>, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to each target.<br><br>If the target's health is below a certain threshold, <span>Judgement</span> will <span class=\"ability-debuff\">execute</span> the target. Enemies are also briefly <span class=\"ability-debuff\">revealed</span> from the start of the cast time."
+            "details": "Cyrus unleashes a radiant blast on all enemies marked by the <span>Heaven's Will[/], dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to each target.<br><br>If the target's health is below a certain threshold, <span>Judgement[/] will [db]execute[/] the target. Enemies are also briefly [db]revealed[/] from the start of the cast time."
         }
     ],
     "config": {

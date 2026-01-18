@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Hulking Strength",
-            "details": "Dun-Can does not scale on attack speed, but his basic attack deals additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>) to all enemies in a straight line.<br><br>Additional attack speed will be converted to bonus <span class=\"ability-ad\">physical power</span>."
+            "details": "Dun-Can does not scale on attack speed, but his basic attack deals additional [ad]physical damage[/] (scaling with [ad]physical power[/] and [hp]maximum health[/]) to all enemies in a straight line.<br><br>Additional attack speed will be converted to bonus [ad]physical power[/]."
         },
         {
             "name": "Shield Bash",
-            "details": "Dun-Can bashes the enemies in a cone-shaped direction with his shield, dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>) to all enemies in the area.<br><br><strong>Shield Bash</strong> also slightly <span class=\"ability-debuff\">knocks</span> the enemies back and briefly <span class=\"ability-debuff\">slows</span> them."
+            "details": "Dun-Can bashes the enemies in a cone-shaped direction with his shield, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies in the area.<br><br><strong>Shield Bash</strong> also slightly [db]knocks[/] the enemies back and briefly [db]slows[/] them."
         },
         {
             "name": "Steadfast Presence",
-            "details": "Dun-Can tumbles to a target direction, gaining increased <span class=\"ability-ar\">physical resistance</span> and <span class=\"ability-mr\">magical resistance</span> for a duration."
+            "details": "Dun-Can tumbles to a target direction, gaining increased [ar]physical resistance[/] and [mr]magical resistance[/] for a duration."
         },
         {
             "name": "Valiant Charge",
-            "details": "Dun-Can charges at a target enemy, pushing the target back along the way and dealing <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span>).<br><br>If the target is knocked onto a wall, <strong>Valiant Charge</strong> will stun the target for a short duration, dealing additional <span class=\"ability-ad\">physical damage</span> (scaling with <span class=\"ability-ad\">physical power</span> and <span class=\"ability-hp\">maximum health</span>)."
+            "details": "Dun-Can charges at a target enemy, pushing the target back along the way and dealing [ad]physical damage[/] (scaling with [ad]physical power[/]).<br><br>If the target is knocked onto a wall, <strong>Valiant Charge</strong> will stun the target for a short duration, dealing additional [ad]physical damage[/] (scaling with [ad]physical power[/] and [hp]maximum health[/])."
         },
         {
             "name": "Defensive Front",
-            "details": "Dun-Can holds up his shield and creates a giant wall that <span class=\"ability-buff\">blocks all projectiles</span> including ultimate, except turret blasts.<br><br>Dun-Can also gains increased <span class=\"ability-ms\">movement speed</span> and the ability to <span class=\"ability-buff\">move through units</span>.<br><br>However, he can only use <strong>Shield Bash</strong> and <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>.<br><br><strong>Shield Bash</strong> has a rectangle hit box instead of a cone, and <strong>Valiant Charge</strong> will push multiple enemies at once. Both abilities range are based on the wall's length."
+            "details": "Dun-Can holds up his shield and creates a giant wall that [bf]blocks all projectiles[/] including ultimate, except turret blasts.<br><br>Dun-Can also gains increased [ms]movement speed[/] and the ability to [bf]move through units[/].<br><br>However, he can only use <strong>Shield Bash</strong> and <strong>Valiant Charge</strong> during <strong>Defensive Front</strong>.<br><br><strong>Shield Bash</strong> has a rectangle hit box instead of a cone, and <strong>Valiant Charge</strong> will push multiple enemies at once. Both abilities range are based on the wall's length."
         }
     ],
     "config": {

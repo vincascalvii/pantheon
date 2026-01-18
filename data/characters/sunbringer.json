@@ -14,23 +14,23 @@
     "abilities": [
         {
             "name": "Glorious Radiance",
-            "details": "Ra’sutekh gains bonus <span class=\"ability-buff\">cooldown reduction</span> based on the <span class=\"ability-ap\">magical power</span> he possesses."
+            "details": "Ra’sutekh gains bonus [bf]cooldown reduction[/] based on the [ap]magical power[/] he possesses."
         },
         {
             "name": "Searing Beam",
-            "details": "Ra’sutekh fires a concentrated beam of solar energy from his staff in a long line, dealing <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) to all enemies hit.<br><br>If the beam passes through an <strong>Obelisk</strong>, the beam refracts, creating two additional smaller beams that fire at 45-degree angles from the Obelisk, dealing slightly reduced damage.<br><br>The refracted beam can be further refracted by multiple <strong>Obelisks</strong>, dealing the same damage."
+            "details": "Ra’sutekh fires a concentrated beam of solar energy from his staff in a long line, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.<br><br>If the beam passes through an <strong>Obelisk</strong>, the beam refracts, creating two additional smaller beams that fire at 45-degree angles from the Obelisk, dealing slightly reduced damage.<br><br>The refracted beam can be further refracted by multiple <strong>Obelisks</strong>, dealing the same damage."
         },
         {
             "name": "Rise of the Obelisk",
-            "details": "Ra’sutekh summons an <strong>Obelisk</strong> at a target location for a duration (max 3 Obelisks). Obelisks fires a solar beam at nearby enemies, dealing minor <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and reducing their <span class=\"ability-mr\">magical resistance</span> for a few seconds.<br><br><strong>Obelisks</strong> have their own health bar and can be destroyed by enemies."
+            "details": "Ra’sutekh summons an <strong>Obelisk</strong> at a target location for a duration (max 3 Obelisks). Obelisks fires a solar beam at nearby enemies, dealing minor [ap]magical damage[/] (scaling with [ap]magical power[/]) and reducing their [mr]magical resistance[/] for a few seconds.<br><br><strong>Obelisks</strong> have their own health bar and can be destroyed by enemies."
         },
         {
             "name": "Solar Flare",
-            "details": "Ra’sutekh commands his <strong>Obelisks</strong> to fire a flare of light toward a target location. Upon impact, each light deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and <span class=\"ability-debuff\">slow</span> all enemies hit.<br><br>Enemy hits by subsequent flares take reduced damage. If Ra’sutekh has no <strong>Obelisks</strong> active, he instead fires a single flare from his staff at half the range."
+            "details": "Ra’sutekh commands his <strong>Obelisks</strong> to fire a flare of light toward a target location. Upon impact, each light deals [ap]magical damage[/] (scaling with [ap]magical power[/]) and [db]slow[/] all enemies hit.<br><br>Enemy hits by subsequent flares take reduced damage. If Ra’sutekh has no <strong>Obelisks</strong> active, he instead fires a single flare from his staff at half the range."
         },
         {
             "name": "Blinded by the Sun",
-            "details": "Ra’sutekh raises his staff, channeling the full intensity of the sun's core. After a short delay, each <strong>Obelisk</strong> radiates a burst of light that deals <span class=\"ability-ap\">magical damage</span> (scaling with <span class=\"ability-ap\">magical power</span>) and briefly <span class=\"ability-debuff\">blind</span> all nearby enemies.<br><br>For the next few seconds, Ra’sutekh's <strong>Obelisks</strong> become <span class=\"ability-buff\">invulnerable</span> and gain increased <span class=\"ability-buff\">attack speed</strong>.<br><br>"
+            "details": "Ra’sutekh raises his staff, channeling the full intensity of the sun's core. After a short delay, each <strong>Obelisk</strong> radiates a burst of light that deals [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]blind[/] all nearby enemies.<br><br>For the next few seconds, Ra’sutekh's <strong>Obelisks</strong> become [bf]invulnerable[/] and gain increased [bf]attack speed</strong>.<br><br>"
         }
     ]
 }
