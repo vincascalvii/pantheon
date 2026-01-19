@@ -54,9 +54,10 @@ let arrowNext = document.querySelector('.arrow-next');
         	// Populate the data
 			popData(data, 'alias');
 			popData(data, 'name');
-	    	popData(data, 'bastion_full');
+	    	popData(data, 'bastion');
 	    	popData(data, 'role');
 	    	popData(data, 'class');
+			popData(data, 'position');
 	    	popData(data, 'type');
 			popData(data, 'range');
 
@@ -109,10 +110,27 @@ let arrowNext = document.querySelector('.arrow-next');
 
     // Reusable function to populate data
 	function popData(data, name) {
-		let val = data[name];
-		let els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
-		for ( let i = 0; i < els.length; i++ ) {
-			els[i].innerHTML = val;
+
+		// Get the value & element
+		const val = data[name];
+		const el = document.getElementById('pop_' + name);
+		if (el) {
+
+			// Check if the value requires an icon
+			if (['role', 'class', 'position', 'type', 'range'].includes(name)) {
+
+				// Special case for positions with multiple values
+				if (['position', 'type', 'range'].includes(name) && val.includes('&')) {
+					const pos = val.split(' & ');
+					el.innerHTML = pos.map(p => `<img src="../img/icons/${pos.toLowerCase()}.webp">${pos}`).join(' & ');
+				} else {
+					el.innerHTML = val.replace(val, `<img src="../img/icons/${val.toLowerCase()}.webp">${val}`);
+				}
+
+			// Otherwise, just populate the value
+			} else {
+				el.innerHTML = val;
+			}
 		}
     }
 

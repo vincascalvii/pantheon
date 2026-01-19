@@ -1,14 +1,11 @@
 {
     "alias": "Emberheart",
     "name": "Eris Flameheart",
-    "first_name": "Eris",
-    "last_name": "Flameheart",
-    "title": "the Scarlet Flame",
-    "bastion_name": "Everlight",
-    "bastion_full": "Everlight, the Dawn Bringers",
+    "bastion": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
     "role": "Warrior",
     "class": "Initiator",
+    "position": "Jungle",
     "type": "Magical",
     "range": "Melee",
     "abilities": [

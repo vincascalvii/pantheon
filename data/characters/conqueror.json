@@ -1,11 +1,11 @@
 {
     "alias": "Conqueror",
     "name": "Mars",
-    "bastion_full": "Eden, the Heavenly Sovereigns",
-    "bastion_name": "Eden",
+    "bastion": "Eden, the Heavenly Sovereigns",
     "bastion_short": "eden",
     "role": "Warrior",
     "class": "Juggernaut",
+    "position": "Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

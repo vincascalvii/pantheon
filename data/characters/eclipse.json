@@ -1,12 +1,12 @@
 {
     "alias": "Eclipse",
     "name": "Iyla",
-    "bastion_name": "Chandrasar",
-    "bastion_full": "Chandrasar, the Moon Striders",
+    "bastion": "Chandrasar, the Moon Striders",
     "bastion_short": "chandrasar",
     "role": "Marksman",
     "class": "Hybrid",
-    "type": "Physical & Magical",
+    "position": "Carry",
+    "type": "Physical / Magical",
     "range": "Ranged",
     "abilities": [
         {

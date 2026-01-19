@@ -1,8 +1,7 @@
 {
     "alias": "Valkyrie",
-    "name": "Clair Wyvernsworn",
-    "bastion_name": "Everlight",
-    "bastion_full": "Everlight, the Dawn Bringers",
+    "name": "Clair Wyvernsworn", 
+    "bastion": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
     "role": "Support",
     "class": "Enchanter",

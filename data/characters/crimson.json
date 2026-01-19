@@ -1,11 +1,11 @@
 {
     "alias": "Crimson",
     "name": "Nocturne",
-    "bastion_full": "Nether, the Hellish Monarchs",
-    "bastion_name": "Nether",
+    "bastion": "Nether, the Hellish Monarchs",
     "bastion_short": "nether",
     "role": "Mage",
     "class": "Spellsword",
+    "position": "Mid",
     "type": "Magical",
     "range": "Melee & Ranged",
     "abilities": [

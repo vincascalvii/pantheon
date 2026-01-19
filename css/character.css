@@ -369,6 +369,12 @@ main {
     min-width: 120px;
 }
 
+.main-drow-value {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
 .main-intro {
     font-family: "Rationale", "Poppins", Helvetica, Arial, sans-serif;
     width: 100%;

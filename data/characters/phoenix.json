@@ -1,8 +1,7 @@
 {
     "alias": "Phoenix",
-    "name": "Huǒ Fèngyīng",
-    "bastion_name": "Huǒshén",
-    "bastion_full": "Huǒshén, the Ember Masters",
+    "name": "Huǒ Fèngyīng", 
+    "bastion": "Huǒshén, the Ember Masters",
     "bastion_short": "huoshen",
     "role": "Mage",
     "class": "Spellsword",

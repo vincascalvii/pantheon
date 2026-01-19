@@ -1,11 +1,11 @@
 {
     "alias": "Colossus",
-    "name": "Dun-Can",
-    "bastion_name": "Durak-Tharn",
-    "bastion_full": "Durak-Tharn, the Hearth Forgers",
+    "name": "Dun-Can", 
+    "bastion": "Durak-Tharn, the Hearth Forgers",
     "bastion_short": "duraktharn",
     "role": "Tank",
-    "class": "Vanguard",
+    "class": "Warden",
+    "position": "Support",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

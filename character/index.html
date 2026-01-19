@@ -38,8 +38,8 @@
 				<div class="main-header">
 					<img src="../img/bastions/all.png" class="main-bastion" alt="Bastion Logo"
 						 onerror="this.style.display='none'">
-					<h1 class="main-name pop-alias">N/A</h1>
-					<div class="main-title pop-name">N/A</div>
+					<h1 class="main-name" id="pop_alias">N/A</h1>
+					<div class="main-title" id="pop_name">N/A</div>
 				</div>
 				<div class="main-nav">
 					<div class="main-nav-item active" data-tab="intro">
@@ -69,23 +69,27 @@
 						<div class="main-details">
 							<div class="main-drow">
 								<span class="main-drow-label">Bastion</span>
-								<span class="main-drow-value pop-bastion-full">N/A</span>
+								<span class="main-drow-value" id="pop_bastion">N/A</span>
 							</div>
 							<div class="main-drow">
 								<span class="main-drow-label">Role</span>
-								<span class="main-drow-value pop-role">N/A</span>
+								<span class="main-drow-value" id="pop_role">N/A</span>
 							</div>
 							<div class="main-drow">
 								<span class="main-drow-label">Class</span>
-								<span class="main-drow-value pop-class">N/A</span>
+								<span class="main-drow-value" id="pop_class">N/A</span>
+							</div>
+							<div class="main-drow">
+								<span class="main-drow-label">Position</span>
+								<span class="main-drow-value" id="pop_position">N/A</span>
 							</div>
 							<div class="main-drow">
 								<span class="main-drow-label">Type</span>
-								<span class="main-drow-value pop-type">N/A</span>
+								<span class="main-drow-value" id="pop_type">N/A</span>
 							</div>
 							<div class="main-drow">
 								<span class="main-drow-label">Range</span>
-								<span class="main-drow-value pop-range">N/A</span>
+								<span class="main-drow-value" id="pop_range">N/A</span>
 							</div>
 						</div>
 					</div>
@@ -100,7 +104,7 @@
 							<div class="ability-nav-item" data-ability="Third Ability">III</div>
 							<div class="ability-nav-item" data-ability="Ultimate">U</div>
 						</div>
-						<div id="pop-ability" class="ability-list"></div>
+						<div class="ability-list" id="pop_ability"></div>
 					</div>
 				</div>
 				<div class="main-tab" data-tab="chess">
@@ -116,8 +120,9 @@
 			</div>
 			<div class="main-art">
 				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
-					 id="pop-art-full" class="main-art-img" alt="Character Full"
-					 onerror="this.style.display='none'">
+					class="main-art-img" id="pop_art" 
+					alt="Character"
+					onerror="this.style.display='none'">
 			</div>
 			<div class="zoom">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="zoom-icon">

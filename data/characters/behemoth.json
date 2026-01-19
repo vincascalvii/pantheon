@@ -1,11 +1,11 @@
 {
     "alias": "Behemoth",
     "name": "Baal",
-    "bastion_name": "Kragnok",
-    "bastion_full": "Kragnok, the Thunder Mauls",
+    "bastion": "Kragnok, the Thunder Mauls",
     "bastion_short": "kragnok",
     "role": "Tank",
     "class": "Vanguard",
+    "position": "Solo / Jungle",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

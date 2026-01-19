@@ -1,11 +1,11 @@
 {
     "alias": "Everflame",
-    "name": "Huǒ Wǔjiàng",
-    "bastion_name": "Huǒshén",
-    "bastion_full": "Huǒshén, the Ember Masters",
+    "name": "Huǒ Wǔjiàng", 
+    "bastion": "Huǒshén, the Ember Masters",
     "bastion_short": "huoshen",
     "role": "Tank",
     "class": "Vanguard",
+    "position": "Solo / Jungle",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

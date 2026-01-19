@@ -6,6 +6,7 @@
     "bastion_short": "shirohana",
     "role": "Tank",
     "class": "Warden",
+    "position": "Support / Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

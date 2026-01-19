@@ -1,11 +1,11 @@
 {
     "alias": "Earthbreaker",
-    "name": "Terros Draconis",
-    "bastion_name": "Dragnoel",
-    "bastion_full": "Dragnoel, the Dragon Knights",
+    "name": "Terros Draconis", 
+    "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "role": "Tank",
     "class": "Vanguard",
+    "position": "Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [

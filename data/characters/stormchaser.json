@@ -1,8 +1,7 @@
 {
     "alias": "Stormchaser",
-    "name": "Artorias Draconis",
-    "bastion_name": "Dragnoel",
-    "bastion_full": "Dragnoel, the Dragon Knights",
+    "name": "Artorias Draconis", 
+    "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "role": "Marksman",
     "class": "Hybrid",
