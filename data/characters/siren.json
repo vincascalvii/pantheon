@@ -1,11 +1,11 @@
 {
     "alias": "Siren",
     "name": "Phraya Saranak",
-    "bastion_name": "Nagaithis",
-    "bastion_full": "Nagaithis, the Tide Callers",
+    "bastion": "Nagaithis, the Tide Callers",
     "bastion_short": "nagaithis",
     "role": "Support",
     "class": "Healer",
+    "position": "Support",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "leviathan"
+        "prev_char": "shadow",
+        "next_char": "skypiercer"
     }
 }

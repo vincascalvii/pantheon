@@ -5,6 +5,7 @@
     "bastion_short": "huoshen",
     "role": "Mage",
     "class": "Spellsword",
+    "position": "Mid / Support",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -30,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "everflame"
+        "prev_char": "oblivion",
+        "next_char": "shadow"
     }
 }

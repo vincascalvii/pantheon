@@ -1,14 +1,11 @@
 {
     "alias": "Thunderfell",
     "name": "Thorr",
-    "first_name": "Thorr",
-    "last_name": "",
-    "title": "the Storm Reckoning",
-    "bastion_name": "Kragnok",
-    "bastion_full": "Kragnok, the Thunder Mauls",
+    "bastion": "Kragnok, the Thunder Mauls",
     "bastion_short": "kragnok",
     "role": "Warrior",
     "class": "Juggernaut",
+    "position": "Solo",
     "type": "Magical",
     "range": "Melee",
     "abilities": [
@@ -34,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "behemoth"
+        "prev_char": "sunbringer",
+        "next_char": "tidecaller"
     }
 }

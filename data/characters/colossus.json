@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "ironbound"
+        "prev_char": "chainreaper",
+        "next_char": "conqueror"
     }
 }

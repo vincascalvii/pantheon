@@ -5,9 +5,9 @@
     "bastion_short": "nether",
     "role": "Mage",
     "class": "Spellsword",
-    "position": "Mid",
+    "position": "Mid / Solo",
     "type": "Magical",
-    "range": "Melee & Ranged",
+    "range": "Melee / Ranged",
     "abilities": [
         {
             "name": "Blood Pool",
@@ -29,5 +29,9 @@
             "name": "Night Feast",
             "details": "Nocturne channels for a second then sends out a number of <b>Blood Bat</b> each second for the next few seconds. Each <b>Blood Bat</b> will attack a nearby enemy, dealing [ap]magical damage[/] (scaling with [ap]magical power[/] and [hp]maximum health[/]).[n]On <b>Sword</b> form, each <b>Blood Bat</b> will return after each attack to [bf]heal[/] (scaling with [hp]maximum health[/]) him.[n]On <b>Staff</b> form, each <b>Blood Bat</b> will explode upon contact, dealing additional [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]fearing[/] the target. Each target can only be feared once during the <b>Night Feast</b>.[n]Blood Bat will prioritise enemy heroes first, then closer enemies."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "conqueror",
+        "next_char": "earthbreaker"
+    }
 }

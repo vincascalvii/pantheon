@@ -1,13 +1,11 @@
 {
     "alias": "Tidecaller",
     "name": "Marinus Draconis",
-    "first_name": "Marinus",
-    "last_name": "Draconis",
-    "title": "the Aquatic Paladin", 
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "role": "Mage",
     "class": "Spellsword",
+    "position": "Mid",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -33,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "windstrider",
-        "next_char": "ashwalker"
+        "prev_char": "thunderfell",
+        "next_char": "valkyrie"
     }
 }

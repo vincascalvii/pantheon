@@ -31,7 +31,6 @@
         }
     ],
     "config": {
-        "prev_char": "tidecaller",
-        "next_char": "stormchaser"
+        "next_char": "behemoth"
     }
 }

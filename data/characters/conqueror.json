@@ -29,5 +29,9 @@
             "name": "Conqueror",
             "details": "Mars releases a powerful roar, [ad]fearing[/] all nearby enemies and greatly [ad]slowing[/] their movement speed for a duration.[n]Mars also gains maximum <b>War Stance</b> stacks upon casting this ability."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "colossus",
+        "next_char": "crimson"
+    }
 }

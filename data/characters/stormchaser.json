@@ -5,6 +5,7 @@
     "bastion_short": "dragnoel",
     "role": "Marksman",
     "class": "Hybrid",
+    "position": "Carry / Mid",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -30,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "ashwalker"
+        "prev_char": "soulforger",
+        "next_char": "sunbringer"
     }
 }

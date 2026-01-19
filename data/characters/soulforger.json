@@ -5,6 +5,7 @@
     "bastion_short": "duraktharn",
     "role": "Tank",
     "class": "Warden",
+    "position": "Support",
     "type": "Physical",
     "range": "Melee",
     "abilities": [
@@ -30,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "ironbound"
+        "prev_char": "skypiercer",
+        "next_char": "stormchaser"
     }
 }

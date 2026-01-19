@@ -4,7 +4,8 @@
     "bastion": "Durak-Tharn, the Hearth Forgers",
     "bastion_short": "duraktharn",
     "role": "Tank",
-    "class": "Vanguard",
+    "class": "Disruptor",
+    "position": "Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [
@@ -30,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "soulforger",
-        "next_char": "colossus"
+        "prev_char": "imperator",
+        "next_char": "justice"
     }
 }

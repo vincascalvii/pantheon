@@ -1,11 +1,11 @@
 {
     "alias": "Justice",
     "name": "Cyrus Lightbearer",
-    "bastion_name": "Custodians",
-    "bastion_full": "Custodians (Protagonists)",
+    "bastion": "Custodians (Protagonists)",
     "bastion_short": "custodians",
     "role": "Mage",
     "class": "Burst",
+    "position": "Mid",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "oblivion",
-        "next_char": "sentinel"
+        "prev_char": "ironbound",
+        "next_char": "leviathan"
     }
 }

@@ -1,13 +1,11 @@
 {
-    "alias": "Mystic",
+    "alias": "Elementalist",
     "name": "Ciarra Crownsworth",
-    "first_name": "Ciarra",
-    "last_name": "Crownsworth",
-    "title": "the Elemental Master", 
     "bastion": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
     "role": "Mage",
     "class": "Burst",
+    "position": "Mid",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -36,6 +34,7 @@
         "char_width": 1100,
         "char_height": 840,
         "background": true,
+        "prev_char": "elderpost",
         "next_char": "emberheart"
     }
 }

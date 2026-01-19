@@ -1,13 +1,11 @@
 {
     "alias": "Woodweaver",
     "name": "Velerias Draconis",
-    "first_name": "Velerias",
-    "last_name": "Draconis",
-    "title": "the Woodland Sentry", 
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "role": "Support",
     "class": "Healer",
+    "position": "Support",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -33,6 +31,6 @@
         }
     ],
     "config": {
-        "next_char": "earthbreaker"
+        "prev_char": "windwalker"
     }
 }

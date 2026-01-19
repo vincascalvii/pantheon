@@ -1,14 +1,11 @@
 {
     "alias": "Windwalker",
     "name": "Kiannah Ilicyne",
-    "first_name": "Kiannah",
-    "last_name": "Ilicyne",
-    "title": "the Wind Walker",
-    "bastion_name": "Viridisia",
-    "bastion_full": "Viridisia, the Verdant Guards",
+    "bastion": "Viridisia, the Verdant Guards",
     "bastion_short": "viridisia",
     "role": "Marksman",
-    "class": "Sniper",
+    "class": "Utility",
+    "position": "Carry",
     "type": "Physical",
     "range": "Ranged",
     "abilities": [
@@ -36,6 +33,7 @@
     "config": {
         "char_width": 1000,
         "char_height": 860,
-        "next_char": "skypiercer"
+        "prev_char": "windstrider",
+        "next_char": "woodweaver"
     }
 }

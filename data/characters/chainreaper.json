@@ -1,13 +1,13 @@
 {
-    "alias": "Grimhook",
+    "alias": "Chainreaper",
     "name": "Draevyn",
-    "bastion_name": "Altharion",
-    "bastion_full": "Altharion, the Dusk Blades",
+    "bastion": "Altharion",
     "bastion_short": "altharion",
     "role": "Assassin",
-    "class": "Skirmisher",
+    "class": "Specialist",
+    "position": "Jungle / Support",
     "type": "Physical",
-    "range": "Melee & Ranged",
+    "range": "Melee / Ranged",
     "abilities": [
         {
             "name": "Cut Throat",
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "shadow"
+        "prev_char": "behemoth",
+        "next_char": "colossus"
     }
 }

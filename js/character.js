@@ -120,11 +120,11 @@ let arrowNext = document.querySelector('.arrow-next');
 			if (['role', 'class', 'position', 'type', 'range'].includes(name)) {
 
 				// Special case for positions with multiple values
-				if (['position', 'type', 'range'].includes(name) && val.includes('&')) {
-					const pos = val.split(' & ');
-					el.innerHTML = pos.map(p => `<img src="../img/icons/${pos.toLowerCase()}.webp">${pos}`).join(' & ');
+				if (['position', 'type', 'range'].includes(name) && val.includes('/')) {
+					const pos = val.split(' / ');
+					el.innerHTML = pos.map(p => `<img src="../img/icons/${name}-${p.toLowerCase()}.webp">${p}`).join(' / ');
 				} else {
-					el.innerHTML = val.replace(val, `<img src="../img/icons/${val.toLowerCase()}.webp">${val}`);
+					el.innerHTML = val.replace(val, `<img src="../img/icons/${name}-${val.toLowerCase()}.webp">${val}`);
 				}
 
 			// Otherwise, just populate the value

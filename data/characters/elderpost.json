@@ -1,8 +1,7 @@
 {
     "alias": "Elderpost",
     "name": "Kuma",
-    "bastion_name": "Shirohana",
-    "bastion_full": "Shirohana, the Blossom Keepers",
+    "bastion": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
     "role": "Tank",
     "class": "Warden",
@@ -30,5 +29,9 @@
             "name": "Fracture Earth",
             "details": "Kuma puts all his strength into a groundbreaking smash, creating a linear rupture in a target direction.[n]All enemies hit by the line are dealt [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]knocked up[/].[n]At the end of the line's path, the <b>Ancient Totem</b> emerges from the ground and remains there."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "eclipse",
+        "next_char": "elementalist"
+    }
 }

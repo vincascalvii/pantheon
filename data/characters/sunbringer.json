@@ -1,14 +1,12 @@
 {
     "alias": "Sunbringer",
     "name": "Ra’sutekh",
-    "first_name": "Ra’sutekh",
-    "last_name": "",
     "title": "the Living Sun",
-    "bastion_name": "Sol’zakar",
-    "bastion_full": "Sol’zakar, the Sun Seekers",
+    "bastion": "Sol’zakar, the Sun Seekers",
     "bastion_short": "solzakar",
     "role": "Mage",
     "class": "Spellsword",
+    "position": "Mid",
     "type": "Magical",
     "range": "Ranged",
     "abilities": [
@@ -32,5 +30,9 @@
             "name": "Blinded by the Sun",
             "details": "Ra’sutekh raises his staff, channeling the full intensity of the sun's core. After a short delay, each <b>Obelisk</b> radiates a burst of light that deals [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly [db]blind[/] all nearby enemies.[n]For the next few seconds, Ra’sutekh's <b>Obelisks</b> become [bf]invulnerable[/] and gain increased [bf]attack speed</b>.[n]"
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "stormchaser",
+        "next_char": "thunderfell"
+    }
 }

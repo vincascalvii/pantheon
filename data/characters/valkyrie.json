@@ -5,6 +5,7 @@
     "bastion_short": "everlight",
     "role": "Support",
     "class": "Enchanter",
+    "position": "Support",
     "type": "Magical",
     "range": "Melee",
     "abilities": [
@@ -30,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "emberheart",
-        "next_char": "imperator"
+        "prev_char": "tidecaller",
+        "next_char": "wildfury"
     }
 }

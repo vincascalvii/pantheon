@@ -1,11 +1,11 @@
 {
     "alias": "Oblivion",
     "name": "Arcian Truthsteel",
-    "bastion_name": "Custodians",
-    "bastion_full": "Custodians (Protagonists)",
+    "bastion": "Custodians (Protagonists)",
     "bastion_short": "custodians",
-    "role": "Assassin",
-    "class": "Skirmisher",
+    "role": "Warrior",
+    "class": "Duellist",
+    "position": "Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [
@@ -33,6 +33,7 @@
     "config": {
         "char_width": 1080,
         "char_height": 860,
-        "next_char": "justice"
+        "prev_char": "ninetails",
+        "next_char": "phoenix"
     }
 }

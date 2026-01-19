@@ -33,6 +33,7 @@
     "config": {
         "char_width": 900,
         "char_height": 900,
-        "prev_char": "phoenix"
+        "prev_char": "emberheart",
+        "next_char": "frostguard"
     }
 }

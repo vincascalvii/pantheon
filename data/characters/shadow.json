@@ -1,12 +1,12 @@
 {
     "alias": "Shadow",
     "name": "Grim",
-    "bastion_name": "Altharion",
-    "bastion_full": "Altharion, the Dusk Blades",
+    "bastion": "Altharion, the Dusk Blades",
     "bastion_short": "altharion",
     "role": "Marksman",
     "class": "Hybrid",
-    "type": "Physical & Magical",
+    "position": "Carry / Mid",
+    "type": "Physical / Magical",
     "range": "Ranged",
     "abilities": [
         {
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "grimhook"
+        "prev_char": "phoenix",
+        "next_char": "siren"
     }
 }

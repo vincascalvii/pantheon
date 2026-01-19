@@ -1,11 +1,11 @@
 {
     "alias": "Frostguard",
     "name": "Fenrir Vánagandr",
-    "bastion_full": "Jötunheimr, the Frost Giants",
-    "bastion_name": "Jötunheimr",
+    "bastion": "Jötunheimr, the Frost Giants",
     "bastion_short": "jotunheimr",
     "role": "Tank",
-    "class": "Vanguard",
+    "class": "Disruptor",
+    "position": "Jungle",
     "type": "Magical",
     "range": "Melee",
     "abilities": [
@@ -29,5 +29,9 @@
             "name": "Winter Is Coming",
             "details": "Fenrir lets out a blood-curdling howl, causing a localised blizzard to swirl around him for a duration, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and applying 1 stack of <b>Frost</b> per tick of damage (up to 8 stacks per ability's full duration).[n]In addition, he gains increased [bf]size[/], [bf]attack range[/] and his <b>Frost Armour</b> cannot be shattered (if Fenrir does not currently have <b>Frost Armour</b>, using this ability instantly grants him the armour)."
         }
-    ]
+    ],
+    "config": {
+        "prev_char": "everflame",
+        "next_char": "imperator"
+    }
 }

@@ -1,11 +1,11 @@
 {
     "alias": "Leviathan",
     "name": "Nakaraj Rakthanon",
-    "bastion_name": "Nagaithis",
-    "bastion_full": "Nagaithis, the Tide Callers",
+    "bastion": "Nagaithis, the Tide Callers",
     "bastion_short": "nagaithis",
     "role": "Tank",
-    "class": "Vanguard",
+    "class": "Disruptor",
+    "position": "Solo / Jungle",
     "type": "Magical",
     "range": "Melee",
     "abilities": [
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "siren"
+        "prev_char": "justice",
+        "next_char": "nightprowler"
     }
 }

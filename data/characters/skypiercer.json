@@ -1,14 +1,11 @@
 {
     "alias": "Skypiercer",
     "name": "Kaelen Virgwyn",
-    "first_name": "Kaelen",
-    "last_name": "Virgwyn",
-    "title": "the Skystrike General",
-    "bastion_full": "Viridisia, the Verdant Guards",
-    "bastion_name": "Viridisia",
+    "bastion": "Viridisia, the Verdant Guards",
     "bastion_short": "viridisia",
-    "role": "Assassin",
-    "class": "Skirmisher",
+    "role": "Warrior",
+    "class": "Duellist",
+    "position": "Solo",
     "type": "Physical",
     "range": "Melee",
     "abilities": [
@@ -34,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "windwalker"
+        "prev_char": "siren",
+        "next_char": "soulforger"
     }
 }
