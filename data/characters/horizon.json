@@ -1,0 +1,37 @@
+{
+    "alias": "Horizon",
+    "name": "Jayce Lightbearer",
+    "bastion": "Everlight, the Dawn Bringers",
+    "bastion_short": "everlight",
+    "role": "Marksman",
+    "class": "Sniper",
+    "position": "Carry",
+    "type": "Physical",
+    "range": "Ranged",
+    "abilities": [
+        {
+            "name": "Heavy Caliber",
+            "details": "While Jayce is stationary for more than a few seconds, he loads a powerful bullet.[n]The bullet enhances his next basic attack, allowing him to gain bonus [bf]range[/] and deals additional [ad]physical damage[/] (scaling with [ad]physical power[/])."
+        },
+        {
+            "name": "Rail Gun",
+            "details": "Jayce begins charging his rifle, gaining increased range for <b>Rail Gun</b>, but rooting himself in the process.[n]Upon release, he fires a massive, high-velocity bolt in a long line, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit, but the damage [db]decreases[/] by a percentage for every enemy it passes through.[n]If fully charged, the shot deals [bf]higher damage[/] and shreds the enemies' [db]physical resistance[/] by a small amount."
+        },
+        {
+            "name": "Ghost Wire",
+            "details": "On first cast, Jayce attaches a small cloaking device to a terrain. On second cast, Jayce attaches a second device to another terrain.[n]Once both are set, an invisible wire connects them. If an enemy hero walks through the line, they are [db]revealed[/] and [db]rooted[/] for a few seconds."
+        },
+        {
+            "name": "Tactical Retreat",
+            "details": "Jayce fires a low-caliber blank into the ground and uses the recoil to vault backward.[n]Enemies hit by the blank are dealt [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]slowed[/] for a short duration."
+        },
+        {
+            "name": "Final Execution",
+            "details": " Jayce selects a target within massive range. After a short lock-on period where a laser sight becomes visible to the enemy, he fires a single blast of laser that reaches the end of the map.[n]All enemies in the line take [ad]physical damage[/] (scaling with [ad]physical power[/])."
+        }
+    ],
+    "config": {
+        "prev_char": "frostguard",
+        "next_char": "imperator"
+    }
+}
