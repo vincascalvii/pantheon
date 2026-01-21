@@ -1,0 +1,37 @@
+{
+    "alias": "Siegebreacher",
+    "name": "Eleanor Vance",
+    "bastion": "Everlight, the Dawn Bringers",
+    "bastion_short": "everlight",
+    "role": "Marksman",
+    "class": "Sniper",
+    "position": "Carry",
+    "type": "Physical",
+    "range": "Ranged",
+    "abilities": [
+        {
+            "name": "Heavy Caliber",
+            "details": "Eleanor has a fixed [db]attack speed[/]. Bonus attack speed she gains is converted into bonus [ad]physical power[/] instead.[n]Eleanor's basic attack has increased [bf]range[/] and deals bonus [ad]physical damage[/] (scaling with [ad]physical power[/]).[n]However, after every basic attack, Eleanor must chamber a new round, [db]preventing[/] her from attacking for a very short duration."
+        },
+        {
+            "name": "Rail Blast",
+            "details": "Eleanor begins charging his rifle, gaining increased [bf]range[/] for <b>Rail Blast</b>, but [db]rooting[/] herself in the process.[n]Upon release, she fires a massive, high-velocity bolt in a long line, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit, but the damage [db]decreases[/] by a percentage for every enemy it passes through.[n]If fully charged, the shot deals [bf]higher damage[/] and shreds the enemies' [db]physical resistance[/] by a small amount."
+        },
+        {
+            "name": "Invisible Wire",
+            "details": "On first cast, Eleanor attaches a small cloaking device to a terrain. On second cast, Eleanor attaches a second device to another terrain.[n]Once both are set, an invisible wire connects them. If an enemy hero walks through the line, they are [db]revealed[/] and [db]rooted[/] for a few seconds."
+        },
+        {
+            "name": "Tactical Retreat",
+            "details": "Eleanor fires a low-caliber blank into the ground in front of her and uses the recoil to vault backward.[n]Enemies hit by the blank are dealt [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]slowed[/] for a short duration."
+        },
+        {
+            "name": "Final Execution",
+            "details": " Eleanor selects a target direction. After a short lock-on period where a laser sight becomes visible to the enemy, she fires a single powerful blast that reaches the end of the map.[n]All enemies in the line take [ad]physical damage[/] (scaling with [ad]physical power[/])."
+        }
+    ],
+    "config": {
+        "prev_char": "shadow",
+        "next_char": "siren"
+    }
+}

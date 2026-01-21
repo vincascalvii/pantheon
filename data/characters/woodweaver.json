@@ -10,16 +10,16 @@
     "range": "Ranged",
     "abilities": [
         {
-            "name": "Verdant Growth",
-            "details": "Every several seconds, Velerias's next basic attack with her scepter deals bonus [ap]magical damage[/] (scaling with [hp]maximum health[/]) and creates a small circle of <b>Verdant Soil</b> at her location for a short duration.[n]Allies standing on this soil are [bf]healed[/] (scaling with [hp]maximum health[/]) for a small amount every second."
+            "name": "Chlorokinesis",
+            "details": "Velerias's basic attack weaves her scepter to send out a small orb of <b>Healing Energy</b> that flies to the target.[n]If the target is an ally (Velerias can basic attack allied units), the energy orb [bf]heals[/] them (scaling with [hp]maximum health[/]).[n]If the target is an enemy, the energy orb deals bonus [ap]magical damage[/] (scaling with [hp]maximum health[/]) and briefly [db]reveals[/] them."
         },
         {
             "name": "Root Bind",
-            "details": "Velerias thrusts her scepter forward, sending a line of sharp wooden briars through the earth, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to the first enemy hit and [db]root[/] the target for a short duration.[n]If Velerias is standong on a <b>Verdant Soil</b>, the root duration is [db]increased[/].[n]In <b>Wood Dragon</b> form, the briars spread out in a wider area, dealing increased [ap]magical damage[/] and [db]rooting[/] all enemies hit instead."
+            "details": "Velerias thrusts her scepter forward, sending a line of sharp wooden briars through the earth, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to the first enemy hit and [db]root[/] the target for a short duration.[n]If Velerias is standing on a <b>Verdant Soil</b>, the root duration is [db]increased[/].[n]In <b>Wood Dragon</b> form, the briars spread out in a wider area, dealing increased [ap]magical damage[/] and [db]rooting[/] all enemies hit instead."
         },
         {
-            "name": "Living Bark",
-            "details": "Velerias wraps herself and her lowest-health nearby ally hero in enchanted bark, granting both a [sh]shield[/] (scaling with [hp]maximum health[/]) for a few seconds.[n]In <b>Wood Dragon</b> form, the [bf]shield strength[/] is increased and all nearby allies are also [sh]shielded[/] over the duration of the shield."
+            "name": "Verdant Soil",
+            "details": "Velerias creates a small circle of <b>Verdant Soil</b> at her location for a short duration.[n]Allies standing on this soil are [bf]healed[/] (scaling with [hp]maximum health[/]) every second.[n]In <b>Wood Dragon</b> form, the [bf]radius[/] of the soil is larger and the [bf]healing[/] is increased."
         },
         {
             "name": "Thorn Embrace",
@@ -27,7 +27,7 @@
         },
         {
             "name": "Forest Breaker",
-            "details": "Velerias transforms into an elder <b>Wood Dragon</b> form, gaining increased [bf]size[/], [bf]attack range[/] and [hp]maximum health[/].[n]In <b>Wood Dragon</b> form, her <b>Verdant Soil</b> [bf]radius[/] is larger and the [bf]healing[/] is increased.[n]All of Velerias's abilities are enhanced while in <b>Wood Dragon</b> form."
+            "details": "Velerias transforms into an elder <b>Wood Dragon</b> form, gaining increased [bf]size[/], [bf]attack range[/] and [hp]maximum health[/].[n]In <b>Wood Dragon</b> form, her basic attacks send out [bf]3 orbs[/] of <b>Healing Energy</b> instead. The first orb goes to the target, while the other 2 orbs go to nearby units. Subsequent orbs to the same unit have [db]reduced damage[/] or [db]healing effect[/].[n]All of Velerias's abilities are enhanced while in <b>Wood Dragon</b> form."
         }
     ],
     "config": {

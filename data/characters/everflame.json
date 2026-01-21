@@ -11,7 +11,7 @@
     "abilities": [
         {
             "name": "Blazing Bulwark",
-            "details": "Wǔjiàng generates an <span>Blazing Bulwark[/] stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wǔjiàng has a <span>Blazing Bulwark[/] stack, his body will be surrounding by flame, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to nearby enemies per second.[n]Each stack increases the damage dealt. At maximum <span>Blazing Bulwark[/] stacks, each time the flame deals damage, it will [bf]heal[/] Wujiang for a [bf]percentage of the damage dealt[/]."
+            "details": "Wǔjiàng generates an <span>Blazing Bulwark[/] stack whenever he takes damage from an enemy hero or deals damage with an ability or basic attack. If Wǔjiàng has a <span>Blazing Bulwark[/] stack, his body will be surrounding by flame, dealing [ap]magical damage[/] (scaling with [hp]maximum health[/]) to nearby enemies per second.[n]Each stack increases the damage dealt. At maximum <span>Blazing Bulwark[/] stacks, each time the flame deals damage, it will [bf]heal[/] Wujiang for a percentage of the damage dealt."
         },
         {
             "name": "Fearless Smash",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Inferno Fists",
-            "details": "Wǔjiàng channels flame on his fists, empowering his basic attacks to deal [ap]magical damage[/] (scaling with [hp]maximum health[/]) to surrounding enemies in a small radius around the target.[n]At maximum <span>Blazing Bulwark[/] stacks, he gains [bf]increased attack speed[/]."
+            "details": "Wǔjiàng channels flame on his fists, empowering his basic attacks to deal [ap]magical damage[/] (scaling with [hp]maximum health[/]) to surrounding enemies in a small radius around the target.[n]At maximum <span>Blazing Bulwark[/] stacks, he gains increased [as]attack speed[/]."
         },
         {
             "name": "Seismic Kick",
