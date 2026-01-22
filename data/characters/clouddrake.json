@@ -1,5 +1,5 @@
 {
-    "alias": "Windstrider",
+    "alias": "Clouddrake",
     "name": "Zephyrus Draconis",
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "wildfury",
-        "next_char": "windwalker"
+        "prev_char": "cinderdrake",
+        "next_char": "colossus"
     }
 }

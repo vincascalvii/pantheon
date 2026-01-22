@@ -1,5 +1,5 @@
 {
-    "alias": "Woodweaver",
+    "alias": "Elderdrake",
     "name": "Velerias Draconis",
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "windwalker"
+        "prev_char": "eclipse",
+        "next_char": "elementalist"
     }
 }

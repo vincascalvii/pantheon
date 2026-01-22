@@ -1,5 +1,5 @@
 {
-    "alias": "Elderpost",
+    "alias": "Stoneheart",
     "name": "Kuma",
     "bastion": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "eclipse",
-        "next_char": "elementalist"
+        "prev_char": "soulforger",
+        "next_char": "stormdrake"
     }
 }

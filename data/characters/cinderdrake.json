@@ -1,5 +1,5 @@
 {
-    "alias": "Ashwalker",
+    "alias": "Cinderdrake",
     "name": "Ignis Draconis",
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
@@ -31,6 +31,7 @@
         }
     ],
     "config": {
-        "next_char": "behemoth"
+        "prev_char": "chainreaper",
+        "next_char": "clouddrake"
     }
 }

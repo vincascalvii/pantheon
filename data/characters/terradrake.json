@@ -1,5 +1,5 @@
 {
-    "alias": "Earthbreaker",
+    "alias": "Terradrake",
     "name": "Terros Draconis", 
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "crimson",
-        "next_char": "earthbreaker"
+        "prev_char": "sunbringer",
+        "next_char": "thunderfell"
     }
 }

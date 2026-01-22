@@ -1,10 +1,10 @@
 {
-    "alias": "Tidecaller",
+    "alias": "Oceandrake",
     "name": "Marinus Draconis",
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
     "role": "Mage",
-    "class": "Spellsword",
+    "class": "Burst",
     "position": "Mid",
     "type": "Magical",
     "range": "Ranged",
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "thunderfell",
-        "next_char": "valkyrie"
+        "prev_char": "oblivion",
+        "next_char": "phoenix"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "alias": "Stormchaser",
+    "alias": "Stormdrake",
     "name": "Artorias Draconis", 
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
@@ -31,7 +31,7 @@
         }
     ],
     "config": {
-        "prev_char": "soulforger",
+        "prev_char": "stoneheart",
         "next_char": "sunbringer"
     }
 }
