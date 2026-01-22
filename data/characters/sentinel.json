@@ -1,0 +1,37 @@
+{
+    "alias": "Sentinel",
+    "name": "Xenon Skyforge",
+    "bastion": "Custodians (Protagonists)",
+    "bastion_short": "custodians",
+    "role": "Marksman",
+    "class": "Sniper",
+    "position": "Carry",
+    "type": "Physical",
+    "range": "Ranged",
+    "abilities": [
+        {
+            "name": "Continuum Shift",
+            "details": "Xenon's bracers have 3 states: <b>Amber</b>, <b>Azure</b> and <b>Violet</b>. Using an ability sets his bracers into the corresponding state.[n]<b>Amber State:</b> Basic attacks grant Xenon a stacking [as]attack speed[/] buff.[n]<b>Azure State:</b> Basic attacks restore a small amount of [hp]health[/] and [mp]mana[/].[n]<b>Violet State:</b> 1st basic attack and every 3rd subsequent basic attack deals bonus [ad]physical damage[/] (scaling with [ad]physical power[/] and the target's [db]current health[/])."
+        },
+        {
+            "name": "Chrono Bolt",
+            "details": "Xenon fires a dense bolt of golden energy that deals [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit.[n]While passing through an enemy, the bolt [db]slows[/] them for a short duration, and the bolt's own travel speed is also [db]halved[/].[n]Once the bolt exits the target's hitbox, it returns to its original speed and contiunes its flight, able to hit subsequent targets for [db]reduced damage[/].[n]Using this ability sets Xenon's bracers to <b>Amber State</b>."
+        },
+        {
+            "name": "Warp Zone",
+            "details": "Xenon creates a localised distortion at a target location for a short duration.[n]Enemies insize the zone have their projectiles [db]slowed down[/], while Xenon gains increased [bf]range[/] if he's inside the zone.[n]Using this ability sets Xenon's bracers to <b>Azure State</b>."
+        },
+        {
+            "name": "Paradox Exchange",
+            "details": "Xenon targets an allied hero or one of his <b>Warp Zone</b>. After a short delay, Xenon and the target [bf]swap positions[/].[n]Using this ability sets Xenon to <b>Violet</b> state."
+        },
+        {
+            "name": "Event Horizon",
+            "details": "Xenon overloads his bracers, gaining the [bf]benefits[/] of all 3 <b>Continuum Shift</b> states for a duration.[n]During this time, Xenon can re-activate this ability once to fire a massive beam of time and space distortion, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and [db]freezing the cooldowns[/] of their abilities for a short duration."
+        }
+    ],
+    "config": {
+        "prev_char": "phoenix",
+        "next_char": "shadow"
+    }
+}
