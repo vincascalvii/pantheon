@@ -1,0 +1,37 @@
+{
+    "alias": "Moondweller",
+    "name": "Selene",
+    "bastion": "Chandrasar, the Moon Striders",
+    "bastion_short": "chandrasar",
+    "role": "Support",
+    "class": "Enchanter",
+    "position": "Support",
+    "type": "Magical",
+    "range": "Ranged",
+    "abilities": [
+        {
+            "name": "Lunar Vow",
+            "details": "Selene can use her unique item, <b>Moonlit Ribbon</b>, to bind herself to an allied hero.[n]While bound, whenever Selene casts an ability on herself, her bound ally receives [bf]50% of the effect[/]. Whenever she casts an ability on her bound ally, she receives [bf]50% of the effect[/]."
+        },
+        {
+            "name": "Moonlight Path",
+            "details": "Selene creates a beam of moonlight in a line. Allies hit by the beam gain a small burst of [ms]movement speed[/].[n]Enemies hit take [ap]magical damage[/] (scaling with [ap]magical power[/]) and are [db]slowed[/] for a short duration.[n]If the beam hits both Selene and her bound ally, the movement speed boost is [bf]increased[/]."
+        },
+        {
+            "name": "Crescent Guard",
+            "details": "Selene conjures a shimmering [sh]shield[/] (scaling with [ap]magical power[/]) of moonlight around herself or an ally for a few seconds.[n]When the shield expires or is broken, it releases a pulse of light that [bf]heals[/] the target for a portion of the shield's original value.[n]If cast on the bound ally, the shield strength is [bf]increased[/]."
+        },
+        {
+            "name": "Astral Haste",
+            "details": "Selene blesses a target with the speed of the night sky. The ally gains bonus [as]attack speed[/] for a few seconds.[n]If cast on the bound ally, their basic attacks will also deal bonus [ap]magic damage[/] (scaling with [ap]magical power[/]) on-hit."
+        },
+        {
+            "name": "Moon-Touched Blessing",
+            "details": "Selene calls upon the blessing of the moon to protect an allied hero for a few seconds.[n]While the blessing is active, the ally's health cannot drop below a percentage of their [hp]maximum health[/] (threshold increases with [hp]ability level[/]).[n]During the blessing, any damage the ally would have taken is stored. When the blessing ends, the ally is [bf]healed[/] for a percentage of the stored damage.[n]If cast on the bound ally, when the blessing ends, it releases a burst of light, [db]knocking back[/] all nearby enemies."
+        }
+    ],
+    "config": {
+        "prev_char": "earthbreaker",
+        "next_char": "eclipse"
+    }
+}
