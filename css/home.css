@@ -67,7 +67,7 @@ main {
 
 .sort:hover,
 .sort:focus {
-    border-color: var(--black);
+    border-color: transparent;
 }
 
 .sort-icon {
@@ -82,6 +82,10 @@ main {
     font-size: 20px;
 }
 
+.sort:hover .sort-icon {
+    z-index: 2;
+}
+
 .sort-text-grey {
     opacity: .5;
 }
@@ -93,10 +97,9 @@ main {
 .sort-modal {
     display: none;
     position: absolute;
-    top: 50px;
-    left: 0;
-    width: 360px;
-    padding-top: 10px;
+    top: -7px;
+    left: -4px;
+    width: 380px;
     z-index: 1;
 }
 
@@ -109,7 +112,7 @@ main {
     background-color: white;
     border: 1px solid var(--grey);
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px 20px 10px 50px;
     display: flex;
     flex-direction: column;
     gap: 5px;
