@@ -375,6 +375,11 @@ main {
     column-gap: 8px;
 }
 
+.main-drow-icon {
+    width: 20px;
+    height: 20px;
+}
+
 .main-intro {
     font-family: "Rationale", "Poppins", Helvetica, Arial, sans-serif;
     width: 100%;
