@@ -15,7 +15,7 @@
         },
         {
             "name": "Flaming Sweep",
-            "details": "Eris's next three basic attacks sweeps her fire banner in a wide arc, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies around her.[n]If Eris is within her active <span>Fiery Rally[/] banner's radius, her enhanced basic attacks will deal additional [ap]magical damage[/] based on the target's [hp]current health[/]."
+            "details": "Eris's next 3 basic attacks sweeps her fire banner in a wide arc, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies around her.[n]If Eris is within her active <span>Fiery Rally[/] banner's radius, her enhanced basic attacks will deal additional [ap]magical damage[/] based on the target's [hp]current health[/]."
         },
         {
             "name": "Fiery Rally",

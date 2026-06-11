@@ -11,11 +11,11 @@
     "abilities": [
         {
             "name": "Sky Piercers",
-            "details": "Kaelen has 5 usable <b>Sky Piercers</b> (the dual <b>Sky Piercers</b> that he wields can't be used for abilities), and some of his abilities require a specific amount of <b>Sky Piercers</b> in order to cast.[n]Upon hitting the enemy, the <b>Sky Piercer</b> will be placed behind the target. If <b>Sky Piercer</b> kills the target, it will continue to fly until it hits the next enemy, or stop at the end of the ability cast range.[n]Whenever Kaelen walks over a <b>Sky Piercer</b> on the ground, he picks it up and gains a burst of [ms]movement speed[/] for a short duration.[n]Picking up a <b>Sky Piercer</b> empowers his next basic attack within few seconds to become a <b>Skypiercing Strike</b>, lunging at his target, dealing additional [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]If the <b>Sky Piercer</b> is not picked up after a certain duration, it will disappear from the ground and slowly return to Kaelen."
+            "details": "Kaelen has 5 usable <b>Sky Piercers</b>, and some of his abilities require a specific amount of <b>Sky Piercers</b> in order to cast.[n]Whenever Kaelen walks over a <b>Sky Piercer</b> on the ground, he picks it up and gains a burst of [ms]movement speed[/] for a short duration.[n]Picking up a <b>Sky Piercer</b> empowers his next basic attack within few seconds to become a <b>Skypiercing Strike</b>, lunging at his target, dealing additional [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]If the <b>Sky Piercer</b> is not picked up after a certain duration, it will disappear from the ground and slowly return to Kaelen."
         },
         {
             "name": "Cloud Breaker",
-            "details": "Kaelen throws a <b>Sky Piercer</b> in the target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]This ability requires 1 <b>Sky Piercer</b>."
+            "details": "Kaelen throws a <b>Sky Piercer</b> in the target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]Upon hitting the enemy, the <b>Sky Piercer</b> will be placed behind the target. If <b>Sky Piercer</b> kills the target, it will continue to fly until it hits the next enemy, or stop at the end of the ability cast range.[n]This ability requires 1 <b>Sky Piercer</b>."
         },
         {
             "name": "Impaling Rain",
