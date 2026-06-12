@@ -19,15 +19,15 @@
         },
         {
             "name": "Spectral Arsenal",
-            "details": "Arcian enters a spectral state for a few seconds, gaining bonus [ms]movement speed[/] that decays over time.[n]While in this state, Arcian [db]loses health[/] over time, but takes [bf]reduced damage[/] from enemy heroes and can pass through units."
+            "details": "Arcian enters a spectral state for a few seconds, gaining bonus [ms]movement speed[/] that decays over time and the ability to pass through units.[n]While in this state, a percentage of damage dealt by enemy heroes is stored and dealt over a few seconds instead.[n]If an enemy hero dies within a few seconds of Arcian damaging them, the remaining stored damage will be removed."
         },
         {
             "name": "Void Steps",
-            "details": "Arcian blinks to the enemy target, dealing bonus [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies upon arrival and briefly [db]slows[/] them."
+            "details": "Arcian blinks to the enemy target, dealing bonus [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies upon arrival.[n]If this ability hits only one enemy hero, the damage is [bf]increased[/], but if it hits more than one enemy hero, its cooldown will be [bf]halved[/] instead."
         },
         {
             "name": "Oblivion's Decree",
-            "details": "Arcian enters a heightened state for several seconds, gaining bonus [as]attack speed[/].[n]During this state, Arcian replaces his <span>Monochrome Blade</span> with the <span>Oblivion Blade</span>, making his basic attack deals [td]true damage[/] instead of magical damage.[n]In addition, the first basic attack or <span>Phantom Slash</span> on each unique enemy hero will briefly [db]silence[/] the target."
+            "details": "Arcian enters a heightened state for several seconds, gaining bonus [as]attack speed[/].[n]During this state, Arcian replaces his <b>Monochrome Blade</b> with the <b>Oblivion Blade</b>, making his basic attack deals [td]true damage[/] instead of magical damage.[n]In addition, the first basic attack or <b>Phantom Slash</b> on each unique enemy hero will briefly [db]silence[/] the target."
         }
     ],
     "config": {

@@ -11,23 +11,23 @@
     "abilities": [
         {
             "name": "Gale Blades",
-            "details": "Zephyrus starts with 3 <b>Gale Blades</b>. He gains additional blades based on his bonus attack speed.[n]His blades orbit him closely, dealing [ad]physical damage[/] (scaling with [as]attack speed[/]) to any enemy they pass through.[n]Each time he basic attacks, he uses 1 blade. His abilities can also use up all of his current blades.[n]When Zephyrus is out of blades, he is unable to [db]basic attack[/], use <b>Razor Array</b> or <b>Cyclone Orbit</b> until he regenerates more blades over time."
+            "details": "Zephyrus has 5 <b>Gale Blades</b> that orbit him closely, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [as]attack speed[/]) to any enemy they pass through.[n]Zephyrus's basic attack throws 1 of these 5 <b>Gale Blades</b> instead.[n]When a <b>Gale Blade</b> is away from Zephyrus, it lingers on either the enemy or at the area briefly before homing back to himself.[n]When returning, the blade does not do damage. Zephyrus is unable to basic attack if he runs out of blades."
         },
         {
             "name": "Razor Array",
-            "details": "Zephyrus commands all his current blades to strike a target location in a rapid sequence. Each blade deals [ad]physical damage[/] (scaling with [as]attack speed[/]).[n]In <b>Wind Dragon</b> form, Zephyrus's blades stay on the enemies for a short duration and <b>Razor Array</b> can be recasted to return all blades from the enemies to Zephyrus, dealing additional [ad]physical damage[/] (scaling with [as]attack speed[/])."
+            "details": "Zephyrus commands all of his <b>Gale Blades</b> to strike a target location in a rapid sequence.[n]If consecutive blades strike the same target, they deal [bf]bonus stacking damage[/], causing successive hits to deal more damage than the previous one."
         },
         {
-            "name": "Cyclone Orbit",
-            "details": "<b>Cyclone Orbit</b> is only usable while <b>Sky Soar</b> is active. When casted, Zephyrus locks onto a target enemy hero and begins flying in a circle around them.[n]While orbiting, Zephyrus automatically launches his blades at the target. Each blade deals [ad]physical damage[/] on hit and immediately return to Zephyrus.[n]Zephyrus can choose either clockwise or anti-clockwise for the orbit direction. The firing rate of the blades scales directly with Zephyris's [as]attack speed[/].[n]In <b>Wind Dragon</b> form, the [bf]orbital speed[/] is increased based on his Zephyrus's movement speed."
+            "name": "Crippling Volley",
+            "details": "Zephyrus throws all of his <b>Glade Blades</b> in a cone in the target direction.[n]<b>Crippling Volley</b> also [db]slows[/] the enemies hit for a short duration. The slow debuff can stack on the same enemy if hit by multiple blades from this ability."
         },
         {
             "name": "Sky Soar",
-            "details": "Zephyrus spreads his wings, gaining increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration.[n]In <b>Wind Dragon</b> form, <b>Sky Soar</b> is automatically activated and the flight duration remains [bf]permanent[/] until the transformation ends."
+            "details": "Zephyrus spreads his wings, gaining increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration."
         },
         {
-            "name": "Air Breaker",
-            "details": "Zephyrus transforms into the <b>Wind Dragon</b>, gaining increased [bf]size[/], [ms]movement speed[/] and [as]attack speed[/].[n]In addition, his attack speed cap is [bf]removed[/].[n]While in <b>Wind Dragon</b> form, his abilities are enhanced."
+            "name": "Swirling Vortex",
+            "details": "<b>Swirling Vortex</b> is only usable while <b>Sky Soar</b> is active. When casted, Zephyrus locks onto a target enemy hero and begins flying in a circle around them.[n]While orbiting, Zephyrus automatically launches his <b>Gale Blades</b> at the target. The firing rate and homing speed of the blades scales with Zephyris's [as]attack speed[/].[n]Zephyrus can choose either clockwise or anti-clockwise for the orbit direction.[n]Zephyrus cannot use other abilities or basic attack during the orbit, but can cancel the ability early by recasting <b>Swirling Vortex</b>."
         }
     ],
     "config": {

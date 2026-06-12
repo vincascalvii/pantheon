@@ -26,11 +26,11 @@ let arrowNext = document.querySelector('.arrow-next');
 (function() {
 
 	// Get the character
-	let charCode = urlParams.get('code').toLowerCase();
+	let alias = urlParams.get('alias').toLowerCase();
 
 	// If the value is not empty or null, fetch the JSON file
-	if (charCode != '' && charCode != null) {
-		fetch('../data/characters/' + charCode + '.json')
+	if (alias != '' && alias != null) {
+		fetch('../data/characters/' + alias + '.json')
 		.then(res => {
 			if (!res.ok) throw new Error('HTTP error ' + res.status);
 	        return res.json();
@@ -38,36 +38,37 @@ let arrowNext = document.querySelector('.arrow-next');
 		.then(data => {
 
 			// Add unique code on the container
-			main.classList.add('main-' + data.code.toLowerCase());
+			main.classList.add('main-' + data.alias.toLowerCase());
 			main.classList.add('main-' + data.bastion_short.toLowerCase());
 
 			// Setup navigation arrows
 			if (data.config?.prev_char !== undefined) {
-				arrowPrev.href = '../character?code=' + data.config.prev_char;
+				arrowPrev.href = '../character?alias=' + data.config.prev_char;
 				arrowPrev.classList.add('active');
 			}
 			if (data.config?.next_char !== undefined) {
-				arrowNext.href = '../character?code=' + data.config.next_char;
+				arrowNext.href = '../character?alias=' + data.config.next_char;
 				arrowNext.classList.add('active');
 			}
 
         	// Populate the data
-			popData(data, 'full_name');
-	    	popData(data, 'title');
-	    	popData(data, 'bastion_full');
-	    	popData(data, 'race');
-	    	popData(data, 'soulforge');
-	    	popData(data, 'resonance');
-			popData(data, 'intro');
+			popData(data, 'alias');
+			popData(data, 'name');
+	    	popData(data, 'bastion');
+	    	popData(data, 'role');
+	    	popData(data, 'class');
+			popData(data, 'position');
+	    	popData(data, 'type');
+			popData(data, 'range');
 
 	    	// Populate the art
 	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
 			artBg.src = '../img/' + (
 				data.config?.background === true 
-					? 'characters/' + charCode + '/bg.png' 
+					? 'characters/' + alias + '/bg.png' 
 					: 'background/' + data.bastion_short + '.png'
 				);
-			artChar.src = '../img/characters/' + charCode + '/full.png';
+			artChar.src = '../img/characters/' + alias + '/full.png';
 			if (data.config?.char_width !== undefined) 
 				artContainer.style.width = data.config.char_width + 'px';
 			if (data.config?.char_height !== undefined)
@@ -90,7 +91,7 @@ let arrowNext = document.querySelector('.arrow-next');
 					abilityName.innerHTML = data.abilities[i].name;
 				let abilityDetails = document.createElement('div');
 					abilityDetails.classList.add('ability-details');
-					abilityDetails.innerHTML = data.abilities[i].details;
+					abilityDetails.innerHTML = renderHighlights(data.abilities[i].details);
 				
 				// Add the ability type, name & details
 				ability.appendChild(abilityType);
@@ -109,12 +110,37 @@ let arrowNext = document.querySelector('.arrow-next');
 
     // Reusable function to populate data
 	function popData(data, name) {
-		let val = data[name];
-		let els = document.querySelectorAll('.pop-' + name.replace(/_+/g, '-').toLowerCase());
-		for ( let i = 0; i < els.length; i++ ) {
-			els[i].innerHTML = val;
+
+		// Get the value & element
+		const val = data[name];
+		const el = document.getElementById('pop_' + name);
+		if (el) {
+
+			// Check if the value requires an icon
+			if (['role', 'class', 'position', 'type', 'range'].includes(name)) {
+
+				// Special case for positions with multiple values
+				if (['position', 'type', 'range'].includes(name) && val.includes('/')) {
+					const pos = val.split(' / ');
+					el.innerHTML = pos.map(p => `<img src="../img/icons/${name}-${p.toLowerCase()}.png" class="main-drow-icon">${p}`).join(' / ');
+				} else {
+					el.innerHTML = val.replace(val, `<img src="../img/icons/${name}-${val.toLowerCase()}.png" class="main-drow-icon">${val}`);
+				}
+
+			// Otherwise, just populate the value
+			} else {
+				el.innerHTML = val;
+			}
 		}
     }
+
+	// Reusable function to replace highlight tags
+	function renderHighlights(text) {
+		return text
+		  .replace(/\[n\]/g, '<br><br>')
+		  .replace(/\[(\w+)\]/g, '<span class="ability-$1">')
+		  .replace(/\[\/\]/g, '</span>');
+	  }
 })();
 
 

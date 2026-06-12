@@ -23,11 +23,11 @@
         },
         {
             "name": "Moonphase Shift",
-            "details": "Iyla blinks to a target location. If there is a nearby enemy hero, Iyla will perform a whirlwind slash, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies."
+            "details": "Iyla blinks to a target location.[n]When <b>Quad-Wielding Rhythm</b> is triggered on an enemy, the cooldown of this ability is greatly [bf]reduced[/]."
         },
         {
             "name": "Perfect Alignment",
-            "details": "Iyla enters a state of perfect alignment for a few seconds, gaining a massive burst of [as]attack speed[/].[n]During this time, her attack speed cap is [bf]removed[/], and every basic attack now launches all [bf]four[/] chakrams in rapid succession.[n]Each chakram deals [ad]physical damage[/] (scaling with [ad]physical power[/]) and applies on-hit effect separately."
+            "details": "Iyla enters a state of perfect alignment for a few seconds, gaining a massive burst of [as]attack speed[/].[n]During this time, her attack speed cap is [bf]removed[/], and every basic attack now throws 2 chakrams at once (meaning that her basic attack now hits twice)."
         }
     ],
     "config": {

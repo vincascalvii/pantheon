@@ -14,20 +14,20 @@
             "details": "Every time Ignis is hit by an enemy ability, she gains a <b>Cinder Scale</b> (maximum 4 stacks). Each stack grants her increased tenacity.[n]At max stacks, her next basic attack consumes them to deal bonus [ap]magical damage[/] (scaling with [mr]magical resistance[/]) in an explosion."
         },
         {
-            "name": "Dragon's Breath",
-            "details": "Ignis exhales a stream of fire in a cone for a few seconds, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) over time to all enemies hit.[n]If the fire passes through her <b>Infernal Wall</b>, the cone becomes wider, deals more damage, and the duration is extended.[n]In <b>Flame Dragon</b> form, the breath applies a [db]slow[/] to all enemies hit and also reduces their [db]magical resistance[/] each tick of damage, up to a certain limit."
+            "name": "Magma Orb",
+            "details": "Ignis launches a fireball in the target direction that explodes upon colliding with the first enemy or reaching maximum range, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to enemies hit.[n]If the fireball passes through the <b>Infernal Wall</b>, the explosion radius is [bf]larger[/] and it will also reduce the enemies' [db]magical resistance[/]."
         },
         {
             "name": "Infernal Wall",
-            "details": "Ignis creates a wall of fire that blocks enemy projectiles and deals [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to enemies who pass through.[n]In <b>Flame Dragon</b> form, the wall is larger, lasts longer and allies who pass through the wall also gain a [mr]magical shield[/] (scaling with [mr]magical resistance[/])."
+            "details": "Ignis creates a wall of fire that blocks enemy projectiles and deals [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to enemies who pass through."
         },
         {
             "name": "Scorching Charge",
-            "details": "Ignis charges forward, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to all enemies in her path.[n]If Ignis passes through the <b>Infernal Wall</b>, her body ignites, dealing additional [ap]magical damage[/] (scaling with [mr]magical resistance[/]) and [db]slowing[/] all enemies hit.[n]In <b>Flame Dragon</b> form, Ignis leaves a trail of fire behind her, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) and [db]slowing[/] all enemies in the trail."
+            "details": "Ignis charges forward, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to all enemies in her path.[n]If Ignis passes through the <b>Infernal Wall</b>, her body ignites, leaving a trail of fire in her path that deals [ap]magical damage[/] (scaling with [mr]magical resistance[/]) and [db]slowing[/] all enemies on top."
         },
         {
-            "name": "Flame Breaker",
-            "details": "Ignis fully embraces her draconic heritage, transforming into a massive <b>Flame Dragon</b> for a duration.[n]In this form, Ignis gains increased [bf]size[/], [bf]attack range[/] and [mr]magical resistance[/].[n]In addition, Ignis's body is engulfed in flame, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) to nearby enemies every second.[n]All of Ignis's abilities are enhanced while in <b>Flame Dragon</b> form."
+            "name": "Dragon's Breath",
+            "details": "Ignis exhales a stream of fire in a cone for a few seconds, dealing [ap]magical damage[/] (scaling with [mr]magical resistance[/]) over time to all enemies hit.[n]If the fire passes through her <b>Infernal Wall</b>, the cone becomes wider, deals more damage, and the duration is extended."
         }
     ],
     "config": {

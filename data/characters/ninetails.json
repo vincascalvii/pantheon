@@ -19,7 +19,7 @@
         },
         {
             "name": "Illusion Veil",
-            "details": "Kimiko becomes [bf]stealthed[/] and leaps to an ally unit. If the target is an ally hero, Kimiko and the ally will become briefly [bf]stealthed[/].[n]Enemies will be able to very briefly see an after-image of Kimiko's dashing animation at the location she leapt from. When the ally enters stealth mode, the same after-image will also apply, very briefly indicating the direction the ally was moving before becoming stealthed.[n]If Kimiko or her ally attacks or uses an ability while stealthed, the stealth effect will be removed."
+            "details": "Kimiko becomes [bf]stealthed[/] and leaps to an ally unit. If the target is an ally hero, Kimiko and the ally will become briefly [bf]stealthed[/].[n]Enemies will be able to briefly see an after-image of Kimiko's dashing animation at the location she leapt from. When the ally enters stealth mode, the same after-image will also apply, briefly indicating the direction the ally was moving before becoming stealthed.[n]If Kimiko or her ally attacks or uses an ability while stealthed, the stealth effect will be removed."
         },
         {
             "name": "Fox Fire",

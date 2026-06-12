@@ -15,19 +15,19 @@
         },
         {
             "name": "Hydro Pump",
-            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) every 0.25 seconds.[n]While casting, Marinus cannot use any other ability and her movement speed (rotation speed as well) will be greatly reduced. This ability can be held down to continue the blast, rapidly consuming her [mp]mana[/] per second.[n]In <b>Aqua Dragon</b> form, the beam becomes a powerful torrent, gaining extra range and dealing additional bonus magical damage based on the target's [db]maximum health</b> (scaling with [mp]maximum mana[/])."
+            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) every 0.25 seconds.[n]While casting, Marinus cannot use any other ability and her movement speed (rotation speed as well) will be greatly reduced. This ability can be held down to continue the blast, rapidly consuming her [mp]mana[/] per second."
         },
         {
-            "name": "Riptide Vortex",
-            "details": "Marinus creates a swirling vortex at a target location. After a short delay, the vortex deals [ap]magical damage[/] (scaling with [mp]maximum mana[/]) per second and constantly [db]pulls[/] them toward its center.[n]In <b>Aqua Dragon</b> form, the vortex is larger and enemies will also be [db]grounded[/] (preventing them from dashing)."
+            "name": "Enveloping Mists",
+            "details": "Marinus surrounds herself with a layer of mist, gaining a [sh]shield[/] (scaling with [mp]maximum mana[/]) for a few seconds.[n]While <b>Envveloping Mists[/] is active, Marinus's mana regeneration speed is [bf]increased[/]."
         },
         {
             "name": "Tidal Surge",
-            "details": "Marinus sends a crashing tidal wave in a target direction, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies hit and [db]slowing[/] them for a short duration.[n]In <b>Aqua Dragon</b> form, the wave is significantly [db]wider[/] and also [db]knocks up[/] enemies instead of slowing them."
+            "details": "Marinus sends a crashing tidal wave in a target direction, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies hit and [db]slowing[/] them for a short duration."
         },
         {
-            "name": "Ocean Breaker",
-            "details": "Marinus surges with primal energy, transforming into the <b>Aqua Dragon</b> for a duration, gaining increased [bf]size[/], [mp]maximum mana[/] and [mp]mana regen[/].[n]In addition, <b>Ocean Breaker</b> also [bf]recovers[/] a percentage of her maximum mana on cast.[n]While in <b>Aqua Dragon</b> form, her abilities are enhanced."
+            "name": "Swirling Vortex",
+            "details": "Marinus creates a swirling vortex at a target location, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) per second too all enemies on top, [db]slowing[/] them and constantly [db]pulls[/] them toward its center."
         }
     ],
     "config": {

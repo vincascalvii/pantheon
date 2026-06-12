@@ -11,7 +11,7 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Mars generates a stack of <b>War Stance</b> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).[n]Each <b>War Stance</b> stack gains Mars bonus [ad]physical power[/] (scaling with [ad]physical power[/]). At maximum stacks, the [bf]physical power[/] bonus is [bf]doubled[/]."
+            "details": "Mars generates a stack of <b>War Stance</b> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).[n]Each <b>War Stance</b> stack gains Mars bonus [ad]physical power[/] (scaling with [ad]physical power[/]). At 10 stacks, the [bf]physical power[/] bonus is [bf]doubled[/]."
         },
         {
             "name": "Dominion",
@@ -27,7 +27,7 @@
         },
         {
             "name": "Conqueror",
-            "details": "Mars releases a powerful roar, [ad]fearing[/] all nearby enemies and greatly [ad]slowing[/] their movement speed for a duration.[n]Mars also gains maximum <b>War Stance</b> stacks upon casting this ability."
+            "details": "Mars releases a powerful roar, greatly [ad]slowing[/] all nearby enemies' movement speed for a duration.[n]In addition, Mars instantly gains 10 stacks of <b>War Stance</b>, and for the next few seconds, the maximum stacks can go up to 20."
         }
     ],
     "config": {
