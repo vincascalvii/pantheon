@@ -101,17 +101,21 @@ a {
 	margin: 0 auto;
 }
 
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: .8;
+}
+
 .side {
     position: fixed;
     top: 140px;
     left: 60px;
     height: calc(100vh - 180px);
-}
-
-.side-bar {
-    width: 4px;
-    height: 100%;
-    background-color: grey;
 }
 
 main {
