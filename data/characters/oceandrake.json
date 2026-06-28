@@ -11,23 +11,23 @@
     "abilities": [
         {
             "name": "Abyssal Depth",
-            "details": "Marinus gains bonus [ap]magic penetration[/] based on her [mp]maximum mana[/]. A percentage of Marinus's bonus [ap]magical power[/] is converted into [mp]maximum mana[/]."
+            "details": "Marinus gains bonus [ap]magic penetration[/] based on her [mp]maximum mana[/]."
         },
         {
             "name": "Hydro Pump",
-            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) every 0.25 seconds.[n]While casting, Marinus cannot use any other ability and her movement speed (rotation speed as well) will be greatly reduced. This ability can be held down to continue the blast, rapidly consuming her [mp]mana[/] per second."
+            "details": "Marinus channels a high-pressure beam of water in a straight line that impacts the first enemy hit, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) every 0.25 seconds.[n]While casting, Marinus cannot use any other ability but she can rotate her aim and move at a greatly reduced speed. This ability can be held down to continue the blast, rapidly consuming her [mp]mana[/] per second."
         },
         {
             "name": "Enveloping Mists",
-            "details": "Marinus surrounds herself with a layer of mist, gaining a [sh]shield[/] (scaling with [mp]maximum mana[/]) for a few seconds.[n]While <b>Envveloping Mists[/] is active, Marinus's mana regeneration speed is [bf]increased[/]."
-        },
-        {
-            "name": "Tidal Surge",
-            "details": "Marinus sends a crashing tidal wave in a target direction, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies hit and [db]slowing[/] them for a short duration."
+            "details": "Marinus surrounds herself with a layer of mist, gaining a [sh]shield[/] (scaling with [mp]maximum mana[/]) for a few seconds.[n]While <b>Envveloping Mists[/] is active, enemies who strike her with melee attacks or abilities are struck by <b>Corrosion</b>, which reduces their [mr]magical resistance[/] for a few seconds."
         },
         {
             "name": "Swirling Vortex",
-            "details": "Marinus creates a swirling vortex at a target location, dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) per second too all enemies on top, [db]slowing[/] them and constantly [db]pulls[/] them toward its center."
+            "details": "Marinus summons a swirling vortex of water at a target location, continously dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies within the area and lightly [db]pulling[/] them toward the centre of the vortex."
+        },
+        {
+            "name": "Oceanic Twister",
+            "details": "Marinus creates a twister at a target direction, continously dealing [ap]magical damage[/] (scaling with [mp]maximum mana[/]) to all enemies hit and [db]slowing[/] them.[n]If the twister passes through a <b>Swirling Vortex</b>, the vortex will also gain the same [db]slow[/] effect."
         }
     ],
     "config": {

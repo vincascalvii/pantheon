@@ -11,23 +11,23 @@
     "abilities": [
         {
             "name": "War Stance",
-            "details": "Mars generates a stack of <b>War Stance</b> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).[n]Each <b>War Stance</b> stack gains Mars bonus [ad]physical power[/] (scaling with [ad]physical power[/]). At 10 stacks, the [bf]physical power[/] bonus is [bf]doubled[/]."
+            "details": "Mars generates a stack of <b>War Stance</b> for each enemy hero damaged by his basic attacks and abilities, lasting for few seconds (maximum 10 stacks).[n]Each <b>War Stance</b> stack gains Mars bonus [ad]physical power[/] (scaling with [ad]physical power[/]). At maximum stacks, the [bf]physical power[/] bonus is [bf]doubled[/]."
         },
         {
             "name": "Dominion",
-            "details": "Mars slams the axe to the ground to create a fissure in a straight line, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and briefly [db]slowing[/] them.[n]At maximum <b>War Stance</b> stacks, the [bf]range[/] and [bf]slow[/] effect are increased."
+            "details": "Mars swings his axe in a wide horizontal arc, emitting a shockwave that travels forward, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) and briefly [db]slowing[/] enemies hit.[n]At maximum <b>War Stance</b> stacks, Mars also follows up with a vertical shockwave that deals [ad]physical damage[/] (scaling with [ad]physical power[/] plus the target's [db]current health[/]) to all enemies hit."
+        },
+        {
+            "name": "Defy",
+            "details": "Mars lets out a terrifying war cry, gaining increased [ar]physical resistance[/] and [mr]magical resistance[/] for a few seconds.[n]At maximum <b>War Stance</b> stacks, he also absorbs a portion of all incoming damage. When the effect ends, Mars [bf]heals[/] for a percentage of the damage absorbed."
         },
         {
             "name": "Onslaught",
-            "details": "Mars gains increased [as]attack speed[/] and [ms]movement speed[/] for a duration. In addition, his basic attacks cleave in a cone, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit.[n]At maximum <b>War Stance</b> stacks, Mars heals for a percentage of the cleave damage dealt to enemy heroes."
-        },
-        {
-            "name": "Omen",
             "details": "Mars dashes to a target direction. Dash distance is increased when cast towards an enemy hero, but decreased when cast away from enemy heroes.[n]Upon arrival, Mars spins his axe around, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies.[n]At maximum <b>War Stance</b> stacks, Mars shreds the [db]physical resistance[/] of all enemies hit."
         },
         {
             "name": "Conqueror",
-            "details": "Mars releases a powerful roar, greatly [ad]slowing[/] all nearby enemies' movement speed for a duration.[n]In addition, Mars instantly gains 10 stacks of <b>War Stance</b>, and for the next few seconds, the maximum stacks can go up to 20."
+            "details": "Mars unleashes his inner godhood, gaining maximum <b>War Stance</b> stacks and bonus [bf]physical piercing[/] for a few seconds.[n]If he secures a kill while <b>Dominance</b> is active, the duration is extended, and he gains a burst of [ms]movement speed[/]."
         }
     ],
     "config": {
