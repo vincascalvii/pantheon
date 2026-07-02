@@ -1,8 +1,13 @@
 {
     "alias": "Colossus",
     "name": "Dun-Can", 
+    "title": "",
     "bastion": "Durak-Tharn, the Hearth Forgers",
     "bastion_short": "duraktharn",
+    "race": "Dova-Ran",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Tank",
     "class": "Protector",
     "position": "Support",

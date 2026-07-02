@@ -1,8 +1,13 @@
 {
     "alias": "Crimson",
     "name": "Nocturne",
+    "title": "the Blood Lord",
     "bastion": "Nether, the Hellish Monarchs",
     "bastion_short": "nether",
+    "race": "Umbral",
+    "soulforge": "",
+    "resonance": "Blood Manipulation",
+    "lore": "",
     "role": "Mage",
     "class": "Warlock",
     "position": "Mid / Solo",

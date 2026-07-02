@@ -1,8 +1,13 @@
 {
     "alias": "Behemoth",
     "name": "Baal",
+    "title": "",
     "bastion": "Kragnok, the Thunder Mauls",
     "bastion_short": "kragnok",
+    "race": "Ork",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Tank",
     "class": "Vanguard",
     "position": "Solo / Jungle",

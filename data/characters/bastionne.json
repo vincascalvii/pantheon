@@ -1,8 +1,13 @@
 {
     "alias": "Bastionne",
     "name": "Eleanor Vance",
+    "title": "",
     "bastion": "Everlight, the Dawn Bringers",
     "bastion_short": "everlight",
+    "race": "Valorian",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Marksman",
     "class": "Sniper",
     "position": "Carry",

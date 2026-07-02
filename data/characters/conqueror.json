@@ -1,8 +1,13 @@
 {
     "alias": "Conqueror",
     "name": "Mars",
+    "title": "the War God",
     "bastion": "Eden, the Heavenly Sovereigns",
     "bastion_short": "eden",
+    "race": "Celestial",
+    "soulforge": "Dominion",
+    "resonance": "Immense Strength",
+    "lore": "",
     "role": "Warrior",
     "class": "Bruiser",
     "position": "Solo",

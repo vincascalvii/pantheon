@@ -1,8 +1,13 @@
 {
     "alias": "Chainreaper",
     "name": "Draevyn",
+    "title": "",
     "bastion": "Altharion",
     "bastion_short": "altharion",
+    "race": "Graveborn",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Assassin",
     "class": "Roamer",
     "position": "Jungle / Support",

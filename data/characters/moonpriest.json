@@ -1,8 +1,13 @@
 {
     "alias": "Moonpriest",
     "name": "Selene",
+    "title": "",
     "bastion": "Chandrasar, the Moon Striders",
     "bastion_short": "chandrasar",
+    "race": "Lunari",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Support",
     "class": "Enchanter",
     "position": "Support",

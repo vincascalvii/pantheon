@@ -1,8 +1,13 @@
 {
     "alias": "Wildfury",
     "name": "Byakko",
+    "title": "",
     "bastion": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Warrior",
     "class": "Initiator",
     "position": "Jungle",

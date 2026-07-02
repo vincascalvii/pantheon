@@ -1,8 +1,13 @@
 {
     "alias": "Leviathan",
     "name": "Nakaraj Rakthanon",
+    "title": "",
     "bastion": "Nagaithis, the Tide Callers",
     "bastion_short": "nagaithis",
+    "race": "Naga",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "Nakaraj is the divine protector and the Paragon of Nagaithis, the Bastion of the Tide Callers, a vast underwater stronghold. He is a noble but terrifying titan who embodies the wrath and grace of the tides. Adorned in gold-trimmed ceremonial armor and scales that shimmer like emeralds, Varuna rises from the deep to wash away those who threaten the sanctity of his waters.",
     "role": "Tank",
     "class": "Disruptor",
     "position": "Solo / Jungle",

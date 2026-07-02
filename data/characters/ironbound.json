@@ -1,8 +1,13 @@
 {
     "alias": "Ironbound",
     "name": "Ar-Gon", 
+    "title": "the Iron Duke",
     "bastion": "Durak-Tharn, the Hearth Forgers",
     "bastion_short": "duraktharn",
+    "race": "Dova-Ran",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Tank",
     "class": "Disruptor",
     "position": "Solo",

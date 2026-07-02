@@ -1,8 +1,13 @@
 {
     "alias": "Ninetails",
     "name": "Kimiko",
+    "title": "the Nine Tails",
     "bastion": "Shirohana, the Blossom Keepers",
     "bastion_short": "shirohana",
+    "race": "Kiin",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Assassin",
     "class": "Roamer",
     "position": "Jungle",

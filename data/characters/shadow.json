@@ -1,8 +1,13 @@
 {
     "alias": "Shadow",
     "name": "Grim",
+    "title": "the Grim Reaper",
     "bastion": "Altharion, the Dusk Blades",
     "bastion_short": "altharion",
+    "race": "Graveborn",
+    "soulforge": "Twin Shadows",
+    "resonance": "",
+    "lore": "Grim is the Paragon of Altharion, the Bastion of the Graveborns. He is known as the legendary hitman who exists between the physical world and the dead. Wielding two supernatural firearms named Twin Shadows, he executes his targets with rhythmic precision.",
     "role": "Marksman",
     "class": "Hybrid",
     "position": "Carry / Mid",

@@ -6,12 +6,13 @@
 
 const urlParams = new URLSearchParams(window.location.search);
 let main = document.querySelector('main');
-let bastion = document.querySelector('.main-bastion');
+let artBastion = document.getElementById('pop_art_bastion');
+let artBackground = document.getElementById('pop_art_background');
+let artBanner = document.getElementById('pop_art_banner');
 // let artContainer = document.querySelector('.main-art');
-let artChar = document.querySelector('.main-art-img');
-let artBg = document.querySelector('.background');
+let artCharacter = document.querySelector('.main-art-img');
 let zoom = document.querySelector('.zoom');
-let abilityList = document.querySelector('.ability-list');
+let abilitiesList = document.getElementById('pop_abilities');
 let arrowPrev = document.querySelector('.arrow-prev');
 let arrowNext = document.querySelector('.arrow-next');
 
@@ -38,38 +39,41 @@ let arrowNext = document.querySelector('.arrow-next');
 		.then(data => {
 
 			// Add unique code on the container
-			main.classList.add('main-' + data.alias.toLowerCase());
-			main.classList.add('main-' + data.bastion_short.toLowerCase());
+			main.classList.add(`main-${alias}`);
+			main.classList.add(`main-${data.bastion_short}`);
 
 			// Setup navigation arrows
-			if (data.config?.prev_char !== undefined) {
-				arrowPrev.href = '../character?alias=' + data.config.prev_char;
-				arrowPrev.classList.add('active');
-			}
-			if (data.config?.next_char !== undefined) {
-				arrowNext.href = '../character?alias=' + data.config.next_char;
-				arrowNext.classList.add('active');
-			}
+			// if (data.config?.prev_char !== undefined) {
+			// 	arrowPrev.href = `../character?alias=${data.config.prev_char}`;
+			// 	arrowPrev.classList.add('active');
+			// }
+			// if (data.config?.next_char !== undefined) {
+			// 	arrowNext.href = `../character?alias=${data.config.next_char}`;
+			// 	arrowNext.classList.add('active');
+			// }
 
         	// Populate the data
 			popData(data, 'alias');
+			popData(data, 'bastion');
 			popData(data, 'name');
-	    	popData(data, 'bastion');
-	    	popData(data, 'role');
-	    	popData(data, 'class');
-			popData(data, 'position');
-	    	popData(data, 'type');
-			popData(data, 'range');
+            popData(data, 'title');
+	    	popData(data, 'lore');
+	    	// popData(data, 'role');
+	    	// popData(data, 'class');
+			// popData(data, 'position');
+	    	// popData(data, 'type');
+			// popData(data, 'range');
 
 	    	// Populate the art
-	    	bastion.src = '../img/bastions/' + data.bastion_short + '.png';
-            artBg.src = '../img/background/' + data.bastion_short + '.jpg';
-            /*
-			artChar.src = '../img/characters/' + alias + '/full.png';
-			if (data.config?.char_width !== undefined) 
-				artContainer.style.width = data.config.char_width + 'px';
-			if (data.config?.char_height !== undefined)
-				artContainer.style.height = data.config.char_height + 'px';
+	    	artBastion.src = `../img/bastions/${data.bastion_short}.png`;
+            artBackground.src = `../img/background/${data.bastion_short}.jpg`;
+			artBanner.src = `../img/banners/${alias}.jpg`;
+            
+			// artChar.src = '../img/characters/' + alias + '/full.png';
+			// if (data.config?.char_width !== undefined) 
+			// 	artContainer.style.width = data.config.char_width + 'px';
+			// if (data.config?.char_height !== undefined)
+			// 	artContainer.style.height = data.config.char_height + 'px';
 
 			// Define the ability types
 			let abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
@@ -94,16 +98,13 @@ let arrowNext = document.querySelector('.arrow-next');
 				ability.appendChild(abilityType);
 				ability.appendChild(abilityName);
 				ability.appendChild(abilityDetails);
-				abilityList.appendChild(ability);
+				abilitiesList.appendChild(ability);
 		    }
 
 			// Initialise ability switching
 			switchAbility();
-            */
 		})
-		.catch(function(error) {
-			console.log('Fetch error: ', error);
-		});
+		.catch(error => console.log('Fetch error: ', error));
 	}
 
     // Reusable function to populate data
@@ -169,7 +170,7 @@ let arrowNext = document.querySelector('.arrow-next');
 (function() {
 
 	// Get all tab buttons and contents
-	let tabButtons = document.querySelectorAll('.main-nav-item');
+	let tabButtons = document.querySelectorAll('.nav-item');
 	let tabContents = document.querySelectorAll('.main-tab');
 
 	// Add click event listener to each button to switch tabs

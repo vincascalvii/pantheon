@@ -1,8 +1,13 @@
 {
     "alias": "Soulforger",
     "name": "Kharra-Ryn Tuta-Dam", 
+    "title": "the Soul Forger",
     "bastion": "Durak-Tharn, the Hearth Forgers",
     "bastion_short": "duraktharn",
+    "race": "Dova-Ran",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "Kharra-Ryn, a determined young blacksmith, carries a pair of golden & molten hammers and is orbited by three glowing solar cores. She embodies the spirit of a living forge, capable of crafting the best Soulforges in the world.",
     "role": "Tank",
     "class": "Protector",
     "position": "Support",

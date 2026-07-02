@@ -1,8 +1,13 @@
 {
     "alias": "Stormdrake",
     "name": "Artorias Draconis", 
+    "title": "the Storm Bringer",
     "bastion": "Dragnoel, the Dragon Knights",
     "bastion_short": "dragnoel",
+    "race": "Dragonian",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
     "role": "Marksman",
     "class": "Hybrid",
     "position": "Carry / Mid",
