@@ -37,7 +37,8 @@
     ],
     "config": {
         "char_height": 200,
-        "char_left": 160,
+        "char_left": 140,
+        "char_mask": 60,
         "prev_char": "elementalist",
         "next_char": "everflame"
     }

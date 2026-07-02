@@ -77,6 +77,11 @@ let arrowNext = document.querySelector('.arrow-next');
 			if (data.config?.char_left !== undefined) {
 				artCharacter.style.left = `${data.config.char_left}px`;
 			}
+			if (data.config?.char_mask !== undefined) {
+				let maskImage = `linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) ${data.config.char_mask}%);`;
+				artCharacter.style.maskImage = maskImage;
+				artCharacter.style.webkitMaskImage  = maskImage;
+			}
 
 			// Define the ability types
 			let abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
