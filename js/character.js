@@ -77,10 +77,18 @@ let arrowNext = document.querySelector('.arrow-next');
 			if (data.config?.char_left !== undefined) {
 				artCharacter.style.left = `${data.config.char_left}px`;
 			}
-			if (data.config?.char_mask !== undefined) {
-				let maskImage = `linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) ${data.config.char_mask}%);`;
-				artCharacter.style.maskImage = maskImage;
-				artCharacter.style.webkitMaskImage  = maskImage;
+			if (data.config?.char_right !== undefined) {
+				artCharacter.style.right = `${data.config.char_right}px`;
+			}
+			if (data.config?.char_mask_left !== undefined) {
+				let maskImageLeft = `linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) ${data.config.char_mask_left}%)`;
+				artCharacter.style.setProperty('mask-image', maskImageLeft);
+				artCharacter.style.setProperty('-webkit-mask-image', maskImageLeft);
+			}
+			if (data.config?.char_mask_right !== undefined) {
+				let maskImageRight = `linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) ${data.config.char_mask_right}%)`;
+				artCharacter.style.setProperty('mask-image', maskImageRight);
+				artCharacter.style.setProperty('-webkit-mask-image', maskImageRight);
 			}
 
 			// Define the ability types
