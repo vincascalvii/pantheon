@@ -10,7 +10,7 @@ let artBastion = document.getElementById('pop_art_bastion');
 let artBackground = document.getElementById('pop_art_background');
 let artBanner = document.getElementById('pop_art_banner');
 // let artContainer = document.querySelector('.main-art');
-let artCharacter = document.querySelector('.main-art-img');
+let artCharacter = document.getElementById('pop_art_character');
 let zoom = document.querySelector('.zoom');
 let abilitiesList = document.getElementById('pop_abilities');
 let arrowPrev = document.querySelector('.arrow-prev');
@@ -68,12 +68,15 @@ let arrowNext = document.querySelector('.arrow-next');
 	    	artBastion.src = `../img/bastions/${data.bastion_short}.png`;
             artBackground.src = `../img/background/${data.bastion_short}.jpg`;
 			artBanner.src = `../img/banners/${alias}.jpg`;
-            
-			// artChar.src = '../img/characters/' + alias + '/full.png';
+			artCharacter.src = `../img/characters/${alias}/full.png`;
 			// if (data.config?.char_width !== undefined) 
 			// 	artContainer.style.width = data.config.char_width + 'px';
-			// if (data.config?.char_height !== undefined)
-			// 	artContainer.style.height = data.config.char_height + 'px';
+			if (data.config?.char_height !== undefined) {
+				artCharacter.style.maxHeight = `calc(100vh + ${data.config.char_height}px)`;
+			}
+			if (data.config?.char_left !== undefined) {
+				artCharacter.style.left = `${data.config.char_left}px`;
+			}
 
 			// Define the ability types
 			let abilityTypes = ['Passive', 'First Ability', 'Second Ability', 'Third Ability', 'Ultimate'];
