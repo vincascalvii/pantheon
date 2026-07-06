@@ -36,8 +36,12 @@
         }
     ],
     "config": {
-        "char_width": 1100,
-        "char_height": 840,
+        "char_height": -80,
+        "char_left": 0,
+        "char_mask_left": {
+            "left": 0,
+            "right": 20
+        },
         "background": true,
         "prev_char": "elderpost",
         "next_char": "emberheart"

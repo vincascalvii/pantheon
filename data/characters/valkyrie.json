@@ -36,6 +36,16 @@
         }
     ],
     "config": {
+        "char_height": 10,
+        "char_left": 0,
+        "char_mask_left": {
+            "left": 0,
+            "right": 20
+        },
+        "char_mask_right": {
+            "left": 70,
+            "right": 90
+        },
         "prev_char": "tidecaller",
         "next_char": "wildfury"
     }

@@ -113,7 +113,7 @@ a {
 
 .side {
     position: fixed;
-    bottom: 40px;
+    bottom: 60px;
     left: 60px;
     height: calc(100vh - 180px);
     display: flex;
@@ -175,6 +175,12 @@ a {
     transform: rotate(45deg);
 }
 
+.side-icon-img {
+    width: 50px;
+    height: 50px;
+    opacity: .6;
+}
+
 main {
     position: relative;
 }
@@ -195,8 +201,6 @@ main {
     bottom: 0;
     left: 100px;
     max-height: 100vh;
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 .main-info {
@@ -211,10 +215,12 @@ main {
     column-gap: 20px;
 }
 
+.main-bastion {
+    height: 160px;
+}
+
 .main-name {
-    /* font-family: "Eagle Lake", serif; */
     font-family: "Jim Nightshade", cursive;
-    /* font-size: 40px; */
     font-size: 60px;
     margin-block: 0;
 }
@@ -251,9 +257,7 @@ main {
 }
 
 .main-lore {
-    /* font-family: "Jim Nightshade", cursive; */
     font-family: "Eagle Lake", serif;
-    /* font-size: 24px; */
     font-size: 15px;
     margin-block: 20px;
 }
@@ -392,10 +396,16 @@ main {
 	color: var(--ability-sh);
 }
 
+.main-tab[data-tab="backstory"],
+.main-tab[data-tab="quotes"] {
+    font-family: "Bonheur Royale", cursive;
+    font-size: 40px;
+}
+
 .nav {
     position: fixed;
     bottom: 40px;
-    right: 120px;
+    right: 60px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -404,19 +414,38 @@ main {
 }
 
 .nav-item {
-    background-color: #9d9d9d;
-    color: white;
-    padding: 12px 60px;
+    position: relative;
     border-radius: 60px;
-    font-family: "Eagle Lake", serif;
     cursor: pointer;
     transition: .2s ease-in-out;
 }
 
-.nav-item:hover,
-.nav-item.active {
-    background-color: #5f5f5f;
+.nav-item-img {
+    width: 200px;
+    opacity: .4;
+    transition: .2s ease-in-out;
 }
+
+.nav-item-text {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 200px;
+    font-family: "Eagle Lake", serif;
+    text-align: center;
+    opacity: .7;
+    transition: .2s ease-in-out;
+}
+
+.nav-item:hover .nav-item-img,
+.nav-item.active .nav-item-img {
+    opacity: .8;
+} 
+
+.nav-item:hover .nav-item-text,
+.nav-item.active .nav-item-text {
+    opacity: 1;
+} 
 
 .back {
     position: absolute;
