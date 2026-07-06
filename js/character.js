@@ -86,7 +86,10 @@ const Character = {
 		icons.forEach(icon => {
 			const val = this.character[icon];
 			const el = document.getElementById(`pop-${icon}`);
-			if (el) el.src = `../img/icons/${icon}-${val.toLowerCase()}.png`;
+			if (el) {
+				el.src = `../img/icons/${icon}-${val.toLowerCase()}.png`;
+				el.nextElementSibling.textContent = val;
+			}
 		});
     },
 

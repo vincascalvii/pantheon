@@ -181,6 +181,21 @@ a {
     opacity: .6;
 }
 
+.side-icon-label {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    background-color: rgba(255,255,255,.6);
+    padding: 5px 15px;
+    border-radius: 60px;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.side-icon:hover .side-icon-label {
+    opacity: 1;
+}
+
 main {
     position: relative;
 }
@@ -201,6 +216,7 @@ main {
     bottom: 0;
     left: 100px;
     max-height: 100vh;
+    pointer-events: none;
 }
 
 .main-info {
