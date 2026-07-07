@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Tank",
-    "class": "Vanguard",
-    "position": "Solo / Jungle",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Tank"],
+    "class": ["Vanguard"],
+    "position": ["Solo", "Jungle"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Tough Hide",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Unstoppable Force",
-            "details": "Baal becomes unstoppable for a few seconds, [bf]reducing all incoming damage[/] by a percentage and becoming [bf]immune to all crowd controls[/].[n]Using <b>Unstoppable Force</b> will also break out from any form of crowd control he is currently in.[n]Using <b>Bull Rush</b> during <b>Unstoppable Force</b> will be charging in the direction of the cursor instead and will not stop until hitting either an enemy hero or a terrain."
+            "details": "Baal becomes unstoppable for a few seconds, [bf]reducing all incoming damage[/] by a percentage and becoming [bf]immune to all crowd controls[/].[n]Using <b>Unstoppable Force</b> will also break out from any form of crowd control he is currently in.[n]Using <b>Bull Rush</b> during <b>Unstoppable Force</b> will be charging in the direction of the cursor instead and will not stop until hitting either an enemy hero or a terrain. <b>Unstoppable Force</b> duration will be temporarily paused during the charge."
         }
     ],
     "config": {

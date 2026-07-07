@@ -8,11 +8,11 @@
     "soulforge": "Golden Sentry",
     "resonance": "Gold Crafting",
     "lore": "In the history of Everlight, no duo is as celebrated as Silver and Gold. Born to a lineage of Wyvernsworn knights, they represent the perfect synthesis of defense and offense. Where one goes, the other follows, an inseparable force that has never lost a flank in the war against the Umbrals. Everett wields a unique Soulforge known as the Golden Sentry, a floating apparatus that hovers over the battlefield. From this vantage point, he rains down needles of pure light energy that will always bring victory to the Seventh Order.",
-    "role": "Marksman",
-    "class": "Sniper",
-    "position": "Carry",
-    "type": "Physical",
-    "range": "Ranged",
+    "role": ["Marksman"],
+    "class": ["Sniper"],
+    "position": ["Carry"],
+    "type": ["Physical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Gilded Imprints",

@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "Phraya is the serene but fierce enchanter of the Sunken Bastion. While her husband, Nakaraj, represents the crushing weight of the depths, Phraya represents the life-giving and relentless nature of the currents. Dressed in flowing silks and jade jewelry that chimes like crashing waves, she orchestrates the battlefield to ensure her people and her Paragon never falter.",
-    "role": "Support",
-    "class": "Healer",
-    "position": "Support",
-    "type": "Magical",
-    "range": "Ranged",
+    "role": ["Support"],
+    "class": ["Healer"],
+    "position": ["Support"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Gift of the Sea",

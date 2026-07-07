@@ -8,11 +8,11 @@
     "soulforge": "Earth Breaker",
     "resonance": "Earth Bending",
     "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Terros is the second sibling, wielding the elemental power of earth and metal. He spends most of his time at the Bastion, which he built all on his own over decades. He believes his primary duty of the siblings is not only to rule their people with an iron fist, but also to protect them with an iron wall.",
-    "role": "Tank",
-    "class": "Vanguard",
-    "position": "Solo",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Tank"],
+    "class": ["Vanguard"],
+    "position": ["Solo"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Heavy Weight",

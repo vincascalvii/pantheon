@@ -7,32 +7,32 @@
     "race": "Dragonian",
     "soulforge": "Air Breaker",
     "resonance": "Wind Bending",
-    "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Zephyrus is the third sibling, wielding the elemental power of wind...",
-    "role": "Assassin",
-    "class": "Slayer",
-    "position": "Mid / Jungle",
-    "type": "Physical",
-    "range": "Ranged",
+    "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings.<br><br>Zephyrus is the third sibling, wielding the elemental power of wind. He views the ground as a mere anchor, a place for those who fear the freedom of the open air. He soars across the sky orbited by his Gale Blades, shards of condensed atmosphere he carved from the heart of a typhoon.",
+    "role": ["Assassin"],
+    "class": ["Slayer", "Roamer"],
+    "position": ["Jungle"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Gale Blades",
-            "details": "Zephyrus has 5 <b>Gale Blades</b> that orbit him closely, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [as]attack speed[/]) to any enemy they pass through.[n]Zephyrus's basic attack throws 1 of these 5 <b>Gale Blades</b> instead.[n]When a <b>Gale Blade</b> is away from Zephyrus, it lingers on either the enemy or at the area briefly before homing back to himself.[n]When returning, the blade does not do damage. Zephyrus is unable to basic attack if he runs out of blades."
+            "details": "Zephyrus is orbited by floating gale blades that travel alongside him. Each blade grants him bonus [ms]movement speed[/].[n]Zephyrus starts with 3 gale blades, and he gains an additional blade every 3 levels (maximum 9 gale blades)."
         },
         {
-            "name": "Razor Array",
-            "details": "Zephyrus commands all of his <b>Gale Blades</b> to strike a target location in a rapid sequence.[n]If consecutive blades strike the same target, they deal [bf]bonus stacking damage[/], causing successive hits to deal more damage than the previous one."
+            "name": "Twin Edges",
+            "details": "Zephyrus hurls a gale blade in a target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]) to all enemies hit. <b>Twin Edges</b> can be recasted again to hurl the second blade, dealing the same damage.[n]If both blades hit the same target, the target is marked, causing Zephyrus's next basic attack against them to deal bonus [ad]physical damage[/] based on their [db]missing health[/]."
         },
         {
-            "name": "Crippling Volley",
-            "details": "Zephyrus throws all of his <b>Glade Blades</b> in a cone in the target direction.[n]<b>Crippling Volley</b> also [db]slows[/] the enemies hit for a short duration. The slow debuff can stack on the same enemy if hit by multiple blades from this ability."
+            "name": "Crippling Cyclone",
+            "details": "Zephyrus commands his floating gale blades to orbit him at high velocity.[n]Each blade deals [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]) and briefly [db]slows[/] the target. The slow effect is stackable."
         },
         {
-            "name": "Sky Soar",
-            "details": "Zephyrus spreads his wings, gaining increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration."
+            "name": "Above The Cloud",
+            "details": "Zephyrus leaps into the sky, becomming untargetable for a brief movement before hovering above the ground. He gains increased [ms]movement speed[/] and the ability to [ms]travel through terrain[/] for a duration.[n]Zephyrus cannot basic attack during <b>Above The Cloud</b>."
         },
         {
-            "name": "Swirling Vortex",
-            "details": "<b>Swirling Vortex</b> is only usable while <b>Sky Soar</b> is active. When casted, Zephyrus locks onto a target enemy hero and begins flying in a circle around them.[n]While orbiting, Zephyrus automatically launches his <b>Gale Blades</b> at the target. The firing rate and homing speed of the blades scales with Zephyris's [as]attack speed[/].[n]Zephyrus can choose either clockwise or anti-clockwise for the orbit direction.[n]Zephyrus cannot use other abilities or basic attack during the orbit, but can cancel the ability early by recasting <b>Swirling Vortex</b>."
+            "name": "Skyfall Execution",
+            "details": "<b>Skyfall Execution</b> is only castable while Zephyrus is airborne during <b>Above The Cloud</b>. When casted, Zephyrus prepares a strike in a line in a target direction, then blinks behind the furthest enemy hero within the range and knock the target up.[n]Zephyrus then slashes the target with his gale blades over the duration, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ms]movement speed[/]).[n]After that, Zephyrus gains bonus [ad]physical piercing[/] when damaging the same target."
         }
     ],
     "config": {

@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "Blood Manipulation",
     "lore": "",
-    "role": "Mage",
-    "class": "Warlock",
-    "position": "Mid / Solo",
-    "type": "Magical",
-    "range": "Melee / Ranged",
+    "role": ["Mage"],
+    "class": ["Warlock"],
+    "position": ["Mid", "Solo"],
+    "type": ["Magical"],
+    "range": ["Ranged", "Melee"],
     "abilities": [
         {
             "name": "Blood Pool",

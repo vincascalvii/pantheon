@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Tank",
-    "class": "Disruptor",
-    "position": "Support / Solo",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Tank"],
+    "class": ["Disruptor"],
+    "position": ["Support", "Solo"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Ancient Totem",

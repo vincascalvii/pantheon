@@ -7,12 +7,12 @@
     "race": "Dragonian",
     "soulforge": "Flame Breaker",
     "resonance": "Fire Bending",
-    "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Ignis is the fifth sibling, wielding the elemental power of fire. She is a specialised warrior whose scales were forged in the heart of a supernova. Ignis grows stronger the more magical heat she absorbs, turning the enemy's spells into fuel for her own devastating flames.",
-    "role": "Mage",
-    "class": "Warlock",
-    "position": "Solo",
-    "type": "Magical",
-    "range": "Melee",
+    "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings.<br><br>Ignis is the fifth sibling, wielding the elemental power of fire. She is a specialised warrior whose scales were forged in the heart of a supernova. Ignis grows stronger the more magical heat she absorbs, turning the enemy's spells into fuel for her own devastating flames.",
+    "role": ["Warrior"],
+    "class": ["Warlock"],
+    "position": ["Solo", "Mid"],
+    "type": ["Magical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Cinder Scales",

@@ -8,11 +8,11 @@
     "soulforge": "Liánhuǒ",
     "resonance": "Undying Flame",
     "lore": "Wǔjiàng is named the strongest warrior in the history of Huǒshén, the bastion of Chìzú. His resonance ability, the Undying Flame, originally belonged to the Paragon, Phoenix, but was shared to him when he defended the Bastion from one of the strongest Umbrals, with the cost of his life. The flame resurrected him and fused with his original fire-bending ability. Since then, he continued to wield his Soulforge, Liánhuǒ, to defeat anyone who is foolish enough to harm the Bastion or the Empress of Holy Fire, his saviour.",
-    "role": "Tank",
-    "class": "Vanguard",
-    "position": "Solo / Jungle",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Tank"],
+    "class": ["Vanguard"],
+    "position": ["Solo", "Jungle"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Blazing Bulwark",

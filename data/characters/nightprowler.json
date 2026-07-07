@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Assassin",
-    "class": "Slayer",
-    "position": "Mid",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Assassin"],
+    "class": ["Slayer"],
+    "position": ["Mid"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Last Breath",

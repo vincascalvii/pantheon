@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Assassin",
-    "class": "Roamer",
-    "position": "Jungle / Support",
-    "type": "Physical",
-    "range": "Melee / Ranged",
+    "role": ["Assassin"],
+    "class": ["Roamer"],
+    "position": ["Jungle", "Support"],
+    "type": ["Physical"],
+    "range": ["Melee", "Ranged"],
     "abilities": [
         {
             "name": "Cut Throat",

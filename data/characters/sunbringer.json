@@ -8,11 +8,11 @@
     "soulforge": "Sun Staff of Khem",
     "resonance": "Solar Obelisks",
     "lore": "Ra’sutekh is the Paragon of Sol’zakar, known by many as the Living Sun. Wielding the Sun Staff of Khem, he commands the literal power of the sun to incinerate his foes. Unlike other rulers who hide in the backline, Ra’sutekh stands at the center of his golden empire, forcing enemies to choose between stepping into his searing light or retreating into the shadows of history.",
-    "role": "Mage",
-    "class": "Warlock",
-    "position": "Mid",
-    "type": "Magical",
-    "range": "Ranged",
+    "role": ["Mage"],
+    "class": ["Warlock"],
+    "position": ["Mid"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Glorious Radiance",

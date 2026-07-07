@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Assassin",
-    "class": "Roamer",
-    "position": "Jungle",
-    "type": "Magical",
-    "range": "Melee",
+    "role": ["Assassin"],
+    "class": ["Roamer"],
+    "position": ["Jungle"],
+    "type": ["Magical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Spirit Mark",

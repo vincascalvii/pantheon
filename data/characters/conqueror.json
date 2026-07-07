@@ -8,11 +8,11 @@
     "soulforge": "Dominion",
     "resonance": "Immense Strength",
     "lore": "",
-    "role": "Warrior",
-    "class": "Bruiser",
-    "position": "Solo",
-    "type": "Physical",
-    "range": "Melee",
+    "role": ["Warrior"],
+    "class": ["Bruiser"],
+    "position": ["Solo"],
+    "type": ["Physical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "War Stance",

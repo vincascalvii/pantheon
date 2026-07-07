@@ -8,11 +8,11 @@
     "soulforge": "Mornark",
     "resonance": "",
     "lore": "Thorr is the Paragon of the Kragnok. Wielding the colossal hammer Mornark, he descends upon the battlefield not with speed, but with inevitable power. He bides his time, gathering the static of the atmosphere into a single, world-shaking blow before trapping his enemies in a web of lightning.",
-    "role": "Warrior",
-    "class": "Bruiser",
-    "position": "Solo",
-    "type": "Magical",
-    "range": "Melee",
+    "role": ["Warrior"],
+    "class": ["Bruiser"],
+    "position": ["Solo"],
+    "type": ["Magical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Static Accumulator",

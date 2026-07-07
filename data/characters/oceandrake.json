@@ -8,11 +8,11 @@
     "soulforge": "Ocean Breaker",
     "resonance": "Water Bending",
     "lore": "When the Primordial Dragon fell, its soul was shattered into six fragments of avatars that would later be referred to as the Dragon Knights, or the Draconis siblings. Marinus is the fourth sibling, wielding the elemental power of water. She commands the crushing weight of the ocean to drown her enemies, eventually ascending into a draconic form of living water to obliterate those who stand in her way.",
-    "role": "Mage",
-    "class": "Burst",
-    "position": "Mid",
-    "type": "Magical",
-    "range": "Ranged",
+    "role": ["Mage"],
+    "class": ["Burst"],
+    "position": ["Mid"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Abyssal Depth",

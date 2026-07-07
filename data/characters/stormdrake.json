@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Marksman",
-    "class": "Hybrid",
-    "position": "Carry / Mid",
-    "type": "Magical",
-    "range": "Ranged",
+    "role": ["Marksman"],
+    "class": ["Hybrid"],
+    "position": ["Carry", "Mid"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Thunder Fury",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Storm Bringer",
-            "details": "Artorias engraves his spear with lightning, causing his basic attack and <b>Lightning Strike</b> to release a chain lightning that deals additional [ap]magical damage[/] (scaling with [ap]magical power[/] and [cr]critical strike damage[/]) to the target and nearby enemies."
+            "details": "Artorias engraves himself with lightning, causing his basic attack and <b>Lightning Strike</b> to release a chain lightning that deals additional [ap]magical damage[/] (scaling with [ap]magical power[/] and [cr]critical strike damage[/]) to the target and nearby enemies."
         }
     ],
     "config": {

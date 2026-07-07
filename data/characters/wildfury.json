@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Warrior",
-    "class": "Initiator",
-    "position": "Jungle",
-    "type": "Magical",
-    "range": "Melee",
+    "role": ["Warrior"],
+    "class": ["Bruiser", "Initiator"],
+    "position": ["Jungle"],
+    "type": ["Magical"],
+    "range": ["Melee"],
     "abilities": [
         {
             "name": "Fearless Stance",

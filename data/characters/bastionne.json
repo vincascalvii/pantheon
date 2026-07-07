@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Marksman",
-    "class": "Sniper",
-    "position": "Carry",
-    "type": "Physical",
-    "range": "Ranged",
+    "role": ["Marksman"],
+    "class": ["Sniper"],
+    "position": ["Carry"],
+    "type": ["Physical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Heavy Caliber",

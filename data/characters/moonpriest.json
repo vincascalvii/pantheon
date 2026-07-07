@@ -8,11 +8,11 @@
     "soulforge": "",
     "resonance": "",
     "lore": "",
-    "role": "Support",
-    "class": "Enchanter",
-    "position": "Support",
-    "type": "Magical",
-    "range": "Ranged",
+    "role": ["Support"],
+    "class": ["Enchanter"],
+    "position": ["Support"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Lunar Vow",

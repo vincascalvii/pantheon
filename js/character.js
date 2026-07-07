@@ -84,11 +84,19 @@ const Character = {
 	popIcons() {
 		const icons = ['role', 'class', 'position', 'type', 'range'];
 		icons.forEach(icon => {
-			const val = this.character[icon];
+			const vals = this.character[icon];
 			const el = document.getElementById(`pop-${icon}`);
 			if (el) {
-				el.src = `../img/icons/${icon}-${val.toLowerCase()}.png`;
-				el.nextElementSibling.textContent = val;
+				vals.forEach(val => {
+					el.innerHTML += `
+						<img 
+							src="../img/icons/${icon}-${val.toLowerCase()}.png" 
+							class="side-icon-img" 
+							alt="Position"
+						>
+					`;
+				});
+				el.innerHTML += `<div class="side-icon-label">${vals.join(', ')}</div>`;;
 			}
 		});
     },

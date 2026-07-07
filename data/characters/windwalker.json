@@ -8,11 +8,11 @@
     "soulforge": "Zephyr",
     "resonance": "Wind Manipulation",
     "lore": "The Crowned Queen of the Aelven race, and the Eleventh Paragon of Viridisia, Kiannah Ilicyne is known to be one of the Four Great Beauties of Aetherion. However, one cannot be deceived by her elegant appearance, as her arrow possesses the strength to reach any target from any corner of the world. Her mastery over the wind element allows her to set up a powerful wind barrier around the entire bastion, protecting the Aelves from all outside threats. Though, rather than staying at the throne, Kiannah has always wanted to glide through the wind and travel around the world.",
-    "role": "Marksman",
-    "class": "Utility",
-    "position": "Carry",
-    "type": "Physical",
-    "range": "Ranged",
+    "role": ["Marksman"],
+    "class": ["Utility"],
+    "position": ["Carry"],
+    "type": ["Physical"],
+    "range": ["Ranged"],
     "abilities": [
         {
             "name": "Wind Walk",
