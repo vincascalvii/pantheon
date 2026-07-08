@@ -172,7 +172,7 @@ a {
 .side-icon-img {
     width: 50px;
     height: 50px;
-    opacity: .6;
+    opacity: .8;
 }
 
 .side-icon-label {
@@ -430,7 +430,7 @@ main {
 .nav-item-img {
     filter: grayscale(1);
     width: 200px;
-    opacity: .4;
+    opacity: .6;
     transition: .2s ease-in-out;
 }
 
@@ -441,15 +441,12 @@ main {
     width: 200px;
     font-family: "Eagle Lake", serif;
     text-align: center;
-    opacity: .5;
+    opacity: .7;
     transition: .2s ease-in-out;
 }
 
 .nav-item:hover .nav-item-img,
-.nav-item.active .nav-item-img {
-    opacity: .8;
-} 
-
+.nav-item.active .nav-item-img,
 .nav-item:hover .nav-item-text,
 .nav-item.active .nav-item-text {
     opacity: 1;
