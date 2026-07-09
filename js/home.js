@@ -114,7 +114,31 @@ const Home = {
                 name: 'Eleanor Vance',
                 title: 'the Horizon Breaker',
             },
-        ]
+        ],
+        viridisia: [
+            {
+                alias: 'Windwalker',
+                name: 'Kiannah Ilicyne',
+                title: 'the Wind Walker',
+            },
+            {
+                alias: 'Skypiercer',
+                name: 'Kaelen Virgwyn',
+                title: 'the Sky Piercer',
+            },
+        ],
+        huoshen: [
+            {
+                alias: 'Phoenix',
+                name: 'Huǒ Fèngyīng',
+                title: 'the Origin Flame',
+            },
+            {
+                alias: 'Everflame',
+                name: 'Huǒ Wǔjiàng',
+                title: 'the Undying Flame',
+            },
+        ],
     },
 
 	/**
@@ -142,7 +166,7 @@ const Home = {
 	initBastions() {
         this.bastions.forEach(bastion => {
             const bastionRef = bastion.ref ?? bastion.name.toLowerCase();
-            const isActive = bastionRef === 'custodians' ? 'active' : '';
+            const isActive = bastionRef === 'everlight' ? 'active' : '';
             this.bastionsContainer.innerHTML += `
                 <div class="bastion ${isActive}" data-bastion="${bastionRef}">
                     <img src="img/bastions/${bastionRef}.png" class="bastion-logo" alt="${bastion.name}">
@@ -212,37 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
 
-// const data = [
-// 				
 
-// 				{
-// 					name: "Windwalker",
-// 					bastion: "viridisia",
-// 					thumb: true,
-// 				},
-// 				{
-// 					name: "Skypiercer",
-// 					bastion: "viridisia",
-// 				},
-// 				{
-// 					name: "Phoenix",
-// 					bastion: "huoshen",
-// 				},
-// 				{
-// 					name: "Everflame",
-// 					bastion: "huoshen",
-// 					thumb: true,
-// 				},
-// 				// {
-// 				// 	name: "Havoc",
-// 				// 	bastion: "huoshen",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Inferno",
-// 				// 	bastion: "huoshen",
-// 				// 	disabled: true,
-// 				// },
 // 				{
 // 					name: "Ninetails",
 // 					bastion: "shirohana",

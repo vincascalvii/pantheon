@@ -36,9 +36,11 @@
         }
     ],
     "config": {
-        "char_width": 1000,
-        "char_height": 860,
-        "prev_char": "windstrider",
-        "next_char": "woodweaver"
+        "char_height": 0,
+        "char_left": 130,
+        "char_mask_right": {
+            "left": 80,
+            "right": 100
+        }
     }
 }

@@ -36,9 +36,15 @@
         }
     ],
     "config": {
-        "char_width": 900,
-        "char_height": 900,
-        "prev_char": "emberheart",
-        "next_char": "frostguard"
+        "char_height": 20,
+        "char_left": 0,
+        "char_mask_left": {
+            "left": 5,
+            "right": 25
+        },
+        "char_mask_right": {
+            "left": 80,
+            "right": 88
+        }
     }
 }

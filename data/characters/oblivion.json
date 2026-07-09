@@ -36,9 +36,15 @@
         }
     ],
     "config": {
-        "char_width": 1080,
-        "char_height": 860,
-        "prev_char": "ninetails",
-        "next_char": "phoenix"
+        "char_height": -20,
+        "char_left": 0,
+        "char_mask_left": {
+            "left": 0,
+            "right": 20
+        },
+        "char_mask_right": {
+            "left": 80,
+            "right": 100
+        }
     }
 }
