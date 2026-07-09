@@ -1,182 +1,406 @@
-/* ==========================================================================
+/**
+ * ============================================================================
+ * HOME
+ * ============================================================================
+ */
+const Home = {
+	bastions: [
+        {
+            name: 'Custodians',
+            title: 'Protagonists',
+        },
+        {
+            name: 'Everlight',
+            title: 'the Dawn Bringers',
+        },
+        {
+            name: 'Viridisia',
+            title: 'the Verdant Guards',
+        },
+        {
+            name: 'Huǒshén',
+            ref: 'huoshen',
+            title: 'the Ember Masters',
+        },
+        {
+            name: 'Durak-Tharn',
+            ref: 'duraktharn',
+            title: 'the Hearth Forgers',
+        },
+        {
+            name: 'Shirohana',
+            title: 'the Blossom Keepers',
+        },
+        {
+            name: 'Dragnoel',
+            title: 'the Dragon Knights',
+        },
+        {
+            name: 'Kragnok',
+            title: 'the Thunder Mauls',
+        },
+        {
+            name: 'Jötunheimr',
+            ref: 'jotunheimr',
+            title: 'the Frost Giants',
+        },
+        {
+            name: 'Sol’zakar',
+            ref: 'solzakar',
+            title: 'the Sun Seekers',
+        },
+        {
+            name: 'Chandrasar',
+            title: 'the Moon Striders',
+        },
+        {
+            name: 'Nagaithis',
+            title: 'the Tide Callers',
+        },
+        {
+            name: 'Altharion',
+            title: 'the Dusk Blades',
+        },
+        {
+            name: 'Eden',
+            title: 'the Heavenly Sovereigns',
+        },
+        {
+            name: 'Nether',
+            title: 'the Hellish Monarchs',
+        },
+    ],
+	characters: {
+        custodians: [
+            {
+                alias: 'Oblivion',
+                name: 'Arcian Truthsteel',
+                title: 'the Abyssal Demon',
+            },
+            {
+                alias: 'Justice',
+                name: 'Cyrus Lightbearer',
+                title: 'the Living Tribunal',
+            },
+            {
+                alias: 'Sentinel',
+                name: 'Xenon Skyforge',
+                title: 'the Faithful Sentinel',
+            },
+        ],
+        everlight: [
+            {
+                alias: 'Elementalist',
+                name: 'Ciarra Crownsworth',
+                title: 'the Elemental Master',
+            },
+            {
+                alias: 'Emberheart',
+                name: 'Eris Flameheart',
+                title: 'the Elemental Master',
+            },
+            {
+                alias: 'Valkyrie',
+                name: 'Clair Wyvernsworn',
+                title: 'the Silver Valkyrie',
+            },
+            {
+                alias: 'Imperator',
+                name: 'Everett Wyvernsworn',
+                title: 'the Golden Sentry',
+            },
+            {
+                alias: 'Bastionne',
+                name: 'Eleanor Vance',
+                title: 'the Horizon Breaker',
+            },
+        ]
+    },
 
-	RENDER CHARACTERS
+	/**
+     * Entry point.
+     */
+    async init() {
+        this.cacheElements();
+        if (!this.bastionsContainer || !this.charactersContainer) return;
+        this.initBastions();
+        this.initCharacters();
+        this.initBastionSwitch();
+    },
 
-========================================================================== */
+    /**
+	 * Cache all frequently used DOM elements to avoid repeated DOM lookups.
+	 */
+	cacheElements() {
+		this.bastionsContainer = document.getElementById('pop-bastions');
+        this.charactersContainer = document.getElementById('pop-characters');
+	},
 
-// Function to render the characters
-function render(data) {
+    /**
+	 * 
+	 */
+	initBastions() {
+        this.bastions.forEach(bastion => {
+            const bastionRef = bastion.ref ?? bastion.name.toLowerCase();
+            const isActive = bastionRef === 'custodians' ? 'active' : '';
+            this.bastionsContainer.innerHTML += `
+                <div class="bastion ${isActive}" data-bastion="${bastionRef}">
+                    <img src="img/bastions/${bastionRef}.png" class="bastion-logo" alt="${bastion.name}">
+                    <div class="bastion-label">
+                        <div class="bastion-name">${bastion.name}</div>
+                        <div class="bastion-title">${bastion.title}</div>
+                    </div>
+                </div>
+            `;
+            this.charactersContainer.innerHTML += `
+                <div class="char-bastion ${isActive}" data-bastion="${bastionRef}"></div>
+            `;
+        });
+    },
 
-    // Start with empty content
-    let content = '';
+    /**
+	 * 
+	 */
+	initCharacters() {
+        Object.entries(this.characters).forEach(([bastion, characters]) => {
+            const bastionContainer = document.querySelector(`.char-bastion[data-bastion="${bastion}"]`);
+            characters.forEach(character => {
+                const aliasRef = character.alias.toLowerCase();
+                bastionContainer.innerHTML += `
+                    <a href="character?alias=${aliasRef}" class="char-block">
+                        <div class="char-img">
+                            <img 
+                                src="img/characters/${aliasRef}/thumb.png" 
+                                alt="${character.name}" 
+                                onerror="this.style.visibility='hidden'"
+                            />
+                        </div>
+                        <div class="char-info">
+                            <div class="char-alias">${character.alias}</div>
+                            <div class="char-name">${character.name}</div>
+                            <div class="char-title">${character.title}</div>
+                        </div>
+                    </a>
+                `;
+            });
+        });
+    },
 
-    // Render the characters
-    for (let i= 0; i < data.length; i++) {
-        content += renderCharacter(data[i]);
-    }
+    /**
+	 * 
+	 */
+	initBastionSwitch() {
+        const bastions = document.querySelectorAll('.bastion');
+        const displays = document.querySelectorAll('.char-bastion');
+        bastions.forEach(bastion => {
+            bastion.addEventListener('click', () => {
+                bastions.forEach(bastion => bastion.classList.remove('active'));
+                displays.forEach(display => display.classList.remove('active'));
+                bastion.classList.add('active');
+                document.querySelector(`.char-bastion[data-bastion="${bastion.dataset.bastion}"]`).classList.add('active');
+            });
+        });
+    },
+};
 
-    // Pass the content to the container
-    container.innerHTML = content;
-}
+/**
+ * Initialise when DOM is fully loaded
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    Home.init();
+});
 
-// Function to render a character
-function renderCharacter(char) {
-
-    // Start with empty content
-    let content = '';
-    let disabledClass = char.disabled ? ' disabled' : '';
-
-    // Build the character block
-    content += `<a href="character?alias=` 
-        + char.name.toLowerCase() + `" class="char-block slide active` + disabledClass + `">`
-        + `<div class="char-bg">`;
-
-    // If thumbnail exists, add <img> block
-    if (char.thumb === true) {
-        content += `<img src="img/characters/` 
-            + char.name.toLowerCase() + `/thumb.jpg" class="char-img" alt="` 
-            + char.name + `" onerror="this.style.visibility='hidden'">`
-    }
     
-    // Close the block
-    content += `</div>` + `<div class="char-name">` + char.name + `</div>` + `</a>`;
 
-    // Render the content
-    return content;
-}
+// const data = [
+// 				
 
-// Get the container & render the initial characters
-let container = document.getElementById('characters');
-if (data && container) render(data);
-
-
-
-/* ==========================================================================
-
-	SORTING
-
-========================================================================== */
-
-// Loop through the sort options
-let sortIcons = document.querySelectorAll('.sort-icon');
-let sortOpts = document.querySelectorAll('.sort-opt');
-sortOpts.forEach(opt => {
-    opt.addEventListener('click', function() {
-
-        // Get the sort type
-        let sort = this.getAttribute('data-sort');
-
-        // Switch active icon
-        sortIcons.forEach(icon => icon.classList.remove('active'));
-        document.querySelector('.sort-icon[data-sort="' + sort + '"]').classList.add('active');
-
-        // Render the sorted data
-        container.innerHTML = '';
-        switch (sort) {
-            case 'az':
-            case 'za':
-                sortByAlpha(sort);
-                break;
-            default:
-                render(data);
-                break;
-        }
-    }, false);
-});
-
-// Function to sort alphabetically
-function sortByAlpha(order) {
-
-    const characters = [...data];
-
-    // Sort the characters
-    if (order === 'az') {
-        characters.sort((a, b) => {
-            const aUnknown = a.name === '???';
-            const bUnknown = b.name === '???';
-
-            // Push "???" to the bottom
-            if (aUnknown && !bUnknown) return 1;
-            if (!aUnknown && bUnknown) return -1;
-
-            // Normal alphabetical sort (A → Z)
-            return a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
-        });
-    } else if (order === 'za') {
-        characters.sort((a, b) => {
-            const aUnknown = a.name === '???';
-            const bUnknown = b.name === '???';
-
-            // Push "???" to the bottom
-            if (aUnknown && !bUnknown) return 1;
-            if (!aUnknown && bUnknown) return -1;
-
-            // Normal alphabetical sort (Z → A)
-            return b.name.localeCompare(a.name, undefined, { sensitivity: "base" })
-        });
-    }
-
-    // Render the sorted characters
-    render(characters);
-}
-
-
-
-/* ==========================================================================
-
-	SEARCH & FILTER
-
-========================================================================== */
-
-// Get the search bar input element by its ID
-var searchBar = document.getElementById('sbar-input');
-
-// Add an event listener for the keyup event on the search bar
-// Use setTimeout to delay the search for 200 milliseconds
-searchBar.addEventListener('input', function(e) {
-    setTimeout(function() {
-        filterData();
-    }, 200);
-});
-
-// Select all input checkboxes and logos for the Bastion section
-var bastionInputs = document.querySelectorAll('.scat-input');
-
-// Add event listeners to each input checkbox
-bastionInputs.forEach((input, index) => {
-    input.addEventListener('change', function() {
-        filterData();
-    });
-});
-
-// Function to filter data
-function filterData() {
-
-    // Get the search term
-    const term = searchBar.value.trim().toLowerCase();
-    const bastion = document.querySelector('.scat-input:checked').value.toLowerCase();
-
-    // If no filters are applied, render the full data
-    if (term === '' && bastion === '') {
-        render(data);
-        return;
-    }
-
-    // Filter data by bastion first, then search term
-    let filteredData = data.filter(item => !bastion || item.bastion === bastion)
-        .filter(entry => {
-            if (!term) return true;
-            return entry.name.toLowerCase().includes(term);
-        });
-
-    // Render the filtered data
-    render(filteredData);
-}
-
-// Remove all the filters and render the full data
-var clearFilter = document.querySelector('.clear');
-clearFilter.addEventListener('click', function() {
-    searchBar.value = '';
-    bastionInputs[0].checked = true;
-    render(data, true);
-}, false);
+// 				{
+// 					name: "Windwalker",
+// 					bastion: "viridisia",
+// 					thumb: true,
+// 				},
+// 				{
+// 					name: "Skypiercer",
+// 					bastion: "viridisia",
+// 				},
+// 				{
+// 					name: "Phoenix",
+// 					bastion: "huoshen",
+// 				},
+// 				{
+// 					name: "Everflame",
+// 					bastion: "huoshen",
+// 					thumb: true,
+// 				},
+// 				// {
+// 				// 	name: "Havoc",
+// 				// 	bastion: "huoshen",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Inferno",
+// 				// 	bastion: "huoshen",
+// 				// 	disabled: true,
+// 				// },
+// 				{
+// 					name: "Ninetails",
+// 					bastion: "shirohana",
+// 				},
+// 				{
+// 					name: "Wildfury",
+// 					bastion: "shirohana",
+// 				},
+// 				{
+// 					name: "Stoneheart",
+// 					bastion: "shirohana",
+// 				},
+// 				{
+// 					name: "Nightprowler",
+// 					bastion: "shirohana",
+// 				},
+// 				{
+// 					name: "Elderdrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Terradrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Clouddrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Oceandrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Cinderdrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Stormdrake",
+// 					bastion: "dragnoel",
+// 				},
+// 				{
+// 					name: "Soulforger",
+// 					bastion: "duraktharn",
+// 				},
+// 				{
+// 					name: "Ironbound",
+// 					bastion: "duraktharn",
+// 				},
+// 				{
+// 					name: "Colossus",
+// 					bastion: "duraktharn",
+// 				},
+// 				{
+// 					name: "Thunderfell",
+// 					bastion: "kragnok",
+// 				},
+// 				{
+// 					name: "Behemoth",
+// 					bastion: "kragnok",
+// 				},
+// 				// {
+// 				// 	name: "Snow",
+// 				// 	bastion: "jotunheimr",
+// 				// 	disabled: true,
+// 				// },
+// 				{
+// 					name: "Frostguard",
+// 					bastion: "jotunheimr",
+// 				},
+// 				{
+// 					name: "Sunbringer",
+// 					bastion: "solzakar",
+// 				},
+// 				// {
+// 				// 	name: "Scorpion",
+// 				// 	bastion: "solzakar",
+// 				// 	disabled: true,
+// 				// },
+// 				{
+// 					name: "Moonpriest",
+// 					bastion: "chandrasar",
+// 				},
+// 				{
+// 					name: "Eclipse",
+// 					bastion: "chandrasar",
+// 				},
+// 				{
+// 					name: "Leviathan",
+// 					bastion: "nagaithis",
+// 				},
+// 				{
+// 					name: "Siren",
+// 					bastion: "nagaithis",
+// 				},
+// 				{
+// 					name: "Shadow",
+// 					bastion: "altharion",
+// 				},
+// 				{
+// 					name: "Chainreaper",
+// 					bastion: "altharion",
+// 				},
+// 				// {
+// 				// 	name: "Genesis",
+// 				// 	bastion: "eden",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Requiem",
+// 				// 	bastion: "eden",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Paradox",
+// 				// 	bastion: "eden",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Horizon",
+// 				// 	bastion: "eden",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Oracle",
+// 				// 	bastion: "eden",
+// 				// 	disabled: true,
+// 				// },
+// 				{
+// 					name: "Conqueror",
+// 					bastion: "eden",
+// 				},
+// 				// {
+// 				// 	name: "Chaos",
+// 				// 	bastion: "nether",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Nameless",
+// 				// 	bastion: "nether",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Calamity",
+// 				// 	bastion: "nether",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Ragnarok",
+// 				// 	bastion: "nether",
+// 				// 	disabled: true,
+// 				// },
+// 				// {
+// 				// 	name: "Miasma",
+// 				// 	bastion: "nether",
+// 				// 	disabled: true,
+// 				// },
+// 				{
+// 					name: "Crimson",
+// 					bastion: "nether",
+// 				},
+// 			];

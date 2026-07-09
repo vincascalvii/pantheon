@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+	<meta name="theme-color" content="#333">
+	<title>Pantheon - Character Design - Calvin Lam</title>
+	<meta name="description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
+	<meta name="author" content="Calvin Lam">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="./fonts/BrunoAceSC-Regular.ttf" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/ttf" href="./fonts/Rationale-Regular.ttf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="./css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="./css/home.css">
+    <meta property="og:site_name" content="Calvin Lam">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/img/others/opengraph.jpg">
+    <meta property="og:url" content="https://vincascalvii.github.io/pantheon">
+    <meta property="og:title" content="Pantheon - Character Design - Calvin Lam">
+    <meta property="og:description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/img/others/twitter.jpg"> 
+    <meta name="twitter:url" content="https://vincascalvii.github.io/pantheon">
+    <meta name="twitter:title" content="Pantheon - Character Design - Calvin Lam">
+    <meta name="twitter:description" content="With a growing range of characters to discover, there are always new surprises. Browse them all here.">
+</head>
+<body>
+	<main>
+		<section class="header container">
+			<h1 class="title">Pantheon</h1>
+			<div class="search">
+				<div class="sort" title="Sort By">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sort-icon active" data-sort="b">
+						<path opacity="0.5" d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="sort-icon sort-text" data-sort="az">
+						<span>A</span><span class="sort-text-grey">Z</span>
+					</div>
+					<div class="sort-icon sort-text" data-sort="za">
+						<span>Z</span><span class="sort-text-grey">A</span>
+					</div>
+					<div class="sort-modal">
+						<div class="sort-opts">
+							<div class="sort-opt" data-sort="b">Sort by Bastions</div>
+							<div class="sort-opt" data-sort="az">Sort by Alphabetical Order (A → Z)</div>
+							<div class="sort-opt" data-sort="za">Sort by Alphabetical Order (Z → A)</div>
+						</div>
+					</div>
+				</div>
+				<div class="sbar">
+					<input type="text" id="sbar-input" placeholder="Search characters..." aria-label="Search characters">
+					<svg xmlns="http://www.w3.org/2000/svg" class="sbar-icon" viewBox="0 -0.5 25 25" fill="none">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M15.989 15.4905L19.5 19.0015" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</div>
+				<div class="scat">
+					<label for="bastion-all" class="scat-block">
+						<input type="radio" id="bastion-all" name="bastion" class="scat-input" value="" checked>
+						<img src="img/bastions/all.png" class="scat-logo" alt="All Bastions">
+					</label>
+					<label for="bastion-custodians" class="scat-block">
+						<input type="radio" id="bastion-custodians" name="bastion" class="scat-input" value="custodians">
+						<img src="img/bastions/custodians.png" class="scat-logo" alt="Custodians">
+					</label>
+					<label for="bastion-everlight" class="scat-block">
+						<input type="radio" id="bastion-everlight" name="bastion" class="scat-input" value="everlight">
+						<img src="img/bastions/everlight.png" class="scat-logo" alt="Everlight">
+					</label>
+					<label for="bastion-viridisia" class="scat-block">
+						<input type="radio" id="bastion-viridisia" name="bastion" class="scat-input" value="viridisia">
+						<img src="img/bastions/viridisia.png" class="scat-logo" alt="Viridisia">
+					</label>
+					<label for="bastion-huoshen" class="scat-block">
+						<input type="radio" id="bastion-huoshen" name="bastion" class="scat-input" value="huoshen">
+						<img src="img/bastions/huoshen.png" class="scat-logo" alt="Huǒshén">
+					</label>
+					<label for="bastion-shirohana" class="scat-block">
+						<input type="radio" id="bastion-shirohana" name="bastion" class="scat-input" value="shirohana">
+						<img src="img/bastions/shirohana.png" class="scat-logo" alt="Shirohana">
+					</label>
+					<label for="bastion-dragnoel" class="scat-block">
+						<input type="radio" id="bastion-dragnoel" name="bastion" class="scat-input" value="dragnoel">
+						<img src="img/bastions/dragnoel.png" class="scat-logo" alt="Dragnoel">
+					</label>
+					<label for="bastion-duraktharn" class="scat-block">
+						<input type="radio" id="bastion-duraktharn" name="bastion" class="scat-input" value="duraktharn">
+						<img src="img/bastions/duraktharn.png" class="scat-logo" alt="Durak-Tharn">
+					</label>
+					<label for="bastion-kragnok" class="scat-block">
+						<input type="radio" id="bastion-kragnok" name="bastion" class="scat-input" value="kragnok">
+						<img src="img/bastions/kragnok.png" class="scat-logo" alt="Kragnok">
+					</label>
+					<label for="bastion-jotunheimr" class="scat-block">
+						<input type="radio" id="bastion-jotunheimr" name="bastion" class="scat-input" value="jotunheimr">
+						<img src="img/bastions/jotunheimr.png" class="scat-logo" alt="Jötunheimr">
+					</label>
+					<label for="bastion-solzakar" class="scat-block">
+						<input type="radio" id="bastion-solzakar" name="bastion" class="scat-input" value="solzakar">
+						<img src="img/bastions/solzakar.png" class="scat-logo" alt="Sol’zakar">
+					</label>
+					<label for="bastion-chandrasar" class="scat-block">
+						<input type="radio" id="bastion-chandrasar" name="bastion" class="scat-input" value="chandrasar">
+						<img src="img/bastions/chandrasar.png" class="scat-logo" alt="Chandrasar">
+					</label>
+					<label for="bastion-nagaithis" class="scat-block">
+						<input type="radio" id="bastion-nagaithis" name="bastion" class="scat-input" value="nagaithis">
+						<img src="img/bastions/nagaithis.png" class="scat-logo" alt="Nagaithis">
+					</label>
+					<label for="bastion-altharion" class="scat-block">
+						<input type="radio" id="bastion-altharion" name="bastion" class="scat-input" value="altharion">
+						<img src="img/bastions/altharion.png" class="scat-logo" alt="Altharion">
+					</label>
+					<label for="bastion-eden" class="scat-block">
+						<input type="radio" id="bastion-eden" name="bastion" class="scat-input" value="eden">
+						<img src="img/bastions/eden.png" class="scat-logo" alt="Eden">
+					</label>
+					<label for="bastion-nether" class="scat-block">
+						<input type="radio" id="bastion-nether" name="bastion" class="scat-input" value="nether">
+						<img src="img/bastions/nether.png" class="scat-logo" alt="Nether">
+					</label>
+				</div>
+				<div class="clear" title="Clear Filter">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="clear-icon">
+						<path fill="none" stroke="currentColor" stroke-width="2" d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M5,5 L19,19"/>
+					</svg>
+				</div>
+			</div>
+		</section>
+		<script>
+			const data = [
+				{
+					name: "Oblivion",
+					bastion: "custodians",
+					thumb: true,
+				},
+				{
+					name: "Justice",
+					bastion: "custodians",
+				},
+				{
+					name: "Sentinel",
+					bastion: "custodians",
+				},
+				{
+					name: "Elementalist",
+					bastion: "everlight",
+					thumb: true,
+				},
+				{
+					name: "Emberheart",
+					bastion: "everlight",
+					thumb: true,
+				},
+				{
+					name: "Valkyrie",
+					bastion: "everlight",
+				},
+				{
+					name: "Imperator",
+					bastion: "everlight",
+				},
+				{
+					name: "Bastionne",
+					bastion: "everlight",
+				},
+				{
+					name: "Windwalker",
+					bastion: "viridisia",
+					thumb: true,
+				},
+				{
+					name: "Skypiercer",
+					bastion: "viridisia",
+				},
+				{
+					name: "Phoenix",
+					bastion: "huoshen",
+				},
+				{
+					name: "Everflame",
+					bastion: "huoshen",
+					thumb: true,
+				},
+				// {
+				// 	name: "Havoc",
+				// 	bastion: "huoshen",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Inferno",
+				// 	bastion: "huoshen",
+				// 	disabled: true,
+				// },
+				{
+					name: "Ninetails",
+					bastion: "shirohana",
+				},
+				{
+					name: "Wildfury",
+					bastion: "shirohana",
+				},
+				{
+					name: "Stoneheart",
+					bastion: "shirohana",
+				},
+				{
+					name: "Nightprowler",
+					bastion: "shirohana",
+				},
+				{
+					name: "Elderdrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Terradrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Clouddrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Oceandrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Cinderdrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Stormdrake",
+					bastion: "dragnoel",
+				},
+				{
+					name: "Soulforger",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Ironbound",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Colossus",
+					bastion: "duraktharn",
+				},
+				{
+					name: "Thunderfell",
+					bastion: "kragnok",
+				},
+				{
+					name: "Behemoth",
+					bastion: "kragnok",
+				},
+				// {
+				// 	name: "Snow",
+				// 	bastion: "jotunheimr",
+				// 	disabled: true,
+				// },
+				{
+					name: "Frostguard",
+					bastion: "jotunheimr",
+				},
+				{
+					name: "Sunbringer",
+					bastion: "solzakar",
+				},
+				// {
+				// 	name: "Scorpion",
+				// 	bastion: "solzakar",
+				// 	disabled: true,
+				// },
+				{
+					name: "Moonpriest",
+					bastion: "chandrasar",
+				},
+				{
+					name: "Eclipse",
+					bastion: "chandrasar",
+				},
+				{
+					name: "Leviathan",
+					bastion: "nagaithis",
+				},
+				{
+					name: "Siren",
+					bastion: "nagaithis",
+				},
+				{
+					name: "Shadow",
+					bastion: "altharion",
+				},
+				{
+					name: "Chainreaper",
+					bastion: "altharion",
+				},
+				// {
+				// 	name: "Genesis",
+				// 	bastion: "eden",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Requiem",
+				// 	bastion: "eden",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Paradox",
+				// 	bastion: "eden",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Horizon",
+				// 	bastion: "eden",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Oracle",
+				// 	bastion: "eden",
+				// 	disabled: true,
+				// },
+				{
+					name: "Conqueror",
+					bastion: "eden",
+				},
+				// {
+				// 	name: "Chaos",
+				// 	bastion: "nether",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Nameless",
+				// 	bastion: "nether",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Calamity",
+				// 	bastion: "nether",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Ragnarok",
+				// 	bastion: "nether",
+				// 	disabled: true,
+				// },
+				// {
+				// 	name: "Miasma",
+				// 	bastion: "nether",
+				// 	disabled: true,
+				// },
+				{
+					name: "Crimson",
+					bastion: "nether",
+				},
+			];
+		</script>
+		<section id="characters" class="characters container"></section>
+		<a href="/" class="back" aria-label="Back">
+			<div class="back-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon">
+					<path fill="currentColor" d="M474.89,300.41a121.43,121.43,0,0,1-121.3,121.3H247.08V392.13H353.59a91.72,91.72,0,1,0,0-183.44H87.53L151,272.2l-20.92,20.92L30.89,193.9l99.22-99.22L151,115.6l-63.5,63.51H353.59A121.43,121.43,0,0,1,474.89,300.41Z"/>
+				</svg>
+			</div>
+			<span class="back-text">Back</span>
+		</a>
+		<img src="./img/bg-home.jpg" class="background" alt="Background">
+	</main>
+	<script src="/js/lazysizes/lazysizes.min.js"></script>
+	<script type="text/javascript" src="./js/home.js"></script>
+</body>
+</html>
