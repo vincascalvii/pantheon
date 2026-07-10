@@ -139,6 +139,213 @@ const Home = {
                 title: 'the Undying Flame',
             },
         ],
+        duraktharn: [
+            {
+                alias: 'Ironbound',
+                name: 'Ar-Gon Tuta-Dam',
+                title: 'the Iron Duke',
+            },
+            {
+                alias: 'Soulforger',
+                name: 'Kharra-Ryn Tuta-Dam',
+                title: 'the Soul Forger',
+            },
+            {
+                alias: 'Colossus',
+                name: 'Dun-Can Tuta-Dam',
+                title: 'the Immutable Shield',
+            },
+        ],
+        shirohana: [
+            {
+                alias: 'Ninetails',
+                name: 'Kimiko',
+                title: 'the Nine Tails',
+            },
+            {
+                alias: 'Wildfury',
+                name: 'Byakko',
+                title: 'the Striped Sage',
+            },
+            {
+                alias: 'Stoneheart',
+                name: 'Kuma',
+                title: 'the Mountain Weight',
+            },
+            {
+                alias: 'Nightprowler',
+                name: 'Yui',
+                title: 'the Night Prowler',
+            },
+        ],
+        dragnoel: [
+            {
+                alias: 'Elderdrake',
+                name: 'Velerias Draconis',
+                title: 'the Woodland Mother',
+            },
+            {
+                alias: 'Terradrake',
+                name: 'Terros Draconis',
+                title: 'the Earth Breaker',
+            },
+            {
+                alias: 'Clouddrake',
+                name: 'Zephyrus Draconis',
+                title: 'the Cloud Splitter',
+            },
+            {
+                alias: 'Oceandrake',
+                name: 'Marinus Draconis',
+                title: 'the Sea Keeper',
+            },
+            {
+                alias: 'Cinderdrake',
+                name: 'Ignis Draconis',
+                title: 'the Ash Walker',
+            },
+            {
+                alias: 'Stormdrake',
+                name: 'Artorias Draconis',
+                title: 'the Storm Bringer',
+            },
+        ],
+        kragnok: [
+            {
+                alias: 'Thunderfell',
+                name: 'Thorr',
+                title: 'the Thunder Wielder',
+            },
+            {
+                alias: 'Behemoth',
+                name: 'Baal',
+                title: 'the Unstoppable Juggernaut',
+            },
+        ],
+        jotunheimr: [
+            {
+                alias: 'Snow',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Winter',
+                name: 'Fenrir Vánagandr',
+                title: 'the Northern Winter',
+            },
+        ],
+        solzakar: [
+            {
+                alias: 'Sunbringer',
+                name: 'Ra’sutekh',
+                title: 'the Living Sun',
+            },
+            {
+                alias: 'Scorpion',
+                name: '___',
+                title: '___',
+            },
+        ],
+        chandrasar: [
+            {
+                alias: 'Moonpriest',
+                name: 'Selene',
+                title: 'the Lunar Seer',
+            },
+            {
+                alias: 'Eclipse',
+                name: 'Iyla',
+                title: 'the Night Herald',
+            },
+        ],
+        nagaithis: [
+            {
+                alias: 'Leviathan',
+                name: 'Nakaraj Rakthanon',
+                title: 'the Grand Cetacean',
+            },
+            {
+                alias: 'Siren',
+                name: 'Phraya Saranak',
+                title: 'the Blue Whisper',
+            },
+        ],
+        altharion: [
+            {
+                alias: 'Shadow',
+                name: 'Grym',
+                title: 'the Grim Reaper',
+            },
+            {
+                alias: 'Reaper',
+                name: 'Draevyn',
+                title: 'the Chain Reaper',
+            },
+        ],
+        eden: [
+            {
+                alias: 'Genesis',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Requiem',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Paradox',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Horizon',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Oracle',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Conqueror',
+                name: 'Mars',
+                title: 'the War God',
+            },
+        ],
+        nether: [
+            {
+                alias: 'Chaos',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Nameless',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Calamity',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Ragnarok',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Miasma',
+                name: '___',
+                title: '___',
+            },
+            {
+                alias: 'Crimson',
+                name: 'Nocturne',
+                title: 'the Blood Lord',
+            },
+        ],
     },
 
 	/**
@@ -233,168 +440,3 @@ const Home = {
 document.addEventListener('DOMContentLoaded', () => {
     Home.init();
 });
-
-    
-
-
-// 				{
-// 					name: "Ninetails",
-// 					bastion: "shirohana",
-// 				},
-// 				{
-// 					name: "Wildfury",
-// 					bastion: "shirohana",
-// 				},
-// 				{
-// 					name: "Stoneheart",
-// 					bastion: "shirohana",
-// 				},
-// 				{
-// 					name: "Nightprowler",
-// 					bastion: "shirohana",
-// 				},
-// 				{
-// 					name: "Elderdrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Terradrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Clouddrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Oceandrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Cinderdrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Stormdrake",
-// 					bastion: "dragnoel",
-// 				},
-// 				{
-// 					name: "Soulforger",
-// 					bastion: "duraktharn",
-// 				},
-// 				{
-// 					name: "Ironbound",
-// 					bastion: "duraktharn",
-// 				},
-// 				{
-// 					name: "Colossus",
-// 					bastion: "duraktharn",
-// 				},
-// 				{
-// 					name: "Thunderfell",
-// 					bastion: "kragnok",
-// 				},
-// 				{
-// 					name: "Behemoth",
-// 					bastion: "kragnok",
-// 				},
-// 				// {
-// 				// 	name: "Snow",
-// 				// 	bastion: "jotunheimr",
-// 				// 	disabled: true,
-// 				// },
-// 				{
-// 					name: "Frostguard",
-// 					bastion: "jotunheimr",
-// 				},
-// 				{
-// 					name: "Sunbringer",
-// 					bastion: "solzakar",
-// 				},
-// 				// {
-// 				// 	name: "Scorpion",
-// 				// 	bastion: "solzakar",
-// 				// 	disabled: true,
-// 				// },
-// 				{
-// 					name: "Moonpriest",
-// 					bastion: "chandrasar",
-// 				},
-// 				{
-// 					name: "Eclipse",
-// 					bastion: "chandrasar",
-// 				},
-// 				{
-// 					name: "Leviathan",
-// 					bastion: "nagaithis",
-// 				},
-// 				{
-// 					name: "Siren",
-// 					bastion: "nagaithis",
-// 				},
-// 				{
-// 					name: "Shadow",
-// 					bastion: "altharion",
-// 				},
-// 				{
-// 					name: "Chainreaper",
-// 					bastion: "altharion",
-// 				},
-// 				// {
-// 				// 	name: "Genesis",
-// 				// 	bastion: "eden",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Requiem",
-// 				// 	bastion: "eden",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Paradox",
-// 				// 	bastion: "eden",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Horizon",
-// 				// 	bastion: "eden",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Oracle",
-// 				// 	bastion: "eden",
-// 				// 	disabled: true,
-// 				// },
-// 				{
-// 					name: "Conqueror",
-// 					bastion: "eden",
-// 				},
-// 				// {
-// 				// 	name: "Chaos",
-// 				// 	bastion: "nether",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Nameless",
-// 				// 	bastion: "nether",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Calamity",
-// 				// 	bastion: "nether",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Ragnarok",
-// 				// 	bastion: "nether",
-// 				// 	disabled: true,
-// 				// },
-// 				// {
-// 				// 	name: "Miasma",
-// 				// 	bastion: "nether",
-// 				// 	disabled: true,
-// 				// },
-// 				{
-// 					name: "Crimson",
-// 					bastion: "nether",
-// 				},
-// 			];

@@ -1,13 +1,13 @@
 {
     "alias": "Shadow",
-    "name": "Grim",
+    "name": "Grym",
     "title": "the Grim Reaper",
     "bastion": "Altharion, the Dusk Blades",
     "bastion_short": "altharion",
     "race": "Graveborn",
     "soulforge": "Twin Shadows",
     "resonance": "",
-    "lore": "Grim is the Paragon of Altharion, the Bastion of the Graveborns. He is known as the legendary hitman who exists between the physical world and the dead. Wielding two supernatural firearms named Twin Shadows, he executes his targets with rhythmic precision.",
+    "lore": "Grym is the Paragon of Altharion, the Bastion of the Graveborns. He is known as the legendary hitman who exists between the physical world and the dead. Wielding two supernatural firearms named Twin Shadows, he executes his targets with rhythmic precision.",
     "role": ["Marksman", "Assassin"],
     "class": ["Slayer"],
     "position": ["Carry", "Mid"],
@@ -16,23 +16,23 @@
     "abilities": [
         {
             "name": "Twin Shadows",
-            "details": "Grim's basic attacks fire twice—once from each gun. The second shot deals a percentage of the first shot's damage as [ap]magical damage[/] and applies on-hit effects.[n]He will shoot the same target, else another target in range. The second shot is also affected by critical strike modifiers, but the critical chance is based on the first shot."
+            "details": "Grym's basic attacks fire twice—once from each gun. The second shot deals a percentage of the first shot's damage as [ap]magical damage[/] and applies on-hit effects.[n]He will shoot the same target, else another target in range. The second shot is also affected by critical strike modifiers, but the critical chance is based on the first shot."
         },
         {
             "name": "Piercing Darkness",
-            "details": "Grim fires a high-velocity shadow laser in a line, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ap]magical damage[/]) to all enemies hit."
+            "details": "Grym fires a high-velocity shadow laser in a line, dealing [ad]physical damage[/] (scaling with [ad]physical power[/] and [ap]magical damage[/]) to all enemies hit."
         },
         {
             "name": "Dark Cloak",
-            "details": "Grim flips his cloak, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies.[n]<b>Dark Cloak</b> can [bf]deflect[/] incoming basic attacks and projectiles back."
+            "details": "Grym flips his cloak, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all nearby enemies.[n]<b>Dark Cloak</b> can [bf]deflect[/] incoming basic attacks and projectiles back."
         },
         {
             "name": "Dawning Shadow",
-            "details": "Grim dashes a short distance, leaving a <b>Dawning Shadow</b> at his starting location for a few seconds. He can re-activate this ability to instantly return to the <b>Dawning Shadow</b>.[n]When Grim basic attacks an enemy target, if <b>Dawning Shadow</b> is within range, the shadow will also basic attack the target with <b>Twin Shadows</b>'s double shots."
+            "details": "Grym dashes a short distance, leaving a <b>Dawning Shadow</b> at his starting location for a few seconds. He can re-activate this ability to instantly return to the <b>Dawning Shadow</b>.[n]When Grym basic attacks an enemy target, if <b>Dawning Shadow</b> is within range, the shadow will also basic attack the target with <b>Twin Shadows</b>'s double shots."
         },
         {
             "name": "Last Whisper",
-            "details": "Grim creates a <b>Living Shadow</b> that follows each of the nearby enemy heroes, causing them to be [db]nearsighted[/].[n]He can then recast <b>Last Whisper</b> to replace himself with any of the <b>Living Shadows</b>.[n]The enemy target that Grim replaces the shadow with will be [db]silenced[/] for a short duration."
+            "details": "Grym creates a <b>Living Shadow</b> that follows each of the nearby enemy heroes, causing them to be [db]nearsighted[/].[n]He can then recast <b>Last Whisper</b> to replace himself with any of the <b>Living Shadows</b>.[n]The enemy target that Grym replaces the shadow with will be [db]silenced[/] for a short duration."
         }
     ],
     "config": {
