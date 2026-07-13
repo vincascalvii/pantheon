@@ -356,6 +356,7 @@ const Home = {
         if (!this.bastionsContainer || !this.charactersContainer) return;
         this.initBastions();
         this.initCharacters();
+        this.initCarousels();
         this.initBastionSwitch();
     },
 
@@ -384,7 +385,14 @@ const Home = {
                 </div>
             `;
             this.charactersContainer.innerHTML += `
-                <div class="char-bastion ${isActive}" data-bastion="${bastionRef}"></div>
+                <div class="blaze-slider char-bastion ${isActive}" data-bastion="${bastionRef}">
+                    <div class="blaze-container">
+                        <div class="blaze-track-container">
+                            <div class="blaze-track">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             `;
         });
     },
@@ -394,7 +402,7 @@ const Home = {
 	 */
 	initCharacters() {
         Object.entries(this.characters).forEach(([bastion, characters]) => {
-            const bastionContainer = document.querySelector(`.char-bastion[data-bastion="${bastion}"]`);
+            const bastionContainer = document.querySelector(`.char-bastion[data-bastion="${bastion}"] .blaze-track`);
             characters.forEach(character => {
                 const aliasRef = character.alias.toLowerCase();
                 bastionContainer.innerHTML += `
@@ -413,6 +421,22 @@ const Home = {
                         </div>
                     </a>
                 `;
+            });
+        });
+    },
+
+    /**
+	 * 
+	 */
+    initCarousels() {
+        document.querySelectorAll('.blaze-slider').forEach((el) => {
+            new BlazeSlider(el, {
+                all: {
+                    loop: false,
+                    draggable: true,
+                    slidesToShow: 5,
+                    slideGap: '0px',
+                },
             });
         });
     },

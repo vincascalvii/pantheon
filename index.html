@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="./css/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Eagle+Lake&family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./lib/blaze.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/home.css">
     <meta property="og:site_name" content="Calvin Lam">
     <meta property="og:type" content="website">
@@ -33,14 +34,15 @@
 	<main>
 		<h1 class="header">Pantheon</h1>
         <section class="main">
-            <div id="pop-bastions" class="bastions">
-                <img src="img/scroll.png" class="bastions-scroll" alt="Scrollable">
-            </div>
+            <img src="img/scroll-y.png" class="scroll scroll-bastions" alt="Scrollable Bastions">
+            <img src="img/scroll-x.png" class="scroll scroll-characters" alt="Scrollable Characters">
+            <div id="pop-bastions" class="bastions"></div>
             <div id="pop-characters" class="characters"></div>
         </section>
 		<img src="./img/bg-home.jpg" class="background" alt="Background">
 	</main>
 	<script src="/js/lazysizes/lazysizes.min.js"></script>
+    <script type="text/javascript" src="./lib/blaze.min.js"></script>
 	<script type="text/javascript" src="./js/home.js"></script>
 </body>
 </html>
