@@ -150,31 +150,21 @@ const Character = {
 
 		// Loop through the abilities
 		this.character.abilities.forEach((ability, i) => {
-			const abilityDiv = document.createElement('div');
-			abilityDiv.classList.add('ability-item');
-			abilityDiv.setAttribute('data-ability', abilityTypes[i]);
-			if (i === 0) abilityDiv.classList.add('active');
-
-			// Ability Type
-			const abilityType = document.createElement('div');
-			abilityType.classList.add('ability-type');
-			abilityType.innerHTML = abilityTypes[i];
-
-			// Ability Name
-			const abilityName = document.createElement('div');
-			abilityName.classList.add('ability-name');
-			abilityName.innerHTML = ability.name;
-
-			// Ability Details
-			const abilityDetails = document.createElement('div');
-			abilityDetails.classList.add('ability-details');
-			abilityDetails.innerHTML = this.renderHighlights(ability.details);
-				
-			// Add the ability type, name & details
-			abilityDiv.appendChild(abilityType);
-			abilityDiv.appendChild(abilityName);
-			abilityDiv.appendChild(abilityDetails);
-			this.elements.abilitiesList.appendChild(abilityDiv);
+			this.elements.abilitiesList.innerHTML += `
+				<div class="ability-item ${i === 0 ? 'active' : ''}" data-ability="${abilityTypes[i]}">
+					<div class="ability-type">${abilityTypes[i]}</div>
+					<div class="ability-name">${ability.name}</div>
+					<div class="ability-details">${this.renderHighlights(ability.details)}</div>
+				</div>
+			`;
+			document.querySelector(`.ability-nav-item[data-ability="${abilityTypes[i]}"`).innerHTML = `
+				<img 
+					src="../img/characters/${this.alias}/ability-${i}.jpg" 
+					class="ability-nav-img" 
+					alt="${abilityTypes[i]}"
+					onerror="this.style.display='none'"
+				/>
+			`;
 		});
 
 		// Initialise ability switching
