@@ -159,7 +159,7 @@ const Character = {
 			`;
 			document.querySelector(`.ability-nav-item[data-ability="${abilityTypes[i]}"`).innerHTML = `
 				<img 
-					src="../img/characters/${this.alias}/ability-${i}.jpg" 
+					src="../img/characters/${this.alias}/ability-${i}.png" 
 					class="ability-nav-img" 
 					alt="${abilityTypes[i]}"
 					onerror="this.style.display='none'"

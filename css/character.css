@@ -428,7 +428,7 @@ main {
 	color: var(--ability-sh);
 }
 
-.main-tab[data-tab="backstory"],
+.main-tab[data-tab="relationships"],
 .main-tab[data-tab="quotes"] {
     font-family: "Bonheur Royale", cursive;
     font-size: 40px;
