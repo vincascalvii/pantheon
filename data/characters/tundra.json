@@ -1,0 +1,38 @@
+{
+    "alias": "Tundra",
+    "name": "Snjór Ugla",
+    "title": "the Snow Owl",
+    "bastion": "Jötunheimr, the Frost Giants",
+    "bastion_short": "jotunheimr",
+    "race": "Jötunn",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "Towering over the jagged peaks of the northern wasteland, Snjór Ugla is an ancient specter of ice. Her immense frame draped in the heavy, mottled plumage of a great snow owl. As the ageless Paragon of the Frost Giants, she rules her frozen domain with a stillness that is as suffocating as it is absolute.<br><br>To those who dwell in her shadow, she is a sovereign of terrifying consistency, known for a cold-blooded pragmatism that leaves no room for hesitation or mercy. Though her heart beats with the slow, rhythmic cadence of a glacier, her subjects follow her not out of love, but from a deep, ingrained reverence for the only ruler capable of keeping the biting winter at bay.",
+    "role": ["Mage"],
+    "class": ["Burst"],
+    "position": ["Mid"],
+    "type": ["Magical"],
+    "range": ["Ranged"],
+    "abilities": [
+        {
+            "name": "Permafrost",
+            "details": "Snjór's abilities apply <b>Permafrost</b> stacks to enemies for a few seconds, reducing their [db]movement speed[/] per stack (max 5 stacks).[n]At maximum stacks, the target will be frozen solid, consuming the stacks and [db]stunning[/] them for a short duration.[n]If Snjór hits a frozen enemy with an ability, she shatters the ice, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/] plus the target's [db]missing health[/])."
+        },
+        {
+            "name": "Glacial Spikes",
+            "details": "Snjór flings a barrage of 3 icicles in a target direction over 1.5 seconds that each shatter upon the first enemy hit, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies.[n]Subsequent hits deal less damage."
+        },
+        {
+            "name": "Ice Wall",
+            "details": "Snjór manifests a crystalline wall of ice at a target location that acts as a solid terrain and [db]obstructs[/] enemy movement.[n]The wall last for a few seconds, and nearby enemies are chilled, instantly gaining a stack of <b>Permafrost</b>.[n]When cast on top of a <b>Frozen Domain</b>, the wall's length [bf]increases[/]."
+        },
+        {
+            "name": "Frozen Domain",
+            "details": "Snjór marks a target area in freezing mist.[n]The area rapidly chills all enemies inside, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) and applying 1 stack of <b>Permafrost</b> every half of seconds."
+        },
+        {
+            "name": "Eternal Solstice",
+            "details": "Snjór summons a giant glacial shard at a target location, dealing [ap]magical damage[/] (scaling with [ap]magical power[/]) to all enemies hit.[n]If the shard lands on a <b>Frozen Domain</b>, the domain's range will increase, dealing the same damage to all enemies it reaches.[n]The same enemies cannot be hit twice by both the initial shard fall and the domain's extension."
+        }
+    ]
+}

@@ -58,7 +58,8 @@ const Home = {
             title: 'the Tide Callers',
         },
         {
-            name: 'Altharion',
+            name: 'Karth Morhen',
+            ref: 'karthmorhen',
             title: 'the Dusk Blades',
         },
         {
@@ -224,9 +225,9 @@ const Home = {
         ],
         jotunheimr: [
             {
-                alias: 'Snow',
-                name: '___',
-                title: '___',
+                alias: 'Tundra',
+                name: 'Snjór Ugla',
+                title: 'the Snow Owl',
             },
             {
                 alias: 'Winter',
@@ -270,7 +271,7 @@ const Home = {
                 title: 'the Blue Whisper',
             },
         ],
-        altharion: [
+        karthmorhen: [
             {
                 alias: 'Shadow',
                 name: 'Grym',
