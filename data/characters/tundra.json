@@ -24,7 +24,7 @@
         },
         {
             "name": "Ice Wall",
-            "details": "Snjór manifests a crystalline wall of ice at a target location that acts as a solid terrain and [db]obstructs[/] enemy movement.[n]The wall last for a few seconds, and nearby enemies are chilled, instantly gaining a stack of <b>Permafrost</b>.[n]When cast on top of a <b>Frozen Domain</b>, the wall's length [bf]increases[/]."
+            "details": "Snjór manifests a crystalline wall of ice at a target location that acts as a solid terrain and [db]obstructs[/] enemy movement.[n]The wall last for a few seconds, and nearby enemies are chilled, instantly gaining a stack of <b>Permafrost</b>.[n]When cast on top of a <b>Frozen Domain</b>, the wall's length [bf]increases[/]. The wall will manifest first in original size, then the rest of the extra length will manifest shortly after.[n]Casting <b>Frozen Domain</b> at an existing <b>Ice Wall</b> will also have the same effect."
         },
         {
             "name": "Frozen Domain",

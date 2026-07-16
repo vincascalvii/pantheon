@@ -1,5 +1,5 @@
 {
-    "alias": "Emberheart",
+    "alias": "Scarlet",
     "name": "Eris Flameheart",
     "title": "the Scarlet Flame",
     "bastion": "Everlight, the Dawn Bringers",
@@ -16,7 +16,7 @@
     "abilities": [
         {
             "name": "Unwavering Faith",
-            "details": "While out of combat, Eris gains [bf]increased movement speed[/]. Upon entering combat with an enemy hero (by dealing or taking damage from them), Eris's next basic attack within a few seconds deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly grants her a burst of [bf]tenacity[/]."
+            "details": "While out of combat, Eris gains [bf]increased movement speed[/].[n]Upon entering combat with an enemy hero (by dealing or taking damage from them), Eris's next basic attack within a few seconds deals bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) and briefly grants her a burst of [bf]tenacity[/]."
         },
         {
             "name": "Flaming Sweep",
@@ -28,7 +28,7 @@
         },
         {
             "name": "Zealous Charge",
-            "details": "Eris dashes a short distance in a target direction. If Eris lands within the radius of her active <span>Fiery Rally[/] banner, the banner emits a pulse, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies while also granting her and all allied heroes a [sh]shield[/] (scaling with [ap]magical power[/]) for a few seconds.[n]The shield can only be granted once per <span>Fiery Rally[/] banner duration. In addition, casting <span>Fiery Rally[/] resets the cooldowns of <span>Zealous Charge[/]."
+            "details": "Eris dashes a short distance in a target direction.[n]If Eris lands within the radius of her active <span>Fiery Rally[/] banner, the banner emits a pulse, dealing bonus [ap]magical damage[/] (scaling with [ap]magical power[/]) to nearby enemies while also granting her and all allied heroes a [sh]shield[/] (scaling with [ap]magical power[/]) for a few seconds.[n]The shield can only be granted once per <span>Fiery Rally[/] banner duration. In addition, casting <span>Fiery Rally[/] resets the cooldowns of <span>Zealous Charge[/]."
         },
         {
             "name": "Holy Conflagration",

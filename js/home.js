@@ -91,12 +91,12 @@ const Home = {
         ],
         everlight: [
             {
-                alias: 'Elementalist',
+                alias: 'Mystic',
                 name: 'Ciarra Crownsworth',
                 title: 'the Elemental Master',
             },
             {
-                alias: 'Emberheart',
+                alias: 'Scarlet',
                 name: 'Eris Flameheart',
                 title: 'the Elemental Master',
             },
@@ -118,12 +118,12 @@ const Home = {
         ],
         viridisia: [
             {
-                alias: 'Windwalker',
+                alias: 'Aero',
                 name: 'Kiannah Ilicyne',
                 title: 'the Wind Walker',
             },
             {
-                alias: 'Skypiercer',
+                alias: 'Lancer',
                 name: 'Kaelen Virgwyn',
                 title: 'the Sky Piercer',
             },
@@ -135,19 +135,19 @@ const Home = {
                 title: 'the Origin Flame',
             },
             {
-                alias: 'Everflame',
+                alias: 'Blaze',
                 name: 'Huǒ Wǔjiàng',
                 title: 'the Undying Flame',
             },
         ],
         duraktharn: [
             {
-                alias: 'Ironbound',
+                alias: 'Iron',
                 name: 'Ar-Gon Tuta-Dam',
                 title: 'the Iron Duke',
             },
             {
-                alias: 'Soulforger',
+                alias: 'Forge',
                 name: 'Kharra-Ryn Tuta-Dam',
                 title: 'the Soul Forger',
             },
@@ -164,56 +164,56 @@ const Home = {
                 title: 'the Nine Tails',
             },
             {
-                alias: 'Wildfury',
+                alias: 'Fury',
                 name: 'Byakko',
                 title: 'the Striped Sage',
             },
             {
-                alias: 'Stoneheart',
+                alias: 'Warden',
                 name: 'Kuma',
                 title: 'the Mountain Weight',
             },
             {
-                alias: 'Nightprowler',
+                alias: 'Midnight',
                 name: 'Yui',
                 title: 'the Night Prowler',
             },
         ],
         dragnoel: [
             {
-                alias: 'Elderdrake',
+                alias: 'Verdant',
                 name: 'Velerias Draconis',
                 title: 'the Woodland Mother',
             },
             {
-                alias: 'Terradrake',
+                alias: 'Terra',
                 name: 'Terros Draconis',
                 title: 'the Earth Breaker',
             },
             {
-                alias: 'Clouddrake',
+                alias: 'Zephyr',
                 name: 'Zephyrus Draconis',
                 title: 'the Cloud Splitter',
             },
             {
-                alias: 'Oceandrake',
+                alias: 'Azure',
                 name: 'Marinus Draconis',
                 title: 'the Sea Keeper',
             },
             {
-                alias: 'Cinderdrake',
+                alias: 'Cinder',
                 name: 'Ignis Draconis',
                 title: 'the Ash Walker',
             },
             {
-                alias: 'Stormdrake',
+                alias: 'Lightning',
                 name: 'Artorias Draconis',
                 title: 'the Storm Bringer',
             },
         ],
         kragnok: [
             {
-                alias: 'Thunderfell',
+                alias: 'Thunder',
                 name: 'Thorr',
                 title: 'the Thunder Wielder',
             },
@@ -238,18 +238,18 @@ const Home = {
         solzakar: [
             {
                 alias: 'Sunbringer',
-                name: 'Ra’sutekh',
+                name: 'Ra’Sutekh',
                 title: 'the Living Sun',
             },
             {
                 alias: 'Scorpion',
-                name: '___',
-                title: '___',
+                name: 'Xel’Zar',
+                title: 'the Desert Terror',
             },
         ],
         chandrasar: [
             {
-                alias: 'Moonpriest',
+                alias: 'Moonweaver',
                 name: 'Selene',
                 title: 'the Lunar Seer',
             },

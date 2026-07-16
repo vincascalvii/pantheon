@@ -1,0 +1,38 @@
+{
+    "alias": "Scorpion",
+    "name": "Xel’Zar",
+    "title": "the Desert Terror",
+    "bastion": "Sol’zakar, the Sun Seekers",
+    "bastion_short": "solzakar",
+    "race": "Umbral",
+    "soulforge": "",
+    "resonance": "",
+    "lore": "",
+    "role": ["Assassin"],
+    "class": ["Roamer"],
+    "position": ["Jungle"],
+    "type": ["Physical"],
+    "range": ["Melee"],
+    "abilities": [
+        {
+            "name": "Dunic Venom",
+            "details": "Xel’Zar basic attacks afflict the enemies with neurotoxin, causing them to be <b>Envenomed</b>.[n]Afflicted enemies take [db]increased[/] damage from Xel’Zar."
+        },
+        {
+            "name": "Stinger Strike",
+            "details": "Xel’Zar lashes its extended tail out in a target direction, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to the first enemy hit and briefly [db]slowing[/] the target.[n]The slow effect is [db]doubled[/] on <b>Envenomed</b> enemies.[n]If this ability kills the target, its cooldown will be [bf]reset[/]."
+        },
+        {
+            "name": "Sand Travel",
+            "details": "Xel’Zar burrows into the ground, gaining increased [ms]movement speed[/].[n]While underground, it can pass through terrain. He can remain underground as long as it wants or recast to leap out prematurely.[n]When Xel’Zar attacks an enemy while underground, it will leap out and [db]knock up[/] all nearby enemies in a small radius."
+        },
+        {
+            "name": "Quick Grip",
+            "details": "When aboveground, Xel’Zar quickly lashes his claws out in a close arc in front of it, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) to all enemies hit and [db]pulling[/] the enemies closer.[n]When underground, Xel’Zar leaps forward briefly and grabs all enemies in a close arc in front of it, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]pulling[/] the target back."
+        },
+        {
+            "name": "Grave-Digger's Finale",
+            "details": "This ability can only be cast when Xel’Zar is underground. When cast, Xel’Zar burrows deeper into the ground.[n]A quicksand will briefly appear at a target location, before Xel’Zar leaps out, dealing [ad]physical damage[/] (scaling with [ad]physical power[/]) and [db]grabs[/] all enemies on top into the ground.[n]Xel’Zar then very quickly brings the suppressed enemies back to its [db]original location[/].[n]If <b>Grave-Digger's Finale</b> kills all the enemies, or if there is no target, Xel’Zar will leap out and [db]exit[/] the ground at the target location."
+        }
+    ]
+}
