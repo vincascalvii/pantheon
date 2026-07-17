@@ -7,7 +7,7 @@ const Home = {
 	bastions: [
         {
             name: 'Custodians',
-            title: 'Protagonists',
+            title: 'the Other Worlders',
         },
         {
             name: 'Everlight',
@@ -86,7 +86,7 @@ const Home = {
             {
                 alias: 'Sentinel',
                 name: 'Xenon Skyforge',
-                title: 'the Faithful Sentinel',
+                title: 'the Eternal Watcher',
             },
         ],
         everlight: [
